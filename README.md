@@ -3,7 +3,7 @@
 | Student's name | SCIPER |
 | -------------- | ------ |
 | David Gauch | |
-| Flavia Wallenhorst | |
+| Flavia Wallenhorst | 264996 |
 | Arthur Wuhrmann | 344752 |
 
 [Milestone 1](#milestone-1) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)
@@ -16,6 +16,33 @@ This is a preliminary milestone to let you set up goals for your final project a
 Please, fill the following sections about your project.
 
 *(max. 2000 characters per section)*
+
+Suggested answer : 
+===
+
+### Dataset
+We aimed for an Olympic dataset found on `Kaggle`, that contains information about more than 200k athletes that participated to the Olympics, from ~1900 to 2016. Some values regarding age, height and weight are missing, but most the data is very clean.
+
+While this dataset might limit our research, this can easily be enhanced with some side information about the countries of the athletes (their GDP, etc., for example on [this dataset](https://github.com/bnokoro/Data-Science/blob/master/countries%20of%20the%20world.csv)). We could also take into account some weather conditions (while harder for older events, this could combine the exact date of some events that could be found online and weather APIs like [OpenWeatherMap](https://openweathermap.org/history))
+
+### Problematic
+
+Doing some exploratory analysis, we wondered whether some genetic factors could influence whether an athlete could have a medal or not. The first analysis indeed suggests that this is the case for some events. We thus consider a problematic like 
+
+> ***Is genetic the key to an athlete's success ? An analysis on the olympic data.***
+
+The exploratory can be found in `src/exploratory.ipynb`. It is in the form of a notebook with `matplotlib` and `plotly`, but the data can easily be converted to for example json to be easily loaded in a website.
+
+### Exploratory DA
+
+We mentionned the correlation between genetic and medals. Here is the distribution, in the event `Basketball Men's Basketball`, of the different genetic characteristics for medalists vs. non medalists. Here is what we found : 
+![Figure](images/basket.png)
+
+### Related work
+
+On `Kaggle`, people can share their data analysis, we took some inspiration from notably [this analysis](https://www.kaggle.com/code/joshuaswords/does-hosting-the-olympics-improve-performance) that studies the effect of hosting the event for a country. 
+
+---
 
 ### Dataset
 
