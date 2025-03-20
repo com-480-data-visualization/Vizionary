@@ -2,7 +2,7 @@
 
 | Student's name | SCIPER |
 | -------------- | ------ |
-| David Gauch | |
+| David Gauch | 394014 |
 | Flavia Wallenhorst | 264996 |
 | Arthur Wuhrmann | 344752 |
 
@@ -21,22 +21,30 @@ Suggested answer :
 ===
 
 ### Dataset
-We aimed for an Olympic dataset found on `Kaggle`, that contains information about more than 200k athletes that participated to the Olympics, from ~1900 to 2016. Some values regarding age, height and weight are missing, but most the data is very clean.
+We aimed for an Olympic dataset found on `Kaggle`, that contains information about more than 200k athletes that participated to the Olympics, from ~1900 to 2016.This dataset includes details such as athlete names, countries, sports, events, and physical attributes (age, height, weight). Some values regarding age, height and weight are missing, but most the data is very clean.
 
 While this dataset might limit our research, this can easily be enhanced with some side information about the countries of the athletes (their GDP, etc., for example on [this dataset](https://github.com/bnokoro/Data-Science/blob/master/countries%20of%20the%20world.csv)). We could also take into account some weather conditions (while harder for older events, this could combine the exact date of some events that could be found online and weather APIs like [OpenWeatherMap](https://openweathermap.org/history))
 
 ### Problematic
+The Olympic Games bring together the world's best athletes, but what determines success at the highest level? While factors such as training, country infrastructure, and economic resources play a role, we aim to investigate whether genetic characteristics (e.g., height, weight, age) significantly influence an athlete’s chances of winning a medal. Some potential questions that we would like to be visualized throught this project are:
+-  Do certain body types dominate specific sports, or can training overcome genetic limitations?
+- How have elite athletes' physical traits changed over time?
+- Can we estimate an athlete's medal potential based on their genetics?
+- Do wealthier nations (higher GDP) outperform due to better training rather than genetic advantages?
 
-Doing some exploratory analysis, we wondered whether some genetic factors could influence whether an athlete could have a medal or not. The first analysis indeed suggests that this is the case for some events. We thus consider a problematic like 
-
-> ***Is genetic the key to an athlete's success ? An analysis on the olympic data.***
-
-The exploratory can be found in `src/exploratory.ipynb`. It is in the form of a notebook with `matplotlib` and `plotly`, but the data can easily be converted to for example json to be easily loaded in a website.
+This project targets sports analysts, data enthusiasts, and Olympic fans interested in understanding the underlying trends in athletic success
 
 ### Exploratory DA
-
-We mentionned the correlation between genetic and medals. Here is the distribution, in the event `Basketball Men's Basketball`, of the different genetic characteristics for medalists vs. non medalists. Here is what we found : 
+Our preliminary analysis focuses on understanding the distribution of genetic traits (height, weight, age) and their relationship to medal achievements. For instance, in Men’s Basketball, we compared the distributions of these attributes for medalists vs. non-medalists, revealing notable differences. Here is what we found : 
 ![Figure](images/basket.png)
+
+The exploratory notebook (src/exploratory.ipynb) includes:
+
+- Summary statistics of key variables.
+- Initial visualizations using matplotlib and plotly.
+- Data transformation steps for future interactive website integration (e.g., exporting as JSON).
+
+Further cleaning and feature engineering may be required to refine insights.
 
 ### Related work
 
