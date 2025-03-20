@@ -10,16 +10,6 @@
 
 ## Milestone 1 (21st March, 5pm)
 
-**10% of the final grade**
-
-This is a preliminary milestone to let you set up goals for your final project and assess the feasibility of your ideas.
-Please, fill the following sections about your project.
-
-*(max. 2000 characters per section)*
-
-Suggested answer : 
-===
-
 ### Dataset
 We aimed for an Olympic dataset found on `Kaggle`, that contains information about more than 200k athletes that participated to the Olympics, from ~1900 to 2016.This dataset includes details such as athlete names, countries, sports, events, and physical attributes (age, height, weight). Some values regarding age, height and weight are missing, but most the data is very clean.
 
@@ -48,9 +38,16 @@ Further cleaning and feature engineering may be required to refine insights.
 
 ### Related work
 
-On `Kaggle`, people can share their data analysis, we took some inspiration from notably [this analysis](https://www.kaggle.com/code/joshuaswords/does-hosting-the-olympics-improve-performance) that studies the effect of hosting the event for a country. 
+On `Kaggle`, where people can share their data analysis, we took some inspiration from notably [this analysis](https://www.kaggle.com/code/joshuaswords/does-hosting-the-olympics-improve-performance) that studies the effect of hosting the event for a country. 
 
 ---
+
+**10% of the final grade**
+
+This is a preliminary milestone to let you set up goals for your final project and assess the feasibility of your ideas.
+Please, fill the following sections about your project.
+
+*(max. 2000 characters per section)*
 
 ### Dataset
 
@@ -70,7 +67,6 @@ On `Kaggle`, people can share their data analysis, we took some inspiration from
 > - Show some basic statistics and get insights about the data
 
 ### Related work
-
 
 > - What others have already done with the data?
 > - Why is your approach original?
