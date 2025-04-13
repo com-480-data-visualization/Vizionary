@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olympic Genetics Visualization</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-dispatch@3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-transition@3"></script>
+    <script src="https://cdn.plot.ly/plotly-2.24.1.min.js"></script>
+</head>
+<body>
+    <div class="loading-screen" id="loading-screen">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <h2>Loading Olympic Data</h2>
+            <p>Analyzing genetic factors in Olympic success...</p>
+            <div id="loading-error" style="display: none; color: #ff6b6b; margin-top: 20px; text-align: left;"></div>
+            <div style="margin-top: 20px;">
+                <label>
+                    <input type="checkbox" id="debug-mode" onchange="toggleDebugMode()">
+                    Enable Debug Mode
+                </label>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Debug mode toggle
+        function toggleDebugMode() {
+            const debugMode = document.getElementById('debug-mode').checked;
+            localStorage.setItem('olympicVizDebugMode', debugMode);
+            console.log('Debug mode', debugMode ? 'enabled' : 'disabled');
+            
+            if (debugMode) {
+                document.body.classList.add('debug-mode');
+            } else {
+                document.body.classList.remove('debug-mode');
+            }
+        }
+        
+        // Check if debug mode was previously enabled
+        document.addEventListener('DOMContentLoaded', function() {
+            const debugMode = localStorage.getItem('olympicVizDebugMode') === 'true';
+            document.getElementById('debug-mode').checked = debugMode;
+            toggleDebugMode();
+        });
+    </script>
+
+    <header>
+        <h1>Olympic Success & Genetics</h1>
+        <p>Exploring the influence of physical attributes on medal achievements (1900-2016)</p>
+    </header>
+
+    <div class="main-container">
+        <div id="view-controls">
+            <button id="overview-btn" class="active">Olympics Overview</button>
+            <button id="sport-summary-btn">Sport Summary</button>
+            <button id="about-btn">About</button>
+        </div>
+
+        <div id="visualization-container">
+            <div id="overview-view" class="view active">
+                <div class="instructions">
+                    <p>Click on a bubble to explore that Olympic Games in detail</p>
+                </div>
+                <div id="bubble-chart"></div>
+                <div id="timeline-slider"></div>
+                <div id="legend">
+                    <div class="legend-item">
+                        <div class="legend-color summer"></div>
+                        <span>Summer Olympics</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color winter"></div>
+                        <span>Winter Olympics</span>
+                    </div>
+                    <div class="legend-item">
+                        <p>Bubble size: Number of athletes</p>
+                    </div>
+                    <div class="legend-item">
+                        <p>Color intensity: Genetic impact strength</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="olympic-detail-view" class="view">
+                <button id="back-to-overview" class="back-button">
+                    <i class="fas fa-arrow-left"></i> Back to Overview
+                </button>
+                <div id="olympic-header">
+                    <h2 id="olympic-title"></h2>
+                    <p id="olympic-stats"></p>
+                </div>
+                <div id="sports-bubbles"></div>
+                <div id="sport-detail-panel">
+                    <h3 id="sport-title">Select a sport</h3>
+                    <div id="sport-stats"></div>
+                    <div id="events-list"></div>
+                </div>
+            </div>
+
+            <div id="event-detail-view" class="view">
+                <button id="back-to-olympic" class="back-button">
+                    <i class="fas fa-arrow-left"></i> Back to Sports
+                </button>
+                <div id="event-header">
+                    <h2 id="event-title"></h2>
+                    <p id="event-stats"></p>
+                </div>
+                <div id="genetic-factors">
+                    <div id="height-chart" class="chart-container">
+                        <h3>Height Distribution</h3>
+                        <div class="chart"></div>
+                    </div>
+                    <div id="weight-chart" class="chart-container">
+                        <h3>Weight Distribution</h3>
+                        <div class="chart"></div>
+                    </div>
+                    <div id="age-chart" class="chart-container">
+                        <h3>Age Distribution</h3>
+                        <div class="chart"></div>
+                    </div>
+                </div>
+                <div id="genetic-impact-summary">
+                    <h3>Genetic Impact Summary</h3>
+                    <div id="impact-text"></div>
+                </div>
+            </div>
+
+            <div id="sport-summary-view" class="view">
+                <h2>Genetic Factors Across Sports</h2>
+                <div id="sport-summary-chart"></div>
+                <div id="sport-comparison"></div>
+            </div>
+
+            <div id="about-view" class="view">
+                <h2>About This Visualization</h2>
+                <p>This visualization explores whether genetic characteristics (height, weight, age) significantly influence an athlete's chances of winning a medal in the Olympic Games.</p>
+                
+                <h3>Research Questions</h3>
+                <ul>
+                    <li>Do certain body types dominate specific sports?</li>
+                    <li>How have elite athletes' physical traits changed over time?</li>
+                    <li>Can we estimate an athlete's medal potential based on their genetics?</li>
+                    <li>Do wealthier nations outperform due to better training rather than genetic advantages?</li>
+                </ul>
+                
+                <h3>Methodology</h3>
+                <p>We analyze the distribution of physical attributes (height, weight, age) between medalists and non-medalists across different Olympic sports and events. Statistical significance is determined using the Mann-Whitney U test, which compares distributions without assuming normality.</p>
+                
+                <h3>Data Source</h3>
+                <p>This visualization uses the "120 years of Olympic history: athletes and results" dataset from Kaggle, which contains information about more than 200,000 athletes who participated in the Olympics from approximately 1900 to 2016.</p>
+                
+                <p>Project by: David Gauch, Flavia Wallenhorst, Arthur Wuhrmann</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/dataLoader.js"></script>
+    <script src="js/bubbleChart.js"></script>
+    <script src="js/olympicDetail.js"></script>
+    <script src="js/eventDetail.js"></script>
+    <script src="js/sportSummary.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
