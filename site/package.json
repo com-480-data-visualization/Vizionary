@@ -39,7 +39,9 @@
 		"vite": "^6.2.5"
 	},
 	"dependencies": {
+		"@lucide/svelte": "^0.494.0",
 		"@types/d3": "^7.4.3",
-		"d3": "^7.9.0"
+		"d3": "^7.9.0",
+		"lucide-svelte": "^0.494.0"
 	}
 }
