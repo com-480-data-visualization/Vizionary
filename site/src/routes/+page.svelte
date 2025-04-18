@@ -1,59 +1,68 @@
 <script lang="ts">
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcomeFallback from '$lib/images/svelte-welcome.png';
-</script>
-
-<svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
-</svelte:head>
-
-<section>
-	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcomeFallback} alt="Welcome" />
-			</picture>
-		</span>
-
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
-
-	<Counter />
-</section>
-
-<style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 0.6;
+	import BubbleChart from '../components/BubbleChart.svelte';
+	import { writable } from 'svelte/store';
+	
+	// Store for selected Olympics data
+	const selectedOlympics = writable(null);
+	
+	// Event handling
+	function handleBubbleSelect(data: any) {
+	  selectedOlympics.set(data);
 	}
-
-	h1 {
-		width: 100%;
-	}
-
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
-	}
-</style>
+  </script>
+  
+  <h1 class="text-4xl font-light text-gray-800 mb-8">Olympic Athlete Analysis</h1>
+  
+  <div class="flex flex-col gap-6">
+	<!-- Main content area (full width) -->
+	<div class="w-full aspect-video bg-gray-50 rounded-xl shadow-sm border-4 border-gray-300 p-6">
+	  <BubbleChart onBubbleSelect={handleBubbleSelect} />
+	</div>
+	
+	<!-- Bottom panel -->
+	<div class="w-full bg-gray-50 rounded-xl shadow-sm border-4 border-gray-100 p-6">
+	  <h2 class="text-xl font-medium text-gray-700 mb-4">Selected Olympics</h2>
+	  
+	  {#if $selectedOlympics}
+		<div class="bg-white p-4 rounded-lg shadow-sm">
+		  <h3 class="text-lg font-medium">{$selectedOlympics.year} {$selectedOlympics.season} Olympics</h3>
+		  <p class="text-gray-600">{$selectedOlympics.city}, {$selectedOlympics.country}</p>
+		  
+		  <div class="mt-4 grid grid-cols-4 gap-4 text-sm">
+			<div>
+			  <p class="text-gray-500">Athletes</p>
+			  <p class="font-medium">{$selectedOlympics.total_athletes.toLocaleString()}</p>
+			</div>
+			<div>
+			  <p class="text-gray-500">Countries</p>
+			  <p class="font-medium">{$selectedOlympics.total_countries}</p>
+			</div>
+			<div>
+			  <p class="text-gray-500">Events</p>
+			  <p class="font-medium">{$selectedOlympics.total_events}</p>
+			</div>
+			<div>
+			  <p class="text-gray-500">Genetic Impact</p>
+			  <p class="font-medium">{Math.round($selectedOlympics.genetic_impact_ratio * 100)}%</p>
+			</div>
+		  </div>
+		</div>
+	  {:else}
+		<p class="text-gray-500">Click on a bubble to view detailed information about the selected Olympic Games.</p>
+		<div class="mt-4 grid grid-cols-2 md:grid-cols-4 gap-4 text-sm text-gray-600">
+		  <div>
+			<p>This visualization shows Olympic Games from 1900 to 2018.</p>
+		  </div>
+		  <div>
+			<p>The bubble size represents the number of athletes.</p>
+		  </div>
+		  <div>
+			<p>Color indicates whether it was a Summer (orange) or Winter (blue) Olympics.</p>
+		  </div>
+		  <div>
+			<p>The color intensity represents genetic impact ratio.</p>
+		  </div>
+		</div>
+	  {/if}
+	</div>
+  </div>
