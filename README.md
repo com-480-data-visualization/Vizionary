@@ -75,8 +75,15 @@ Please, fill the following sections about your project.
 
 ## Milestone 2 (18th April, 5pm)
 
-**10% of the final grade**
+The text is in [Milestone_2.pdf](Milestone_2.pdf). The skeletton on the website has been done using `svelte`, and can be seen in `site/`. For this first version, the values were auto-generated and do not correspond to the one in the analysis. The goal was to establish the baseline of the visualization. Moreover, some animation are planned but will be implemented later on.
 
+### Run the website : 
+
+```
+cd site
+npm install
+npm run dev
+```
 
 ## Milestone 3 (30th May, 5pm)
 
