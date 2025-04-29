@@ -8,7 +8,7 @@
 
 [Milestone 1](#milestone-1) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)
 
-## Milestone 1 (21st March, 5pm)
+## Milestone 1 (21st March, 5pm)  
 
 ### Dataset
 We aimed for an Olympic dataset found on `Kaggle`, that contains information about more than 200k athletes that participated to the Olympics, from ~1900 to 2016.This dataset includes details such as athlete names, countries, sports, events, and physical attributes (age, height, weight). Some values regarding age, height and weight are missing, but most the data is very clean.
