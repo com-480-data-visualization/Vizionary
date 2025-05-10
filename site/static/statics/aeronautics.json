@@ -1,0 +1,184 @@
+{
+  "sport": "Aeronautics",
+  "scatter": [
+    {
+      "Year": 1936,
+      "Sex": "M",
+      "Age": 26.0,
+      "Height": null,
+      "Weight": null,
+      "Medal": "Gold"
+    }
+  ],
+  "heatmap": [],
+  "bar": [
+    {
+      "year": 1936,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 26.0
+    },
+    {
+      "year": 1936,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": null
+    }
+  ]
+}
