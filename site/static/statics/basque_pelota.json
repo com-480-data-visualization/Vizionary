@@ -1,192 +1,75 @@
 {
   "sport": "Basque Pelota",
-  "scatter": [
-    {
-      "Year": 1900,
-      "Sex": "M",
-      "Age": 26.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Gold"
+  "heatmap": {
+    "M": {
+      "age": {
+        "year": [],
+        "corr": []
+      },
+      "height": {
+        "year": [],
+        "corr": []
+      },
+      "weight": {
+        "year": [],
+        "corr": []
+      }
     },
-    {
-      "Year": 1900,
-      "Sex": "M",
-      "Age": 26.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Gold"
+    "F": {
+      "age": {
+        "year": [],
+        "corr": []
+      },
+      "height": {
+        "year": [],
+        "corr": []
+      },
+      "weight": {
+        "year": [],
+        "corr": []
+      }
     }
-  ],
-  "heatmap": [],
-  "bar": [
-    {
-      "year": 1900,
-      "sex": "M",
-      "medal": "Gold",
-      "attribute": "age",
-      "value": 26.0
+  },
+  "bar": {
+    "M": {
+      "age": {
+        "year": [
+          1900
+        ],
+        "medal": [
+          "Gold"
+        ],
+        "value": [
+          26.0
+        ]
+      },
+      "height": {
+        "year": [],
+        "medal": [],
+        "value": []
+      },
+      "weight": {
+        "year": [],
+        "medal": [],
+        "value": []
+      }
     },
-    {
-      "year": 1900,
-      "sex": "M",
-      "medal": "Gold",
-      "attribute": "height",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "M",
-      "medal": "Gold",
-      "attribute": "weight",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "M",
-      "medal": "Silver",
-      "attribute": "age",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "M",
-      "medal": "Silver",
-      "attribute": "height",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "M",
-      "medal": "Silver",
-      "attribute": "weight",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "M",
-      "medal": "Bronze",
-      "attribute": "age",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "M",
-      "medal": "Bronze",
-      "attribute": "height",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "M",
-      "medal": "Bronze",
-      "attribute": "weight",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "M",
-      "medal": "No Medal",
-      "attribute": "age",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "M",
-      "medal": "No Medal",
-      "attribute": "height",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "M",
-      "medal": "No Medal",
-      "attribute": "weight",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "F",
-      "medal": "Gold",
-      "attribute": "age",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "F",
-      "medal": "Gold",
-      "attribute": "height",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "F",
-      "medal": "Gold",
-      "attribute": "weight",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "F",
-      "medal": "Silver",
-      "attribute": "age",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "F",
-      "medal": "Silver",
-      "attribute": "height",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "F",
-      "medal": "Silver",
-      "attribute": "weight",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "F",
-      "medal": "Bronze",
-      "attribute": "age",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "F",
-      "medal": "Bronze",
-      "attribute": "height",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "F",
-      "medal": "Bronze",
-      "attribute": "weight",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "F",
-      "medal": "No Medal",
-      "attribute": "age",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "F",
-      "medal": "No Medal",
-      "attribute": "height",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "F",
-      "medal": "No Medal",
-      "attribute": "weight",
-      "value": null
+    "F": {
+      "age": {
+        "year": [],
+        "medal": [],
+        "value": []
+      },
+      "height": {
+        "year": [],
+        "medal": [],
+        "value": []
+      },
+      "weight": {
+        "year": [],
+        "medal": [],
+        "value": []
+      }
     }
-  ]
+  }
 }

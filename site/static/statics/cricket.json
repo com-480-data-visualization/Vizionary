@@ -1,387 +1,78 @@
 {
   "sport": "Cricket",
-  "scatter": [
-    {
-      "Year": 1900,
-      "Sex": "M",
-      "Age": 40.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Silver"
+  "heatmap": {
+    "M": {
+      "age": {
+        "year": [],
+        "corr": []
+      },
+      "height": {
+        "year": [],
+        "corr": []
+      },
+      "weight": {
+        "year": [],
+        "corr": []
+      }
     },
-    {
-      "Year": 1900,
-      "Sex": "M",
-      "Age": null,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Silver"
-    },
-    {
-      "Year": 1900,
-      "Sex": "M",
-      "Age": null,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Gold"
-    },
-    {
-      "Year": 1900,
-      "Sex": "M",
-      "Age": 24.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Gold"
-    },
-    {
-      "Year": 1900,
-      "Sex": "M",
-      "Age": 26.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Gold"
-    },
-    {
-      "Year": 1900,
-      "Sex": "M",
-      "Age": null,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Silver"
-    },
-    {
-      "Year": 1900,
-      "Sex": "M",
-      "Age": null,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Silver"
-    },
-    {
-      "Year": 1900,
-      "Sex": "M",
-      "Age": 24.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Gold"
-    },
-    {
-      "Year": 1900,
-      "Sex": "M",
-      "Age": 26.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Gold"
-    },
-    {
-      "Year": 1900,
-      "Sex": "M",
-      "Age": 32.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Gold"
-    },
-    {
-      "Year": 1900,
-      "Sex": "M",
-      "Age": 25.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Gold"
-    },
-    {
-      "Year": 1900,
-      "Sex": "M",
-      "Age": 24.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Gold"
-    },
-    {
-      "Year": 1900,
-      "Sex": "M",
-      "Age": 24.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Gold"
-    },
-    {
-      "Year": 1900,
-      "Sex": "M",
-      "Age": null,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Silver"
-    },
-    {
-      "Year": 1900,
-      "Sex": "M",
-      "Age": 35.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Silver"
-    },
-    {
-      "Year": 1900,
-      "Sex": "M",
-      "Age": 31.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Silver"
-    },
-    {
-      "Year": 1900,
-      "Sex": "M",
-      "Age": 24.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Gold"
-    },
-    {
-      "Year": 1900,
-      "Sex": "M",
-      "Age": 35.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Silver"
-    },
-    {
-      "Year": 1900,
-      "Sex": "M",
-      "Age": null,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Silver"
-    },
-    {
-      "Year": 1900,
-      "Sex": "M",
-      "Age": 33.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Silver"
-    },
-    {
-      "Year": 1900,
-      "Sex": "M",
-      "Age": 21.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Gold"
-    },
-    {
-      "Year": 1900,
-      "Sex": "M",
-      "Age": 31.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Silver"
-    },
-    {
-      "Year": 1900,
-      "Sex": "M",
-      "Age": 29.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Gold"
-    },
-    {
-      "Year": 1900,
-      "Sex": "M",
-      "Age": 44.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Silver"
+    "F": {
+      "age": {
+        "year": [],
+        "corr": []
+      },
+      "height": {
+        "year": [],
+        "corr": []
+      },
+      "weight": {
+        "year": [],
+        "corr": []
+      }
     }
-  ],
-  "heatmap": [
-    {
-      "year": 1900,
-      "sex": "M",
-      "attribute": "age",
-      "corr": null
+  },
+  "bar": {
+    "M": {
+      "age": {
+        "year": [
+          1900,
+          1900
+        ],
+        "medal": [
+          "Gold",
+          "Silver"
+        ],
+        "value": [
+          25.36,
+          35.57
+        ]
+      },
+      "height": {
+        "year": [],
+        "medal": [],
+        "value": []
+      },
+      "weight": {
+        "year": [],
+        "medal": [],
+        "value": []
+      }
     },
-    {
-      "year": 1900,
-      "sex": "M",
-      "attribute": "height",
-      "corr": null
-    },
-    {
-      "year": 1900,
-      "sex": "M",
-      "attribute": "weight",
-      "corr": null
+    "F": {
+      "age": {
+        "year": [],
+        "medal": [],
+        "value": []
+      },
+      "height": {
+        "year": [],
+        "medal": [],
+        "value": []
+      },
+      "weight": {
+        "year": [],
+        "medal": [],
+        "value": []
+      }
     }
-  ],
-  "bar": [
-    {
-      "year": 1900,
-      "sex": "M",
-      "medal": "Gold",
-      "attribute": "age",
-      "value": 25.36
-    },
-    {
-      "year": 1900,
-      "sex": "M",
-      "medal": "Gold",
-      "attribute": "height",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "M",
-      "medal": "Gold",
-      "attribute": "weight",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "M",
-      "medal": "Silver",
-      "attribute": "age",
-      "value": 35.57
-    },
-    {
-      "year": 1900,
-      "sex": "M",
-      "medal": "Silver",
-      "attribute": "height",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "M",
-      "medal": "Silver",
-      "attribute": "weight",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "M",
-      "medal": "Bronze",
-      "attribute": "age",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "M",
-      "medal": "Bronze",
-      "attribute": "height",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "M",
-      "medal": "Bronze",
-      "attribute": "weight",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "M",
-      "medal": "No Medal",
-      "attribute": "age",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "M",
-      "medal": "No Medal",
-      "attribute": "height",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "M",
-      "medal": "No Medal",
-      "attribute": "weight",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "F",
-      "medal": "Gold",
-      "attribute": "age",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "F",
-      "medal": "Gold",
-      "attribute": "height",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "F",
-      "medal": "Gold",
-      "attribute": "weight",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "F",
-      "medal": "Silver",
-      "attribute": "age",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "F",
-      "medal": "Silver",
-      "attribute": "height",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "F",
-      "medal": "Silver",
-      "attribute": "weight",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "F",
-      "medal": "Bronze",
-      "attribute": "age",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "F",
-      "medal": "Bronze",
-      "attribute": "height",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "F",
-      "medal": "Bronze",
-      "attribute": "weight",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "F",
-      "medal": "No Medal",
-      "attribute": "age",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "F",
-      "medal": "No Medal",
-      "attribute": "height",
-      "value": null
-    },
-    {
-      "year": 1900,
-      "sex": "F",
-      "medal": "No Medal",
-      "attribute": "weight",
-      "value": null
-    }
-  ]
+  }
 }

@@ -1,312 +1,96 @@
 {
   "sport": "Motorboating",
-  "scatter": [
-    {
-      "Year": 1908,
-      "Sex": "M",
-      "Age": null,
-      "Height": null,
-      "Weight": null,
-      "Medal": "No Medal"
+  "heatmap": {
+    "M": {
+      "age": {
+        "year": [],
+        "corr": []
+      },
+      "height": {
+        "year": [],
+        "corr": []
+      },
+      "weight": {
+        "year": [],
+        "corr": []
+      }
     },
-    {
-      "Year": 1908,
-      "Sex": "M",
-      "Age": 31.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "No Medal"
-    },
-    {
-      "Year": 1908,
-      "Sex": "M",
-      "Age": 40.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "No Medal"
-    },
-    {
-      "Year": 1908,
-      "Sex": "M",
-      "Age": 29.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Gold"
-    },
-    {
-      "Year": 1908,
-      "Sex": "M",
-      "Age": 29.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Gold"
-    },
-    {
-      "Year": 1908,
-      "Sex": "M",
-      "Age": 54.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "No Medal"
-    },
-    {
-      "Year": 1908,
-      "Sex": "F",
-      "Age": 26.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "No Medal"
-    },
-    {
-      "Year": 1908,
-      "Sex": "M",
-      "Age": 27.0,
-      "Height": 181.0,
-      "Weight": 77.0,
-      "Medal": "No Medal"
-    },
-    {
-      "Year": 1908,
-      "Sex": "M",
-      "Age": 40.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "No Medal"
-    },
-    {
-      "Year": 1908,
-      "Sex": "M",
-      "Age": 33.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Gold"
-    },
-    {
-      "Year": 1908,
-      "Sex": "M",
-      "Age": 33.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Gold"
-    },
-    {
-      "Year": 1908,
-      "Sex": "M",
-      "Age": 26.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Gold"
-    },
-    {
-      "Year": 1908,
-      "Sex": "M",
-      "Age": 26.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Gold"
-    },
-    {
-      "Year": 1908,
-      "Sex": "M",
-      "Age": 46.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "Gold"
-    },
-    {
-      "Year": 1908,
-      "Sex": "M",
-      "Age": 29.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "No Medal"
-    },
-    {
-      "Year": 1908,
-      "Sex": "M",
-      "Age": null,
-      "Height": null,
-      "Weight": null,
-      "Medal": "No Medal"
-    },
-    {
-      "Year": 1908,
-      "Sex": "M",
-      "Age": 31.0,
-      "Height": null,
-      "Weight": null,
-      "Medal": "No Medal"
+    "F": {
+      "age": {
+        "year": [],
+        "corr": []
+      },
+      "height": {
+        "year": [],
+        "corr": []
+      },
+      "weight": {
+        "year": [],
+        "corr": []
+      }
     }
-  ],
-  "heatmap": [],
-  "bar": [
-    {
-      "year": 1908,
-      "sex": "M",
-      "medal": "Gold",
-      "attribute": "age",
-      "value": 31.71
+  },
+  "bar": {
+    "M": {
+      "age": {
+        "year": [
+          1908,
+          1908
+        ],
+        "medal": [
+          "Gold",
+          "No Medal"
+        ],
+        "value": [
+          31.71,
+          36.0
+        ]
+      },
+      "height": {
+        "year": [
+          1908
+        ],
+        "medal": [
+          "No Medal"
+        ],
+        "value": [
+          181.0
+        ]
+      },
+      "weight": {
+        "year": [
+          1908
+        ],
+        "medal": [
+          "No Medal"
+        ],
+        "value": [
+          77.0
+        ]
+      }
     },
-    {
-      "year": 1908,
-      "sex": "M",
-      "medal": "Gold",
-      "attribute": "height",
-      "value": null
-    },
-    {
-      "year": 1908,
-      "sex": "M",
-      "medal": "Gold",
-      "attribute": "weight",
-      "value": null
-    },
-    {
-      "year": 1908,
-      "sex": "M",
-      "medal": "Silver",
-      "attribute": "age",
-      "value": null
-    },
-    {
-      "year": 1908,
-      "sex": "M",
-      "medal": "Silver",
-      "attribute": "height",
-      "value": null
-    },
-    {
-      "year": 1908,
-      "sex": "M",
-      "medal": "Silver",
-      "attribute": "weight",
-      "value": null
-    },
-    {
-      "year": 1908,
-      "sex": "M",
-      "medal": "Bronze",
-      "attribute": "age",
-      "value": null
-    },
-    {
-      "year": 1908,
-      "sex": "M",
-      "medal": "Bronze",
-      "attribute": "height",
-      "value": null
-    },
-    {
-      "year": 1908,
-      "sex": "M",
-      "medal": "Bronze",
-      "attribute": "weight",
-      "value": null
-    },
-    {
-      "year": 1908,
-      "sex": "M",
-      "medal": "No Medal",
-      "attribute": "age",
-      "value": 36.0
-    },
-    {
-      "year": 1908,
-      "sex": "M",
-      "medal": "No Medal",
-      "attribute": "height",
-      "value": 181.0
-    },
-    {
-      "year": 1908,
-      "sex": "M",
-      "medal": "No Medal",
-      "attribute": "weight",
-      "value": 77.0
-    },
-    {
-      "year": 1908,
-      "sex": "F",
-      "medal": "Gold",
-      "attribute": "age",
-      "value": null
-    },
-    {
-      "year": 1908,
-      "sex": "F",
-      "medal": "Gold",
-      "attribute": "height",
-      "value": null
-    },
-    {
-      "year": 1908,
-      "sex": "F",
-      "medal": "Gold",
-      "attribute": "weight",
-      "value": null
-    },
-    {
-      "year": 1908,
-      "sex": "F",
-      "medal": "Silver",
-      "attribute": "age",
-      "value": null
-    },
-    {
-      "year": 1908,
-      "sex": "F",
-      "medal": "Silver",
-      "attribute": "height",
-      "value": null
-    },
-    {
-      "year": 1908,
-      "sex": "F",
-      "medal": "Silver",
-      "attribute": "weight",
-      "value": null
-    },
-    {
-      "year": 1908,
-      "sex": "F",
-      "medal": "Bronze",
-      "attribute": "age",
-      "value": null
-    },
-    {
-      "year": 1908,
-      "sex": "F",
-      "medal": "Bronze",
-      "attribute": "height",
-      "value": null
-    },
-    {
-      "year": 1908,
-      "sex": "F",
-      "medal": "Bronze",
-      "attribute": "weight",
-      "value": null
-    },
-    {
-      "year": 1908,
-      "sex": "F",
-      "medal": "No Medal",
-      "attribute": "age",
-      "value": 26.0
-    },
-    {
-      "year": 1908,
-      "sex": "F",
-      "medal": "No Medal",
-      "attribute": "height",
-      "value": null
-    },
-    {
-      "year": 1908,
-      "sex": "F",
-      "medal": "No Medal",
-      "attribute": "weight",
-      "value": null
+    "F": {
+      "age": {
+        "year": [
+          1908
+        ],
+        "medal": [
+          "No Medal"
+        ],
+        "value": [
+          26.0
+        ]
+      },
+      "height": {
+        "year": [],
+        "medal": [],
+        "value": []
+      },
+      "weight": {
+        "year": [],
+        "medal": [],
+        "value": []
+      }
     }
-  ]
+  }
 }

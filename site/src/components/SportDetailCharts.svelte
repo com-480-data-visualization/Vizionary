@@ -1,67 +1,100 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import { writable } from "svelte/store";
-  import { drawScatterMatrix } from "$lib/d3/scatterMatrix";
-  import { drawHeatmap } from "$lib/d3/heatmap";
+  import { drawHeatmap }     from "$lib/d3/heatmap";
   import { drawGroupedBars } from "$lib/d3/groupedBar";
 
   export let sportKey: string;
-  const sex = writable<"M"|"F">("F");
+  const sex    = writable<"M"|"F">("F");
+  const medals = ["Gold","Silver","Bronze","No Medal"];
+  // a reactive Set of currently‐checked medals:
+  const selected = writable(new Set(medals));
 
-  let scatterDiv: HTMLDivElement;
-  let heatmapDiv: HTMLDivElement;
-  let gbAgeDiv: HTMLDivElement;
-  let gbHeightDiv: HTMLDivElement;
-  let gbWeightDiv: HTMLDivElement;
+  let heatmapDiv, ageDiv, heightDiv, weightDiv;
 
-  function redraw(sex: "M"|"F") {
-    if (scatterDiv) drawScatterMatrix(scatterDiv, sportKey, sex);
-    if (heatmapDiv) drawHeatmap(heatmapDiv, sportKey, sex);
-    if (gbAgeDiv) drawGroupedBars(gbAgeDiv, sportKey, "age", sex);
-    if (gbHeightDiv) drawGroupedBars(gbHeightDiv, sportKey, "height", sex);
-    if (gbWeightDiv) drawGroupedBars(gbWeightDiv, sportKey, "weight", sex);
+  // whenever sex or medal‐set changes, re‐draw both charts
+  function redraw(s: "M"|"F", sel: Set<string>) {
+    fetch(`/statics/${sportKey}.json`)
+      .then(r => r.json())
+      .then(data => {
+        const hm  = data.heatmap[s];
+        const bar = data.bar[s];
+
+        if (heatmapDiv) drawHeatmap(heatmapDiv, hm);
+        if (ageDiv)    drawGroupedBars(ageDiv,    bar.age,    Array.from(sel));
+        if (heightDiv) drawGroupedBars(heightDiv, bar.height, Array.from(sel));
+        if (weightDiv) drawGroupedBars(weightDiv, bar.weight, Array.from(sel));
+      });
   }
 
   onMount(() => {
-    redraw($sex);
+    const unsubscribe = []
+      .concat(sex.subscribe(s => selected.subscribe(sel => redraw(s, sel))))
+      .concat(selected.subscribe(sel => sex.subscribe(s => redraw(s, sel))));
   });
-
-  $: if (scatterDiv && heatmapDiv && gbAgeDiv && gbHeightDiv && gbWeightDiv) {
-    redraw($sex);
-  }
 </script>
 
 <div class="controls">
-  <label><input type="radio" bind:group={$sex} value="F"/> Female</label>
-  <label><input type="radio" bind:group={$sex} value="M"/> Male</label>
+  <fieldset>
+    <legend>Sex:</legend>
+    <label><input type="radio" bind:group={$sex} value="F"/> Female</label>
+    <label><input type="radio" bind:group={$sex} value="M"/> Male</label>
+  </fieldset>
+  <fieldset>
+    <legend>Show Medals:</legend>
+    {#each medals as m}
+      <label>
+        <input
+          type="checkbox"
+          checked={$selected.has(m)}
+          on:change={() => {
+            const s = new Set($selected);
+            $selected.has(m) ? s.delete(m) : s.add(m);
+            selected.set(s);
+          }}
+        /> {m}
+      </label>
+    {/each}
+  </fieldset>
 </div>
 
-<h2>Scatterplot Matrix</h2>
-<div class="chart-box" bind:this={scatterDiv}></div>
-
 <h2>Correlation Heatmap</h2>
-<div class="chart-box" bind:this={heatmapDiv}></div>
+<div bind:this={heatmapDiv} class="chart-box"></div>
 
 <h2>Average by Medal & Year</h2>
-<div class="grouped-grid">
-  <div>
-    <h3>Age</h3>
-    <div bind:this={gbAgeDiv} class="grouped-box"></div>
-  </div>
-  <div>
-    <h3>Height</h3>
-    <div bind:this={gbHeightDiv} class="grouped-box"></div>
-  </div>
-  <div>
-    <h3>Weight</h3>
-    <div bind:this={gbWeightDiv} class="grouped-box"></div>
-  </div>
+<!-- vertical stack -->
+<div class="grouped-column">
+  <section><h3>Age</h3><div bind:this={ageDiv}    class="grouped-box"></div></section>
+  <section><h3>Height</h3><div bind:this={heightDiv} class="grouped-box"></div></section>
+  <section><h3>Weight</h3><div bind:this={weightDiv} class="grouped-box"></div></section>
 </div>
 
 <style>
-.controls { text-align:center; margin-bottom:1rem; }
-.controls label { margin:0 1rem; font-weight:bold; }
-.chart-box { margin:2rem auto; max-width:720px; }
-.grouped-grid { display:flex; flex-wrap:wrap; gap:1.5rem; justify-content:center; align-items:flex-start; }
-.grouped-box { width: 400px; height: auto; }
+.controls {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.controls fieldset {
+  border: none;
+}
+.controls label {
+  margin-right: 1rem;
+}
+.chart-box {
+  margin: 2rem auto;
+  max-width: 720px;
+}
+.grouped-column {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 720px;
+  margin: 0 auto;
+}
+.grouped-box {
+  width: 100%;
+  height: auto;
+}
 </style>
