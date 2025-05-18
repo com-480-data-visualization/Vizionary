@@ -257,15 +257,6 @@
             .style("fill", "black")
             .style("font-weight", "bold");
             
-        // Add title
-        svg.append("text")
-            .attr("x", (plotWidth - margin.left - margin.right) / 2)
-            .attr("y", -10)
-            .attr("text-anchor", "middle")
-            .style("font-size", "16px")
-            .style("font-weight", "bold")
-            .text("Olympic Athletes - Parallel Coordinates Plot");
-            
         // Add legend
         const legendData = ["Gold", "Silver", "Bronze", "No Medal"];
         const legend = svg.append("g")
@@ -301,9 +292,12 @@
     }
 </script>
 
-<div class="parallel-chart-container" bind:this={element}>
-    <!-- D3 will insert the SVG here -->
-</div>
+<div class="w-full h-full p-4 flex flex-col text-center">
+    <h2 class="text-center text-gray-800 text-xl font-bold mb-2">Parallel Coordinates</h2>
+    <div class="flex-1 bg-gray-100 p-3 rounded parallel-chart-container" bind:this={element}>
+        <!-- D3 will insert the SVG here -->
+    </div>
+  </div>
 
 <style>
     .parallel-chart-container {

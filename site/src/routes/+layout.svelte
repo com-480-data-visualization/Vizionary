@@ -27,7 +27,6 @@
   main {
     flex: 1;
     width: 100%;
-    padding: 1rem;
     box-sizing: border-box;
   }
 </style>
