@@ -8087,5 +8087,119 @@
       "attribute": "weight",
       "value": null
     }
+  ],
+  "map": [
+    {
+      "country": "Australia",
+      "sex": "M",
+      "value": 24
+    },
+    {
+      "country": "Chinese Taipei",
+      "sex": "M",
+      "value": 20
+    },
+    {
+      "country": "Cuba",
+      "sex": "M",
+      "value": 112
+    },
+    {
+      "country": "Japan",
+      "sex": "M",
+      "value": 64
+    },
+    {
+      "country": "South Korea",
+      "sex": "M",
+      "value": 48
+    },
+    {
+      "country": "United States",
+      "sex": "M",
+      "value": 68
+    }
+  ],
+  "treemap": [
+    {
+      "country": "Australia",
+      "sex": "M",
+      "value": 59
+    },
+    {
+      "country": "Canada",
+      "sex": "M",
+      "value": 43
+    },
+    {
+      "country": "China",
+      "sex": "M",
+      "value": 24
+    },
+    {
+      "country": "Chinese Taipei",
+      "sex": "M",
+      "value": 57
+    },
+    {
+      "country": "Cuba",
+      "sex": "M",
+      "value": 73
+    },
+    {
+      "country": "Dominican Republic",
+      "sex": "M",
+      "value": 20
+    },
+    {
+      "country": "Greece",
+      "sex": "M",
+      "value": 23
+    },
+    {
+      "country": "Italy",
+      "sex": "M",
+      "value": 67
+    },
+    {
+      "country": "Japan",
+      "sex": "M",
+      "value": 99
+    },
+    {
+      "country": "Netherlands",
+      "sex": "M",
+      "value": 64
+    },
+    {
+      "country": "Nicaragua",
+      "sex": "M",
+      "value": 20
+    },
+    {
+      "country": "Puerto Rico",
+      "sex": "M",
+      "value": 20
+    },
+    {
+      "country": "South Africa",
+      "sex": "M",
+      "value": 24
+    },
+    {
+      "country": "South Korea",
+      "sex": "M",
+      "value": 60
+    },
+    {
+      "country": "Spain",
+      "sex": "M",
+      "value": 20
+    },
+    {
+      "country": "United States",
+      "sex": "M",
+      "value": 88
+    }
   ]
 }

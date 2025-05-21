@@ -204,5 +204,19 @@
       "attribute": "weight",
       "value": null
     }
+  ],
+  "map": [
+    {
+      "country": "United States",
+      "sex": "M",
+      "value": 3
+    }
+  ],
+  "treemap": [
+    {
+      "country": "United States",
+      "sex": "M",
+      "value": 4
+    }
   ]
 }

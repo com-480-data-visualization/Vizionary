@@ -2045,5 +2045,89 @@
       "attribute": "weight",
       "value": null
     }
+  ],
+  "map": [
+    {
+      "country": "Australasia",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "country": "Cornwall",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "country": "France",
+      "sex": "M",
+      "value": 34
+    },
+    {
+      "country": "Frankfurt Club",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "country": "Moseley Wanderers",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "country": "Romania",
+      "sex": "M",
+      "value": 16
+    },
+    {
+      "country": "Union des Socits Franais de Sports Athletiques",
+      "sex": "M",
+      "value": 17
+    },
+    {
+      "country": "United States",
+      "sex": "M",
+      "value": 35
+    }
+  ],
+  "treemap": [
+    {
+      "country": "Australasia",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "country": "Cornwall",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "country": "France",
+      "sex": "M",
+      "value": 33
+    },
+    {
+      "country": "Frankfurt Club",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "country": "Moseley Wanderers",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "country": "Romania",
+      "sex": "M",
+      "value": 16
+    },
+    {
+      "country": "Union des Socits Franais de Sports Athletiques",
+      "sex": "M",
+      "value": 17
+    },
+    {
+      "country": "United States",
+      "sex": "M",
+      "value": 30
+    }
   ]
 }

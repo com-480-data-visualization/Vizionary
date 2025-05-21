@@ -2445,5 +2445,179 @@
       "attribute": "weight",
       "value": null
     }
+  ],
+  "map": [
+    {
+      "country": "Belgium",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "country": "Denmark/Sweden",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "country": "Germany",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "country": "Great Britain",
+      "sex": "M",
+      "value": 16
+    },
+    {
+      "country": "K Division Metropolitan Police Team-3",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "country": "Liverpool Police Team-2",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "country": "London City Police-1",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "country": "Milwaukee Athletic Club-1",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "country": "Netherlands",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "country": "Omas Helliniki P. S.",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "country": "Racing Club de France",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "country": "St. Louis Southwest Turnverein #1-2",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "country": "St. Louis Southwest Turnverein #2-3",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "country": "Sweden",
+      "sex": "M",
+      "value": 16
+    }
+  ],
+  "treemap": [
+    {
+      "country": "Austria",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "country": "Belgium",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "country": "Boer Team",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "country": "Denmark/Sweden",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "country": "Germany",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "country": "Great Britain",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "country": "Italy",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "country": "K Division Metropolitan Police Team-3",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "country": "Liverpool Police Team-2",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "country": "London City Police-1",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "country": "Milwaukee Athletic Club-1",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "country": "Netherlands",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "country": "New York Athletic Club-4",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "country": "Omas Helliniki P. S.",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "country": "Pan-Hellenic Athletic Club",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "country": "Racing Club de France",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "country": "St. Louis Southwest Turnverein #1-2",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "country": "St. Louis Southwest Turnverein #2-3",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "country": "Sweden",
+      "sex": "M",
+      "value": 24
+    },
+    {
+      "country": "United States",
+      "sex": "M",
+      "value": 16
+    }
   ]
 }

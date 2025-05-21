@@ -2601,5 +2601,159 @@
       "attribute": "weight",
       "value": 65.7
     }
+  ],
+  "map": [
+    {
+      "country": "Australia",
+      "sex": "F",
+      "value": 12
+    },
+    {
+      "country": "Canada",
+      "sex": "F",
+      "value": 12
+    },
+    {
+      "country": "Fiji",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "country": "Great Britain",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "country": "New Zealand",
+      "sex": "F",
+      "value": 12
+    },
+    {
+      "country": "South Africa",
+      "sex": "M",
+      "value": 13
+    }
+  ],
+  "treemap": [
+    {
+      "country": "Argentina",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "country": "Australia",
+      "sex": "F",
+      "value": 12
+    },
+    {
+      "country": "Australia",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "country": "Brazil",
+      "sex": "F",
+      "value": 13
+    },
+    {
+      "country": "Brazil",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "country": "Canada",
+      "sex": "F",
+      "value": 12
+    },
+    {
+      "country": "Colombia",
+      "sex": "F",
+      "value": 12
+    },
+    {
+      "country": "Fiji",
+      "sex": "F",
+      "value": 13
+    },
+    {
+      "country": "Fiji",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "country": "France",
+      "sex": "F",
+      "value": 13
+    },
+    {
+      "country": "France",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "country": "Great Britain",
+      "sex": "F",
+      "value": 12
+    },
+    {
+      "country": "Great Britain",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "country": "Japan",
+      "sex": "F",
+      "value": 13
+    },
+    {
+      "country": "Japan",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "country": "Kenya",
+      "sex": "F",
+      "value": 12
+    },
+    {
+      "country": "Kenya",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "country": "New Zealand",
+      "sex": "F",
+      "value": 12
+    },
+    {
+      "country": "New Zealand",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "country": "South Africa",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "country": "Spain",
+      "sex": "F",
+      "value": 12
+    },
+    {
+      "country": "Spain",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "country": "United States",
+      "sex": "F",
+      "value": 12
+    },
+    {
+      "country": "United States",
+      "sex": "M",
+      "value": 13
+    }
   ]
 }

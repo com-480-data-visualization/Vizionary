@@ -2539,5 +2539,424 @@
       "attribute": "weight",
       "value": 63.0
     }
+  ],
+  "map": [
+    {
+      "country": "Canada",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "China",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Great Britain",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "country": "New Zealand",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "South Korea",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Sweden",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Trans-Mississippi Golf Association-2",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "country": "United States",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "country": "United States",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "country": "United States Golf Association-3",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "country": "Western Golf Association-1",
+      "sex": "M",
+      "value": 10
+    }
+  ],
+  "treemap": [
+    {
+      "country": "Argentina",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Australia",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Australia",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Austria",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Austria",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Bangladesh",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Belgium",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Belgium",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Brazil",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Brazil",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Canada",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Canada",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "country": "Chile",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "China",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "China",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Chinese Taipei",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Chinese Taipei",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Colombia",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Czech Republic",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Denmark",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Denmark",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Finland",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Finland",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "France",
+      "sex": "F",
+      "value": 7
+    },
+    {
+      "country": "France",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "Germany",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Germany",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Great Britain",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Great Britain",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "country": "Greece",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Hong Kong",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "India",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "India",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Ireland",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Ireland",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Israel",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Italy",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Italy",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Japan",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Japan",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Malaysia",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Malaysia",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Mexico",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Mexico",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Morocco",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Netherlands",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "New Zealand",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "New Zealand",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Norway",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Norway",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Paraguay",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Paraguay",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Philippines",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Portugal",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Russia",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "South Africa",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "South Africa",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "South Korea",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "country": "South Korea",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Spain",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Spain",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Sweden",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Sweden",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Switzerland",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Thailand",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Thailand",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Trans-Mississippi Golf Association-2",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "country": "United States",
+      "sex": "F",
+      "value": 8
+    },
+    {
+      "country": "United States",
+      "sex": "M",
+      "value": 77
+    },
+    {
+      "country": "United States Golf Association-3",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "country": "Venezuela",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Western Golf Association-1",
+      "sex": "M",
+      "value": 10
+    }
   ]
 }

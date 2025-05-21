@@ -6943,5 +6943,314 @@
       "attribute": "weight",
       "value": 50.18
     }
+  ],
+  "map": [
+    {
+      "country": "Belarus",
+      "sex": "F",
+      "value": 21
+    },
+    {
+      "country": "Bulgaria",
+      "sex": "F",
+      "value": 18
+    },
+    {
+      "country": "Canada",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "China",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "country": "Greece",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "country": "Italy",
+      "sex": "F",
+      "value": 12
+    },
+    {
+      "country": "Romania",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Russia",
+      "sex": "F",
+      "value": 45
+    },
+    {
+      "country": "Soviet Union",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Spain",
+      "sex": "F",
+      "value": 12
+    },
+    {
+      "country": "Ukraine",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "country": "Unified Team",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "West Germany",
+      "sex": "F",
+      "value": 1
+    }
+  ],
+  "treemap": [
+    {
+      "country": "Australia",
+      "sex": "F",
+      "value": 7
+    },
+    {
+      "country": "Austria",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "country": "Azerbaijan",
+      "sex": "F",
+      "value": 10
+    },
+    {
+      "country": "Belarus",
+      "sex": "F",
+      "value": 40
+    },
+    {
+      "country": "Belgium",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "country": "Brazil",
+      "sex": "F",
+      "value": 24
+    },
+    {
+      "country": "Bulgaria",
+      "sex": "F",
+      "value": 36
+    },
+    {
+      "country": "Canada",
+      "sex": "F",
+      "value": 15
+    },
+    {
+      "country": "Cape Verde",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "China",
+      "sex": "F",
+      "value": 32
+    },
+    {
+      "country": "Cyprus",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "country": "Czech Republic",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "country": "Czechoslovakia",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "country": "Denmark",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Egypt",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Estonia",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Finland",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "country": "France",
+      "sex": "F",
+      "value": 19
+    },
+    {
+      "country": "Georgia",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "country": "Germany",
+      "sex": "F",
+      "value": 30
+    },
+    {
+      "country": "Great Britain",
+      "sex": "F",
+      "value": 13
+    },
+    {
+      "country": "Greece",
+      "sex": "F",
+      "value": 37
+    },
+    {
+      "country": "Hungary",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "country": "Individual Olympic Athletes",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Israel",
+      "sex": "F",
+      "value": 22
+    },
+    {
+      "country": "Italy",
+      "sex": "F",
+      "value": 36
+    },
+    {
+      "country": "Japan",
+      "sex": "F",
+      "value": 27
+    },
+    {
+      "country": "Kazakhstan",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "country": "Lithuania",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "New Zealand",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "North Korea",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Norway",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Poland",
+      "sex": "F",
+      "value": 13
+    },
+    {
+      "country": "Portugal",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "country": "Romania",
+      "sex": "F",
+      "value": 7
+    },
+    {
+      "country": "Russia",
+      "sex": "F",
+      "value": 42
+    },
+    {
+      "country": "South Africa",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "South Korea",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "country": "Soviet Union",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Spain",
+      "sex": "F",
+      "value": 37
+    },
+    {
+      "country": "Sweden",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Switzerland",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Ukraine",
+      "sex": "F",
+      "value": 25
+    },
+    {
+      "country": "Unified Team",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "United States",
+      "sex": "F",
+      "value": 20
+    },
+    {
+      "country": "Uzbekistan",
+      "sex": "F",
+      "value": 7
+    },
+    {
+      "country": "West Germany",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "country": "Yugoslavia",
+      "sex": "F",
+      "value": 3
+    }
   ]
 }

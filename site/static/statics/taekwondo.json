@@ -5873,5 +5873,1134 @@
       "attribute": "weight",
       "value": 60.13
     }
+  ],
+  "map": [
+    {
+      "country": "Afghanistan",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Argentina",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Australia",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Australia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Azerbaijan",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Azerbaijan",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Brazil",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Brazil",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Canada",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "China",
+      "sex": "F",
+      "value": 7
+    },
+    {
+      "country": "China",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "country": "Chinese Taipei",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "country": "Chinese Taipei",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "country": "Colombia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Cote d'Ivoire",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Cote d'Ivoire",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Croatia",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "country": "Cuba",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "country": "Cuba",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Dominican Republic",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Egypt",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Egypt",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "France",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "country": "France",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Gabon",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Germany",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Germany",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Great Britain",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "country": "Great Britain",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Greece",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Greece",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "country": "Iran",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Iran",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "country": "Italy",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "country": "Japan",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Jordan",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Kazakhstan",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Mexico",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "country": "Mexico",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "country": "Niger",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Nigeria",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Norway",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Russia",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Russia",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Serbia",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "South Korea",
+      "sex": "F",
+      "value": 9
+    },
+    {
+      "country": "South Korea",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "country": "Spain",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Spain",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "Thailand",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "country": "Thailand",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Tunisia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Turkey",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "country": "Turkey",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "country": "United States",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "country": "United States",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "country": "Venezuela",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Vietnam",
+      "sex": "F",
+      "value": 1
+    }
+  ],
+  "treemap": [
+    {
+      "country": "Afghanistan",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Algeria",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Argentina",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Argentina",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "country": "Armenia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Aruba",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Australia",
+      "sex": "F",
+      "value": 8
+    },
+    {
+      "country": "Australia",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "country": "Austria",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Austria",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Azerbaijan",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Azerbaijan",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "country": "Belgium",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Belgium",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Belize",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Benin",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Brazil",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "country": "Brazil",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "country": "Cambodia",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Canada",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "country": "Canada",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Cape Verde",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Central African Republic",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Central African Republic",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Chile",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Chile",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "China",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "country": "China",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "country": "Chinese Taipei",
+      "sex": "F",
+      "value": 8
+    },
+    {
+      "country": "Chinese Taipei",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "country": "Colombia",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "country": "Colombia",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "country": "Congo (Kinshasa)",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Costa Rica",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Cote d'Ivoire",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "country": "Cote d'Ivoire",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Croatia",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "country": "Croatia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Cuba",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "country": "Cuba",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "country": "Denmark",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Denmark",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "country": "Dominican Republic",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Dominican Republic",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "country": "Ecuador",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Egypt",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "country": "Egypt",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "country": "Finland",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "country": "Finland",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "France",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "country": "France",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "Gabon",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Germany",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "country": "Germany",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "country": "Great Britain",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "country": "Great Britain",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "country": "Greece",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "country": "Greece",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Grenada",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Guatemala",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "country": "Guatemala",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Guinea",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Haiti",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Haiti",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Honduras",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Hungary",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Indonesia",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Indonesia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Iran",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "country": "Iran",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "country": "Iraq",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Israel",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Israel",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Italy",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "country": "Italy",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "country": "Jamaica",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Japan",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "country": "Japan",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Jordan",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Jordan",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "Kazakhstan",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "country": "Kazakhstan",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "Kenya",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Kenya",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Kuwait",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Kyrgyzstan",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Lebanon",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Lesotho",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Lesotho",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Libya",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "country": "Malaysia",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "country": "Mali",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Marshall Islands",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Mexico",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "country": "Mexico",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "country": "Moldova",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Monaco",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Mongolia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Morocco",
+      "sex": "F",
+      "value": 7
+    },
+    {
+      "country": "Morocco",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "Nepal",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Nepal",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Netherlands",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "country": "Netherlands",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "country": "New Zealand",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "country": "New Zealand",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "country": "Nicaragua",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Niger",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Nigeria",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Nigeria",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "country": "Norway",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "country": "Panama",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Papua New Guinea",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Papua New Guinea",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Peru",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Peru",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Philippines",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "country": "Philippines",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "country": "Poland",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Poland",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "country": "Portugal",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Puerto Rico",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "country": "Puerto Rico",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Qatar",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Russia",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "country": "Russia",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "country": "Samoa",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Samoa",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Saudi Arabia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Senegal",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Senegal",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Serbia",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "country": "Serbia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Slovenia",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Slovenia",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "South Africa",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "South Korea",
+      "sex": "F",
+      "value": 8
+    },
+    {
+      "country": "South Korea",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "country": "Spain",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "country": "Spain",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "country": "Swaziland",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Sweden",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "country": "Sweden",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "country": "Switzerland",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Tajikistan",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Thailand",
+      "sex": "F",
+      "value": 8
+    },
+    {
+      "country": "Thailand",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "country": "Tonga",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Trinidad and Tobago",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Trinidad and Tobago",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Tunisia",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "country": "Tunisia",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "Turkey",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "country": "Turkey",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Ukraine",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Ukraine",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "United Arab Emirates",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "United States",
+      "sex": "F",
+      "value": 7
+    },
+    {
+      "country": "United States",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "country": "Uzbekistan",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "country": "Uzbekistan",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "Venezuela",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Venezuela",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "country": "Vietnam",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "country": "Vietnam",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "country": "Yemen",
+      "sex": "M",
+      "value": 2
+    }
   ]
 }

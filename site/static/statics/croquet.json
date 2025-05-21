@@ -324,5 +324,24 @@
       "attribute": "weight",
       "value": null
     }
+  ],
+  "map": [
+    {
+      "country": "France",
+      "sex": "M",
+      "value": 8
+    }
+  ],
+  "treemap": [
+    {
+      "country": "France",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "country": "France",
+      "sex": "M",
+      "value": 7
+    }
   ]
 }

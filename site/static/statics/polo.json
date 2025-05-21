@@ -1659,5 +1659,154 @@
       "attribute": "weight",
       "value": null
     }
+  ],
+  "map": [
+    {
+      "country": "A North American Team",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "Argentina",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "country": "BLO Polo Club, Rugby",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "Bagatelle Polo Club, Paris",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "Foxhunters Hurlingham",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "country": "Great Britain",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "country": "Hurlingham-2",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "Ireland-3",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "Mexico",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "Roehampton-1",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "Spain",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "country": "United States",
+      "sex": "M",
+      "value": 8
+    }
+  ],
+  "treemap": [
+    {
+      "country": "A North American Team",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "Argentina",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "country": "BLO Polo Club, Rugby",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "Bagatelle Polo Club, Paris",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "Belgium",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "Compigne Polo Club",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "Foxhunters Hurlingham",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "country": "France",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "country": "Germany",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "Great Britain",
+      "sex": "M",
+      "value": 11
+    },
+    {
+      "country": "Hungary",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "country": "Hurlingham-2",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "Ireland-3",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "Mexico",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "Roehampton-1",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "Spain",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "country": "United States",
+      "sex": "M",
+      "value": 8
+    }
   ]
 }

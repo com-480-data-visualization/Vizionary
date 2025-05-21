@@ -308,5 +308,54 @@
       "attribute": "weight",
       "value": null
     }
+  ],
+  "map": [
+    {
+      "country": "Camille",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Gyrinus-1",
+      "sex": "M",
+      "value": 6
+    }
+  ],
+  "treemap": [
+    {
+      "country": "Camille",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Dylan-2",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Gyrinus-1",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "country": "Quicksilver-2",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Quicksilver-2",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Sea Dog-2",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Wolseley-Siddeley-1",
+      "sex": "M",
+      "value": 4
+    }
   ]
 }

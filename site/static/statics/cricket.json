@@ -383,5 +383,29 @@
       "attribute": "weight",
       "value": null
     }
+  ],
+  "map": [
+    {
+      "country": "Devon and Somerset Wanderers",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "country": "Union des Socits Franais de Sports Athletiques",
+      "sex": "M",
+      "value": 12
+    }
+  ],
+  "treemap": [
+    {
+      "country": "Devon and Somerset Wanderers",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "country": "Union des Socits Franais de Sports Athletiques",
+      "sex": "M",
+      "value": 12
+    }
   ]
 }

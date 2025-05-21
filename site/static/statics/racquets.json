@@ -268,5 +268,49 @@
       "attribute": "weight",
       "value": null
     }
+  ],
+  "map": [
+    {
+      "country": "Great Britain",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "Great Britain-1",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Great Britain-2",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Great Britain-3",
+      "sex": "M",
+      "value": 2
+    }
+  ],
+  "treemap": [
+    {
+      "country": "Great Britain",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "country": "Great Britain-1",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Great Britain-2",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Great Britain-3",
+      "sex": "M",
+      "value": 2
+    }
   ]
 }

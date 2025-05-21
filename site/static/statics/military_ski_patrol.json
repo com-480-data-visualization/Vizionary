@@ -383,5 +383,54 @@
       "attribute": "weight",
       "value": null
     }
+  ],
+  "map": [
+    {
+      "country": "Finland",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "France",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 4
+    }
+  ],
+  "treemap": [
+    {
+      "country": "Czechoslovakia",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "Finland",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "France",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "Italy",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "Poland",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 4
+    }
   ]
 }

@@ -15,7 +15,7 @@ df = kagglehub.dataset_load(
 df["Medal"] = df["Medal"].fillna("No Medal")
 
 # Output directory for Svelte static
-out_dir = "static/statics"
+out_dir = "site/static/statics"
 os.makedirs(out_dir, exist_ok=True)
 
 # Attributes, medals, sexes
@@ -34,7 +34,7 @@ def clean(obj):
 # Build per-sport JSON
 for sport, grp in df.groupby("Sport"):
     key = keyify(sport)
-    out = {"sport": sport, "scatter": [], "heatmap": [], "bar": []}
+    out = {"sport": sport, "scatter": [], "heatmap": [], "bar": [],"map": []}
 
     # scatter: keep Sex so we can filter client‑side
     out["scatter"] = grp[["Year","Sex"] + attrs + ["Medal"]].to_dict(orient="records")
@@ -65,6 +65,30 @@ for sport, grp in df.groupby("Sport"):
                     })
     out["bar"] = bars
 
+    #MAP 
+    medal_only = grp[grp["Medal"] != "No Medal"]  # exclude non‑winners
+
+    # Compute counts and reshape into the desired structure
+    map_records = (
+        medal_only.groupby(["Team", "Sex"]).size().reset_index(name="value").to_dict("records")
+    )
+
+    # Rename keys to match the desired output spec
+    out["map"] = [
+        {"country": rec["Team"], "sex": rec["Sex"], "value": int(rec["value"])}
+        for rec in map_records
+    ]
+
+    # TREEMAP
+    treemap_records = (
+        grp.groupby("Team")["ID"].nunique().reset_index(name="value").to_dict("records")
+    )
+    out["treemap"] = [
+        {"country": rec["Team"], "value": int(rec["value"])} for rec in treemap_records
+    ]
+
+
     with open(f"{out_dir}/{key}.json","w") as f:
         json.dump(clean(out), f, indent=2)
+        
 print("done")

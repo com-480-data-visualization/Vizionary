@@ -857,5 +857,59 @@
       "attribute": "weight",
       "value": null
     }
+  ],
+  "map": [
+    {
+      "country": "Canada",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "country": "Great Britain",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "country": "Mohawk Indians-2",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "country": "St. Louis Amateur Athletic Association",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "country": "Winnipeg Shamrocks-1",
+      "sex": "M",
+      "value": 12
+    }
+  ],
+  "treemap": [
+    {
+      "country": "Canada",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "country": "Great Britain",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "country": "Mohawk Indians-2",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "country": "St. Louis Amateur Athletic Association",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "country": "Winnipeg Shamrocks-1",
+      "sex": "M",
+      "value": 12
+    }
   ]
 }

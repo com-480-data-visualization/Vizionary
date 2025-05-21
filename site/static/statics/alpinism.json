@@ -727,5 +727,79 @@
       "attribute": "weight",
       "value": null
     }
+  ],
+  "map": [
+    {
+      "country": "Australia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Germany",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Great Britain",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "country": "India",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "country": "Nepal",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Switzerland",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 1
+    }
+  ],
+  "treemap": [
+    {
+      "country": "Australia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Germany",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Great Britain",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "country": "India",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "country": "Nepal",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Switzerland",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 1
+    }
   ]
 }

@@ -188,5 +188,19 @@
       "attribute": "weight",
       "value": null
     }
+  ],
+  "map": [
+    {
+      "country": "Spain",
+      "sex": "M",
+      "value": 2
+    }
+  ],
+  "treemap": [
+    {
+      "country": "Spain",
+      "sex": "M",
+      "value": 2
+    }
   ]
 }

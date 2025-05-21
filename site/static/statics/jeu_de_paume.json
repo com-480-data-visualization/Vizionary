@@ -260,5 +260,29 @@
       "attribute": "weight",
       "value": null
     }
+  ],
+  "map": [
+    {
+      "country": "Great Britain",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "United States",
+      "sex": "M",
+      "value": 1
+    }
+  ],
+  "treemap": [
+    {
+      "country": "Great Britain",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "country": "United States",
+      "sex": "M",
+      "value": 2
+    }
   ]
 }

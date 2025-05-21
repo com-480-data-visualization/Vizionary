@@ -8951,5 +8951,279 @@
       "attribute": "weight",
       "value": 55.23
     }
+  ],
+  "map": [
+    {
+      "country": "Canada",
+      "sex": "F",
+      "value": 26
+    },
+    {
+      "country": "China",
+      "sex": "F",
+      "value": 31
+    },
+    {
+      "country": "France",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Japan",
+      "sex": "F",
+      "value": 52
+    },
+    {
+      "country": "Russia",
+      "sex": "F",
+      "value": 54
+    },
+    {
+      "country": "Spain",
+      "sex": "F",
+      "value": 20
+    },
+    {
+      "country": "United States",
+      "sex": "F",
+      "value": 30
+    }
+  ],
+  "treemap": [
+    {
+      "country": "Argentina",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Aruba",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Australia",
+      "sex": "F",
+      "value": 35
+    },
+    {
+      "country": "Austria",
+      "sex": "F",
+      "value": 9
+    },
+    {
+      "country": "Barbados",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Belarus",
+      "sex": "F",
+      "value": 7
+    },
+    {
+      "country": "Belgium",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Brazil",
+      "sex": "F",
+      "value": 19
+    },
+    {
+      "country": "Bulgaria",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Canada",
+      "sex": "F",
+      "value": 44
+    },
+    {
+      "country": "China",
+      "sex": "F",
+      "value": 42
+    },
+    {
+      "country": "Colombia",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Cuba",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Czech Republic",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "country": "Czechoslovakia",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Dominican Republic",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Egypt",
+      "sex": "F",
+      "value": 26
+    },
+    {
+      "country": "Finland",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "France",
+      "sex": "F",
+      "value": 24
+    },
+    {
+      "country": "Germany",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Great Britain",
+      "sex": "F",
+      "value": 18
+    },
+    {
+      "country": "Greece",
+      "sex": "F",
+      "value": 14
+    },
+    {
+      "country": "Hungary",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "country": "Individual Olympic Athletes",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "country": "Israel",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "country": "Italy",
+      "sex": "F",
+      "value": 35
+    },
+    {
+      "country": "Japan",
+      "sex": "F",
+      "value": 45
+    },
+    {
+      "country": "Kazakhstan",
+      "sex": "F",
+      "value": 8
+    },
+    {
+      "country": "Mexico",
+      "sex": "F",
+      "value": 22
+    },
+    {
+      "country": "Netherlands",
+      "sex": "F",
+      "value": 8
+    },
+    {
+      "country": "Netherlands Antilles",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "New Zealand",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "country": "North Korea",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "country": "Puerto Rico",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Russia",
+      "sex": "F",
+      "value": 31
+    },
+    {
+      "country": "Slovakia",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "country": "South Africa",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "South Korea",
+      "sex": "F",
+      "value": 8
+    },
+    {
+      "country": "Soviet Union",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "country": "Spain",
+      "sex": "F",
+      "value": 22
+    },
+    {
+      "country": "Sweden",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Switzerland",
+      "sex": "F",
+      "value": 14
+    },
+    {
+      "country": "Ukraine",
+      "sex": "F",
+      "value": 11
+    },
+    {
+      "country": "Unified Team",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "country": "United States",
+      "sex": "F",
+      "value": 42
+    },
+    {
+      "country": "Venezuela",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "country": "West Germany",
+      "sex": "F",
+      "value": 5
+    }
   ]
 }

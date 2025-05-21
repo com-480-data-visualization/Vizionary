@@ -180,5 +180,19 @@
       "attribute": "weight",
       "value": null
     }
+  ],
+  "map": [
+    {
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 1
+    }
+  ],
+  "treemap": [
+    {
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 1
+    }
   ]
 }

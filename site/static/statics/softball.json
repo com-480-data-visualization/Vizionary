@@ -4573,5 +4573,94 @@
       "attribute": "weight",
       "value": 66.97
     }
+  ],
+  "map": [
+    {
+      "country": "Australia",
+      "sex": "F",
+      "value": 60
+    },
+    {
+      "country": "China",
+      "sex": "F",
+      "value": 15
+    },
+    {
+      "country": "Japan",
+      "sex": "F",
+      "value": 44
+    },
+    {
+      "country": "United States",
+      "sex": "F",
+      "value": 60
+    }
+  ],
+  "treemap": [
+    {
+      "country": "Australia",
+      "sex": "F",
+      "value": 33
+    },
+    {
+      "country": "Canada",
+      "sex": "F",
+      "value": 52
+    },
+    {
+      "country": "China",
+      "sex": "F",
+      "value": 40
+    },
+    {
+      "country": "Chinese Taipei",
+      "sex": "F",
+      "value": 34
+    },
+    {
+      "country": "Cuba",
+      "sex": "F",
+      "value": 15
+    },
+    {
+      "country": "Greece",
+      "sex": "F",
+      "value": 14
+    },
+    {
+      "country": "Italy",
+      "sex": "F",
+      "value": 25
+    },
+    {
+      "country": "Japan",
+      "sex": "F",
+      "value": 43
+    },
+    {
+      "country": "Netherlands",
+      "sex": "F",
+      "value": 30
+    },
+    {
+      "country": "New Zealand",
+      "sex": "F",
+      "value": 15
+    },
+    {
+      "country": "Puerto Rico",
+      "sex": "F",
+      "value": 15
+    },
+    {
+      "country": "United States",
+      "sex": "F",
+      "value": 36
+    },
+    {
+      "country": "Venezuela",
+      "sex": "F",
+      "value": 15
+    }
   ]
 }
