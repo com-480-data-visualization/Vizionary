@@ -11,7 +11,7 @@
   let chartData: any[] = [];
 
   onMount(async () => {
-    const rawData = await d3.json("/statics/sport_bubble_data.json");
+    const rawData = await d3.json("statics/front/sport_bubble_data.json");
     chartData = rawData ?? [];
     drawChart(chartData);
   });
