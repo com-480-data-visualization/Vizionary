@@ -1,15 +1,15 @@
 [
   {
     "name": "Athletics",
-    "participants": 22071,
+    "participants": 22019,
     "countries": 227,
-    "medals": 3969
+    "medals": 3932
   },
   {
     "name": "Swimming",
-    "participants": 8765,
+    "participants": 8752,
     "countries": 200,
-    "medals": 3048
+    "medals": 3038
   },
   {
     "name": "Rowing",
@@ -25,9 +25,9 @@
   },
   {
     "name": "Cycling",
-    "participants": 5819,
+    "participants": 5801,
     "countries": 145,
-    "medals": 1263
+    "medals": 1247
   },
   {
     "name": "Boxing",
@@ -37,15 +37,15 @@
   },
   {
     "name": "Wrestling",
-    "participants": 4988,
+    "participants": 4984,
     "countries": 131,
-    "medals": 1296
+    "medals": 1293
   },
   {
     "name": "Shooting",
-    "participants": 4882,
+    "participants": 4851,
     "countries": 150,
-    "medals": 1228
+    "medals": 1213
   },
   {
     "name": "Sailing",
@@ -54,16 +54,16 @@
     "medals": 1232
   },
   {
-    "name": "Gymnastics",
-    "participants": 4134,
-    "countries": 93,
-    "medals": 2256
+    "name": "Fencing",
+    "participants": 4111,
+    "countries": 101,
+    "medals": 1734
   },
   {
-    "name": "Fencing",
-    "participants": 4123,
-    "countries": 101,
-    "medals": 1743
+    "name": "Gymnastics",
+    "participants": 4109,
+    "countries": 93,
+    "medals": 2219
   },
   {
     "name": "Ice Hockey",
@@ -91,9 +91,9 @@
   },
   {
     "name": "Weightlifting",
-    "participants": 2882,
+    "participants": 2875,
     "countries": 150,
-    "medals": 646
+    "medals": 640
   },
   {
     "name": "Alpine Skiing",
@@ -169,9 +169,9 @@
   },
   {
     "name": "Tennis",
-    "participants": 1246,
+    "participants": 1234,
     "countries": 93,
-    "medals": 340
+    "medals": 330
   },
   {
     "name": "Biathlon",
@@ -210,12 +210,6 @@
     "medals": 180
   },
   {
-    "name": "Baseball",
-    "participants": 761,
-    "countries": 16,
-    "medals": 336
-  },
-  {
     "name": "Table Tennis",
     "participants": 749,
     "countries": 103,
@@ -234,165 +228,15 @@
     "medals": 165
   },
   {
-    "name": "Rhythmic Gymnastics",
-    "participants": 567,
-    "countries": 48,
-    "medals": 132
-  },
-  {
     "name": "Snowboarding",
     "participants": 567,
     "countries": 35,
     "medals": 90
   },
   {
-    "name": "Synchronized Swimming",
-    "participants": 550,
-    "countries": 47,
-    "medals": 215
-  },
-  {
-    "name": "Taekwondo",
-    "participants": 470,
-    "countries": 105,
-    "medals": 144
-  },
-  {
     "name": "Short Track Speed Skating",
     "participants": 444,
     "countries": 35,
     "medals": 284
-  },
-  {
-    "name": "Beach Volleyball",
-    "participants": 383,
-    "countries": 41,
-    "medals": 72
-  },
-  {
-    "name": "Softball",
-    "participants": 367,
-    "countries": 13,
-    "medals": 179
-  },
-  {
-    "name": "Triathlon",
-    "participants": 355,
-    "countries": 54,
-    "medals": 30
-  },
-  {
-    "name": "Curling",
-    "participants": 346,
-    "countries": 16,
-    "medals": 152
-  },
-  {
-    "name": "Rugby Sevens",
-    "participants": 299,
-    "countries": 14,
-    "medals": 74
-  },
-  {
-    "name": "Golf",
-    "participants": 218,
-    "countries": 42,
-    "medals": 46
-  },
-  {
-    "name": "Tug-Of-War",
-    "participants": 160,
-    "countries": 13,
-    "medals": 115
-  },
-  {
-    "name": "Rugby",
-    "participants": 155,
-    "countries": 7,
-    "medals": 162
-  },
-  {
-    "name": "Skeleton",
-    "participants": 146,
-    "countries": 28,
-    "medals": 30
-  },
-  {
-    "name": "Trampolining",
-    "participants": 93,
-    "countries": 25,
-    "medals": 30
-  },
-  {
-    "name": "Polo",
-    "participants": 87,
-    "countries": 9,
-    "medals": 67
-  },
-  {
-    "name": "Lacrosse",
-    "participants": 60,
-    "countries": 3,
-    "medals": 60
-  },
-  {
-    "name": "Alpinism",
-    "participants": 25,
-    "countries": 6,
-    "medals": 25
-  },
-  {
-    "name": "Cricket",
-    "participants": 24,
-    "countries": 2,
-    "medals": 24
-  },
-  {
-    "name": "Military Ski Patrol",
-    "participants": 24,
-    "countries": 6,
-    "medals": 12
-  },
-  {
-    "name": "Motorboating",
-    "participants": 14,
-    "countries": 2,
-    "medals": 7
-  },
-  {
-    "name": "Jeu De Paume",
-    "participants": 11,
-    "countries": 2,
-    "medals": 3
-  },
-  {
-    "name": "Croquet",
-    "participants": 10,
-    "countries": 1,
-    "medals": 8
-  },
-  {
-    "name": "Racquets",
-    "participants": 7,
-    "countries": 1,
-    "medals": 10
-  },
-  {
-    "name": "Roque",
-    "participants": 4,
-    "countries": 1,
-    "medals": 3
-  },
-  {
-    "name": "Basque Pelota",
-    "participants": 2,
-    "countries": 1,
-    "medals": 2
-  },
-  {
-    "name": "Aeronautics",
-    "participants": 1,
-    "countries": 1,
-    "medals": 1
   }
 ]
