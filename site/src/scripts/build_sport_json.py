@@ -1,70 +1,72 @@
+#!/usr/bin/env python3
 import pandas as pd
 import os
 import json
-import kagglehub
-from kagglehub import KaggleDatasetAdapter
+from pathlib import Path
 
-# Load dataset
-df = kagglehub.dataset_load(
-    KaggleDatasetAdapter.PANDAS,
-    "heesoo37/120-years-of-olympic-history-athletes-and-results",
-    "athlete_events.csv"
-)
+# 1) Load
+df = pd.read_csv("src/data/df_filtered.csv")
 
-# Fill missing medals
 df["Medal"] = df["Medal"].fillna("No Medal")
+df["Year"] = df["Year"].astype(int)
 
-# Output directory for Svelte static
-out_dir = "static/statics"
-os.makedirs(out_dir, exist_ok=True)
+# 2) Setup
+out_dir = Path("static/statics")
+out_dir.mkdir(parents=True, exist_ok=True)
 
-# Attributes, medals, sexes
-attrs = ["Age", "Height", "Weight"]
-medals = ["Gold", "Silver", "Bronze", "No Medal"]
-sexes = ["M", "F"]
+attrs  = ["Age","Height","Weight"]
+medals = ["Gold","Silver","Bronze","No Medal"]
+sexes  = ["M","F"]
 
-def keyify(s): return s.lower().replace(" ", "_")
+def keyify(s: str) -> str:
+    return s.lower().replace(" ","_")
 
-def clean(obj):
-    if isinstance(obj, float) and pd.isna(obj): return None
-    if isinstance(obj, dict): return {k: clean(v) for k,v in obj.items()}
-    if isinstance(obj, list): return [clean(v) for v in obj]
-    return obj
+def clean(x):
+    if isinstance(x, float) and pd.isna(x): return None
+    if isinstance(x, dict): return {k: clean(v) for k,v in x.items()}
+    if isinstance(x, list): return [clean(v) for v in x]
+    return x
 
-# Build per-sport JSON
-for sport, grp in df.groupby("Sport"):
+# 3) Emit per‐sport
+for sport, grp in df.groupby("Sport", sort=False):
     key = keyify(sport)
-    out = {"sport": sport, "scatter": [], "heatmap": [], "bar": []}
+    out = {"sport": sport}
 
-    # scatter: keep Sex so we can filter client‑side
-    out["scatter"] = grp[["Year","Sex"] + attrs + ["Medal"]].to_dict(orient="records")
-
-    # heatmap: corr by year/sex/attr
+    # --- HEATMAP: same as before ---
     grp["Won"] = grp["Medal"]!="No Medal"
-    hm = []
-    for (yr, sx), sub in grp.groupby(["Year","Sex"]):
-        if len(sub) < 20: continue
+    heatmap = {s:{a.lower():{"year":[], "corr":[]} for a in attrs} for s in sexes}
+    for (yr,sx), sub in grp.groupby(["Year","Sex"]):
+        if len(sub) < 20: 
+            continue
         for a in attrs:
-            r = sub[["Won",a]].corr().loc["Won",a]
-            hm.append({"year":int(yr),"sex":sx,"attribute":a.lower(),"corr": None if pd.isna(r) else round(r,3)})
-    out["heatmap"] = hm
+            try:
+                r = sub[["Won",a]].corr().loc["Won",a]
+            except Exception:
+                continue
+            if pd.notna(r):
+                heatmap[sx][a.lower()]["year"].append(int(yr))
+                heatmap[sx][a.lower()]["corr"].append(round(float(r),3))
+    out["heatmap"] = heatmap
 
-    # grouped bar: avg by year/sex/medal/attr
-    bars = []
-    for yr, sub in grp.groupby("Year"):
-        for sx in sexes:
-            for m in medals:
-                seg = sub[(sub.Sex==sx)&(sub.Medal==m)]
-                for a in attrs:
-                    bars.append({
-                        "year":int(yr),
-                        "sex":sx,
-                        "medal":m,
-                        "attribute":a.lower(),
-                        "value": None if seg[a].empty else round(seg[a].mean(),2)
-                    })
-    out["bar"] = bars
+    # --- BAR: only years with any data for that sex+attribute ---
+    bar = {s:{a.lower():{"year":[], "medal":[], "value":[]} for a in attrs} for s in sexes}
+    # first compute all year‐sex‐medal‐attr means
+    means = []
+    for (yr,sx,m), sub in grp.groupby(["Year","Sex","Medal"]):
+        for a in attrs:
+            if not sub[a].empty:
+                mv = sub[a].mean()
+                if pd.notna(mv):
+                    means.append((sx, a.lower(), int(yr), m, round(float(mv),2)))
+    # now reorganize per sex+attr, but only include years that appear here
+    for sx, a, yr, m, v in means:
+        blk = bar[sx][a]
+        blk["year"].append(yr)
+        blk["medal"].append(m)
+        blk["value"].append(v)
+    out["bar"] = bar
 
-    with open(f"{out_dir}/{key}.json","w") as f:
+    # write
+    dest = out_dir / f"{key}.json"
+    with open(dest,"w") as f:
         json.dump(clean(out), f, indent=2)
-print("done")

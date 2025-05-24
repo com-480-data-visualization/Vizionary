@@ -1,15 +1,10 @@
 import pandas as pd
 import os
 import json
-import kagglehub
-from kagglehub import KaggleDatasetAdapter
+
 
 # Load data
-df = kagglehub.dataset_load(
-    KaggleDatasetAdapter.PANDAS,
-    "heesoo37/120-years-of-olympic-history-athletes-and-results",
-    'athlete_events.csv'
-)
+df = pd.read_csv("src/data/df_filtered.csv")
 
 # Replace missing medals
 df["Medal"] = df["Medal"].fillna("No Medal")
