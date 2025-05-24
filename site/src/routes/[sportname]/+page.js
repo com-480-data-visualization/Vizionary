@@ -8,9 +8,6 @@ export function load({ params, fetch }) {
   
   // Use the provided fetch function, not the global one
   return {
-    json: fetch(path).then(r => {
-      if (r.ok) return r.json();
-      throw new Error(`Could not load ${path}`);
-    })
+    sportname: slug
   };
 }

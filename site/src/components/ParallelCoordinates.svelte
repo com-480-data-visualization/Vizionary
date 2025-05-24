@@ -2,19 +2,22 @@
     import { onMount } from "svelte";
     import * as d3 from "d3";
 
-    export let name: string; // Parameter to load the correct JSON file
+    // Props using Svelte 5 syntax
+    let { name }: { name: string } = $props();
 
-    let width: number = 500;
-    let height: number = 100;
-    let showMaleData: boolean = true;
-    let showFemaleData: boolean = true;
-    let selectedYears: number[] = []; // Can filter by year if needed
-
-    let element: HTMLDivElement;
-    let data = [];
+    // State variables using Svelte 5 runes
+    let width = $state(500);
+    let height = $state(100);
+    let showMaleData = $state(true);
+    let showFemaleData = $state(true);
+    let selectedYears = $state<number[]>([]);
+    let element = $state<HTMLDivElement>();
+    let data = $state([]);
+    let isLoading = $state(false);
+    let error = $state<string | null>(null);
     
     // Process the raw data into a format suitable for parallel coordinates
-    function processData(rawData) {
+    function processData(rawData: any) {
         // Extract bar data for processing
         const barData = rawData.bar;
         
@@ -72,10 +75,15 @@
         return processed;
     }
 
-    onMount(async function () {
+    // Function to load data
+    async function loadData(sportName: string) {
+        if (!sportName) return;
+        
+        isLoading = true;
+        error = null;
+        
         try {
-            // Load the data dynamically based on the name parameter
-            const response = await fetch(`/statics/${name}.json`);
+            const response = await fetch(`/statics/${sportName}.json`);
             if (!response.ok) {
                 throw new Error(`Failed to fetch data: ${response.statusText}`);
             }
@@ -87,26 +95,18 @@
             data = processData(rawData);
             console.log('Processed data:', data);
             
-            // Create the chart
-            createParallelCoordinatesPlot();
-            
-            // Handle resizing
-            const resizeObserver = new ResizeObserver(() => {
-                element.innerHTML = "";
-                createParallelCoordinatesPlot();
-            });
-            
-            resizeObserver.observe(element);
-            
-            return () => {
-                resizeObserver.disconnect();
-            };
-        } catch (error) {
-            console.error("Error creating parallel coordinates plot:", error);
+        } catch (err) {
+            error = err instanceof Error ? err.message : 'An unknown error occurred';
+            console.error("Error loading data:", err);
+        } finally {
+            isLoading = false;
         }
-    });
+    }
 
+    // Create the parallel coordinates plot
     function createParallelCoordinatesPlot() {
+        if (!element || data.length === 0) return;
+        
         // Clear existing content
         element.innerHTML = "";
         
@@ -143,23 +143,23 @@
             .range(["#FFD700", "#C0C0C0", "#CD7F32", "#AACCFF"]);
         
         // Define scales for parallel coordinates
-        const y = {};
+        const y: any = {};
         
         // For each dimension, build a scale
-        dimensions.forEach(name => {
-            if (name === "medal") {
+        dimensions.forEach(dimensionName => {
+            if (dimensionName === "medal") {
                 // Ordinal scale for medals
                 const medalTypes = ["No Medal","Bronze", "Silver", "Gold"];
-                y[name] = d3.scalePoint()
+                y[dimensionName] = d3.scalePoint()
                     .domain(medalTypes)
                     .range([plotHeight, 0]);
             } else {
                 // Linear scales for numeric values
-                const validValues = filteredData.filter(d => d[name] !== null).map(d => d[name]);
+                const validValues = filteredData.filter(d => d[dimensionName] !== null).map(d => d[dimensionName]);
                 const extent = validValues.length > 0 ? d3.extent(validValues) : [0, 1];
                 const padding = (extent[1] - extent[0]) * 0.05;
                 
-                y[name] = d3.scaleLinear()
+                y[dimensionName] = d3.scaleLinear()
                     .domain([extent[0] - padding, extent[1] + padding])
                     .range([plotHeight, 0]);
             }
@@ -171,7 +171,7 @@
             .domain(dimensions);
         
         // Function to draw a path for each data point
-        function path(d) {
+        function path(d: any) {
             return d3.line()(dimensions.map(function(p) { 
                 if (p === "medal") {
                     // Handle medal specially since it's categorical
@@ -185,7 +185,7 @@
         }
         
         // Highlight function for mouseover
-        const highlight = function(event, d) {
+        const highlight = function(event: any, d: any) {
             // First, make all lines lighter
             d3.selectAll(".line")
                 .transition().duration(200)
@@ -218,7 +218,7 @@
         const doNotHighlight = function() {
             d3.selectAll(".line")
                 .transition().duration(200)
-                .style("stroke", d => color(d.medal))
+                .style("stroke", (d: any) => color(d.medal))
                 .style("opacity", 0.7)
                 .style("stroke-width", "1.5px");
                 
@@ -246,7 +246,7 @@
             .attr("class", "line")
             .attr("d", path)
             .style("fill", "none")
-            .style("stroke", d => color(d.medal))
+            .style("stroke", (d: any) => color(d.medal))
             .style("opacity", 0.7)
             .style("stroke-width", "1.5px")
             .on("mouseover", highlight)
@@ -272,22 +272,77 @@
             .style("fill", "black")
             .style("font-weight", "bold");
     }
+
+    // Effect to load data when name changes
+    $effect(() => {
+        if (name) {
+            loadData(name);
+        }
+    });
+
+    // Effect to recreate chart when data or filter options change
+    $effect(() => {
+        if (data.length > 0 && element) {
+            createParallelCoordinatesPlot();
+        }
+    });
+
+    // Effect to recreate chart when filter options change
+    $effect(() => {
+        // This effect depends on showMaleData, showFemaleData, and selectedYears
+        // When any of these change, recreate the chart
+        if (data.length > 0 && element) {
+            createParallelCoordinatesPlot();
+        }
+    });
+
+    // Handle resize
+    onMount(() => {
+        if (!element) return;
+        
+        const resizeObserver = new ResizeObserver(() => {
+            if (data.length > 0) {
+                createParallelCoordinatesPlot();
+            }
+        });
+        
+        resizeObserver.observe(element);
+        
+        return () => {
+            resizeObserver.disconnect();
+        };
+    });
     
-    // Update filters
+    // Update filters function - now updates state variables directly
     export function updateFilters(male: boolean, female: boolean, years: number[] = []) {
         showMaleData = male;
         showFemaleData = female;
         selectedYears = years;
-        element.innerHTML = "";
-        createParallelCoordinatesPlot();
+        // Chart will automatically update due to $effect
     }
 </script>
 
 <div class="w-full h-full p-4 flex flex-col text-center">
-    <h2 class="text-center text-gray-800 text-xl font-bold mb-2">Parallel Coordinates - {name}</h2>
-    <div class="flex-1 bg-gray-100 p-3 rounded parallel-chart-container" bind:this={element}>
-        <!-- D3 will insert the SVG here -->
-    </div>
+    <h2 class="text-center text-gray-800 text-xl font-bold mb-2">
+        Parallel Coordinates - {name}
+    </h2>
+    
+    {#if isLoading}
+        <div class="flex-1 bg-gray-100 p-3 rounded parallel-chart-container flex items-center justify-center">
+            <div class="text-gray-600">Loading data for {name}...</div>
+        </div>
+    {:else if error}
+        <div class="flex-1 bg-gray-100 p-3 rounded parallel-chart-container flex items-center justify-center">
+            <div class="text-red-600">Error: {error}</div>
+        </div>
+    {:else}
+        <div 
+            class="flex-1 bg-gray-100 p-3 rounded parallel-chart-container" 
+            bind:this={element}
+        >
+            <!-- D3 will insert the SVG here -->
+        </div>
+    {/if}
 </div>
 
 <style>

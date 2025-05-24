@@ -1,16 +1,19 @@
 <!-- App.svelte (or your main page) -->
 <script>
     import ParallelCoordinates from '../../components/ParallelCoordinates.svelte';
+    import HeatMap from '../../components/HeatMap.svelte';
 import BoxComponent from './../../components/BoxComponent.svelte';
     import DummyContent from './../../components/DummyContent.svelte';
+    import Similarities from '../../components/Similarities.svelte';
+    import BarChart from '../../components/BarChart.svelte';
 
     let { data } = $props();
   
   // Access the JSON data
-  let jsonData = data.json;
+  let sportname = $derived(data.sportname);
   </script>
   
-  {#if jsonData}
+  {#if sportname}
   <div class="m-0 p-0 h-screen w-screen bg-gray-100">
       <div class="h-screen w-full flex flex-col">
       <!-- Header -->
@@ -23,7 +26,13 @@ import BoxComponent from './../../components/BoxComponent.svelte';
         <!-- Top row -->
         <div class="flex flex-row flex-3 w-full gap-4">
           <!-- Top left section - 3/5 width -->
-          <div class="w-3/5 h-full bg-white border-2 border-gray-300 rounded-xl flex items-center justify-center shadow-sm p-3">
+          <div class="w-1/5 h-full bg-white border-2 border-gray-300 rounded-xl flex items-center justify-center shadow-sm p-3">
+            <BoxComponent title="">
+              <DummyContent name="Parameters" />
+            </BoxComponent>
+          </div>
+
+          <div class="w-2/5 h-full bg-white border-2 border-gray-300 rounded-xl flex items-center justify-center shadow-sm p-3">
             <BoxComponent title="">
               <DummyContent name="WorldMap (Flavia)" />
             </BoxComponent>
@@ -41,7 +50,7 @@ import BoxComponent from './../../components/BoxComponent.svelte';
             <!-- Top right lower section -->
             <div class="w-full h-1/2 bg-white border-2 border-gray-300 rounded-xl flex items-center justify-center shadow-sm p-3">
               <BoxComponent title="Top Right Lower">
-                <DummyContent name="Similar sports (Arthur)" />
+                <HeatMap name={sportname} />
               </BoxComponent>
             </div>
           </div>
@@ -52,21 +61,21 @@ import BoxComponent from './../../components/BoxComponent.svelte';
           <!-- Bottom left section -->
           <div class="w-1/3 h-full bg-white border-2 border-gray-300 rounded-xl flex items-center justify-center shadow-sm p-3">
             <BoxComponent title="Bottom Left">
-              <ParallelCoordinates name="basketball" />
+              <ParallelCoordinates name={sportname} />
             </BoxComponent>
           </div>
           
           <!-- Bottom middle section -->
           <div class="w-1/3 h-full bg-white border-2 border-gray-300 rounded-xl flex items-center justify-center shadow-sm p-3">
             <BoxComponent title="Bottom Middle">
-              <DummyContent name="Heatmap (David)" />
+              <Similarities name={sportname} />
             </BoxComponent>
           </div>
           
           <!-- Bottom right section -->
           <div class="w-1/3 h-full bg-white border-2 border-gray-300 rounded-xl flex items-center justify-center shadow-sm p-3">
             <BoxComponent title="Bottom Right">
-              <DummyContent name="Radial stacked bar chart (David)" />
+              <BarChart name={sportname} />
             </BoxComponent>
         </div>
         </div>
