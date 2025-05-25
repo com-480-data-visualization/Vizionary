@@ -68,7 +68,7 @@ import BoxComponent from './../../components/BoxComponent.svelte';
             <!-- Top right lower section -->
             <div class="w-full h-1/2 bg-white border-2 border-gray-300 rounded-xl flex items-center justify-center shadow-sm p-3">
               <BoxComponent title="Top Right Lower">
-                <HeatMap name={sportname} />
+                <HeatMap name={sportname} params={filterParams} />
               </BoxComponent>
             </div>
           </div>
@@ -93,7 +93,8 @@ import BoxComponent from './../../components/BoxComponent.svelte';
           <!-- Bottom right section -->
           <div class="w-1/3 h-full bg-white border-2 border-gray-300 rounded-xl flex items-center justify-center shadow-sm p-3">
             <BoxComponent title="Bottom Right">
-              <BarChart name={sportname} />
+              <BarChart name={sportname} 
+              attribute="height" params={filterParams} />
             </BoxComponent>
         </div>
         </div>

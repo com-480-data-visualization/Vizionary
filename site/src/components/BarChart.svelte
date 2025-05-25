@@ -25,14 +25,7 @@
     // Props using Svelte 5 syntax
     let { 
         name, 
-        sex = 'M', 
-        attribute = 'height',
-        visibleMedals = ['Gold', 'Silver', 'Bronze', 'No Medal'] 
-    }: { 
-        name: string;
-        sex?: 'M' | 'F';
-        attribute?: 'age' | 'height' | 'weight';
-        visibleMedals?: string[];
+        attribute, params
     } = $props();
   
     // State variables using Svelte 5 runes
@@ -77,9 +70,19 @@
         }
     }
 
-    // Function to extract specific attribute data based on sex and attribute
-    function extractBarData(data: BarData, selectedSex: 'M' | 'F', selectedAttribute: 'age' | 'height' | 'weight'): BarAttr | null {
-        const sexData = data[selectedSex];
+    // Function to extract specific attribute data based on gender from params and attribute
+    function extractBarData(data: BarData, genderParam: "all" | "male" | "female", selectedAttribute: 'age' | 'height' | 'weight'): BarAttr | null {
+        // Determine which sex data to use based on params.gender
+        let sexData;
+        if (genderParam === "male") {
+            sexData = data.M;
+        } else if (genderParam === "female") {
+            sexData = data.F;
+        } else {
+            // For "all", we'll default to male data for now (could be enhanced to combine both)
+            sexData = data.M;
+        }
+        
         if (!sexData) return null;
         
         const attrData = sexData[selectedAttribute];
@@ -91,31 +94,38 @@
     /**
      * @param container  The div to draw into
      * @param data    The compact BarAttr for one sex & one attribute
-     * @param medals Which medals to show (subset of Gold/Silver/Bronze/No Medal)
+     * @param medalFilters Object with boolean flags for each medal type
      * @param chartWidth   Current width of the container
      * @param chartHeight  Current height of the container
      */
     function drawGroupedBars(
         container: HTMLElement,
         data: BarAttr,
-        medals: string[],
+        medalFilters: { gold: boolean; silver: boolean; bronze: boolean; noMedal: boolean },
         chartWidth: number,
         chartHeight: number
     ) {
         // Clear existing SVG to redraw
         container.innerHTML = "";
 
+        // Create array of visible medal types based on params
+        const visibleMedals = [];
+        if (medalFilters.gold) visibleMedals.push("Gold");
+        if (medalFilters.silver) visibleMedals.push("Silver");
+        if (medalFilters.bronze) visibleMedals.push("Bronze");
+        if (medalFilters.noMedal) visibleMedals.push("No Medal");
+
         // unpack
         const { year: years, medal: medalsArr, value: vals } = data;
 
-        // flatten & filter by chosen medals
+        // flatten & filter by chosen medals (ignore year filtering - show all years)
         const flat = years
             .map((yr, i) => ({
                 year: yr,
                 medal: medalsArr[i],
                 value: vals[i] ?? 0,
             }))
-            .filter((d) => medals.includes(d.medal));
+            .filter((d) => visibleMedals.includes(d.medal));
 
         // group by year
         const chartData = Array.from(
@@ -125,13 +135,13 @@
                 values: records
                     // ensure every chosen medal appears (with zero if missing)
                     .concat(
-                        medals
+                        visibleMedals
                             .filter((m) => !records.find((r) => r.medal === m))
                             .map((m) => ({ year, medal: m, value: 0 }))
                     )
                     .sort(
                         (a, b) =>
-                            medals.indexOf(a.medal) - medals.indexOf(b.medal)
+                            visibleMedals.indexOf(a.medal) - visibleMedals.indexOf(b.medal)
                     ),
             })
         ).sort((a, b) => a.year - b.year);
@@ -159,7 +169,7 @@
         // x1: medal within year
         const x1 = d3
             .scaleBand<string>()
-            .domain(medals)
+            .domain(visibleMedals)
             .range([0, x0.bandwidth()])
             .padding(0.05);
 
@@ -243,17 +253,17 @@
         }
     });
 
-    // Effect to extract specific bar data when rawBarData, sex, or attribute changes
+    // Effect to extract specific bar data when rawBarData, params.gender, or attribute changes
     $effect(() => {
         if (rawBarData) {
-            barData = extractBarData(rawBarData, sex, attribute);
+            barData = extractBarData(rawBarData, params.gender, attribute);
         }
     });
 
-    // Effect to draw chart when data, visibleMedals, or dimensions change
+    // Effect to draw chart when data, params.medals, or dimensions change
     $effect(() => {
-        if (containerElement && barData && visibleMedals && width > 0 && height > 0) {
-            drawGroupedBars(containerElement, barData, visibleMedals, width, height);
+        if (containerElement && barData && params.medals && width > 0 && height > 0) {
+            drawGroupedBars(containerElement, barData, params.medals, width, height);
         }
     });
 
@@ -266,26 +276,27 @@
         height = containerElement.clientHeight;
 
         // Handle resizing
-        // const resizeObserver = new ResizeObserver(() => {
-        //     if (containerElement) {
-        //         width = containerElement.clientWidth;
-        //         height = containerElement.clientHeight;
-        //         // The effect above will automatically redraw the chart
-        //     }
-        // });
+        const resizeObserver = new ResizeObserver(() => {
+            if (containerElement) {
+                width = containerElement.clientWidth;
+                height = containerElement.clientHeight;
+                // The effect above will automatically redraw the chart
+            }
+        });
 
         // resizeObserver.observe(containerElement);
 
-        // // Cleanup the observer when the component is destroyed
-        // return () => {
-        //     resizeObserver.disconnect();
-        // };
+        // Cleanup the observer when the component is destroyed
+        return () => {
+            resizeObserver.disconnect();
+        };
     });
 </script>
 
 <div class="max-height-500px w-full h-full p-4 flex flex-col text-center">
     <h2 class="text-center text-gray-800 text-xl font-bold mb-2">
-        Grouped Bars - {name} ({sex === 'M' ? 'Male' : 'Female'} {attribute.charAt(0).toUpperCase() + attribute.slice(1)})
+        Grouped Bars - {name} ({params.gender === "male" ? "Male" : params.gender === "female" ? "Female" : "All"} {attribute.charAt(0).toUpperCase() + attribute.slice(1)})
+        - All Years
     </h2>
     
     <div 
@@ -302,7 +313,7 @@
             </div>
         {:else if !barData}
             <div class="loading-container">
-                <p class="text-gray-600">No bar chart data available for {sex === 'M' ? 'Male' : 'Female'} {attribute}</p>
+                <p class="text-gray-600">No bar chart data available for {params.gender === "male" ? "Male" : params.gender === "female" ? "Female" : "All"} {attribute}</p>
             </div>
         {/if}
     </div>

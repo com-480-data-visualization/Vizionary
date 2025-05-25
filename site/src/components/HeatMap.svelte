@@ -11,13 +11,30 @@
     };
   
     // Props using Svelte 5 syntax
-    let { name }: { name: string } = $props();
+    let { 
+        name, 
+        params
+    }: { 
+        name: string;
+        params: {
+            startYear: number;
+            endYear: number;
+            gender: "all" | "male" | "female";
+            medals: {
+                gold: boolean;
+                silver: boolean;
+                bronze: boolean;
+                noMedal: boolean;
+            };
+        };
+    } = $props();
   
     // State variables using Svelte 5 runes
     let containerElement = $state<HTMLDivElement>();
-    let width = $state(200); // Initial width, will be updated by ResizeObserver
-    let height = $state(0); // Height is calculated based on cell size and number of attributes
+    let width = $state(200);
+    let height = $state(0);
     let heatmapData = $state<HeatCompact | null>(null);
+    let rawHeatmapData = $state<any>(null); // Store the full heatmap data
     let isLoading = $state(false);
     let error = $state<string | null>(null);
 
@@ -27,6 +44,7 @@
         
         isLoading = true;
         error = null;
+        rawHeatmapData = null;
         heatmapData = null;
         
         try {
@@ -38,16 +56,18 @@
             const rawData = await response.json();
             console.log("Loaded raw data:", rawData);
 
-            // Extract the heatmap data from the raw JSON
+            // Store the full heatmap data
             if (rawData && rawData.heatmap) {
-                heatmapData = rawData.heatmap.M;
-                console.log("Processed heatmap data:", heatmapData);
+                rawHeatmapData = rawData.heatmap;
+                console.log("Stored raw heatmap data:", rawHeatmapData);
             } else {
                 throw new Error("Heatmap data not found in the JSON file.");
             }
         } catch (err) {
             error = err instanceof Error ? err.message : 'An unknown error occurred';
             console.error("Error loading heatmap data:", err);
+            rawHeatmapData = null;
+            heatmapData = null;
         } finally {
             isLoading = false;
         }
@@ -168,10 +188,35 @@
         });
     }
 
-    // Effect to load data when name changes
+    // Effect to load raw data when name changes
     $effect(() => {
         if (name) {
             loadData(name);
+        }
+    });
+
+    // Effect to extract gender-specific data when rawHeatmapData or params.gender changes
+    $effect(() => {
+        if (rawHeatmapData && params && params.gender) {
+            console.log("Extracting data for gender:", params.gender);
+            console.log("Available data keys:", Object.keys(rawHeatmapData));
+            
+            if (params.gender === "male" && rawHeatmapData.M) {
+                heatmapData = rawHeatmapData.M;
+                console.log("Set male heatmap data:", heatmapData);
+            } else if (params.gender === "female" && rawHeatmapData.F) {
+                heatmapData = rawHeatmapData.F;
+                console.log("Set female heatmap data:", heatmapData);
+            } else if (params.gender === "all" && rawHeatmapData.M) {
+                // For "all", default to male data
+                heatmapData = rawHeatmapData.M;
+                console.log("Set 'all' (male) heatmap data:", heatmapData);
+            } else {
+                console.warn("No heatmap data found for gender:", params.gender);
+                heatmapData = null;
+            }
+        } else {
+            console.log("Missing data:", { rawHeatmapData: !!rawHeatmapData, params: !!params, gender: params?.gender });
         }
     });
 
@@ -182,33 +227,18 @@
         }
     });
 
-    // Handle resize and initial width setup
+    // Handle initial width setup only
     onMount(() => {
         if (!containerElement) return;
         
         // Initialize width based on container size once component is mounted
         width = containerElement.clientWidth;
-
-        // Handle resizing
-        const resizeObserver = new ResizeObserver(() => {
-            if (containerElement) {
-                width = containerElement.clientWidth;
-                // The effect above will automatically redraw the chart
-            }
-        });
-
-        resizeObserver.observe(containerElement);
-
-        // Cleanup the observer when the component is destroyed
-        return () => {
-            resizeObserver.disconnect();
-        };
     });
 </script>
 
 <div class="w-full h-full p-4 flex flex-col text-center">
     <h2 class="text-center text-gray-800 text-xl font-bold mb-2">
-        Heatmap - {name}
+        Heatmap - {name} ({params.gender === "male" ? "Male" : params.gender === "female" ? "Female" : "All"})
     </h2>
     
     <div 
@@ -223,9 +253,9 @@
             <div class="error-container">
                 <p class="text-red-600">Error loading heatmap data: {error}</p>
             </div>
-        {:else if !heatmapData}
+        {:else if !heatmapData || !rawHeatmapData}
             <div class="loading-container">
-                <p class="text-gray-600">No heatmap data available</p>
+                <p class="text-gray-600">No heatmap data available (Debug: heatmapData={!!heatmapData}, rawHeatmapData={!!rawHeatmapData})</p>
             </div>
         {/if}
     </div>
