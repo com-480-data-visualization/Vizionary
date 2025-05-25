@@ -3,14 +3,11 @@
     import * as d3 from "d3";
 
     // Props using Svelte 5 syntax
-    let { name }: { name: string } = $props();
+    let { name, params } = $props();
 
     // State variables using Svelte 5 runes
     let width = $state(500);
     let height = $state(100);
-    let showMaleData = $state(true);
-    let showFemaleData = $state(true);
-    let selectedYears = $state<number[]>([]);
     let element = $state<HTMLDivElement>();
     let data = $state([]);
     let isLoading = $state(false);
@@ -115,16 +112,36 @@
         const plotWidth = element.clientWidth || width;
         const plotHeight = (element.clientHeight || height) - margin.top - margin.bottom;
         
-        // Filter data based on sex selection
+        // Filter data based on params
         const filteredData = data.filter(d => {
-            const includeMale = showMaleData && d.sex === "M";
-            const includeFemale = showFemaleData && d.sex === "F";
+            // Apply gender filter
+            let genderMatch = true;
+            if (params.gender === "male") {
+                genderMatch = d.sex === "M";
+            } else if (params.gender === "female") {
+                genderMatch = d.sex === "F";
+            }
+            // If gender is "all", genderMatch stays true
             
-            // Apply year filter if any years are selected
-            const yearFilter = selectedYears.length === 0 || selectedYears.includes(d.year);
+            // Apply year range filter
+            const yearMatch = d.year >= params.startYear && d.year <= params.endYear;
             
-            return (includeMale || includeFemale) && yearFilter;
+            // Apply medal filter
+            let medalMatch = false;
+            if (d.medal === "Gold" && params.medals.gold) medalMatch = true;
+            if (d.medal === "Silver" && params.medals.silver) medalMatch = true;
+            if (d.medal === "Bronze" && params.medals.bronze) medalMatch = true;
+            if (d.medal === "No Medal" && params.medals.noMedal) medalMatch = true;
+            
+            return genderMatch && yearMatch && medalMatch;
         });
+
+        // Create array of visible medal types for color scale
+        const visibleMedals = [];
+        if (params.medals.gold) visibleMedals.push("Gold");
+        if (params.medals.silver) visibleMedals.push("Silver");
+        if (params.medals.bronze) visibleMedals.push("Bronze");
+        if (params.medals.noMedal) visibleMedals.push("No Medal");
         
         // Append the svg object to the container
         const svg = d3.select(element)
@@ -137,10 +154,15 @@
         // Define dimensions for parallel coordinates - now including medal
         const dimensions = ["height", "weight", "age", "medal"];
         
-        // Color scale for medals
+        // Color scale for medals - use only the medals that are actually visible
         const color = d3.scaleOrdinal()
-            .domain(["Gold", "Silver", "Bronze", "No Medal"])
-            .range(["#FFD700", "#C0C0C0", "#CD7F32", "#AACCFF"]);
+            .domain(visibleMedals)
+            .range(visibleMedals.map(medal => 
+                medal === "Gold" ? "#FFD700" :
+                medal === "Silver" ? "#C0C0C0" :
+                medal === "Bronze" ? "#CD7F32" :
+                "#AACCFF"
+            ));
         
         // Define scales for parallel coordinates
         const y: any = {};
@@ -148,10 +170,12 @@
         // For each dimension, build a scale
         dimensions.forEach(dimensionName => {
             if (dimensionName === "medal") {
-                // Ordinal scale for medals
-                const medalTypes = ["No Medal","Bronze", "Silver", "Gold"];
+                // Ordinal scale for medals - use only visible medals
+                const medalOrder = ["No Medal", "Bronze", "Silver", "Gold"];
+                const visibleMedalTypes = medalOrder.filter(m => visibleMedals.includes(m));
+                
                 y[dimensionName] = d3.scalePoint()
-                    .domain(medalTypes)
+                    .domain(visibleMedalTypes)
                     .range([plotHeight, 0]);
             } else {
                 // Linear scales for numeric values
@@ -193,8 +217,9 @@
                 .style("opacity", "0.2")
                 .style("stroke-width", "1px");
             
-            // Highlight the current line
-            d3.select(this)
+            // Highlight all lines with the same medal as the hovered line
+            d3.selectAll(".line")
+                .filter((lineData: any) => lineData.medal === d.medal)
                 .transition().duration(200)
                 .style("stroke", color(d.medal))
                 .style("opacity", "1")
@@ -280,17 +305,8 @@
         }
     });
 
-    // Effect to recreate chart when data or filter options change
+    // Effect to recreate chart when data or filter props change
     $effect(() => {
-        if (data.length > 0 && element) {
-            createParallelCoordinatesPlot();
-        }
-    });
-
-    // Effect to recreate chart when filter options change
-    $effect(() => {
-        // This effect depends on showMaleData, showFemaleData, and selectedYears
-        // When any of these change, recreate the chart
         if (data.length > 0 && element) {
             createParallelCoordinatesPlot();
         }
@@ -313,18 +329,18 @@
         };
     });
     
-    // Update filters function - now updates state variables directly
-    export function updateFilters(male: boolean, female: boolean, years: number[] = []) {
-        showMaleData = male;
-        showFemaleData = female;
-        selectedYears = years;
-        // Chart will automatically update due to $effect
+    // Update filters function - for backward compatibility if needed
+    export function updateFilters(male: boolean, female: boolean, selectedYears: number[] = []) {
+        // This function is kept for backward compatibility
+        // The component now uses props directly, so external updates should be done via props
+        console.warn('updateFilters is deprecated. Use props instead: gender, years, medals');
     }
 </script>
 
 <div class="w-full h-full p-4 flex flex-col text-center">
     <h2 class="text-center text-gray-800 text-xl font-bold mb-2">
-        Parallel Coordinates - {name}
+        Parallel Coordinates - {name} 
+        ({params.startYear}-{params.endYear}, {params.gender === "all" ? "All" : params.gender === "male" ? "Male" : "Female"})
     </h2>
     
     {#if isLoading}

@@ -6,6 +6,19 @@ import BoxComponent from './../../components/BoxComponent.svelte';
     import DummyContent from './../../components/DummyContent.svelte';
     import Similarities from '../../components/Similarities.svelte';
     import BarChart from '../../components/BarChart.svelte';
+    import Parameters from '../../components/Parameters.svelte';
+
+    let filterParams = $state({
+    startYear: 1980,
+    endYear: 2000,
+    gender: 'all',
+    medals: {
+      gold: true,
+      silver: false,
+      bronze: false,
+      noMedal: false
+    }
+  });
 
     let { data } = $props();
   
@@ -28,7 +41,12 @@ import BoxComponent from './../../components/BoxComponent.svelte';
           <!-- Top left section - 3/5 width -->
           <div class="w-1/5 h-full bg-white border-2 border-gray-300 rounded-xl flex items-center justify-center shadow-sm p-3">
             <BoxComponent title="">
-              <DummyContent name="Parameters" />
+                <Parameters 
+                  bind:startYear={filterParams.startYear}
+                  bind:endYear={filterParams.endYear}
+                  bind:gender={filterParams.gender}
+                  bind:medals={filterParams.medals}
+                />
             </BoxComponent>
           </div>
 
@@ -61,7 +79,7 @@ import BoxComponent from './../../components/BoxComponent.svelte';
           <!-- Bottom left section -->
           <div class="w-1/3 h-full bg-white border-2 border-gray-300 rounded-xl flex items-center justify-center shadow-sm p-3">
             <BoxComponent title="Bottom Left">
-              <ParallelCoordinates name={sportname} />
+              <ParallelCoordinates name={sportname} params={filterParams} />
             </BoxComponent>
           </div>
           
