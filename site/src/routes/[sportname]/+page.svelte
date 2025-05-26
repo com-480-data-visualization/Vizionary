@@ -7,6 +7,7 @@ import BoxComponent from './../../components/BoxComponent.svelte';
     import Similarities from '../../components/Similarities.svelte';
     import BarChart from '../../components/BarChart.svelte';
     import Parameters from '../../components/Parameters.svelte';
+    import WorldMap from '../../components/WorldMap.svelte';
 
     let filterParams = $state({
     startYear: 1980,
@@ -52,7 +53,7 @@ import BoxComponent from './../../components/BoxComponent.svelte';
 
           <div class="w-2/5 h-full bg-white border-2 border-gray-300 rounded-xl flex items-center justify-center shadow-sm p-3">
             <BoxComponent title="">
-              <DummyContent name="WorldMap (Flavia)" />
+              <WorldMap sportKey={sportname} gender={filterParams.gender} name="Football Championships" />
             </BoxComponent>
           </div>
           
