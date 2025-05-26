@@ -218458,7 +218458,7 @@
     {
       "country": "Austria",
       "sex": "M",
-      "value": 2
+      "value": 3
     },
     {
       "country": "Belarus",
@@ -218491,11 +218491,6 @@
       "value": 1
     },
     {
-      "country": "Central Turnverein, Chicago",
-      "sex": "M",
-      "value": 6
-    },
-    {
       "country": "China",
       "sex": "F",
       "value": 35
@@ -218511,12 +218506,12 @@
       "value": 1
     },
     {
-      "country": "Czechoslovakia",
+      "country": "Czech Republic",
       "sex": "F",
       "value": 52
     },
     {
-      "country": "Czechoslovakia",
+      "country": "Czech Republic",
       "sex": "M",
       "value": 26
     },
@@ -218524,16 +218519,6 @@
       "country": "Denmark",
       "sex": "M",
       "value": 111
-    },
-    {
-      "country": "East Germany",
-      "sex": "F",
-      "value": 45
-    },
-    {
-      "country": "East Germany",
-      "sex": "M",
-      "value": 41
     },
     {
       "country": "Finland",
@@ -218553,22 +218538,12 @@
     {
       "country": "Germany",
       "sex": "F",
-      "value": 11
+      "value": 56
     },
     {
       "country": "Germany",
       "sex": "M",
-      "value": 38
-    },
-    {
-      "country": "Great Britain",
-      "sex": "F",
-      "value": 14
-    },
-    {
-      "country": "Great Britain",
-      "sex": "M",
-      "value": 37
+      "value": 80
     },
     {
       "country": "Greece",
@@ -218593,7 +218568,7 @@
     {
       "country": "Italy",
       "sex": "M",
-      "value": 88
+      "value": 97
     },
     {
       "country": "Japan",
@@ -218621,11 +218596,6 @@
       "value": 1
     },
     {
-      "country": "New York Turnverein, New York",
-      "sex": "M",
-      "value": 6
-    },
-    {
       "country": "North Korea",
       "sex": "F",
       "value": 1
@@ -218639,16 +218609,6 @@
       "country": "Norway",
       "sex": "M",
       "value": 121
-    },
-    {
-      "country": "Philadelphia Turngemeinde, Philadelphia",
-      "sex": "M",
-      "value": 6
-    },
-    {
-      "country": "Pistoja/Firenze",
-      "sex": "M",
-      "value": 9
     },
     {
       "country": "Poland",
@@ -218673,27 +218633,22 @@
     {
       "country": "Russia",
       "sex": "F",
-      "value": 47
+      "value": 205
     },
     {
       "country": "Russia",
       "sex": "M",
-      "value": 36
+      "value": 194
+    },
+    {
+      "country": "Serbia",
+      "sex": "M",
+      "value": 18
     },
     {
       "country": "South Korea",
       "sex": "M",
       "value": 9
-    },
-    {
-      "country": "Soviet Union",
-      "sex": "F",
-      "value": 147
-    },
-    {
-      "country": "Soviet Union",
-      "sex": "M",
-      "value": 141
     },
     {
       "country": "Spain",
@@ -218726,6 +218681,26 @@
       "value": 80
     },
     {
+      "country": "UK",
+      "sex": "F",
+      "value": 14
+    },
+    {
+      "country": "UK",
+      "sex": "M",
+      "value": 37
+    },
+    {
+      "country": "USA",
+      "sex": "F",
+      "value": 94
+    },
+    {
+      "country": "USA",
+      "sex": "M",
+      "value": 100
+    },
+    {
       "country": "Ukraine",
       "sex": "F",
       "value": 3
@@ -218736,39 +218711,9 @@
       "value": 20
     },
     {
-      "country": "Unified Team",
-      "sex": "F",
-      "value": 11
-    },
-    {
-      "country": "Unified Team",
-      "sex": "M",
-      "value": 17
-    },
-    {
-      "country": "United States",
-      "sex": "F",
-      "value": 94
-    },
-    {
-      "country": "United States",
-      "sex": "M",
-      "value": 83
-    },
-    {
       "country": "Uzbekistan",
       "sex": "M",
       "value": 1
-    },
-    {
-      "country": "West Germany",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "country": "Yugoslavia",
-      "sex": "M",
-      "value": 18
     }
   ],
   "treemap": [
@@ -218813,11 +218758,7 @@
       "value": 83
     },
     {
-      "country": "Bohemia",
-      "value": 3
-    },
-    {
-      "country": "Bolivia",
+      "country": "Boliva",
       "value": 1
     },
     {
@@ -218833,28 +218774,16 @@
       "value": 92
     },
     {
-      "country": "Central Turnverein, Chicago",
-      "value": 6
-    },
-    {
       "country": "Chile",
       "value": 2
     },
     {
       "country": "China",
-      "value": 85
-    },
-    {
-      "country": "Chinese Taipei",
-      "value": 12
+      "value": 87
     },
     {
       "country": "Colombia",
       "value": 5
-    },
-    {
-      "country": "Concordia Turnverein, St Louis",
-      "value": 6
     },
     {
       "country": "Croatia",
@@ -218870,15 +218799,7 @@
     },
     {
       "country": "Czech Republic",
-      "value": 7
-    },
-    {
-      "country": "Czechoslovakia",
-      "value": 130
-    },
-    {
-      "country": "Davenport Turngemeinde, Davenport",
-      "value": 6
+      "value": 139
     },
     {
       "country": "Denmark",
@@ -218887,10 +218808,6 @@
     {
       "country": "Dominican Republic",
       "value": 1
-    },
-    {
-      "country": "East Germany",
-      "value": 50
     },
     {
       "country": "Ecuador",
@@ -218914,11 +218831,7 @@
     },
     {
       "country": "Germany",
-      "value": 158
-    },
-    {
-      "country": "Great Britain",
-      "value": 242
+      "value": 253
     },
     {
       "country": "Greece",
@@ -218927,10 +218840,6 @@
     {
       "country": "Guatemala",
       "value": 3
-    },
-    {
-      "country": "Hong Kong",
-      "value": 2
     },
     {
       "country": "Hungary",
@@ -218958,7 +218867,7 @@
     },
     {
       "country": "Italy",
-      "value": 212
+      "value": 228
     },
     {
       "country": "Jamaica",
@@ -218971,10 +218880,6 @@
     {
       "country": "Kazakhstan",
       "value": 7
-    },
-    {
-      "country": "La Salle Turnverein, Chicago",
-      "value": 6
     },
     {
       "country": "Latvia",
@@ -219001,10 +218906,6 @@
       "value": 36
     },
     {
-      "country": "Milwaukee Turnverein, Milwaukee",
-      "value": 6
-    },
-    {
       "country": "Monaco",
       "value": 3
     },
@@ -219025,10 +218926,6 @@
       "value": 83
     },
     {
-      "country": "New York Turnverein, New York",
-      "value": 6
-    },
-    {
       "country": "New Zealand",
       "value": 9
     },
@@ -219041,32 +218938,16 @@
       "value": 127
     },
     {
-      "country": "Norwegier Turnverein, Brooklyn",
-      "value": 6
-    },
-    {
       "country": "Panama",
       "value": 1
-    },
-    {
-      "country": "Passaic Turnverein, Passaic",
-      "value": 6
     },
     {
       "country": "Peru",
       "value": 1
     },
     {
-      "country": "Philadelphia Turngemeinde, Philadelphia",
-      "value": 6
-    },
-    {
       "country": "Philippines",
       "value": 5
-    },
-    {
-      "country": "Pistoja/Firenze",
-      "value": 9
     },
     {
       "country": "Poland",
@@ -219081,28 +218962,20 @@
       "value": 7
     },
     {
-      "country": "Roma",
-      "value": 9
-    },
-    {
       "country": "Romania",
       "value": 138
     },
     {
       "country": "Russia",
-      "value": 56
-    },
-    {
-      "country": "Saar",
-      "value": 6
+      "value": 146
     },
     {
       "country": "San Marino",
       "value": 1
     },
     {
-      "country": "Singapore",
-      "value": 1
+      "country": "Serbia",
+      "value": 75
     },
     {
       "country": "Slovakia",
@@ -219113,24 +218986,12 @@
       "value": 6
     },
     {
-      "country": "Socialer Turnverein, Detroit",
-      "value": 6
-    },
-    {
       "country": "South Africa",
       "value": 6
     },
     {
       "country": "South Korea",
       "value": 58
-    },
-    {
-      "country": "South St Louis Turnverein, St Louis",
-      "value": 6
-    },
-    {
-      "country": "Soviet Union",
-      "value": 82
     },
     {
       "country": "Spain",
@@ -219145,7 +219006,15 @@
       "value": 93
     },
     {
-      "country": "Trinidad and Tobago",
+      "country": "Syria",
+      "value": 6
+    },
+    {
+      "country": "Taiwan",
+      "value": 12
+    },
+    {
+      "country": "Trinidad",
       "value": 1
     },
     {
@@ -219157,28 +219026,16 @@
       "value": 3
     },
     {
-      "country": "Turnverein Vorwrts, Chicago",
-      "value": 6
+      "country": "UK",
+      "value": 242
     },
     {
-      "country": "Turnverein Vorwrts, Cleveland",
-      "value": 6
+      "country": "USA",
+      "value": 317
     },
     {
       "country": "Ukraine",
       "value": 47
-    },
-    {
-      "country": "Unified Team",
-      "value": 12
-    },
-    {
-      "country": "United Arab Republic",
-      "value": 6
-    },
-    {
-      "country": "United States",
-      "value": 317
     },
     {
       "country": "Uzbekistan",
@@ -219193,16 +219050,8 @@
       "value": 3
     },
     {
-      "country": "West Germany",
-      "value": 47
-    },
-    {
       "country": "Yemen",
       "value": 1
-    },
-    {
-      "country": "Yugoslavia",
-      "value": 75
     }
   ]
 }

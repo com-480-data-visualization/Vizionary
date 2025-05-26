@@ -31959,7 +31959,7 @@
       "value": 46
     },
     {
-      "country": "Czechoslovakia",
+      "country": "Czech Republic",
       "sex": "M",
       "value": 16
     },
@@ -31970,16 +31970,6 @@
     },
     {
       "country": "Denmark",
-      "sex": "M",
-      "value": 14
-    },
-    {
-      "country": "East Germany",
-      "sex": "F",
-      "value": 28
-    },
-    {
-      "country": "East Germany",
       "sex": "M",
       "value": 14
     },
@@ -31995,8 +31985,13 @@
     },
     {
       "country": "Germany",
+      "sex": "F",
+      "value": 28
+    },
+    {
+      "country": "Germany",
       "sex": "M",
-      "value": 52
+      "value": 81
     },
     {
       "country": "Hungary",
@@ -32031,12 +32026,22 @@
     {
       "country": "Russia",
       "sex": "F",
-      "value": 29
+      "value": 84
     },
     {
       "country": "Russia",
       "sex": "M",
+      "value": 83
+    },
+    {
+      "country": "Serbia",
+      "sex": "F",
       "value": 29
+    },
+    {
+      "country": "Serbia",
+      "sex": "M",
+      "value": 43
     },
     {
       "country": "South Korea",
@@ -32047,16 +32052,6 @@
       "country": "South Korea",
       "sex": "M",
       "value": 13
-    },
-    {
-      "country": "Soviet Union",
-      "sex": "F",
-      "value": 42
-    },
-    {
-      "country": "Soviet Union",
-      "sex": "M",
-      "value": 42
     },
     {
       "country": "Spain",
@@ -32082,31 +32077,6 @@
       "country": "Ukraine",
       "sex": "F",
       "value": 15
-    },
-    {
-      "country": "Unified Team",
-      "sex": "F",
-      "value": 13
-    },
-    {
-      "country": "Unified Team",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "country": "West Germany",
-      "sex": "M",
-      "value": 15
-    },
-    {
-      "country": "Yugoslavia",
-      "sex": "F",
-      "value": 29
-    },
-    {
-      "country": "Yugoslavia",
-      "sex": "M",
-      "value": 43
     }
   ],
   "treemap": [
@@ -32143,14 +32113,6 @@
       "value": 64
     },
     {
-      "country": "Congo (Brazzaville)",
-      "value": 14
-    },
-    {
-      "country": "Cote d'Ivoire",
-      "value": 14
-    },
-    {
       "country": "Croatia",
       "value": 63
     },
@@ -32159,16 +32121,12 @@
       "value": 27
     },
     {
-      "country": "Czechoslovakia",
+      "country": "Czech Republic",
       "value": 77
     },
     {
       "country": "Denmark",
       "value": 120
-    },
-    {
-      "country": "East Germany",
-      "value": 60
     },
     {
       "country": "Egypt",
@@ -32180,11 +32138,7 @@
     },
     {
       "country": "Germany",
-      "value": 126
-    },
-    {
-      "country": "Great Britain",
-      "value": 28
+      "value": 235
     },
     {
       "country": "Greece",
@@ -32197,6 +32151,10 @@
     {
       "country": "Iceland",
       "value": 71
+    },
+    {
+      "country": "Ivory Coast",
+      "value": 14
     },
     {
       "country": "Japan",
@@ -32235,20 +32193,20 @@
       "value": 15
     },
     {
+      "country": "Republic of Congo",
+      "value": 14
+    },
+    {
       "country": "Romania",
       "value": 108
     },
     {
       "country": "Russia",
-      "value": 66
+      "value": 149
     },
     {
       "country": "Serbia",
-      "value": 15
-    },
-    {
-      "country": "Serbia and Montenegro",
-      "value": 15
+      "value": 115
     },
     {
       "country": "Slovenia",
@@ -32257,10 +32215,6 @@
     {
       "country": "South Korea",
       "value": 145
-    },
-    {
-      "country": "Soviet Union",
-      "value": 73
     },
     {
       "country": "Spain",
@@ -32279,24 +32233,16 @@
       "value": 56
     },
     {
-      "country": "Ukraine",
-      "value": 15
+      "country": "UK",
+      "value": 28
     },
     {
-      "country": "Unified Team",
-      "value": 25
-    },
-    {
-      "country": "United States",
+      "country": "USA",
       "value": 107
     },
     {
-      "country": "West Germany",
-      "value": 58
-    },
-    {
-      "country": "Yugoslavia",
-      "value": 85
+      "country": "Ukraine",
+      "value": 15
     }
   ]
 }

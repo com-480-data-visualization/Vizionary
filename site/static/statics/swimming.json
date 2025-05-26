@@ -191074,24 +191074,14 @@
       "value": 1
     },
     {
-      "country": "Australasia",
-      "sex": "F",
-      "value": 2
-    },
-    {
-      "country": "Australasia",
-      "sex": "M",
-      "value": 9
-    },
-    {
       "country": "Australia",
       "sex": "F",
-      "value": 183
+      "value": 185
     },
     {
       "country": "Australia",
       "sex": "M",
-      "value": 218
+      "value": 227
     },
     {
       "country": "Austria",
@@ -191144,11 +191134,6 @@
       "value": 47
     },
     {
-      "country": "Chicago Athletic Association-2",
-      "sex": "M",
-      "value": 4
-    },
-    {
       "country": "China",
       "sex": "F",
       "value": 56
@@ -191184,21 +191169,6 @@
       "value": 3
     },
     {
-      "country": "Deutscher Schwimm Verband Berlin",
-      "sex": "M",
-      "value": 4
-    },
-    {
-      "country": "East Germany",
-      "sex": "F",
-      "value": 113
-    },
-    {
-      "country": "East Germany",
-      "sex": "M",
-      "value": 39
-    },
-    {
       "country": "Finland",
       "sex": "M",
       "value": 4
@@ -191211,27 +191181,17 @@
     {
       "country": "France",
       "sex": "M",
-      "value": 53
+      "value": 62
     },
     {
       "country": "Germany",
       "sex": "F",
-      "value": 83
+      "value": 222
     },
     {
       "country": "Germany",
       "sex": "M",
-      "value": 69
-    },
-    {
-      "country": "Great Britain",
-      "sex": "F",
-      "value": 53
-    },
-    {
-      "country": "Great Britain",
-      "sex": "M",
-      "value": 74
+      "value": 145
     },
     {
       "country": "Greece",
@@ -191294,11 +191254,6 @@
       "value": 1
     },
     {
-      "country": "Missouri Athletic Club-3",
-      "sex": "M",
-      "value": 4
-    },
-    {
       "country": "Netherlands",
       "sex": "F",
       "value": 95
@@ -191307,11 +191262,6 @@
       "country": "Netherlands",
       "sex": "M",
       "value": 19
-    },
-    {
-      "country": "New York Athletic Club #1-1",
-      "sex": "M",
-      "value": 4
     },
     {
       "country": "New Zealand",
@@ -191349,11 +191299,6 @@
       "value": 2
     },
     {
-      "country": "Pupilles de Neptune de Lille-1",
-      "sex": "M",
-      "value": 4
-    },
-    {
       "country": "Romania",
       "sex": "F",
       "value": 8
@@ -191366,20 +191311,20 @@
     {
       "country": "Russia",
       "sex": "F",
-      "value": 6
+      "value": 39
     },
     {
       "country": "Russia",
       "sex": "M",
-      "value": 37
+      "value": 158
     },
     {
       "country": "Serbia",
-      "sex": "M",
-      "value": 1
+      "sex": "F",
+      "value": 2
     },
     {
-      "country": "Singapore",
+      "country": "Serbia",
       "sex": "M",
       "value": 1
     },
@@ -191407,16 +191352,6 @@
       "country": "South Korea",
       "sex": "M",
       "value": 4
-    },
-    {
-      "country": "Soviet Union",
-      "sex": "F",
-      "value": 27
-    },
-    {
-      "country": "Soviet Union",
-      "sex": "M",
-      "value": 97
     },
     {
       "country": "Spain",
@@ -191449,14 +191384,9 @@
       "value": 1
     },
     {
-      "country": "Trinidad and Tobago",
+      "country": "Trinidad",
       "sex": "M",
       "value": 1
-    },
-    {
-      "country": "Tritons Lillois-2",
-      "sex": "M",
-      "value": 5
     },
     {
       "country": "Tunisia",
@@ -191464,6 +191394,26 @@
       "value": 3
     },
     {
+      "country": "UK",
+      "sex": "F",
+      "value": 53
+    },
+    {
+      "country": "UK",
+      "sex": "M",
+      "value": 74
+    },
+    {
+      "country": "USA",
+      "sex": "F",
+      "value": 471
+    },
+    {
+      "country": "USA",
+      "sex": "M",
+      "value": 607
+    },
+    {
       "country": "Ukraine",
       "sex": "F",
       "value": 5
@@ -191474,44 +191424,9 @@
       "value": 2
     },
     {
-      "country": "Unified Team",
-      "sex": "F",
-      "value": 6
-    },
-    {
-      "country": "Unified Team",
-      "sex": "M",
-      "value": 24
-    },
-    {
-      "country": "United States",
-      "sex": "F",
-      "value": 471
-    },
-    {
-      "country": "United States",
-      "sex": "M",
-      "value": 595
-    },
-    {
       "country": "Venezuela",
       "sex": "M",
       "value": 1
-    },
-    {
-      "country": "West Germany",
-      "sex": "F",
-      "value": 26
-    },
-    {
-      "country": "West Germany",
-      "sex": "M",
-      "value": 33
-    },
-    {
-      "country": "Yugoslavia",
-      "sex": "F",
-      "value": 2
     },
     {
       "country": "Zimbabwe",
@@ -191541,7 +191456,7 @@
       "value": 19
     },
     {
-      "country": "Antigua and Barbuda",
+      "country": "Antigua",
       "value": 6
     },
     {
@@ -191557,12 +191472,8 @@
       "value": 7
     },
     {
-      "country": "Australasia",
-      "value": 13
-    },
-    {
       "country": "Australia",
-      "value": 397
+      "value": 408
     },
     {
       "country": "Austria",
@@ -191605,7 +191516,7 @@
       "value": 22
     },
     {
-      "country": "Bolivia",
+      "country": "Boliva",
       "value": 11
     },
     {
@@ -191619,10 +191530,6 @@
     {
       "country": "Brazil",
       "value": 169
-    },
-    {
-      "country": "British Virgin Islands",
-      "value": 1
     },
     {
       "country": "Brunei",
@@ -191661,20 +191568,12 @@
       "value": 2
     },
     {
-      "country": "Chicago Athletic Association-2",
-      "value": 4
-    },
-    {
       "country": "Chile",
       "value": 16
     },
     {
       "country": "China",
-      "value": 194
-    },
-    {
-      "country": "Chinese Taipei",
-      "value": 51
+      "value": 249
     },
     {
       "country": "Colombia",
@@ -191685,24 +191584,12 @@
       "value": 4
     },
     {
-      "country": "Congo (Brazzaville)",
-      "value": 8
-    },
-    {
-      "country": "Congo (Kinshasa)",
-      "value": 1
-    },
-    {
       "country": "Cook Islands",
       "value": 5
     },
     {
       "country": "Costa Rica",
       "value": 18
-    },
-    {
-      "country": "Cote d'Ivoire",
-      "value": 6
     },
     {
       "country": "Croatia",
@@ -191713,24 +191600,24 @@
       "value": 21
     },
     {
+      "country": "Curacao",
+      "value": 5
+    },
+    {
       "country": "Cyprus",
       "value": 17
     },
     {
       "country": "Czech Republic",
-      "value": 32
+      "value": 80
     },
     {
-      "country": "Czechoslovakia",
-      "value": 52
+      "country": "Democratic Republic of the Congo",
+      "value": 1
     },
     {
       "country": "Denmark",
       "value": 109
-    },
-    {
-      "country": "Deutscher Schwimm Verband Berlin",
-      "value": 4
     },
     {
       "country": "Djibouti",
@@ -191743,10 +191630,6 @@
     {
       "country": "Dominican Republic",
       "value": 5
-    },
-    {
-      "country": "East Germany",
-      "value": 121
     },
     {
       "country": "Ecuador",
@@ -191773,10 +191656,6 @@
       "value": 4
     },
     {
-      "country": "Federated States of Micronesia",
-      "value": 6
-    },
-    {
       "country": "Fiji",
       "value": 12
     },
@@ -191786,7 +191665,7 @@
     },
     {
       "country": "France",
-      "value": 349
+      "value": 352
     },
     {
       "country": "Gabon",
@@ -191802,15 +191681,11 @@
     },
     {
       "country": "Germany",
-      "value": 275
+      "value": 494
     },
     {
       "country": "Ghana",
       "value": 2
-    },
-    {
-      "country": "Great Britain",
-      "value": 498
     },
     {
       "country": "Greece",
@@ -191843,10 +191718,6 @@
     {
       "country": "Honduras",
       "value": 21
-    },
-    {
-      "country": "Hong Kong",
-      "value": 55
     },
     {
       "country": "Hungary",
@@ -191887,6 +191758,10 @@
     {
       "country": "Italy",
       "value": 258
+    },
+    {
+      "country": "Ivory Coast",
+      "value": 6
     },
     {
       "country": "Jamaica",
@@ -191937,10 +191812,6 @@
       "value": 1
     },
     {
-      "country": "Libellule de Paris-3",
-      "value": 5
-    },
-    {
       "country": "Libya",
       "value": 10
     },
@@ -191969,12 +191840,8 @@
       "value": 7
     },
     {
-      "country": "Malaya",
-      "value": 3
-    },
-    {
       "country": "Malaysia",
-      "value": 30
+      "value": 33
     },
     {
       "country": "Maldives",
@@ -192001,8 +191868,8 @@
       "value": 129
     },
     {
-      "country": "Missouri Athletic Club-3",
-      "value": 4
+      "country": "Micronesia",
+      "value": 6
     },
     {
       "country": "Moldova",
@@ -192043,18 +191910,6 @@
     {
       "country": "Netherlands",
       "value": 249
-    },
-    {
-      "country": "Netherlands Antilles",
-      "value": 5
-    },
-    {
-      "country": "New York Athletic Club #1-1",
-      "value": 4
-    },
-    {
-      "country": "New York Athletic Club #2-4",
-      "value": 4
     },
     {
       "country": "New Zealand",
@@ -192125,16 +191980,12 @@
       "value": 50
     },
     {
-      "country": "Pupilles de Neptune de Lille-1",
-      "value": 4
-    },
-    {
       "country": "Qatar",
       "value": 6
     },
     {
-      "country": "Refugee Olympic Athletes",
-      "value": 2
+      "country": "Republic of Congo",
+      "value": 8
     },
     {
       "country": "Romania",
@@ -192142,22 +191993,18 @@
     },
     {
       "country": "Russia",
-      "value": 139
+      "value": 347
     },
     {
       "country": "Rwanda",
       "value": 7
     },
     {
-      "country": "Saar",
-      "value": 1
-    },
-    {
       "country": "Saint Lucia",
       "value": 5
     },
     {
-      "country": "Saint Vincent and the Grenadines",
+      "country": "Saint Vincent",
       "value": 6
     },
     {
@@ -192178,11 +192025,7 @@
     },
     {
       "country": "Serbia",
-      "value": 13
-    },
-    {
-      "country": "Serbia and Montenegro",
-      "value": 15
+      "value": 69
     },
     {
       "country": "Seychelles",
@@ -192191,10 +192034,6 @@
     {
       "country": "Sierra Leone",
       "value": 3
-    },
-    {
-      "country": "Singapore",
-      "value": 30
     },
     {
       "country": "Slovakia",
@@ -192211,14 +192050,6 @@
     {
       "country": "South Korea",
       "value": 96
-    },
-    {
-      "country": "South Vietnam",
-      "value": 7
-    },
-    {
-      "country": "Soviet Union",
-      "value": 192
     },
     {
       "country": "Spain",
@@ -192253,6 +192084,10 @@
       "value": 8
     },
     {
+      "country": "Taiwan",
+      "value": 51
+    },
+    {
       "country": "Tajikistan",
       "value": 5
     },
@@ -192273,12 +192108,8 @@
       "value": 2
     },
     {
-      "country": "Trinidad and Tobago",
+      "country": "Trinidad",
       "value": 11
-    },
-    {
-      "country": "Tritons Lillois-2",
-      "value": 5
     },
     {
       "country": "Tunisia",
@@ -192293,6 +192124,14 @@
       "value": 8
     },
     {
+      "country": "UK",
+      "value": 498
+    },
+    {
+      "country": "USA",
+      "value": 709
+    },
+    {
       "country": "Uganda",
       "value": 9
     },
@@ -192301,20 +192140,8 @@
       "value": 64
     },
     {
-      "country": "Unified Team",
-      "value": 29
-    },
-    {
       "country": "United Arab Emirates",
       "value": 14
-    },
-    {
-      "country": "United States",
-      "value": 701
-    },
-    {
-      "country": "United States Virgin Islands",
-      "value": 21
     },
     {
       "country": "Uruguay",
@@ -192330,19 +192157,19 @@
     },
     {
       "country": "Vietnam",
-      "value": 21
+      "value": 28
     },
     {
-      "country": "West Germany",
-      "value": 116
+      "country": "Virgin Islands, British",
+      "value": 1
+    },
+    {
+      "country": "Virgin Islands, US",
+      "value": 21
     },
     {
       "country": "Yemen",
       "value": 3
-    },
-    {
-      "country": "Yugoslavia",
-      "value": 45
     },
     {
       "country": "Zambia",

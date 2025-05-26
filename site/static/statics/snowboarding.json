@@ -8571,11 +8571,6 @@
       "value": 5
     },
     {
-      "country": "Great Britain",
-      "sex": "F",
-      "value": 1
-    },
-    {
       "country": "Italy",
       "sex": "F",
       "value": 1
@@ -8646,12 +8641,17 @@
       "value": 7
     },
     {
-      "country": "United States",
+      "country": "UK",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "USA",
       "sex": "F",
       "value": 11
     },
     {
-      "country": "United States",
+      "country": "USA",
       "sex": "M",
       "value": 13
     }
@@ -8716,10 +8716,6 @@
     {
       "country": "Germany",
       "value": 28
-    },
-    {
-      "country": "Great Britain",
-      "value": 11
     },
     {
       "country": "Greece",
@@ -8790,12 +8786,16 @@
       "value": 56
     },
     {
-      "country": "Ukraine",
-      "value": 2
+      "country": "UK",
+      "value": 11
     },
     {
-      "country": "United States",
+      "country": "USA",
       "value": 55
+    },
+    {
+      "country": "Ukraine",
+      "value": 2
     }
   ]
 }

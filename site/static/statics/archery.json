@@ -21900,37 +21900,12 @@
       "value": 52
     },
     {
-      "country": "Boston Archers",
-      "sex": "M",
-      "value": 4
-    },
-    {
       "country": "China",
       "sex": "F",
       "value": 15
     },
     {
       "country": "China",
-      "sex": "M",
-      "value": 4
-    },
-    {
-      "country": "Chinese Taipei",
-      "sex": "F",
-      "value": 6
-    },
-    {
-      "country": "Chinese Taipei",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Cincinnati Archers",
-      "sex": "F",
-      "value": 4
-    },
-    {
-      "country": "Cincinnati Archers",
       "sex": "M",
       "value": 4
     },
@@ -21958,16 +21933,6 @@
       "country": "Germany",
       "sex": "F",
       "value": 7
-    },
-    {
-      "country": "Great Britain",
-      "sex": "F",
-      "value": 4
-    },
-    {
-      "country": "Great Britain",
-      "sex": "M",
-      "value": 9
     },
     {
       "country": "Indonesia",
@@ -22005,19 +21970,14 @@
       "value": 4
     },
     {
-      "country": "Potomac Archers",
-      "sex": "M",
-      "value": 4
-    },
-    {
       "country": "Russia",
       "sex": "F",
-      "value": 3
+      "value": 12
     },
     {
       "country": "Russia",
       "sex": "M",
-      "value": 1
+      "value": 3
     },
     {
       "country": "South Korea",
@@ -22030,16 +21990,6 @@
       "value": 27
     },
     {
-      "country": "Soviet Union",
-      "sex": "F",
-      "value": 5
-    },
-    {
-      "country": "Soviet Union",
-      "sex": "M",
-      "value": 2
-    },
-    {
       "country": "Spain",
       "sex": "M",
       "value": 3
@@ -22050,6 +22000,36 @@
       "value": 2
     },
     {
+      "country": "Taiwan",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "country": "Taiwan",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "country": "UK",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "country": "UK",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "country": "USA",
+      "sex": "F",
+      "value": 15
+    },
+    {
+      "country": "USA",
+      "sex": "M",
+      "value": 42
+    },
+    {
       "country": "Ukraine",
       "sex": "F",
       "value": 4
@@ -22058,21 +22038,6 @@
       "country": "Ukraine",
       "sex": "M",
       "value": 4
-    },
-    {
-      "country": "Unified Team",
-      "sex": "F",
-      "value": 4
-    },
-    {
-      "country": "United States",
-      "sex": "F",
-      "value": 11
-    },
-    {
-      "country": "United States",
-      "sex": "M",
-      "value": 30
     }
   ],
   "treemap": [
@@ -22113,10 +22078,6 @@
       "value": 19
     },
     {
-      "country": "Boston Archers",
-      "value": 4
-    },
-    {
       "country": "Brazil",
       "value": 11
     },
@@ -22133,24 +22094,12 @@
       "value": 1
     },
     {
-      "country": "Chicago Archers",
-      "value": 4
-    },
-    {
       "country": "Chile",
       "value": 2
     },
     {
       "country": "China",
-      "value": 43
-    },
-    {
-      "country": "Chinese Taipei",
-      "value": 32
-    },
-    {
-      "country": "Cincinnati Archers",
-      "value": 8
+      "value": 53
     },
     {
       "country": "Colombia",
@@ -22159,10 +22108,6 @@
     {
       "country": "Costa Rica",
       "value": 4
-    },
-    {
-      "country": "Cote d'Ivoire",
-      "value": 1
     },
     {
       "country": "Cuba",
@@ -22174,11 +22119,7 @@
     },
     {
       "country": "Czech Republic",
-      "value": 2
-    },
-    {
-      "country": "Czechoslovakia",
-      "value": 4
+      "value": 6
     },
     {
       "country": "Denmark",
@@ -22218,11 +22159,7 @@
     },
     {
       "country": "Germany",
-      "value": 17
-    },
-    {
-      "country": "Great Britain",
-      "value": 77
+      "value": 33
     },
     {
       "country": "Greece",
@@ -22231,10 +22168,6 @@
     {
       "country": "Guam",
       "value": 1
-    },
-    {
-      "country": "Hong Kong",
-      "value": 10
     },
     {
       "country": "Hungary",
@@ -22263,6 +22196,10 @@
     {
       "country": "Italy",
       "value": 27
+    },
+    {
+      "country": "Ivory Coast",
+      "value": 1
     },
     {
       "country": "Japan",
@@ -22365,10 +22302,6 @@
       "value": 4
     },
     {
-      "country": "Potomac Archers",
-      "value": 4
-    },
-    {
       "country": "Puerto Rico",
       "value": 7
     },
@@ -22382,7 +22315,7 @@
     },
     {
       "country": "Russia",
-      "value": 16
+      "value": 35
     },
     {
       "country": "Samoa",
@@ -22395,6 +22328,10 @@
     {
       "country": "Saudi Arabia",
       "value": 5
+    },
+    {
+      "country": "Serbia",
+      "value": 2
     },
     {
       "country": "Slovakia",
@@ -22417,10 +22354,6 @@
       "value": 41
     },
     {
-      "country": "Soviet Union",
-      "value": 16
-    },
-    {
       "country": "Spain",
       "value": 22
     },
@@ -22431,6 +22364,10 @@
     {
       "country": "Switzerland",
       "value": 14
+    },
+    {
+      "country": "Taiwan",
+      "value": 32
     },
     {
       "country": "Tajikistan",
@@ -22449,6 +22386,14 @@
       "value": 21
     },
     {
+      "country": "UK",
+      "value": 77
+    },
+    {
+      "country": "USA",
+      "value": 66
+    },
+    {
       "country": "Uganda",
       "value": 1
     },
@@ -22457,27 +22402,11 @@
       "value": 22
     },
     {
-      "country": "Unified Team",
-      "value": 6
-    },
-    {
-      "country": "United States",
-      "value": 66
-    },
-    {
       "country": "Vanuatu",
       "value": 1
     },
     {
       "country": "Venezuela",
-      "value": 2
-    },
-    {
-      "country": "West Germany",
-      "value": 16
-    },
-    {
-      "country": "Yugoslavia",
       "value": 2
     },
     {

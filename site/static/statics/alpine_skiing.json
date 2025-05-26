@@ -74553,12 +74553,7 @@
     {
       "country": "Czech Republic",
       "sex": "F",
-      "value": 1
-    },
-    {
-      "country": "Czechoslovakia",
-      "sex": "F",
-      "value": 1
+      "value": 2
     },
     {
       "country": "Finland",
@@ -74578,12 +74573,12 @@
     {
       "country": "Germany",
       "sex": "F",
-      "value": 25
+      "value": 33
     },
     {
       "country": "Germany",
       "sex": "M",
-      "value": 6
+      "value": 7
     },
     {
       "country": "Italy",
@@ -74633,6 +74628,16 @@
     {
       "country": "Russia",
       "sex": "F",
+      "value": 2
+    },
+    {
+      "country": "Serbia",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Serbia",
+      "sex": "M",
       "value": 1
     },
     {
@@ -74643,11 +74648,6 @@
     {
       "country": "Slovenia",
       "sex": "M",
-      "value": 1
-    },
-    {
-      "country": "Soviet Union",
-      "sex": "F",
       "value": 1
     },
     {
@@ -74681,34 +74681,14 @@
       "value": 32
     },
     {
-      "country": "United States",
+      "country": "USA",
       "sex": "F",
       "value": 26
     },
     {
-      "country": "United States",
+      "country": "USA",
       "sex": "M",
       "value": 18
-    },
-    {
-      "country": "West Germany",
-      "sex": "F",
-      "value": 8
-    },
-    {
-      "country": "West Germany",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "country": "Yugoslavia",
-      "sex": "F",
-      "value": 1
-    },
-    {
-      "country": "Yugoslavia",
-      "sex": "M",
-      "value": 1
     }
   ],
   "treemap": [
@@ -74753,7 +74733,7 @@
       "value": 18
     },
     {
-      "country": "Bolivia",
+      "country": "Boliva",
       "value": 13
     },
     {
@@ -74785,10 +74765,6 @@
       "value": 13
     },
     {
-      "country": "Chinese Taipei",
-      "value": 9
-    },
-    {
       "country": "Colombia",
       "value": 1
     },
@@ -74806,19 +74782,11 @@
     },
     {
       "country": "Czech Republic",
-      "value": 17
-    },
-    {
-      "country": "Czechoslovakia",
-      "value": 35
+      "value": 52
     },
     {
       "country": "Denmark",
       "value": 9
-    },
-    {
-      "country": "East Germany",
-      "value": 1
     },
     {
       "country": "Egypt",
@@ -74846,15 +74814,11 @@
     },
     {
       "country": "Germany",
-      "value": 72
+      "value": 115
     },
     {
       "country": "Ghana",
       "value": 1
-    },
-    {
-      "country": "Great Britain",
-      "value": 120
     },
     {
       "country": "Greece",
@@ -75002,7 +74966,7 @@
     },
     {
       "country": "Russia",
-      "value": 26
+      "value": 61
     },
     {
       "country": "San Marino",
@@ -75014,11 +74978,7 @@
     },
     {
       "country": "Serbia",
-      "value": 4
-    },
-    {
-      "country": "Serbia and Montenegro",
-      "value": 5
+      "value": 63
     },
     {
       "country": "Slovakia",
@@ -75037,10 +74997,6 @@
       "value": 26
     },
     {
-      "country": "Soviet Union",
-      "value": 31
-    },
-    {
       "country": "Spain",
       "value": 59
     },
@@ -75057,6 +75013,10 @@
       "value": 175
     },
     {
+      "country": "Taiwan",
+      "value": 9
+    },
+    {
       "country": "Tajikistan",
       "value": 2
     },
@@ -75065,7 +75025,7 @@
       "value": 2
     },
     {
-      "country": "Timor Leste",
+      "country": "Timor-Leste",
       "value": 1
     },
     {
@@ -75077,20 +75037,16 @@
       "value": 37
     },
     {
-      "country": "Ukraine",
-      "value": 9
+      "country": "UK",
+      "value": 120
     },
     {
-      "country": "Unified Team",
-      "value": 7
-    },
-    {
-      "country": "United States",
+      "country": "USA",
       "value": 187
     },
     {
-      "country": "United States Virgin Islands",
-      "value": 3
+      "country": "Ukraine",
+      "value": 9
     },
     {
       "country": "Uruguay",
@@ -75105,12 +75061,8 @@
       "value": 1
     },
     {
-      "country": "West Germany",
-      "value": 52
-    },
-    {
-      "country": "Yugoslavia",
-      "value": 56
+      "country": "Virgin Islands, US",
+      "value": 3
     },
     {
       "country": "Zimbabwe",

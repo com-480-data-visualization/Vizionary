@@ -30021,7 +30021,7 @@
       "value": 2
     },
     {
-      "country": "Czechoslovakia",
+      "country": "Czech Republic",
       "sex": "M",
       "value": 3
     },
@@ -30059,16 +30059,6 @@
       "country": "Germany",
       "sex": "M",
       "value": 25
-    },
-    {
-      "country": "Great Britain",
-      "sex": "F",
-      "value": 3
-    },
-    {
-      "country": "Great Britain",
-      "sex": "M",
-      "value": 6
     },
     {
       "country": "Greece",
@@ -30156,12 +30146,22 @@
       "value": 9
     },
     {
-      "country": "United States",
+      "country": "UK",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "country": "UK",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "country": "USA",
       "sex": "F",
       "value": 1
     },
     {
-      "country": "United States",
+      "country": "USA",
       "sex": "M",
       "value": 8
     }
@@ -30184,11 +30184,7 @@
       "value": 86
     },
     {
-      "country": "Bohemia",
-      "value": 1
-    },
-    {
-      "country": "Bolivia",
+      "country": "Boliva",
       "value": 1
     },
     {
@@ -30216,7 +30212,7 @@
       "value": 3
     },
     {
-      "country": "Czechoslovakia",
+      "country": "Czech Republic",
       "value": 51
     },
     {
@@ -30242,10 +30238,6 @@
     {
       "country": "Germany",
       "value": 191
-    },
-    {
-      "country": "Great Britain",
-      "value": 150
     },
     {
       "country": "Greece",
@@ -30332,6 +30324,10 @@
       "value": 4
     },
     {
+      "country": "Serbia",
+      "value": 11
+    },
+    {
       "country": "South Africa",
       "value": 11
     },
@@ -30352,12 +30348,12 @@
       "value": 2
     },
     {
-      "country": "United States",
-      "value": 267
+      "country": "UK",
+      "value": 150
     },
     {
-      "country": "Unknown",
-      "value": 2
+      "country": "USA",
+      "value": 267
     },
     {
       "country": "Uruguay",
@@ -30366,10 +30362,6 @@
     {
       "country": "Venezuela",
       "value": 1
-    },
-    {
-      "country": "Yugoslavia",
-      "value": 11
     }
   ]
 }

@@ -47832,7 +47832,7 @@
       "value": 16
     },
     {
-      "country": "Czechoslovakia",
+      "country": "Czech Republic",
       "sex": "F",
       "value": 16
     },
@@ -47842,39 +47842,19 @@
       "value": 12
     },
     {
-      "country": "England-1",
-      "sex": "M",
-      "value": 11
-    },
-    {
       "country": "Germany",
       "sex": "F",
-      "value": 49
+      "value": 65
     },
     {
       "country": "Germany",
       "sex": "M",
-      "value": 133
-    },
-    {
-      "country": "Great Britain",
-      "sex": "F",
-      "value": 48
-    },
-    {
-      "country": "Great Britain",
-      "sex": "M",
-      "value": 70
+      "value": 183
     },
     {
       "country": "India",
       "sex": "M",
       "value": 173
-    },
-    {
-      "country": "Ireland-2",
-      "sex": "M",
-      "value": 12
     },
     {
       "country": "Japan",
@@ -47902,9 +47882,14 @@
       "value": 119
     },
     {
-      "country": "Scotland-3",
+      "country": "Russia",
+      "sex": "F",
+      "value": 16
+    },
+    {
+      "country": "Russia",
       "sex": "M",
-      "value": 11
+      "value": 16
     },
     {
       "country": "South Korea",
@@ -47913,16 +47898,6 @@
     },
     {
       "country": "South Korea",
-      "sex": "M",
-      "value": 16
-    },
-    {
-      "country": "Soviet Union",
-      "sex": "F",
-      "value": 16
-    },
-    {
-      "country": "Soviet Union",
       "sex": "M",
       "value": 16
     },
@@ -47937,29 +47912,24 @@
       "value": 62
     },
     {
-      "country": "United States",
+      "country": "UK",
+      "sex": "F",
+      "value": 48
+    },
+    {
+      "country": "UK",
+      "sex": "M",
+      "value": 115
+    },
+    {
+      "country": "USA",
       "sex": "F",
       "value": 16
     },
     {
-      "country": "United States",
+      "country": "USA",
       "sex": "M",
       "value": 14
-    },
-    {
-      "country": "Wales-4",
-      "sex": "M",
-      "value": 11
-    },
-    {
-      "country": "West Germany",
-      "sex": "F",
-      "value": 16
-    },
-    {
-      "country": "West Germany",
-      "sex": "M",
-      "value": 50
     },
     {
       "country": "Zimbabwe",
@@ -47998,14 +47968,14 @@
     },
     {
       "country": "China",
-      "value": 63
+      "value": 80
     },
     {
       "country": "Cuba",
       "value": 16
     },
     {
-      "country": "Czechoslovakia",
+      "country": "Czech Republic",
       "value": 16
     },
     {
@@ -48013,16 +47983,8 @@
       "value": 55
     },
     {
-      "country": "East Germany",
-      "value": 14
-    },
-    {
       "country": "Egypt",
       "value": 32
-    },
-    {
-      "country": "England-1",
-      "value": 11
     },
     {
       "country": "Finland",
@@ -48034,15 +47996,7 @@
     },
     {
       "country": "Germany",
-      "value": 223
-    },
-    {
-      "country": "Great Britain",
-      "value": 257
-    },
-    {
-      "country": "Hong Kong",
-      "value": 17
+      "value": 298
     },
     {
       "country": "Hungary",
@@ -48057,10 +48011,6 @@
       "value": 16
     },
     {
-      "country": "Ireland-2",
-      "value": 12
-    },
-    {
       "country": "Italy",
       "value": 32
     },
@@ -48073,12 +48023,8 @@
       "value": 69
     },
     {
-      "country": "Malaya",
-      "value": 17
-    },
-    {
       "country": "Malaysia",
-      "value": 91
+      "value": 107
     },
     {
       "country": "Mexico",
@@ -48101,12 +48047,8 @@
       "value": 86
     },
     {
-      "country": "Scotland-3",
-      "value": 11
-    },
-    {
-      "country": "Singapore",
-      "value": 17
+      "country": "Russia",
+      "value": 48
     },
     {
       "country": "South Africa",
@@ -48115,10 +48057,6 @@
     {
       "country": "South Korea",
       "value": 157
-    },
-    {
-      "country": "Soviet Union",
-      "value": 41
     },
     {
       "country": "Spain",
@@ -48133,24 +48071,16 @@
       "value": 16
     },
     {
-      "country": "Uganda",
-      "value": 17
+      "country": "UK",
+      "value": 301
     },
     {
-      "country": "Unified Team",
-      "value": 15
-    },
-    {
-      "country": "United States",
+      "country": "USA",
       "value": 146
     },
     {
-      "country": "Wales-4",
-      "value": 11
-    },
-    {
-      "country": "West Germany",
-      "value": 79
+      "country": "Uganda",
+      "value": 17
     },
     {
       "country": "Zimbabwe",

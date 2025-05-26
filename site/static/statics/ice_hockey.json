@@ -48516,12 +48516,7 @@
     {
       "country": "Czech Republic",
       "sex": "M",
-      "value": 45
-    },
-    {
-      "country": "Czechoslovakia",
-      "sex": "M",
-      "value": 139
+      "value": 184
     },
     {
       "country": "Finland",
@@ -48536,22 +48531,12 @@
     {
       "country": "Germany",
       "sex": "M",
-      "value": 10
-    },
-    {
-      "country": "Great Britain",
-      "sex": "M",
-      "value": 22
+      "value": 28
     },
     {
       "country": "Russia",
       "sex": "M",
-      "value": 43
-    },
-    {
-      "country": "Soviet Union",
-      "sex": "M",
-      "value": 168
+      "value": 233
     },
     {
       "country": "Sweden",
@@ -48574,24 +48559,19 @@
       "value": 29
     },
     {
-      "country": "Unified Team",
+      "country": "UK",
       "sex": "M",
       "value": 22
     },
     {
-      "country": "United States",
+      "country": "USA",
       "sex": "F",
       "value": 101
     },
     {
-      "country": "United States",
+      "country": "USA",
       "sex": "M",
       "value": 175
-    },
-    {
-      "country": "West Germany",
-      "sex": "M",
-      "value": 18
     }
   ],
   "treemap": [
@@ -48625,15 +48605,7 @@
     },
     {
       "country": "Czech Republic",
-      "value": 91
-    },
-    {
-      "country": "Czechoslovakia",
-      "value": 184
-    },
-    {
-      "country": "East Germany",
-      "value": 18
+      "value": 259
     },
     {
       "country": "Finland",
@@ -48645,11 +48617,7 @@
     },
     {
       "country": "Germany",
-      "value": 201
-    },
-    {
-      "country": "Great Britain",
-      "value": 41
+      "value": 281
     },
     {
       "country": "Hungary",
@@ -48689,7 +48657,11 @@
     },
     {
       "country": "Russia",
-      "value": 135
+      "value": 246
+    },
+    {
+      "country": "Serbia",
+      "value": 59
     },
     {
       "country": "Slovakia",
@@ -48700,10 +48672,6 @@
       "value": 22
     },
     {
-      "country": "Soviet Union",
-      "value": 106
-    },
-    {
       "country": "Sweden",
       "value": 325
     },
@@ -48712,24 +48680,16 @@
       "value": 255
     },
     {
-      "country": "Ukraine",
-      "value": 22
+      "country": "UK",
+      "value": 41
     },
     {
-      "country": "Unified Team",
-      "value": 22
-    },
-    {
-      "country": "United States",
+      "country": "USA",
       "value": 384
     },
     {
-      "country": "West Germany",
-      "value": 78
-    },
-    {
-      "country": "Yugoslavia",
-      "value": 59
+      "country": "Ukraine",
+      "value": 22
     }
   ]
 }

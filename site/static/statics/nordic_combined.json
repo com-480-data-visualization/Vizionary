@@ -14857,11 +14857,6 @@
       "value": 29
     },
     {
-      "country": "East Germany",
-      "sex": "M",
-      "value": 7
-    },
-    {
       "country": "Finland",
       "sex": "M",
       "value": 23
@@ -14874,7 +14869,7 @@
     {
       "country": "Germany",
       "sex": "M",
-      "value": 23
+      "value": 35
     },
     {
       "country": "Italy",
@@ -14899,12 +14894,7 @@
     {
       "country": "Russia",
       "sex": "M",
-      "value": 1
-    },
-    {
-      "country": "Soviet Union",
-      "sex": "M",
-      "value": 3
+      "value": 4
     },
     {
       "country": "Sweden",
@@ -14917,14 +14907,9 @@
       "value": 8
     },
     {
-      "country": "United States",
+      "country": "USA",
       "sex": "M",
       "value": 7
-    },
-    {
-      "country": "West Germany",
-      "sex": "M",
-      "value": 5
     }
   ],
   "treemap": [
@@ -14950,15 +14935,7 @@
     },
     {
       "country": "Czech Republic",
-      "value": 15
-    },
-    {
-      "country": "Czechoslovakia",
-      "value": 37
-    },
-    {
-      "country": "East Germany",
-      "value": 14
+      "value": 49
     },
     {
       "country": "Estonia",
@@ -14974,11 +14951,7 @@
     },
     {
       "country": "Germany",
-      "value": 39
-    },
-    {
-      "country": "Great Britain",
-      "value": 1
+      "value": 63
     },
     {
       "country": "Hungary",
@@ -15010,7 +14983,11 @@
     },
     {
       "country": "Russia",
-      "value": 18
+      "value": 45
+    },
+    {
+      "country": "Serbia",
+      "value": 7
     },
     {
       "country": "Slovakia",
@@ -15021,10 +14998,6 @@
       "value": 6
     },
     {
-      "country": "Soviet Union",
-      "value": 26
-    },
-    {
       "country": "Sweden",
       "value": 15
     },
@@ -15033,24 +15006,16 @@
       "value": 38
     },
     {
-      "country": "Ukraine",
-      "value": 4
+      "country": "UK",
+      "value": 1
     },
     {
-      "country": "Unified Team",
-      "value": 4
-    },
-    {
-      "country": "United States",
+      "country": "USA",
       "value": 56
     },
     {
-      "country": "West Germany",
-      "value": 12
-    },
-    {
-      "country": "Yugoslavia",
-      "value": 7
+      "country": "Ukraine",
+      "value": 4
     }
   ]
 }

@@ -23336,14 +23336,9 @@
       "value": 42
     },
     {
-      "country": "Czechoslovakia",
+      "country": "Czech Republic",
       "sex": "M",
       "value": 10
-    },
-    {
-      "country": "East Germany",
-      "sex": "M",
-      "value": 7
     },
     {
       "country": "Finland",
@@ -23363,7 +23358,7 @@
     {
       "country": "Germany",
       "sex": "M",
-      "value": 25
+      "value": 32
     },
     {
       "country": "Japan",
@@ -23381,14 +23376,19 @@
       "value": 7
     },
     {
+      "country": "Russia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "country": "Serbia",
+      "sex": "M",
+      "value": 5
+    },
+    {
       "country": "Slovenia",
       "sex": "M",
       "value": 6
-    },
-    {
-      "country": "Soviet Union",
-      "sex": "M",
-      "value": 1
     },
     {
       "country": "Sweden",
@@ -23401,14 +23401,9 @@
       "value": 5
     },
     {
-      "country": "United States",
+      "country": "USA",
       "sex": "M",
       "value": 1
-    },
-    {
-      "country": "Yugoslavia",
-      "sex": "M",
-      "value": 5
     }
   ],
   "treemap": [
@@ -23434,15 +23429,7 @@
     },
     {
       "country": "Czech Republic",
-      "value": 16
-    },
-    {
-      "country": "Czechoslovakia",
-      "value": 41
-    },
-    {
-      "country": "East Germany",
-      "value": 20
+      "value": 53
     },
     {
       "country": "Estonia",
@@ -23462,11 +23449,7 @@
     },
     {
       "country": "Germany",
-      "value": 44
-    },
-    {
-      "country": "Great Britain",
-      "value": 2
+      "value": 76
     },
     {
       "country": "Greece",
@@ -23510,7 +23493,11 @@
     },
     {
       "country": "Russia",
-      "value": 21
+      "value": 47
+    },
+    {
+      "country": "Serbia",
+      "value": 32
     },
     {
       "country": "Slovakia",
@@ -23525,10 +23512,6 @@
       "value": 5
     },
     {
-      "country": "Soviet Union",
-      "value": 24
-    },
-    {
       "country": "Spain",
       "value": 3
     },
@@ -23541,24 +23524,16 @@
       "value": 49
     },
     {
-      "country": "Ukraine",
-      "value": 7
+      "country": "UK",
+      "value": 2
     },
     {
-      "country": "Unified Team",
-      "value": 4
-    },
-    {
-      "country": "United States",
+      "country": "USA",
       "value": 72
     },
     {
-      "country": "West Germany",
-      "value": 15
-    },
-    {
-      "country": "Yugoslavia",
-      "value": 32
+      "country": "Ukraine",
+      "value": 7
     }
   ]
 }

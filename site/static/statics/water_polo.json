@@ -35895,17 +35895,7 @@
     {
       "country": "Belgium",
       "sex": "M",
-      "value": 44
-    },
-    {
-      "country": "Brussels Swimming and Water Polo Club",
-      "sex": "M",
-      "value": 10
-    },
-    {
-      "country": "Chicago Athletic Association-2",
-      "sex": "M",
-      "value": 7
+      "value": 54
     },
     {
       "country": "Croatia",
@@ -35915,17 +35905,12 @@
     {
       "country": "France",
       "sex": "M",
-      "value": 16
+      "value": 30
     },
     {
       "country": "Germany",
       "sex": "M",
-      "value": 27
-    },
-    {
-      "country": "Great Britain",
-      "sex": "M",
-      "value": 21
+      "value": 39
     },
     {
       "country": "Greece",
@@ -35948,16 +35933,6 @@
       "value": 94
     },
     {
-      "country": "Libellule de Paris",
-      "sex": "M",
-      "value": 7
-    },
-    {
-      "country": "Missouri Athletic Club-3",
-      "sex": "M",
-      "value": 7
-    },
-    {
       "country": "Netherlands",
       "sex": "F",
       "value": 12
@@ -35968,19 +35943,9 @@
       "value": 19
     },
     {
-      "country": "New York Athletic Club-1",
+      "country": "New Zealand",
       "sex": "M",
-      "value": 7
-    },
-    {
-      "country": "Osborne Swimming Club, Manchester",
-      "sex": "M",
-      "value": 7
-    },
-    {
-      "country": "Pupilles de Neptune de Lille #2-1",
-      "sex": "M",
-      "value": 8
+      "value": 1
     },
     {
       "country": "Russia",
@@ -35990,22 +35955,12 @@
     {
       "country": "Russia",
       "sex": "M",
-      "value": 25
+      "value": 116
     },
     {
       "country": "Serbia",
       "sex": "M",
-      "value": 39
-    },
-    {
-      "country": "Serbia and Montenegro",
-      "sex": "M",
-      "value": 25
-    },
-    {
-      "country": "Soviet Union",
-      "sex": "M",
-      "value": 78
+      "value": 140
     },
     {
       "country": "Spain",
@@ -36023,29 +35978,19 @@
       "value": 24
     },
     {
-      "country": "Unified Team",
+      "country": "UK",
       "sex": "M",
-      "value": 13
+      "value": 28
     },
     {
-      "country": "United States",
+      "country": "USA",
       "sex": "F",
       "value": 63
     },
     {
-      "country": "United States",
+      "country": "USA",
       "sex": "M",
-      "value": 66
-    },
-    {
-      "country": "West Germany",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "country": "Yugoslavia",
-      "sex": "M",
-      "value": 76
+      "value": 87
     }
   ],
   "treemap": [
@@ -36063,15 +36008,11 @@
     },
     {
       "country": "Belgium",
-      "value": 55
+      "value": 63
     },
     {
       "country": "Brazil",
       "value": 88
-    },
-    {
-      "country": "Brussels Swimming and Water Polo Club",
-      "value": 10
     },
     {
       "country": "Bulgaria",
@@ -36080,10 +36021,6 @@
     {
       "country": "Canada",
       "value": 58
-    },
-    {
-      "country": "Chicago Athletic Association-2",
-      "value": 7
     },
     {
       "country": "Chile",
@@ -36102,12 +36039,8 @@
       "value": 36
     },
     {
-      "country": "Czechoslovakia",
+      "country": "Czech Republic",
       "value": 39
-    },
-    {
-      "country": "East Germany",
-      "value": 11
     },
     {
       "country": "Egypt",
@@ -36115,15 +36048,11 @@
     },
     {
       "country": "France",
-      "value": 86
+      "value": 112
     },
     {
       "country": "Germany",
-      "value": 97
-    },
-    {
-      "country": "Great Britain",
-      "value": 77
+      "value": 132
     },
     {
       "country": "Greece",
@@ -36162,10 +36091,6 @@
       "value": 47
     },
     {
-      "country": "Libellule de Paris",
-      "value": 7
-    },
-    {
       "country": "Luxembourg",
       "value": 7
     },
@@ -36178,10 +36103,6 @@
       "value": 31
     },
     {
-      "country": "Missouri Athletic Club-3",
-      "value": 7
-    },
-    {
       "country": "Montenegro",
       "value": 21
     },
@@ -36190,24 +36111,12 @@
       "value": 144
     },
     {
-      "country": "New York Athletic Club-1",
-      "value": 7
-    },
-    {
-      "country": "Osborne Swimming Club, Manchester",
-      "value": 7
+      "country": "New Zealand",
+      "value": 1
     },
     {
       "country": "Portugal",
       "value": 9
-    },
-    {
-      "country": "Pupilles de Neptune de Lille #1-3",
-      "value": 7
-    },
-    {
-      "country": "Pupilles de Neptune de Lille #2-1",
-      "value": 8
     },
     {
       "country": "Romania",
@@ -36215,19 +36124,11 @@
     },
     {
       "country": "Russia",
-      "value": 65
+      "value": 134
     },
     {
       "country": "Serbia",
-      "value": 23
-    },
-    {
-      "country": "Serbia and Montenegro",
-      "value": 23
-    },
-    {
-      "country": "Singapore",
-      "value": 10
+      "value": 109
     },
     {
       "country": "Slovakia",
@@ -36242,10 +36143,6 @@
       "value": 13
     },
     {
-      "country": "Soviet Union",
-      "value": 65
-    },
-    {
       "country": "Spain",
       "value": 126
     },
@@ -36258,36 +36155,24 @@
       "value": 29
     },
     {
-      "country": "Tritons Lillois-2",
-      "value": 7
+      "country": "Syria",
+      "value": 10
+    },
+    {
+      "country": "UK",
+      "value": 84
+    },
+    {
+      "country": "USA",
+      "value": 216
     },
     {
       "country": "Ukraine",
       "value": 13
     },
     {
-      "country": "Unified Team",
-      "value": 13
-    },
-    {
-      "country": "United Arab Republic",
-      "value": 10
-    },
-    {
-      "country": "United States",
-      "value": 195
-    },
-    {
       "country": "Uruguay",
       "value": 13
-    },
-    {
-      "country": "West Germany",
-      "value": 37
-    },
-    {
-      "country": "Yugoslavia",
-      "value": 73
     }
   ]
 }

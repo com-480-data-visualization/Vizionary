@@ -59110,7 +59110,7 @@
     {
       "country": "Belgium",
       "sex": "M",
-      "value": 14
+      "value": 23
     },
     {
       "country": "Brazil",
@@ -59138,6 +59138,11 @@
       "value": 36
     },
     {
+      "country": "Canada",
+      "sex": "M",
+      "value": 13
+    },
+    {
       "country": "Chile",
       "sex": "M",
       "value": 17
@@ -59148,12 +59153,7 @@
       "value": 15
     },
     {
-      "country": "Christian Brothers' College-1",
-      "sex": "M",
-      "value": 11
-    },
-    {
-      "country": "Czechoslovakia",
+      "country": "Czech Republic",
       "sex": "M",
       "value": 33
     },
@@ -59163,19 +59163,9 @@
       "value": 65
     },
     {
-      "country": "East Germany",
-      "sex": "M",
-      "value": 51
-    },
-    {
       "country": "France",
       "sex": "M",
-      "value": 16
-    },
-    {
-      "country": "Galt Football Club",
-      "sex": "M",
-      "value": 13
+      "value": 32
     },
     {
       "country": "Germany",
@@ -59185,7 +59175,7 @@
     {
       "country": "Germany",
       "sex": "M",
-      "value": 36
+      "value": 105
     },
     {
       "country": "Ghana",
@@ -59193,9 +59183,9 @@
       "value": 20
     },
     {
-      "country": "Great Britain",
+      "country": "Greece",
       "sex": "M",
-      "value": 25
+      "value": 11
     },
     {
       "country": "Hungary",
@@ -59225,7 +59215,7 @@
     {
       "country": "Netherlands",
       "sex": "M",
-      "value": 41
+      "value": 42
     },
     {
       "country": "Nigeria",
@@ -59253,9 +59243,14 @@
       "value": 50
     },
     {
-      "country": "Smyrna",
+      "country": "Russia",
       "sex": "M",
-      "value": 11
+      "value": 87
+    },
+    {
+      "country": "Serbia",
+      "sex": "M",
+      "value": 73
     },
     {
       "country": "South Korea",
@@ -59263,19 +59258,9 @@
       "value": 18
     },
     {
-      "country": "Soviet Union",
-      "sex": "M",
-      "value": 87
-    },
-    {
       "country": "Spain",
       "sex": "M",
       "value": 52
-    },
-    {
-      "country": "St. Rose-2",
-      "sex": "M",
-      "value": 12
     },
     {
       "country": "Sweden",
@@ -59293,44 +59278,24 @@
       "value": 15
     },
     {
-      "country": "Thessalonki-1",
+      "country": "UK",
       "sex": "M",
-      "value": 11
+      "value": 45
     },
     {
-      "country": "USFSA",
-      "sex": "M",
-      "value": 13
-    },
-    {
-      "country": "United States",
+      "country": "USA",
       "sex": "F",
       "value": 79
     },
     {
-      "country": "Univ. of Brussels",
+      "country": "USA",
       "sex": "M",
-      "value": 11
-    },
-    {
-      "country": "Upton Park FC",
-      "sex": "M",
-      "value": 11
+      "value": 23
     },
     {
       "country": "Uruguay",
       "sex": "M",
       "value": 31
-    },
-    {
-      "country": "West Germany",
-      "sex": "M",
-      "value": 18
-    },
-    {
-      "country": "Yugoslavia",
-      "sex": "M",
-      "value": 73
     }
   ],
   "treemap": [
@@ -59347,10 +59312,6 @@
       "value": 140
     },
     {
-      "country": "Athens-2",
-      "value": 11
-    },
-    {
       "country": "Australia",
       "value": 153
     },
@@ -59364,7 +59325,7 @@
     },
     {
       "country": "Belgium",
-      "value": 49
+      "value": 58
     },
     {
       "country": "Brazil",
@@ -59380,7 +59341,7 @@
     },
     {
       "country": "Canada",
-      "value": 65
+      "value": 78
     },
     {
       "country": "Chile",
@@ -59391,14 +59352,6 @@
       "value": 110
     },
     {
-      "country": "Chinese Taipei",
-      "value": 13
-    },
-    {
-      "country": "Christian Brothers' College-1",
-      "value": 11
-    },
-    {
       "country": "Colombia",
       "value": 111
     },
@@ -59407,28 +59360,20 @@
       "value": 44
     },
     {
-      "country": "Cote d'Ivoire",
-      "value": 16
-    },
-    {
       "country": "Cuba",
       "value": 25
     },
     {
-      "country": "Czech Republic",
-      "value": 16
+      "country": "Curacao",
+      "value": 11
     },
     {
-      "country": "Czechoslovakia",
-      "value": 79
+      "country": "Czech Republic",
+      "value": 95
     },
     {
       "country": "Denmark",
       "value": 137
-    },
-    {
-      "country": "East Germany",
-      "value": 46
     },
     {
       "country": "Egypt",
@@ -59452,39 +59397,23 @@
     },
     {
       "country": "France",
-      "value": 156
-    },
-    {
-      "country": "France-1",
-      "value": 11
-    },
-    {
-      "country": "France-2",
-      "value": 11
+      "value": 194
     },
     {
       "country": "Gabon",
       "value": 15
     },
     {
-      "country": "Galt Football Club",
-      "value": 13
-    },
-    {
       "country": "Germany",
-      "value": 165
+      "value": 258
     },
     {
       "country": "Ghana",
       "value": 88
     },
     {
-      "country": "Great Britain",
-      "value": 132
-    },
-    {
       "country": "Greece",
-      "value": 56
+      "value": 78
     },
     {
       "country": "Guatemala",
@@ -59531,6 +59460,10 @@
       "value": 223
     },
     {
+      "country": "Ivory Coast",
+      "value": 16
+    },
+    {
       "country": "Japan",
       "value": 185
     },
@@ -59572,11 +59505,7 @@
     },
     {
       "country": "Netherlands",
-      "value": 101
-    },
-    {
-      "country": "Netherlands Antilles",
-      "value": 11
+      "value": 102
     },
     {
       "country": "New Zealand",
@@ -59620,7 +59549,7 @@
     },
     {
       "country": "Russia",
-      "value": 15
+      "value": 110
     },
     {
       "country": "Saudi Arabia",
@@ -59632,19 +59561,11 @@
     },
     {
       "country": "Serbia",
-      "value": 15
-    },
-    {
-      "country": "Serbia and Montenegro",
-      "value": 17
+      "value": 178
     },
     {
       "country": "Slovakia",
       "value": 18
-    },
-    {
-      "country": "Smyrna",
-      "value": 11
     },
     {
       "country": "South Africa",
@@ -59655,16 +59576,8 @@
       "value": 148
     },
     {
-      "country": "Soviet Union",
-      "value": 95
-    },
-    {
       "country": "Spain",
       "value": 159
-    },
-    {
-      "country": "St. Rose-2",
-      "value": 12
     },
     {
       "country": "Sudan",
@@ -59680,15 +59593,15 @@
     },
     {
       "country": "Syria",
-      "value": 15
+      "value": 32
+    },
+    {
+      "country": "Taiwan",
+      "value": 13
     },
     {
       "country": "Thailand",
       "value": 27
-    },
-    {
-      "country": "Thessalonki-1",
-      "value": 11
     },
     {
       "country": "Tunisia",
@@ -59699,28 +59612,16 @@
       "value": 62
     },
     {
-      "country": "USFSA",
-      "value": 13
+      "country": "UK",
+      "value": 152
+    },
+    {
+      "country": "USA",
+      "value": 245
     },
     {
       "country": "United Arab Emirates",
       "value": 18
-    },
-    {
-      "country": "United Arab Republic",
-      "value": 17
-    },
-    {
-      "country": "United States",
-      "value": 222
-    },
-    {
-      "country": "Univ. of Brussels",
-      "value": 11
-    },
-    {
-      "country": "Upton Park FC",
-      "value": 11
     },
     {
       "country": "Uruguay",
@@ -59729,14 +59630,6 @@
     {
       "country": "Venezuela",
       "value": 16
-    },
-    {
-      "country": "West Germany",
-      "value": 48
-    },
-    {
-      "country": "Yugoslavia",
-      "value": 146
     },
     {
       "country": "Zambia",

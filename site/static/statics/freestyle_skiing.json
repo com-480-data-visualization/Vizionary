@@ -9019,7 +9019,7 @@
     {
       "country": "Russia",
       "sex": "F",
-      "value": 1
+      "value": 2
     },
     {
       "country": "Russia",
@@ -9042,17 +9042,12 @@
       "value": 2
     },
     {
-      "country": "Unified Team",
-      "sex": "F",
-      "value": 1
-    },
-    {
-      "country": "United States",
+      "country": "USA",
       "sex": "F",
       "value": 9
     },
     {
-      "country": "United States",
+      "country": "USA",
       "sex": "M",
       "value": 12
     },
@@ -9092,10 +9087,6 @@
       "value": 1
     },
     {
-      "country": "British Virgin Islands",
-      "value": 1
-    },
-    {
       "country": "Canada",
       "value": 70
     },
@@ -9126,10 +9117,6 @@
     {
       "country": "Germany",
       "value": 23
-    },
-    {
-      "country": "Great Britain",
-      "value": 19
     },
     {
       "country": "Italy",
@@ -9185,7 +9172,7 @@
     },
     {
       "country": "Russia",
-      "value": 47
+      "value": 51
     },
     {
       "country": "Slovakia",
@@ -9212,20 +9199,24 @@
       "value": 46
     },
     {
+      "country": "UK",
+      "value": 19
+    },
+    {
+      "country": "USA",
+      "value": 70
+    },
+    {
       "country": "Ukraine",
       "value": 18
     },
     {
-      "country": "Unified Team",
-      "value": 8
-    },
-    {
-      "country": "United States",
-      "value": 70
-    },
-    {
       "country": "Uzbekistan",
       "value": 3
+    },
+    {
+      "country": "Virgin Islands, British",
+      "value": 1
     }
   ]
 }

@@ -14685,57 +14685,17 @@
     {
       "country": "Austria",
       "sex": "M",
-      "value": 5
-    },
-    {
-      "country": "Austria-1",
-      "sex": "M",
-      "value": 14
-    },
-    {
-      "country": "Austria-2",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "East Germany",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "country": "East Germany",
-      "sex": "M",
-      "value": 9
-    },
-    {
-      "country": "East Germany-1",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "country": "East Germany-2",
-      "sex": "M",
-      "value": 4
+      "value": 21
     },
     {
       "country": "Germany",
       "sex": "F",
-      "value": 17
+      "value": 32
     },
     {
       "country": "Germany",
       "sex": "M",
-      "value": 14
-    },
-    {
-      "country": "Germany-1",
-      "sex": "M",
-      "value": 10
-    },
-    {
-      "country": "Germany-2",
-      "sex": "M",
-      "value": 6
+      "value": 66
     },
     {
       "country": "Italy",
@@ -14744,86 +14704,36 @@
     },
     {
       "country": "Italy",
+      "sex": "M",
+      "value": 22
+    },
+    {
+      "country": "Latvia",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "country": "Latvia",
       "sex": "M",
       "value": 8
     },
     {
-      "country": "Italy-1",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "country": "Italy-2",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Latvia",
-      "sex": "F",
-      "value": 1
-    },
-    {
-      "country": "Latvia",
-      "sex": "M",
-      "value": 4
-    },
-    {
-      "country": "Latvia-1",
-      "sex": "M",
-      "value": 4
-    },
-    {
       "country": "Russia",
       "sex": "F",
-      "value": 1
+      "value": 3
     },
     {
       "country": "Russia",
       "sex": "M",
-      "value": 5
+      "value": 10
     },
     {
-      "country": "Soviet Union",
-      "sex": "F",
-      "value": 2
-    },
-    {
-      "country": "Soviet Union",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Soviet Union-1",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "United States",
+      "country": "USA",
       "sex": "F",
       "value": 1
     },
     {
-      "country": "United States-1",
-      "sex": "M",
-      "value": 4
-    },
-    {
-      "country": "United States-2",
-      "sex": "M",
-      "value": 4
-    },
-    {
-      "country": "West Germany",
-      "sex": "F",
-      "value": 3
-    },
-    {
-      "country": "West Germany",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "West Germany-1",
+      "country": "USA",
       "sex": "M",
       "value": 8
     }
@@ -14839,15 +14749,7 @@
     },
     {
       "country": "Austria",
-      "value": 47
-    },
-    {
-      "country": "Austria-1",
-      "value": 14
-    },
-    {
-      "country": "Austria-2",
-      "value": 17
+      "value": 55
     },
     {
       "country": "Bermuda",
@@ -14867,47 +14769,15 @@
     },
     {
       "country": "Canada",
-      "value": 43
+      "value": 49
     },
     {
-      "country": "Canada-1",
-      "value": 10
-    },
-    {
-      "country": "Canada-2",
-      "value": 11
-    },
-    {
-      "country": "Chinese Taipei",
-      "value": 11
+      "country": "Curacao",
+      "value": 1
     },
     {
       "country": "Czech Republic",
-      "value": 9
-    },
-    {
-      "country": "Czechoslovakia",
-      "value": 17
-    },
-    {
-      "country": "Czechoslovakia-1",
-      "value": 4
-    },
-    {
-      "country": "Czechoslovakia-2",
-      "value": 4
-    },
-    {
-      "country": "East Germany",
-      "value": 27
-    },
-    {
-      "country": "East Germany-1",
-      "value": 8
-    },
-    {
-      "country": "East Germany-2",
-      "value": 10
+      "value": 26
     },
     {
       "country": "Estonia",
@@ -14923,27 +14793,7 @@
     },
     {
       "country": "Germany",
-      "value": 28
-    },
-    {
-      "country": "Germany-1",
-      "value": 10
-    },
-    {
-      "country": "Germany-2",
-      "value": 10
-    },
-    {
-      "country": "Great Britain",
-      "value": 24
-    },
-    {
-      "country": "Great Britain-1",
-      "value": 6
-    },
-    {
-      "country": "Great Britain-2",
-      "value": 5
+      "value": 103
     },
     {
       "country": "Greece",
@@ -14959,27 +14809,11 @@
     },
     {
       "country": "Italy",
-      "value": 45
-    },
-    {
-      "country": "Italy-1",
-      "value": 18
-    },
-    {
-      "country": "Italy-2",
-      "value": 20
+      "value": 55
     },
     {
       "country": "Japan",
       "value": 32
-    },
-    {
-      "country": "Japan-1",
-      "value": 2
-    },
-    {
-      "country": "Japan-2",
-      "value": 2
     },
     {
       "country": "Kazakhstan",
@@ -14987,15 +14821,7 @@
     },
     {
       "country": "Latvia",
-      "value": 23
-    },
-    {
-      "country": "Latvia-1",
-      "value": 5
-    },
-    {
-      "country": "Latvia-2",
-      "value": 5
+      "value": 28
     },
     {
       "country": "Liechtenstein",
@@ -15006,24 +14832,12 @@
       "value": 2
     },
     {
-      "country": "Netherlands Antilles",
-      "value": 1
-    },
-    {
       "country": "New Zealand",
       "value": 1
     },
     {
       "country": "Norway",
-      "value": 16
-    },
-    {
-      "country": "Norway-1",
-      "value": 4
-    },
-    {
-      "country": "Norway-2",
-      "value": 2
+      "value": 20
     },
     {
       "country": "Philippines",
@@ -15031,15 +14845,7 @@
     },
     {
       "country": "Poland",
-      "value": 32
-    },
-    {
-      "country": "Poland-1",
-      "value": 8
-    },
-    {
-      "country": "Poland-2",
-      "value": 7
+      "value": 37
     },
     {
       "country": "Puerto Rico",
@@ -15047,39 +14853,19 @@
     },
     {
       "country": "Romania",
-      "value": 17
-    },
-    {
-      "country": "Romania-1",
-      "value": 4
-    },
-    {
-      "country": "Romania-2",
-      "value": 6
+      "value": 23
     },
     {
       "country": "Russia",
-      "value": 22
+      "value": 66
     },
     {
-      "country": "Russia-1",
-      "value": 11
-    },
-    {
-      "country": "Russia-2",
-      "value": 11
+      "country": "Serbia",
+      "value": 5
     },
     {
       "country": "Slovakia",
-      "value": 13
-    },
-    {
-      "country": "Slovakia-1",
-      "value": 2
-    },
-    {
-      "country": "Slovakia-2",
-      "value": 2
+      "value": 15
     },
     {
       "country": "Slovenia",
@@ -15087,18 +14873,6 @@
     },
     {
       "country": "South Korea",
-      "value": 10
-    },
-    {
-      "country": "Soviet Union",
-      "value": 20
-    },
-    {
-      "country": "Soviet Union-1",
-      "value": 8
-    },
-    {
-      "country": "Soviet Union-2",
       "value": 10
     },
     {
@@ -15111,79 +14885,35 @@
     },
     {
       "country": "Switzerland",
-      "value": 13
+      "value": 15
     },
     {
-      "country": "Switzerland-1",
-      "value": 2
-    },
-    {
-      "country": "Switzerland-2",
-      "value": 2
+      "country": "Taiwan",
+      "value": 11
     },
     {
       "country": "Tonga",
       "value": 1
     },
     {
+      "country": "UK",
+      "value": 28
+    },
+    {
+      "country": "USA",
+      "value": 84
+    },
+    {
       "country": "Ukraine",
-      "value": 13
-    },
-    {
-      "country": "Ukraine-1",
-      "value": 4
-    },
-    {
-      "country": "Ukraine-2",
-      "value": 6
-    },
-    {
-      "country": "Unified Team",
-      "value": 6
-    },
-    {
-      "country": "Unified Team-1",
-      "value": 2
-    },
-    {
-      "country": "Unified Team-2",
-      "value": 2
-    },
-    {
-      "country": "United States",
-      "value": 59
-    },
-    {
-      "country": "United States Virgin Islands",
-      "value": 3
-    },
-    {
-      "country": "United States-1",
-      "value": 23
-    },
-    {
-      "country": "United States-2",
-      "value": 16
+      "value": 17
     },
     {
       "country": "Venezuela",
       "value": 4
     },
     {
-      "country": "West Germany",
-      "value": 24
-    },
-    {
-      "country": "West Germany-1",
-      "value": 10
-    },
-    {
-      "country": "West Germany-2",
-      "value": 11
-    },
-    {
-      "country": "Yugoslavia",
-      "value": 5
+      "country": "Virgin Islands, US",
+      "value": 3
     }
   ]
 }

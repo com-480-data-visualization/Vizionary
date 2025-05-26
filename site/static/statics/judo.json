@@ -33062,17 +33062,7 @@
     {
       "country": "Czech Republic",
       "sex": "M",
-      "value": 1
-    },
-    {
-      "country": "Czechoslovakia",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "country": "East Germany",
-      "sex": "M",
-      "value": 9
+      "value": 2
     },
     {
       "country": "Egypt",
@@ -33107,17 +33097,7 @@
     {
       "country": "Germany",
       "sex": "M",
-      "value": 13
-    },
-    {
-      "country": "Great Britain",
-      "sex": "F",
-      "value": 7
-    },
-    {
-      "country": "Great Britain",
-      "sex": "M",
-      "value": 12
+      "value": 30
     },
     {
       "country": "Greece",
@@ -33257,12 +33237,17 @@
     {
       "country": "Russia",
       "sex": "F",
-      "value": 3
+      "value": 4
     },
     {
       "country": "Russia",
       "sex": "M",
-      "value": 13
+      "value": 39
+    },
+    {
+      "country": "Serbia",
+      "sex": "M",
+      "value": 2
     },
     {
       "country": "Slovakia",
@@ -33283,11 +33268,6 @@
       "country": "South Korea",
       "sex": "M",
       "value": 33
-    },
-    {
-      "country": "Soviet Union",
-      "sex": "M",
-      "value": 23
     },
     {
       "country": "Spain",
@@ -33320,17 +33300,27 @@
       "value": 1
     },
     {
-      "country": "Ukraine",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Unified Team",
+      "country": "UK",
       "sex": "F",
-      "value": 1
+      "value": 7
     },
     {
-      "country": "Unified Team",
+      "country": "UK",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "country": "USA",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "country": "USA",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "country": "Ukraine",
       "sex": "M",
       "value": 3
     },
@@ -33340,29 +33330,9 @@
       "value": 1
     },
     {
-      "country": "United States",
-      "sex": "F",
-      "value": 4
-    },
-    {
-      "country": "United States",
-      "sex": "M",
-      "value": 10
-    },
-    {
       "country": "Uzbekistan",
       "sex": "M",
       "value": 6
-    },
-    {
-      "country": "West Germany",
-      "sex": "M",
-      "value": 8
-    },
-    {
-      "country": "Yugoslavia",
-      "sex": "M",
-      "value": 2
     }
   ],
   "treemap": [
@@ -33435,7 +33405,7 @@
       "value": 3
     },
     {
-      "country": "Bolivia",
+      "country": "Boliva",
       "value": 6
     },
     {
@@ -33492,31 +33462,15 @@
     },
     {
       "country": "China",
-      "value": 66
-    },
-    {
-      "country": "Chinese Taipei",
-      "value": 39
+      "value": 79
     },
     {
       "country": "Colombia",
       "value": 8
     },
     {
-      "country": "Congo (Brazzaville)",
-      "value": 7
-    },
-    {
-      "country": "Congo (Kinshasa)",
-      "value": 9
-    },
-    {
       "country": "Costa Rica",
       "value": 13
-    },
-    {
-      "country": "Cote d'Ivoire",
-      "value": 11
     },
     {
       "country": "Croatia",
@@ -33527,16 +33481,20 @@
       "value": 53
     },
     {
+      "country": "Curacao",
+      "value": 3
+    },
+    {
       "country": "Cyprus",
       "value": 10
     },
     {
       "country": "Czech Republic",
-      "value": 10
+      "value": 21
     },
     {
-      "country": "Czechoslovakia",
-      "value": 11
+      "country": "Democratic Republic of the Congo",
+      "value": 9
     },
     {
       "country": "Denmark",
@@ -33549,10 +33507,6 @@
     {
       "country": "Dominican Republic",
       "value": 19
-    },
-    {
-      "country": "East Germany",
-      "value": 15
     },
     {
       "country": "Ecuador",
@@ -33600,15 +33554,11 @@
     },
     {
       "country": "Germany",
-      "value": 65
+      "value": 95
     },
     {
       "country": "Ghana",
       "value": 2
-    },
-    {
-      "country": "Great Britain",
-      "value": 73
     },
     {
       "country": "Greece",
@@ -33627,7 +33577,7 @@
       "value": 10
     },
     {
-      "country": "Guinea Bissau",
+      "country": "Guinea-Bissau",
       "value": 1
     },
     {
@@ -33641,10 +33591,6 @@
     {
       "country": "Honduras",
       "value": 7
-    },
-    {
-      "country": "Hong Kong",
-      "value": 13
     },
     {
       "country": "Hungary",
@@ -33685,6 +33631,10 @@
     {
       "country": "Italy",
       "value": 48
+    },
+    {
+      "country": "Ivory Coast",
+      "value": 11
     },
     {
       "country": "Japan",
@@ -33811,10 +33761,6 @@
       "value": 54
     },
     {
-      "country": "Netherlands Antilles",
-      "value": 3
-    },
-    {
       "country": "New Zealand",
       "value": 15
     },
@@ -33833,10 +33779,6 @@
     {
       "country": "North Korea",
       "value": 29
-    },
-    {
-      "country": "North Yemen",
-      "value": 2
     },
     {
       "country": "Norway",
@@ -33891,8 +33833,8 @@
       "value": 1
     },
     {
-      "country": "Refugee Olympic Athletes",
-      "value": 2
+      "country": "Republic of Congo",
+      "value": 7
     },
     {
       "country": "Romania",
@@ -33900,7 +33842,7 @@
     },
     {
       "country": "Russia",
-      "value": 57
+      "value": 94
     },
     {
       "country": "Rwanda",
@@ -33924,18 +33866,10 @@
     },
     {
       "country": "Serbia",
-      "value": 2
-    },
-    {
-      "country": "Serbia and Montenegro",
-      "value": 4
+      "value": 21
     },
     {
       "country": "Seychelles",
-      "value": 2
-    },
-    {
-      "country": "Singapore",
       "value": 2
     },
     {
@@ -33957,14 +33891,6 @@
     {
       "country": "South Korea",
       "value": 96
-    },
-    {
-      "country": "South Vietnam",
-      "value": 3
-    },
-    {
-      "country": "Soviet Union",
-      "value": 28
     },
     {
       "country": "Spain",
@@ -33995,6 +33921,10 @@
       "value": 9
     },
     {
+      "country": "Taiwan",
+      "value": 39
+    },
+    {
       "country": "Tajikistan",
       "value": 9
     },
@@ -34015,7 +33945,7 @@
       "value": 1
     },
     {
-      "country": "Trinidad and Tobago",
+      "country": "Trinidad",
       "value": 1
     },
     {
@@ -34031,20 +33961,20 @@
       "value": 7
     },
     {
+      "country": "UK",
+      "value": 73
+    },
+    {
+      "country": "USA",
+      "value": 71
+    },
+    {
       "country": "Ukraine",
       "value": 30
     },
     {
-      "country": "Unified Team",
-      "value": 13
-    },
-    {
       "country": "United Arab Emirates",
       "value": 5
-    },
-    {
-      "country": "United States",
-      "value": 71
     },
     {
       "country": "Uruguay",
@@ -34064,19 +33994,11 @@
     },
     {
       "country": "Vietnam",
-      "value": 2
-    },
-    {
-      "country": "West Germany",
-      "value": 18
+      "value": 5
     },
     {
       "country": "Yemen",
-      "value": 7
-    },
-    {
-      "country": "Yugoslavia",
-      "value": 15
+      "value": 9
     },
     {
       "country": "Zambia",

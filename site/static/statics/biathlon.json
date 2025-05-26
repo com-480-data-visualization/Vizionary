@@ -42108,11 +42108,6 @@
       "value": 5
     },
     {
-      "country": "East Germany",
-      "sex": "M",
-      "value": 20
-    },
-    {
       "country": "Finland",
       "sex": "M",
       "value": 12
@@ -42135,7 +42130,7 @@
     {
       "country": "Germany",
       "sex": "M",
-      "value": 38
+      "value": 72
     },
     {
       "country": "Italy",
@@ -42170,12 +42165,12 @@
     {
       "country": "Russia",
       "sex": "F",
-      "value": 31
+      "value": 37
     },
     {
       "country": "Russia",
       "sex": "M",
-      "value": 26
+      "value": 68
     },
     {
       "country": "Slovakia",
@@ -42191,11 +42186,6 @@
       "country": "Slovenia",
       "sex": "F",
       "value": 1
-    },
-    {
-      "country": "Soviet Union",
-      "sex": "M",
-      "value": 37
     },
     {
       "country": "Sweden",
@@ -42216,21 +42206,6 @@
       "country": "Ukraine",
       "sex": "F",
       "value": 8
-    },
-    {
-      "country": "Unified Team",
-      "sex": "F",
-      "value": 6
-    },
-    {
-      "country": "Unified Team",
-      "sex": "M",
-      "value": 5
-    },
-    {
-      "country": "West Germany",
-      "sex": "M",
-      "value": 14
     }
   ],
   "treemap": [
@@ -42279,10 +42254,6 @@
       "value": 31
     },
     {
-      "country": "Chinese Taipei",
-      "value": 2
-    },
-    {
       "country": "Costa Rica",
       "value": 1
     },
@@ -42292,19 +42263,11 @@
     },
     {
       "country": "Czech Republic",
-      "value": 27
-    },
-    {
-      "country": "Czechoslovakia",
-      "value": 26
+      "value": 46
     },
     {
       "country": "Denmark",
       "value": 1
-    },
-    {
-      "country": "East Germany",
-      "value": 22
     },
     {
       "country": "Estonia",
@@ -42320,11 +42283,7 @@
     },
     {
       "country": "Germany",
-      "value": 45
-    },
-    {
-      "country": "Great Britain",
-      "value": 32
+      "value": 82
     },
     {
       "country": "Greece",
@@ -42392,15 +42351,11 @@
     },
     {
       "country": "Russia",
-      "value": 43
+      "value": 69
     },
     {
       "country": "Serbia",
-      "value": 1
-    },
-    {
-      "country": "Serbia and Montenegro",
-      "value": 1
+      "value": 11
     },
     {
       "country": "Slovakia",
@@ -42415,10 +42370,6 @@
       "value": 15
     },
     {
-      "country": "Soviet Union",
-      "value": 22
-    },
-    {
       "country": "Spain",
       "value": 5
     },
@@ -42431,24 +42382,20 @@
       "value": 26
     },
     {
-      "country": "Ukraine",
-      "value": 33
+      "country": "Taiwan",
+      "value": 2
     },
     {
-      "country": "Unified Team",
-      "value": 11
+      "country": "UK",
+      "value": 32
     },
     {
-      "country": "United States",
+      "country": "USA",
       "value": 70
     },
     {
-      "country": "West Germany",
-      "value": 18
-    },
-    {
-      "country": "Yugoslavia",
-      "value": 9
+      "country": "Ukraine",
+      "value": 33
     }
   ]
 }

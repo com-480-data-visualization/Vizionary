@@ -57676,36 +57676,6 @@
   ],
   "map": [
     {
-      "country": "Ali-Baba II",
-      "sex": "M",
-      "value": 5
-    },
-    {
-      "country": "Ancora",
-      "sex": "F",
-      "value": 1
-    },
-    {
-      "country": "Ancora",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Angelita",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "country": "Antwerpia V",
-      "sex": "M",
-      "value": 5
-    },
-    {
-      "country": "Aphrodite",
-      "sex": "M",
-      "value": 3
-    },
-    {
       "country": "Argentina",
       "sex": "F",
       "value": 2
@@ -57713,17 +57683,7 @@
     {
       "country": "Argentina",
       "sex": "M",
-      "value": 11
-    },
-    {
-      "country": "Aschenbrodel",
-      "sex": "M",
-      "value": 8
-    },
-    {
-      "country": "Atlanta",
-      "sex": "M",
-      "value": 9
+      "value": 19
     },
     {
       "country": "Australia",
@@ -57733,7 +57693,7 @@
     {
       "country": "Australia",
       "sex": "M",
-      "value": 37
+      "value": 45
     },
     {
       "country": "Austria",
@@ -57746,24 +57706,9 @@
       "value": 11
     },
     {
-      "country": "Baby-1",
+      "country": "Bahamas",
       "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Ballerina IV",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Barrenjoey",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Beatrijs III-1",
-      "sex": "M",
-      "value": 3
+      "value": 4
     },
     {
       "country": "Belgium",
@@ -57773,47 +57718,7 @@
     {
       "country": "Belgium",
       "sex": "M",
-      "value": 4
-    },
-    {
-      "country": "Bem II",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Bera",
-      "sex": "M",
-      "value": 5
-    },
-    {
-      "country": "Bingo",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Bissbi",
-      "sex": "M",
-      "value": 4
-    },
-    {
-      "country": "Bluebottle",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Bona Fide",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Bonzo",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Boreas-2",
-      "sex": "M",
-      "value": 2
+      "value": 18
     },
     {
       "country": "Brazil",
@@ -57826,74 +57731,29 @@
       "value": 30
     },
     {
-      "country": "Brynhild-2",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "country": "Buraddoo",
-      "sex": "M",
-      "value": 3
-    },
-    {
       "country": "Canada",
       "sex": "M",
-      "value": 15
-    },
-    {
-      "country": "Caprice",
-      "sex": "M",
-      "value": 4
-    },
-    {
-      "country": "Carabinier-15",
-      "sex": "M",
-      "value": 1
+      "value": 25
     },
     {
       "country": "China",
       "sex": "F",
-      "value": 6
-    },
-    {
-      "country": "Chuckles",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Cicely-1",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "country": "Cobweb-1",
-      "sex": "M",
-      "value": 5
-    },
-    {
-      "country": "Comanche",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Complex II",
-      "sex": "M",
-      "value": 4
-    },
-    {
-      "country": "Crabe II-1",
-      "sex": "M",
-      "value": 5
-    },
-    {
-      "country": "Crabe II-4",
-      "sex": "M",
-      "value": 5
+      "value": 7
     },
     {
       "country": "Croatia",
       "sex": "M",
       "value": 3
+    },
+    {
+      "country": "Cuba",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "country": "Curacao",
+      "sex": "M",
+      "value": 1
     },
     {
       "country": "Cyprus",
@@ -57913,102 +57773,12 @@
     {
       "country": "Denmark",
       "sex": "M",
-      "value": 34
-    },
-    {
-      "country": "Djinn",
-      "sex": "M",
-      "value": 5
-    },
-    {
-      "country": "Dormy-1",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "East Germany",
-      "sex": "M",
-      "value": 15
-    },
-    {
-      "country": "Edelweiss II-1",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Eleda",
-      "sex": "M",
-      "value": 7
-    },
-    {
-      "country": "Elisabeth V",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Elisabeth X",
-      "sex": "M",
-      "value": 5
-    },
-    {
-      "country": "Elsie",
-      "sex": "M",
-      "value": 4
-    },
-    {
-      "country": "Emily",
-      "sex": "M",
-      "value": 5
-    },
-    {
-      "country": "Encore",
-      "sex": "F",
-      "value": 1
-    },
-    {
-      "country": "Encore",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Erna Signe",
-      "sex": "M",
-      "value": 10
-    },
-    {
-      "country": "Espadarte",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Esterel-1",
-      "sex": "M",
-      "value": 2
+      "value": 58
     },
     {
       "country": "Estonia",
       "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Falcon IV",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Fantlet-7",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "country": "Favorite-1",
-      "sex": "M",
-      "value": 8
-    },
-    {
-      "country": "Femur-1",
-      "sex": "M",
-      "value": 1
+      "value": 7
     },
     {
       "country": "Finland",
@@ -58018,57 +57788,17 @@
     {
       "country": "Finland",
       "sex": "M",
-      "value": 7
-    },
-    {
-      "country": "Formosa",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "country": "Fornebo",
-      "sex": "M",
-      "value": 4
+      "value": 31
     },
     {
       "country": "France",
       "sex": "F",
-      "value": 4
+      "value": 5
     },
     {
       "country": "France",
       "sex": "M",
-      "value": 21
-    },
-    {
-      "country": "Frimousse",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "country": "Gallant",
-      "sex": "M",
-      "value": 5
-    },
-    {
-      "country": "Gallia II",
-      "sex": "M",
-      "value": 7
-    },
-    {
-      "country": "Gem",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Gem IV",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Germania II",
-      "sex": "M",
-      "value": 6
+      "value": 112
     },
     {
       "country": "Germany",
@@ -58078,27 +57808,7 @@
     {
       "country": "Germany",
       "sex": "M",
-      "value": 13
-    },
-    {
-      "country": "Gitana-2",
-      "sex": "M",
-      "value": 10
-    },
-    {
-      "country": "Glider",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Great Britain",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "country": "Great Britain",
-      "sex": "M",
-      "value": 50
+      "value": 68
     },
     {
       "country": "Greece",
@@ -58108,77 +57818,7 @@
     {
       "country": "Greece",
       "sex": "M",
-      "value": 8
-    },
-    {
-      "country": "Gustel X",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Guyoni",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Gwendoline-2",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Heatherbell",
-      "sex": "M",
-      "value": 7
-    },
-    {
-      "country": "Heira II",
-      "sex": "M",
-      "value": 9
-    },
-    {
-      "country": "Hera-1",
-      "sex": "M",
-      "value": 10
-    },
-    {
-      "country": "Heroine",
-      "sex": "F",
-      "value": 1
-    },
-    {
-      "country": "Heroine",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Hi-Hi",
-      "sex": "M",
-      "value": 4
-    },
-    {
-      "country": "Hilarius",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Hojwa",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Hollandia",
-      "sex": "M",
-      "value": 6
-    },
-    {
-      "country": "Hong Kong",
-      "sex": "F",
-      "value": 1
-    },
-    {
-      "country": "Humbug V",
-      "sex": "M",
-      "value": 2
+      "value": 11
     },
     {
       "country": "Hungary",
@@ -58196,21 +57836,11 @@
       "value": 2
     },
     {
-      "country": "Irene",
-      "sex": "M",
-      "value": 5
-    },
-    {
       "country": "Israel",
       "sex": "M",
       "value": 3
     },
     {
-      "country": "Italia",
-      "sex": "M",
-      "value": 6
-    },
-    {
       "country": "Italy",
       "sex": "F",
       "value": 4
@@ -58218,7 +57848,7 @@
     {
       "country": "Italy",
       "sex": "M",
-      "value": 9
+      "value": 22
     },
     {
       "country": "Japan",
@@ -58229,206 +57859,11 @@
       "country": "Japan",
       "sex": "M",
       "value": 2
-    },
-    {
-      "country": "Jest",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Jo",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Joy",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Jupiter",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Kathleen",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Kerstin-1",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Kitty-1",
-      "sex": "M",
-      "value": 8
-    },
-    {
-      "country": "Kullan",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Kurush II",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "L'Aile VI",
-      "sex": "F",
-      "value": 1
-    },
-    {
-      "country": "L'Aile VI",
-      "sex": "M",
-      "value": 5
-    },
-    {
-      "country": "Lady C",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Lalage",
-      "sex": "M",
-      "value": 5
-    },
-    {
-      "country": "Laurea-1",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "country": "Lerina",
-      "sex": "F",
-      "value": 2
-    },
-    {
-      "country": "Lerina",
-      "sex": "M",
-      "value": 4
     },
     {
       "country": "Lithuania",
       "sex": "F",
       "value": 1
-    },
-    {
-      "country": "Llanoria",
-      "sex": "F",
-      "value": 1
-    },
-    {
-      "country": "Llanoria",
-      "sex": "M",
-      "value": 10
-    },
-    {
-      "country": "Lucky Girl-1",
-      "sex": "M",
-      "value": 5
-    },
-    {
-      "country": "Lully II",
-      "sex": "M",
-      "value": 5
-    },
-    {
-      "country": "Lyn-2",
-      "sex": "M",
-      "value": 5
-    },
-    {
-      "country": "Ma'Lindo",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Mac Miche",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Macky VI",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Magda IX",
-      "sex": "M",
-      "value": 10
-    },
-    {
-      "country": "Margaret",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Marmi II-1",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Martha-1",
-      "sex": "M",
-      "value": 8
-    },
-    {
-      "country": "Mascotte",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "May Be",
-      "sex": "F",
-      "value": 1
-    },
-    {
-      "country": "May Be",
-      "sex": "M",
-      "value": 4
-    },
-    {
-      "country": "Merope",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Merope III",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Mignon-3",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "country": "Minotaur",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Mosk II",
-      "sex": "M",
-      "value": 7
-    },
-    {
-      "country": "Mouchette-2",
-      "sex": "M",
-      "value": 10
-    },
-    {
-      "country": "Mutafo",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Namoussa",
-      "sex": "M",
-      "value": 5
     },
     {
       "country": "Netherlands",
@@ -58438,12 +57873,7 @@
     {
       "country": "Netherlands",
       "sex": "M",
-      "value": 6
-    },
-    {
-      "country": "Netherlands Antilles",
-      "sex": "M",
-      "value": 1
+      "value": 31
     },
     {
       "country": "New Zealand",
@@ -58453,67 +57883,17 @@
     {
       "country": "New Zealand",
       "sex": "M",
-      "value": 18
-    },
-    {
-      "country": "Nina",
-      "sex": "M",
-      "value": 7
-    },
-    {
-      "country": "Nina Claire-2",
-      "sex": "M",
-      "value": 4
-    },
-    {
-      "country": "Nirefs",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Norna",
-      "sex": "M",
-      "value": 4
+      "value": 22
     },
     {
       "country": "Norway",
       "sex": "F",
-      "value": 2
+      "value": 3
     },
     {
       "country": "Norway",
       "sex": "M",
-      "value": 10
-    },
-    {
-      "country": "Nrnberg",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "country": "Nurdug II",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Olle",
-      "sex": "M",
-      "value": 6
-    },
-    {
-      "country": "Oranje",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Pan",
-      "sex": "M",
-      "value": 6
-    },
-    {
-      "country": "Pandora",
-      "sex": "M",
-      "value": 2
+      "value": 122
     },
     {
       "country": "Poland",
@@ -58528,147 +57908,22 @@
     {
       "country": "Portugal",
       "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Potsdam",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "country": "Quand-Mme-2",
-      "sex": "M",
-      "value": 9
-    },
-    {
-      "country": "Ralia",
-      "sex": "M",
-      "value": 5
-    },
-    {
-      "country": "Rose Pompon",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Rostock",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "country": "Rush V",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Rush VII",
-      "sex": "M",
-      "value": 3
+      "value": 8
     },
     {
       "country": "Russia",
       "sex": "F",
-      "value": 1
+      "value": 3
     },
     {
       "country": "Russia",
       "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Sans Atout-1",
-      "sex": "M",
-      "value": 5
-    },
-    {
-      "country": "Santa Maria",
-      "sex": "M",
-      "value": 6
-    },
-    {
-      "country": "Sarcelle-3",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Scamasaxe-2",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Scamasaxe-3",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Scotia",
-      "sex": "M",
-      "value": 6
-    },
-    {
-      "country": "Shrew II",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Sif",
-      "sex": "M",
-      "value": 4
-    },
-    {
-      "country": "Sildra-1",
-      "sex": "M",
-      "value": 4
-    },
-    {
-      "country": "Silja",
-      "sex": "M",
-      "value": 6
-    },
-    {
-      "country": "Sirene",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Skum",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Slaghoken",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Slaghoken II",
-      "sex": "M",
-      "value": 3
+      "value": 28
     },
     {
       "country": "Slovenia",
       "sex": "M",
       "value": 3
-    },
-    {
-      "country": "Snap",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Sorais-2",
-      "sex": "M",
-      "value": 5
-    },
-    {
-      "country": "Soviet Union",
-      "sex": "F",
-      "value": 2
-    },
-    {
-      "country": "Soviet Union",
-      "sex": "M",
-      "value": 16
     },
     {
       "country": "Spain",
@@ -58681,89 +57936,44 @@
       "value": 22
     },
     {
-      "country": "Starita",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Stella-2",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Sunshine",
-      "sex": "M",
-      "value": 2
-    },
-    {
       "country": "Sweden",
       "sex": "F",
-      "value": 4
+      "value": 5
     },
     {
       "country": "Sweden",
       "sex": "M",
-      "value": 23
+      "value": 108
     },
     {
-      "country": "Swedish Star",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Swift",
-      "sex": "M",
+      "country": "Switzerland",
+      "sex": "F",
       "value": 2
     },
     {
       "country": "Switzerland",
       "sex": "M",
-      "value": 3
+      "value": 10
     },
     {
-      "country": "Sylvia",
-      "sex": "M",
-      "value": 6
+      "country": "UK",
+      "sex": "F",
+      "value": 14
     },
     {
-      "country": "Symphony",
+      "country": "UK",
       "sex": "M",
-      "value": 2
+      "value": 129
     },
     {
-      "country": "Taifun",
-      "sex": "M",
-      "value": 5
+      "country": "USA",
+      "sex": "F",
+      "value": 10
     },
     {
-      "country": "Tan-Fe-Pah",
+      "country": "USA",
       "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Tango",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Tip",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Tornado",
-      "sex": "M",
-      "value": 5
-    },
-    {
-      "country": "Turquoise-1",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "country": "Tutti V",
-      "sex": "M",
-      "value": 5
+      "value": 130
     },
     {
       "country": "Ukraine",
@@ -58776,170 +57986,18 @@
       "value": 4
     },
     {
-      "country": "United States",
-      "sex": "F",
-      "value": 9
-    },
-    {
-      "country": "United States",
-      "sex": "M",
-      "value": 72
-    },
-    {
-      "country": "United States Virgin Islands",
+      "country": "Virgin Islands, US",
       "sex": "M",
       "value": 1
-    },
-    {
-      "country": "Venilia",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Vinga-1",
-      "sex": "M",
-      "value": 5
-    },
-    {
-      "country": "Vision",
-      "sex": "M",
-      "value": 4
-    },
-    {
-      "country": "Wannsee",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Web II",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "West Germany",
-      "sex": "M",
-      "value": 14
-    },
-    {
-      "country": "White Lady",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Widgeon",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "country": "Willem-Six",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "country": "Zut",
-      "sex": "M",
-      "value": 3
     }
   ],
   "treemap": [
-    {
-      "country": "30. Februar",
-      "value": 2
-    },
-    {
-      "country": "Acipactli",
-      "value": 3
-    },
-    {
-      "country": "Acturus",
-      "value": 2
-    },
-    {
-      "country": "Akatonbo",
-      "value": 3
-    },
-    {
-      "country": "Alain IV",
-      "value": 3
-    },
-    {
-      "country": "Alcaid",
-      "value": 3
-    },
-    {
-      "country": "Alcyon-6",
-      "value": 1
-    },
-    {
-      "country": "Alcyon-7",
-      "value": 1
-    },
-    {
-      "country": "Aldebaran",
-      "value": 2
-    },
-    {
-      "country": "Aldebaran II",
-      "value": 2
-    },
-    {
-      "country": "Aletta",
-      "value": 3
-    },
     {
       "country": "Algeria",
       "value": 3
     },
     {
-      "country": "Ali-Baba II",
-      "value": 7
-    },
-    {
-      "country": "Ali-Baba IV",
-      "value": 2
-    },
-    {
-      "country": "Ali-Baba IX",
-      "value": 2
-    },
-    {
-      "country": "Ali-Baba VI",
-      "value": 2
-    },
-    {
-      "country": "Allegro",
-      "value": 3
-    },
-    {
-      "country": "Almaz",
-      "value": 2
-    },
-    {
-      "country": "Aloha II",
-      "value": 5
-    },
-    {
       "country": "American Samoa",
-      "value": 2
-    },
-    {
-      "country": "Amolgavar",
-      "value": 3
-    },
-    {
-      "country": "Amulet-3",
-      "value": 2
-    },
-    {
-      "country": "Amulet-7",
-      "value": 2
-    },
-    {
-      "country": "Ancora",
-      "value": 4
-    },
-    {
-      "country": "Andorinha",
       "value": 2
     },
     {
@@ -58947,176 +58005,40 @@
       "value": 3
     },
     {
-      "country": "Andromeda",
-      "value": 3
-    },
-    {
-      "country": "Angelita",
-      "value": 15
-    },
-    {
-      "country": "Angerburg",
-      "value": 1
-    },
-    {
       "country": "Angola",
       "value": 6
     },
     {
-      "country": "Anitra",
-      "value": 6
-    },
-    {
-      "country": "Antares",
-      "value": 2
-    },
-    {
-      "country": "Antigua and Barbuda",
+      "country": "Antigua",
       "value": 8
     },
     {
-      "country": "Antwerpia V",
-      "value": 10
-    },
-    {
-      "country": "Apache",
-      "value": 5
-    },
-    {
-      "country": "Aphrodite",
-      "value": 3
-    },
-    {
-      "country": "Arcturus",
-      "value": 2
-    },
-    {
-      "country": "Ardilla",
-      "value": 3
-    },
-    {
-      "country": "Aretusa",
-      "value": 3
-    },
-    {
       "country": "Argentina",
-      "value": 73
-    },
-    {
-      "country": "Argeste",
-      "value": 3
-    },
-    {
-      "country": "Argo II",
-      "value": 3
-    },
-    {
-      "country": "Argus",
-      "value": 4
-    },
-    {
-      "country": "Ariel",
-      "value": 2
-    },
-    {
-      "country": "Ariette-10",
-      "value": 1
-    },
-    {
-      "country": "Ariette-8",
-      "value": 1
+      "value": 116
     },
     {
       "country": "Aruba",
       "value": 4
     },
     {
-      "country": "Aschenbrodel",
-      "value": 5
-    },
-    {
-      "country": "Astrid III",
-      "value": 3
-    },
-    {
-      "country": "Atlanta",
-      "value": 9
-    },
-    {
-      "country": "Augsburg",
-      "value": 1
-    },
-    {
-      "country": "Ausonia",
-      "value": 3
-    },
-    {
       "country": "Australia",
-      "value": 116
+      "value": 142
     },
     {
       "country": "Austria",
-      "value": 73
-    },
-    {
-      "country": "Babe",
-      "value": 5
-    },
-    {
-      "country": "Baby-1",
-      "value": 1
-    },
-    {
-      "country": "Baby-9",
-      "value": 1
-    },
-    {
-      "country": "Baccara",
-      "value": 3
+      "value": 80
     },
     {
       "country": "Bahamas",
-      "value": 17
+      "value": 27
     },
     {
       "country": "Bahrain",
       "value": 5
     },
     {
-      "country": "Bajazzo",
-      "value": 3
-    },
-    {
-      "country": "Balaton",
-      "value": 2
-    },
-    {
-      "country": "Ballerina IV",
-      "value": 3
-    },
-    {
-      "country": "Bamba",
-      "value": 6
-    },
-    {
       "country": "Barbados",
       "value": 12
-    },
-    {
-      "country": "Barco Deloro",
-      "value": 4
-    },
-    {
-      "country": "Barrenjoey",
-      "value": 3
-    },
-    {
-      "country": "Beatrijs III-1",
-      "value": 3
-    },
-    {
-      "country": "Beaver",
-      "value": 4
     },
     {
       "country": "Belarus",
@@ -59124,290 +58046,46 @@
     },
     {
       "country": "Belgium",
-      "value": 27
-    },
-    {
-      "country": "Bella",
-      "value": 2
-    },
-    {
-      "country": "Bellatrix IX",
-      "value": 3
-    },
-    {
-      "country": "Bellatrix XIII",
-      "value": 2
-    },
-    {
-      "country": "Bem II",
-      "value": 3
-    },
-    {
-      "country": "Bera",
-      "value": 5
+      "value": 68
     },
     {
       "country": "Bermuda",
-      "value": 34
-    },
-    {
-      "country": "Bermudes",
-      "value": 3
-    },
-    {
-      "country": "Bermudian",
-      "value": 2
-    },
-    {
-      "country": "Bim",
-      "value": 3
-    },
-    {
-      "country": "Bingo",
-      "value": 3
-    },
-    {
-      "country": "Bissbi",
-      "value": 4
-    },
-    {
-      "country": "Blue Red",
-      "value": 5
-    },
-    {
-      "country": "Bluebottle",
-      "value": 3
-    },
-    {
-      "country": "Bona Fide",
-      "value": 3
-    },
-    {
-      "country": "Bonzo",
-      "value": 3
-    },
-    {
-      "country": "Boreas",
-      "value": 3
-    },
-    {
-      "country": "Boreas-2",
-      "value": 2
+      "value": 44
     },
     {
       "country": "Botswana",
       "value": 1
     },
     {
-      "country": "Brandenburg",
-      "value": 1
-    },
-    {
-      "country": "Brat",
-      "value": 2
-    },
-    {
       "country": "Brazil",
-      "value": 85
-    },
-    {
-      "country": "Bremen",
-      "value": 1
-    },
-    {
-      "country": "Breslau",
-      "value": 1
-    },
-    {
-      "country": "Brigantia",
-      "value": 2
-    },
-    {
-      "country": "British Virgin Islands",
-      "value": 8
-    },
-    {
-      "country": "Bronia",
-      "value": 3
-    },
-    {
-      "country": "Brynhild-2",
-      "value": 1
-    },
-    {
-      "country": "Bu III",
-      "value": 2
+      "value": 100
     },
     {
       "country": "Bulgaria",
       "value": 8
     },
     {
-      "country": "Buraddoo",
-      "value": 5
-    },
-    {
-      "country": "Burevestnik",
-      "value": 3
-    },
-    {
-      "country": "Buscape II",
-      "value": 2
-    },
-    {
-      "country": "Bylina-2",
-      "value": 5
-    },
-    {
-      "country": "C.V.A.-14",
-      "value": 2
-    },
-    {
-      "country": "C.V.A.-7",
-      "value": 2
-    },
-    {
-      "country": "Calcinhas",
-      "value": 2
-    },
-    {
-      "country": "Calypse II",
-      "value": 2
-    },
-    {
       "country": "Cambodia",
-      "value": 1
-    },
-    {
-      "country": "Cambria",
       "value": 3
-    },
-    {
-      "country": "Camelia",
-      "value": 4
     },
     {
       "country": "Canada",
-      "value": 115
-    },
-    {
-      "country": "Canopus",
-      "value": 6
-    },
-    {
-      "country": "Caprice",
-      "value": 4
-    },
-    {
-      "country": "Carabinier-15",
-      "value": 1
-    },
-    {
-      "country": "Carabinier-5",
-      "value": 1
+      "value": 159
     },
     {
       "country": "Cayman Islands",
       "value": 13
     },
     {
-      "country": "Ceres II",
-      "value": 3
-    },
-    {
-      "country": "Cha-Cha III",
-      "value": 2
-    },
-    {
-      "country": "Chaje II",
-      "value": 3
-    },
-    {
-      "country": "Chamukina",
-      "value": 2
-    },
-    {
-      "country": "Chance",
-      "value": 2
-    },
-    {
       "country": "Chile",
-      "value": 20
+      "value": 21
     },
     {
       "country": "China",
-      "value": 49
-    },
-    {
-      "country": "Chinese Taipei",
-      "value": 9
-    },
-    {
-      "country": "Chok",
-      "value": 3
-    },
-    {
-      "country": "Chuckles",
-      "value": 2
-    },
-    {
-      "country": "Cicely-1",
-      "value": 1
-    },
-    {
-      "country": "Cinara-13",
-      "value": 1
-    },
-    {
-      "country": "Ciocca",
-      "value": 5
-    },
-    {
-      "country": "Ciocca II",
-      "value": 7
-    },
-    {
-      "country": "Ciocca III",
-      "value": 3
-    },
-    {
-      "country": "Circus",
-      "value": 2
-    },
-    {
-      "country": "Ciss",
-      "value": 3
-    },
-    {
-      "country": "Clementine V",
-      "value": 2
-    },
-    {
-      "country": "Cobweb-1",
-      "value": 5
-    },
-    {
-      "country": "Colette-10",
-      "value": 1
-    },
-    {
-      "country": "Colette-12",
-      "value": 1
+      "value": 79
     },
     {
       "country": "Colombia",
-      "value": 4
-    },
-    {
-      "country": "Comanche",
-      "value": 2
-    },
-    {
-      "country": "Combine",
-      "value": 2
-    },
-    {
-      "country": "Complex II",
       "value": 4
     },
     {
@@ -59415,60 +58093,16 @@
       "value": 4
     },
     {
-      "country": "Covunco III",
-      "value": 2
-    },
-    {
-      "country": "Crabe I-11",
-      "value": 1
-    },
-    {
-      "country": "Crabe I-2",
-      "value": 1
-    },
-    {
-      "country": "Crabe I-3",
-      "value": 1
-    },
-    {
-      "country": "Crabe II-1",
-      "value": 5
-    },
-    {
-      "country": "Crabe II-12",
-      "value": 5
-    },
-    {
-      "country": "Crabe II-4",
-      "value": 5
-    },
-    {
       "country": "Croatia",
       "value": 24
     },
     {
-      "country": "Crocodile-11",
-      "value": 1
-    },
-    {
-      "country": "Crocodile-13",
-      "value": 1
-    },
-    {
       "country": "Cuba",
-      "value": 7
+      "value": 12
     },
     {
-      "country": "Cupidon III",
+      "country": "Curacao",
       "value": 5
-    },
-    {
-      "country": "Cupidon Viking",
-      "value": 5
-    },
-    {
-      "country": "Cuxhaven",
-      "value": 1
     },
     {
       "country": "Cyprus",
@@ -59476,247 +58110,35 @@
     },
     {
       "country": "Czech Republic",
-      "value": 9
-    },
-    {
-      "country": "Czechoslovakia",
-      "value": 11
-    },
-    {
-      "country": "Daisy",
-      "value": 4
-    },
-    {
-      "country": "Damoiselle",
-      "value": 3
-    },
-    {
-      "country": "Damoiselle IV",
-      "value": 3
-    },
-    {
-      "country": "Danaldo",
-      "value": 2
-    },
-    {
-      "country": "Danuta",
-      "value": 5
-    },
-    {
-      "country": "Danzig",
-      "value": 1
-    },
-    {
-      "country": "DeRuyter",
-      "value": 8
-    },
-    {
-      "country": "Demi-Mondaine-15",
-      "value": 1
-    },
-    {
-      "country": "Demi-Mondaine-17",
-      "value": 1
+      "value": 19
     },
     {
       "country": "Denmark",
-      "value": 104
-    },
-    {
-      "country": "Diablo",
-      "value": 2
-    },
-    {
-      "country": "Dick-8",
-      "value": 1
-    },
-    {
-      "country": "Dinah V",
-      "value": 3
+      "value": 137
     },
     {
       "country": "Djibouti",
       "value": 2
     },
     {
-      "country": "Djinn",
-      "value": 8
-    },
-    {
-      "country": "Dolfijn",
-      "value": 6
-    },
-    {
       "country": "Dominican Republic",
       "value": 2
-    },
-    {
-      "country": "Donar III",
-      "value": 3
-    },
-    {
-      "country": "Dormy-1",
-      "value": 3
-    },
-    {
-      "country": "Dresden",
-      "value": 1
-    },
-    {
-      "country": "Druzhba",
-      "value": 4
-    },
-    {
-      "country": "Ducky-16",
-      "value": 1
-    },
-    {
-      "country": "Ducky-4",
-      "value": 1
-    },
-    {
-      "country": "EA II",
-      "value": 6
-    },
-    {
-      "country": "East Germany",
-      "value": 35
     },
     {
       "country": "Ecuador",
       "value": 1
     },
     {
-      "country": "Edelweiss II-1",
-      "value": 3
-    },
-    {
       "country": "Egypt",
       "value": 3
-    },
-    {
-      "country": "Eissero VI",
-      "value": 2
     },
     {
       "country": "El Salvador",
       "value": 4
     },
     {
-      "country": "Eleda",
-      "value": 7
-    },
-    {
-      "country": "Elisabeth V",
-      "value": 3
-    },
-    {
-      "country": "Elisabeth X",
-      "value": 5
-    },
-    {
-      "country": "Elsie",
-      "value": 4
-    },
-    {
-      "country": "Emily",
-      "value": 5
-    },
-    {
-      "country": "Encore",
-      "value": 3
-    },
-    {
-      "country": "Enotria",
-      "value": 2
-    },
-    {
-      "country": "Erna Signe",
-      "value": 10
-    },
-    {
-      "country": "Escapade",
-      "value": 3
-    },
-    {
-      "country": "Espadarte",
-      "value": 2
-    },
-    {
-      "country": "Espardate",
-      "value": 2
-    },
-    {
-      "country": "Esperia",
-      "value": 5
-    },
-    {
-      "country": "Espuma del Mar",
-      "value": 3
-    },
-    {
-      "country": "Essen",
-      "value": 1
-    },
-    {
-      "country": "Esterel-1",
-      "value": 2
-    },
-    {
       "country": "Estonia",
-      "value": 13
-    },
-    {
-      "country": "Evita VI",
-      "value": 2
-    },
-    {
-      "country": "Fada",
-      "value": 2
-    },
-    {
-      "country": "Falcon IV",
-      "value": 2
-    },
-    {
-      "country": "Falcon VI",
-      "value": 2
-    },
-    {
-      "country": "Faneca",
-      "value": 3
-    },
-    {
-      "country": "Fantasio III",
-      "value": 2
-    },
-    {
-      "country": "Fantlet-2",
-      "value": 1
-    },
-    {
-      "country": "Fantlet-7",
-      "value": 1
-    },
-    {
-      "country": "Favorite-1",
-      "value": 4
-    },
-    {
-      "country": "Favorite-17",
-      "value": 4
-    },
-    {
-      "country": "Femur-1",
-      "value": 1
-    },
-    {
-      "country": "Femur-18",
-      "value": 1
-    },
-    {
-      "country": "Feo",
-      "value": 6
+      "value": 19
     },
     {
       "country": "Fiji",
@@ -59724,351 +58146,39 @@
     },
     {
       "country": "Finland",
-      "value": 68
-    },
-    {
-      "country": "Finn II",
-      "value": 3
-    },
-    {
-      "country": "Firebird II",
-      "value": 2
-    },
-    {
-      "country": "Formosa",
-      "value": 1
-    },
-    {
-      "country": "Fornebo",
-      "value": 4
-    },
-    {
-      "country": "Fortuna",
-      "value": 2
-    },
-    {
-      "country": "Fram",
-      "value": 5
-    },
-    {
-      "country": "Fram III",
-      "value": 3
+      "value": 135
     },
     {
       "country": "France",
-      "value": 128
-    },
-    {
-      "country": "Freddy",
-      "value": 2
-    },
-    {
-      "country": "Freia-19",
-      "value": 1
-    },
-    {
-      "country": "Freia-5",
-      "value": 1
-    },
-    {
-      "country": "Freja",
-      "value": 3
-    },
-    {
-      "country": "Frieda",
-      "value": 5
-    },
-    {
-      "country": "Frimousse",
-      "value": 1
-    },
-    {
-      "country": "Frip IV",
-      "value": 2
-    },
-    {
-      "country": "Fruits",
-      "value": 5
-    },
-    {
-      "country": "Gabbiano",
-      "value": 3
-    },
-    {
-      "country": "Galatea II",
-      "value": 3
-    },
-    {
-      "country": "Galejan",
-      "value": 3
-    },
-    {
-      "country": "Galerna",
-      "value": 3
-    },
-    {
-      "country": "Gallant",
-      "value": 5
-    },
-    {
-      "country": "Gallia II",
-      "value": 7
-    },
-    {
-      "country": "Galopin-20",
-      "value": 2
-    },
-    {
-      "country": "Galopin-9",
-      "value": 2
-    },
-    {
-      "country": "Gam II",
-      "value": 2
-    },
-    {
-      "country": "Gem",
-      "value": 2
-    },
-    {
-      "country": "Gem II",
-      "value": 2
-    },
-    {
-      "country": "Gem III",
-      "value": 2
-    },
-    {
-      "country": "Gem IV",
-      "value": 2
-    },
-    {
-      "country": "Gem VII",
-      "value": 2
+      "value": 268
     },
     {
       "country": "Georgia",
       "value": 2
     },
     {
-      "country": "Germania II",
-      "value": 6
-    },
-    {
       "country": "Germany",
-      "value": 86
-    },
-    {
-      "country": "Gilliatt V",
-      "value": 3
-    },
-    {
-      "country": "Girl Pat",
-      "value": 3
-    },
-    {
-      "country": "Giselle-6",
-      "value": 1
-    },
-    {
-      "country": "Gitana-2",
-      "value": 5
-    },
-    {
-      "country": "Gitana-21",
-      "value": 5
-    },
-    {
-      "country": "Glider",
-      "value": 2
-    },
-    {
-      "country": "Glisten",
-      "value": 2
-    },
-    {
-      "country": "Great Britain",
-      "value": 126
+      "value": 209
     },
     {
       "country": "Greece",
-      "value": 70
-    },
-    {
-      "country": "Grifo III",
-      "value": 3
-    },
-    {
-      "country": "Grifo IV",
-      "value": 3
-    },
-    {
-      "country": "Grifone",
-      "value": 3
+      "value": 82
     },
     {
       "country": "Guam",
       "value": 5
     },
     {
-      "country": "Guanahani",
-      "value": 3
-    },
-    {
       "country": "Guatemala",
       "value": 5
     },
     {
-      "country": "Gullvinge",
-      "value": 3
-    },
-    {
-      "country": "Gustel V",
-      "value": 5
-    },
-    {
-      "country": "Gustel X",
-      "value": 3
-    },
-    {
-      "country": "Gustl XI",
-      "value": 3
-    },
-    {
-      "country": "Guyoni",
-      "value": 3
-    },
-    {
-      "country": "Gwendoline-2",
-      "value": 3
-    },
-    {
-      "country": "Gwendoline-22",
-      "value": 3
-    },
-    {
-      "country": "GyoshuII",
-      "value": 2
-    },
-    {
-      "country": "Gyp-23",
-      "value": 1
-    },
-    {
-      "country": "Gyp-6",
-      "value": 1
-    },
-    {
-      "country": "Hakahana",
-      "value": 2
-    },
-    {
-      "country": "Hamburg",
-      "value": 1
-    },
-    {
-      "country": "Hannover",
-      "value": 1
-    },
-    {
-      "country": "Harmony",
-      "value": 2
-    },
-    {
-      "country": "Hatuey",
-      "value": 3
-    },
-    {
-      "country": "Hayama",
-      "value": 2
-    },
-    {
-      "country": "Hb-20",
-      "value": 1
-    },
-    {
-      "country": "Hb-24",
-      "value": 1
-    },
-    {
-      "country": "Heatherbell",
-      "value": 7
-    },
-    {
-      "country": "Heidelberg",
-      "value": 1
-    },
-    {
-      "country": "Heira II",
-      "value": 9
-    },
-    {
-      "country": "Hera-1",
-      "value": 10
-    },
-    {
-      "country": "Heroine",
-      "value": 4
-    },
-    {
-      "country": "Hi-Hi",
-      "value": 4
-    },
-    {
-      "country": "Hilarius",
-      "value": 2
-    },
-    {
-      "country": "Hirondelle",
-      "value": 2
-    },
-    {
-      "country": "Hojwa",
-      "value": 3
-    },
-    {
-      "country": "Holland",
-      "value": 2
-    },
-    {
-      "country": "Hollandia",
-      "value": 6
-    },
-    {
-      "country": "Hong Kong",
-      "value": 30
-    },
-    {
-      "country": "Hornet",
-      "value": 2
-    },
-    {
-      "country": "Humbug V",
-      "value": 2
-    },
-    {
-      "country": "Hungaria",
-      "value": 5
-    },
-    {
       "country": "Hungary",
-      "value": 50
+      "value": 59
     },
     {
       "country": "Iceland",
       "value": 4
-    },
-    {
-      "country": "Ilderim",
-      "value": 6
-    },
-    {
-      "country": "Impala",
-      "value": 2
-    },
-    {
-      "country": "Inca",
-      "value": 2
     },
     {
       "country": "India",
@@ -60080,226 +58190,42 @@
     },
     {
       "country": "Indonesia",
-      "value": 6
-    },
-    {
-      "country": "Inga-Lill XXXXIII",
-      "value": 3
-    },
-    {
-      "country": "Ingegerd",
-      "value": 4
+      "value": 11
     },
     {
       "country": "Ireland",
-      "value": 53
-    },
-    {
-      "country": "Irene",
-      "value": 5
+      "value": 60
     },
     {
       "country": "Israel",
       "value": 34
     },
     {
-      "country": "Italia",
-      "value": 6
-    },
-    {
       "country": "Italy",
-      "value": 119
+      "value": 176
     },
     {
       "country": "Jamaica",
-      "value": 11
+      "value": 12
     },
     {
       "country": "Japan",
-      "value": 68
-    },
-    {
-      "country": "Jeanette-25",
-      "value": 1
-    },
-    {
-      "country": "Jeannette-18",
-      "value": 1
-    },
-    {
-      "country": "Jest",
-      "value": 2
-    },
-    {
-      "country": "Jet",
-      "value": 3
-    },
-    {
-      "country": "Jill",
-      "value": 3
-    },
-    {
-      "country": "Jo",
-      "value": 3
-    },
-    {
-      "country": "Johan",
-      "value": 5
-    },
-    {
-      "country": "John B",
-      "value": 4
-    },
-    {
-      "country": "Joy",
-      "value": 5
-    },
-    {
-      "country": "June Climene",
-      "value": 3
-    },
-    {
-      "country": "Jupiter",
-      "value": 2
-    },
-    {
-      "country": "K.S.S.S. 1912-2",
-      "value": 6
-    },
-    {
-      "country": "KNS",
-      "value": 2
-    },
-    {
-      "country": "Kalayaan",
-      "value": 3
-    },
-    {
-      "country": "Kannibaltje",
-      "value": 2
-    },
-    {
-      "country": "Kathleen",
-      "value": 2
-    },
-    {
-      "country": "Kemphaan",
-      "value": 5
+      "value": 85
     },
     {
       "country": "Kenya",
       "value": 4
     },
     {
-      "country": "Kerstin-1",
-      "value": 3
-    },
-    {
-      "country": "Kiel",
-      "value": 1
-    },
-    {
-      "country": "Kingfisher",
-      "value": 2
-    },
-    {
-      "country": "Kitty-1",
-      "value": 8
-    },
-    {
-      "country": "Kln",
-      "value": 1
-    },
-    {
-      "country": "Knigsberg",
-      "value": 1
-    },
-    {
-      "country": "Kon-Tiki",
-      "value": 2
-    },
-    {
-      "country": "Konstanz",
-      "value": 1
-    },
-    {
-      "country": "Korshun",
-      "value": 3
-    },
-    {
-      "country": "Kuling",
-      "value": 3
-    },
-    {
-      "country": "Kullan",
-      "value": 3
-    },
-    {
-      "country": "Kurush II",
-      "value": 2
-    },
-    {
-      "country": "Kurush IV",
-      "value": 3
-    },
-    {
       "country": "Kyrgyzstan",
       "value": 1
-    },
-    {
-      "country": "L'Aile VI",
-      "value": 6
-    },
-    {
-      "country": "LaBandera",
-      "value": 5
-    },
-    {
-      "country": "Lady C",
-      "value": 2
-    },
-    {
-      "country": "Lalage",
-      "value": 10
-    },
-    {
-      "country": "Lasha",
-      "value": 3
     },
     {
       "country": "Latvia",
       "value": 6
     },
     {
-      "country": "Laurea-1",
-      "value": 1
-    },
-    {
-      "country": "Lbeck",
-      "value": 1
-    },
-    {
       "country": "Lebanon",
-      "value": 1
-    },
-    {
-      "country": "Legionario",
-      "value": 2
-    },
-    {
-      "country": "Leipzig",
-      "value": 1
-    },
-    {
-      "country": "Lerina",
-      "value": 3
-    },
-    {
-      "country": "Lett",
-      "value": 3
-    },
-    {
-      "country": "Linglom",
       "value": 3
     },
     {
@@ -60307,67 +58233,7 @@
       "value": 6
     },
     {
-      "country": "Llanoria",
-      "value": 10
-    },
-    {
-      "country": "Lotta IV",
-      "value": 3
-    },
-    {
-      "country": "Lucky",
-      "value": 2
-    },
-    {
-      "country": "Lucky Girl-1",
-      "value": 5
-    },
-    {
-      "country": "Lucky Star",
-      "value": 2
-    },
-    {
-      "country": "Lully II",
-      "value": 5
-    },
-    {
       "country": "Luxembourg",
-      "value": 1
-    },
-    {
-      "country": "Lyn-2",
-      "value": 5
-    },
-    {
-      "country": "Lynn",
-      "value": 5
-    },
-    {
-      "country": "Ma'Lindo",
-      "value": 2
-    },
-    {
-      "country": "Mac Miche",
-      "value": 3
-    },
-    {
-      "country": "Macky VI",
-      "value": 3
-    },
-    {
-      "country": "Mad Dog",
-      "value": 2
-    },
-    {
-      "country": "Magda IX",
-      "value": 10
-    },
-    {
-      "country": "Maid of Lebanon",
-      "value": 2
-    },
-    {
-      "country": "Mainz",
       "value": 1
     },
     {
@@ -60376,363 +58242,51 @@
     },
     {
       "country": "Malta",
-      "value": 6
-    },
-    {
-      "country": "Mamie-4",
-      "value": 2
-    },
-    {
-      "country": "Mamie-6",
-      "value": 2
-    },
-    {
-      "country": "Manana",
-      "value": 2
-    },
-    {
-      "country": "Marga-2",
-      "value": 6
-    },
-    {
-      "country": "Margaret",
-      "value": 2
-    },
-    {
-      "country": "Mari",
-      "value": 2
-    },
-    {
-      "country": "Marie-Tim",
-      "value": 2
-    },
-    {
-      "country": "Marmara",
-      "value": 2
-    },
-    {
-      "country": "Marmi II-1",
-      "value": 3
-    },
-    {
-      "country": "Marsouin-26",
-      "value": 1
-    },
-    {
-      "country": "Marsouin-8",
-      "value": 1
-    },
-    {
-      "country": "Martha-1",
-      "value": 4
-    },
-    {
-      "country": "Martha-27",
-      "value": 4
-    },
-    {
-      "country": "Maryke",
-      "value": 2
-    },
-    {
-      "country": "Mascaret-28",
-      "value": 1
-    },
-    {
-      "country": "Mascaret-4",
-      "value": 1
-    },
-    {
-      "country": "Mascotte",
-      "value": 3
-    },
-    {
-      "country": "Matrero II",
-      "value": 6
+      "value": 8
     },
     {
       "country": "Mauritius",
       "value": 1
     },
     {
-      "country": "May Be",
-      "value": 5
-    },
-    {
-      "country": "May Be VII",
-      "value": 5
-    },
-    {
-      "country": "May-Be 1960",
-      "value": 2
-    },
-    {
-      "country": "Mebi",
-      "value": 3
-    },
-    {
-      "country": "Merope",
-      "value": 4
-    },
-    {
-      "country": "Merope III",
-      "value": 3
-    },
-    {
-      "country": "Meteor",
-      "value": 2
-    },
-    {
       "country": "Mexico",
-      "value": 39
-    },
-    {
-      "country": "Mignon-29",
-      "value": 1
-    },
-    {
-      "country": "Mignon-3",
-      "value": 1
-    },
-    {
-      "country": "Minotaur",
-      "value": 3
-    },
-    {
-      "country": "Mirtala",
-      "value": 3
-    },
-    {
-      "country": "Miss Denmark 1964",
-      "value": 2
-    },
-    {
-      "country": "Miss Nippon IV",
-      "value": 3
-    },
-    {
-      "country": "Miss Nippon V",
-      "value": 3
-    },
-    {
-      "country": "MitaII",
-      "value": 2
-    },
-    {
-      "country": "Mizar",
-      "value": 2
+      "value": 47
     },
     {
       "country": "Monaco",
-      "value": 7
-    },
-    {
-      "country": "Monica",
-      "value": 3
+      "value": 11
     },
     {
       "country": "Montenegro",
       "value": 1
     },
     {
-      "country": "Moorina",
-      "value": 2
-    },
-    {
-      "country": "Morena",
-      "value": 5
-    },
-    {
       "country": "Morocco",
       "value": 2
     },
     {
-      "country": "Mosk II",
-      "value": 7
-    },
-    {
-      "country": "Mouchette-2",
-      "value": 10
-    },
-    {
-      "country": "Mutafo",
-      "value": 3
-    },
-    {
       "country": "Myanmar",
-      "value": 1
-    },
-    {
-      "country": "Myojo",
-      "value": 2
-    },
-    {
-      "country": "Mystery",
-      "value": 5
-    },
-    {
-      "country": "Naiad",
-      "value": 2
-    },
-    {
-      "country": "Namoussa",
-      "value": 5
-    },
-    {
-      "country": "Nan-2",
-      "value": 1
-    },
-    {
-      "country": "Nausikaa 4",
-      "value": 2
-    },
-    {
-      "country": "Nephos I",
-      "value": 4
-    },
-    {
-      "country": "Neptun II",
       "value": 3
     },
     {
       "country": "Netherlands",
-      "value": 93
-    },
-    {
-      "country": "Netherlands Antilles",
-      "value": 5
+      "value": 135
     },
     {
       "country": "New Zealand",
-      "value": 95
-    },
-    {
-      "country": "Nikh",
-      "value": 2
-    },
-    {
-      "country": "Nina",
-      "value": 7
-    },
-    {
-      "country": "Nina Claire-2",
-      "value": 4
-    },
-    {
-      "country": "Nina Claire-30",
-      "value": 4
-    },
-    {
-      "country": "Nirefs",
-      "value": 3
-    },
-    {
-      "country": "Nirwana",
-      "value": 5
-    },
-    {
-      "country": "Nokaut II",
-      "value": 2
-    },
-    {
-      "country": "Nora",
-      "value": 2
-    },
-    {
-      "country": "Noreg",
-      "value": 4
-    },
-    {
-      "country": "Norman-1",
-      "value": 5
-    },
-    {
-      "country": "Norna",
-      "value": 4
-    },
-    {
-      "country": "Nortazo",
-      "value": 2
+      "value": 102
     },
     {
       "country": "Norway",
-      "value": 76
-    },
-    {
-      "country": "Nrnberg",
-      "value": 1
-    },
-    {
-      "country": "Nurdug II",
-      "value": 3
-    },
-    {
-      "country": "Oleander II",
-      "value": 3
-    },
-    {
-      "country": "Oleander XII",
-      "value": 3
-    },
-    {
-      "country": "Olen",
-      "value": 3
-    },
-    {
-      "country": "Olimpia",
-      "value": 2
-    },
-    {
-      "country": "Olle",
-      "value": 3
-    },
-    {
-      "country": "Olympion",
-      "value": 2
+      "value": 201
     },
     {
       "country": "Oman",
       "value": 1
     },
     {
-      "country": "Oranje",
-      "value": 3
-    },
-    {
-      "country": "Paka",
-      "value": 2
-    },
-    {
-      "country": "Paka V",
-      "value": 2
-    },
-    {
-      "country": "Pakaria",
-      "value": 2
-    },
-    {
       "country": "Pakistan",
       "value": 8
-    },
-    {
-      "country": "Pam",
-      "value": 3
-    },
-    {
-      "country": "Pampero",
-      "value": 6
-    },
-    {
-      "country": "Pan",
-      "value": 8
-    },
-    {
-      "country": "Pan II",
-      "value": 3
-    },
-    {
-      "country": "Pandora",
-      "value": 2
     },
     {
       "country": "Papua New Guinea",
@@ -60743,112 +58297,20 @@
       "value": 2
     },
     {
-      "country": "Partenope",
-      "value": 3
-    },
-    {
-      "country": "Pasodoble",
-      "value": 2
-    },
-    {
-      "country": "Patricia",
-      "value": 3
-    },
-    {
-      "country": "Paula",
-      "value": 3
-    },
-    {
-      "country": "Pegaso",
-      "value": 2
-    },
-    {
-      "country": "Peri",
-      "value": 2
-    },
-    {
-      "country": "Peri II",
-      "value": 2
-    },
-    {
-      "country": "Persey",
-      "value": 3
-    },
-    {
       "country": "Peru",
       "value": 4
     },
     {
-      "country": "Pettit-Poucet-6",
-      "value": 1
-    },
-    {
       "country": "Philippines",
-      "value": 11
-    },
-    {
-      "country": "Phoenix",
-      "value": 3
-    },
-    {
-      "country": "Pierre et Jean-3",
-      "value": 1
-    },
-    {
-      "country": "Pierre et Jean-4",
-      "value": 1
-    },
-    {
-      "country": "Pigoule",
-      "value": 2
-    },
-    {
-      "country": "Pimm",
-      "value": 2
-    },
-    {
-      "country": "Pirouette-31",
-      "value": 1
-    },
-    {
-      "country": "Pirouette-5",
-      "value": 1
-    },
-    {
-      "country": "Plume-Patte-5",
-      "value": 1
-    },
-    {
-      "country": "Plume-patte-32",
-      "value": 1
+      "value": 14
     },
     {
       "country": "Poland",
-      "value": 64
+      "value": 69
     },
     {
       "country": "Portugal",
-      "value": 48
-    },
-    {
-      "country": "Posillipo III",
-      "value": 3
-    },
-    {
-      "country": "Potsdam",
-      "value": 1
-    },
-    {
-      "country": "Pousse-Moi Pas VII",
-      "value": 2
-    },
-    {
-      "country": "Primorka",
-      "value": 2
-    },
-    {
-      "country": "Proteus II",
-      "value": 3
+      "value": 69
     },
     {
       "country": "Puerto Rico",
@@ -60859,111 +58321,15 @@
       "value": 2
     },
     {
-      "country": "Qu'Importe",
-      "value": 5
-    },
-    {
-      "country": "Quand-Mme-2",
-      "value": 5
-    },
-    {
-      "country": "Quand-Mme-33",
-      "value": 4
-    },
-    {
-      "country": "Raili",
-      "value": 6
-    },
-    {
-      "country": "Ralia",
-      "value": 5
-    },
-    {
-      "country": "Rampage",
-      "value": 2
-    },
-    {
-      "country": "Red Dragon",
-      "value": 3
-    },
-    {
-      "country": "Red Indian",
-      "value": 2
-    },
-    {
-      "country": "Rhythm",
-      "value": 3
-    },
-    {
-      "country": "Riccar",
-      "value": 2
-    },
-    {
-      "country": "Rififi",
-      "value": 3
-    },
-    {
-      "country": "Rika II",
-      "value": 4
-    },
-    {
       "country": "Romania",
       "value": 7
     },
     {
-      "country": "Romolo",
-      "value": 2
-    },
-    {
-      "country": "Rose Pompon",
-      "value": 3
-    },
-    {
-      "country": "Rostock",
-      "value": 1
-    },
-    {
-      "country": "Roy",
-      "value": 3
-    },
-    {
-      "country": "Rozenn-3",
-      "value": 1
-    },
-    {
-      "country": "Rush IV",
-      "value": 4
-    },
-    {
-      "country": "Rush V",
-      "value": 3
-    },
-    {
-      "country": "Rush VII",
-      "value": 3
-    },
-    {
       "country": "Russia",
-      "value": 45
-    },
-    {
-      "country": "Sabre",
-      "value": 3
-    },
-    {
-      "country": "Saga-2",
-      "value": 5
-    },
-    {
-      "country": "SagaII",
-      "value": 3
+      "value": 131
     },
     {
       "country": "Saint Lucia",
-      "value": 3
-    },
-    {
-      "country": "Salamander",
       "value": 3
     },
     {
@@ -60971,148 +58337,16 @@
       "value": 3
     },
     {
-      "country": "Sandra",
-      "value": 3
-    },
-    {
-      "country": "Sans Atout-1",
-      "value": 5
-    },
-    {
-      "country": "Santa Maria",
-      "value": 6
-    },
-    {
-      "country": "Sarcelle-3",
-      "value": 3
-    },
-    {
-      "country": "Sarcelle-35",
-      "value": 3
-    },
-    {
-      "country": "Saskia",
-      "value": 6
-    },
-    {
-      "country": "Sass-2",
-      "value": 3
-    },
-    {
-      "country": "Scamasaxe-2",
-      "value": 2
-    },
-    {
-      "country": "Scamasaxe-3",
-      "value": 2
-    },
-    {
-      "country": "Scamasaxe-34",
-      "value": 2
-    },
-    {
-      "country": "Scaup",
-      "value": 2
-    },
-    {
-      "country": "Scotia",
-      "value": 3
-    },
-    {
-      "country": "Scram",
-      "value": 2
-    },
-    {
       "country": "Senegal",
       "value": 1
     },
     {
-      "country": "Serendipity",
-      "value": 3
+      "country": "Serbia",
+      "value": 12
     },
     {
       "country": "Seychelles",
       "value": 6
-    },
-    {
-      "country": "Sheerio",
-      "value": 6
-    },
-    {
-      "country": "Shoveller",
-      "value": 3
-    },
-    {
-      "country": "Shrew II",
-      "value": 2
-    },
-    {
-      "country": "Siames-Cat",
-      "value": 2
-    },
-    {
-      "country": "Sibindi-2",
-      "value": 3
-    },
-    {
-      "country": "Sidi Fekkar-36",
-      "value": 4
-    },
-    {
-      "country": "Sidi-Fekkar-14",
-      "value": 4
-    },
-    {
-      "country": "Sif",
-      "value": 4
-    },
-    {
-      "country": "Sildra-1",
-      "value": 4
-    },
-    {
-      "country": "Silja",
-      "value": 6
-    },
-    {
-      "country": "Singapore",
-      "value": 25
-    },
-    {
-      "country": "Singy-37",
-      "value": 2
-    },
-    {
-      "country": "Singy-7",
-      "value": 2
-    },
-    {
-      "country": "Sirene",
-      "value": 2
-    },
-    {
-      "country": "Sjhxa",
-      "value": 3
-    },
-    {
-      "country": "Sjovinge",
-      "value": 2
-    },
-    {
-      "country": "Skidoo",
-      "value": 3
-    },
-    {
-      "country": "Skum",
-      "value": 2
-    },
-    {
-      "country": "Slaghoken",
-      "value": 3
-    },
-    {
-      "country": "Slaghoken II",
-      "value": 3
     },
     {
       "country": "Slovakia",
@@ -61123,272 +58357,40 @@
       "value": 17
     },
     {
-      "country": "Snap",
-      "value": 3
-    },
-    {
-      "country": "Snowten III",
-      "value": 3
-    },
-    {
-      "country": "Snude",
-      "value": 3
-    },
-    {
-      "country": "Sonja II",
-      "value": 3
-    },
-    {
-      "country": "Sorais-2",
-      "value": 5
-    },
-    {
-      "country": "Souriceau-38",
-      "value": 1
-    },
-    {
-      "country": "Souriceau-4",
-      "value": 1
-    },
-    {
       "country": "South Africa",
-      "value": 26
+      "value": 35
     },
     {
       "country": "South Korea",
       "value": 25
     },
     {
-      "country": "Souvenance",
-      "value": 1
-    },
-    {
-      "country": "Soviet Union",
-      "value": 52
-    },
-    {
       "country": "Spain",
-      "value": 103
-    },
-    {
-      "country": "Spirit III",
-      "value": 4
-    },
-    {
-      "country": "Spirit VI",
-      "value": 3
-    },
-    {
-      "country": "Springbok",
-      "value": 2
-    },
-    {
-      "country": "Squid III",
-      "value": 2
+      "value": 122
     },
     {
       "country": "Sri Lanka",
       "value": 3
     },
     {
-      "country": "St. Margrite",
-      "value": 2
-    },
-    {
-      "country": "Starita",
-      "value": 2
-    },
-    {
-      "country": "Starlight III",
-      "value": 2
-    },
-    {
-      "country": "State VI",
-      "value": 3
-    },
-    {
-      "country": "Stella-2",
-      "value": 3
-    },
-    {
-      "country": "Struten",
-      "value": 3
-    },
-    {
-      "country": "Subbnboana",
-      "value": 4
-    },
-    {
-      "country": "Sunshine",
-      "value": 2
-    },
-    {
-      "country": "Surprise",
-      "value": 3
-    },
-    {
-      "country": "Suzon IV-39",
-      "value": 1
-    },
-    {
-      "country": "Suzon IV-5",
-      "value": 1
-    },
-    {
-      "country": "Suzy-2",
-      "value": 3
-    },
-    {
       "country": "Sweden",
-      "value": 118
-    },
-    {
-      "country": "Swedish Star",
-      "value": 2
-    },
-    {
-      "country": "Swift",
-      "value": 2
+      "value": 240
     },
     {
       "country": "Switzerland",
-      "value": 89
+      "value": 116
     },
     {
-      "country": "Sylvia",
-      "value": 6
-    },
-    {
-      "country": "Symphony",
-      "value": 2
-    },
-    {
-      "country": "Syndi",
-      "value": 2
-    },
-    {
-      "country": "Taifun",
-      "value": 7
-    },
-    {
-      "country": "Tajamar",
-      "value": 2
-    },
-    {
-      "country": "Tan-Fe-Pah",
-      "value": 3
-    },
-    {
-      "country": "Tango",
-      "value": 4
-    },
-    {
-      "country": "Tantalus",
-      "value": 2
-    },
-    {
-      "country": "Tengiri",
-      "value": 2
-    },
-    {
-      "country": "Teresita",
-      "value": 3
-    },
-    {
-      "country": "Terrible",
-      "value": 2
+      "country": "Taiwan",
+      "value": 9
     },
     {
       "country": "Thailand",
-      "value": 16
+      "value": 20
     },
     {
-      "country": "Thalatta",
-      "value": 3
-    },
-    {
-      "country": "The Cloud",
-      "value": 2
-    },
-    {
-      "country": "Three Leaves",
-      "value": 2
-    },
-    {
-      "country": "Three Star Too",
-      "value": 2
-    },
-    {
-      "country": "Tichiboo",
-      "value": 2
-    },
-    {
-      "country": "Tilly",
-      "value": 3
-    },
-    {
-      "country": "Tim-Tam III",
-      "value": 3
-    },
-    {
-      "country": "Tineke",
-      "value": 2
-    },
-    {
-      "country": "Tip",
-      "value": 3
-    },
-    {
-      "country": "Titia",
-      "value": 5
-    },
-    {
-      "country": "Tlaloc",
-      "value": 2
-    },
-    {
-      "country": "Tom Kyle",
-      "value": 3
-    },
-    {
-      "country": "Tomahawk II",
-      "value": 3
-    },
-    {
-      "country": "Tornade-16",
-      "value": 1
-    },
-    {
-      "country": "Tornado",
-      "value": 5
-    },
-    {
-      "country": "Tournade-40",
-      "value": 1
-    },
-    {
-      "country": "Tramontane",
-      "value": 2
-    },
-    {
-      "country": "Trickson VI",
-      "value": 5
-    },
-    {
-      "country": "Trinidad and Tobago",
-      "value": 4
-    },
-    {
-      "country": "Trintel II",
-      "value": 3
-    },
-    {
-      "country": "Tu-Fri",
-      "value": 3
-    },
-    {
-      "country": "Tulilind",
-      "value": 2
+      "country": "Trinidad",
+      "value": 7
     },
     {
       "country": "Tunisia",
@@ -61396,235 +58398,43 @@
     },
     {
       "country": "Turkey",
-      "value": 29
+      "value": 32
     },
     {
-      "country": "Turquoise-1",
-      "value": 1
+      "country": "UK",
+      "value": 245
     },
     {
-      "country": "Turquoise-3",
-      "value": 1
-    },
-    {
-      "country": "Tutti V",
-      "value": 5
-    },
-    {
-      "country": "Twinkle",
-      "value": 2
-    },
-    {
-      "country": "Twins II",
-      "value": 5
-    },
-    {
-      "country": "Twins VIII",
-      "value": 4
-    },
-    {
-      "country": "Ubu",
-      "value": 5
+      "country": "USA",
+      "value": 240
     },
     {
       "country": "Ukraine",
       "value": 25
     },
     {
-      "country": "Umberta V",
-      "value": 2
-    },
-    {
-      "country": "Unified Team",
-      "value": 14
-    },
-    {
-      "country": "Unique",
-      "value": 3
-    },
-    {
       "country": "United Arab Emirates",
       "value": 1
     },
     {
-      "country": "United States",
-      "value": 148
-    },
-    {
-      "country": "United States Virgin Islands",
-      "value": 35
-    },
-    {
-      "country": "Uragan",
-      "value": 2
-    },
-    {
       "country": "Uruguay",
-      "value": 19
+      "value": 24
     },
     {
       "country": "Venezuela",
-      "value": 13
+      "value": 16
     },
     {
-      "country": "Venilia",
-      "value": 3
+      "country": "Virgin Islands, British",
+      "value": 8
     },
     {
-      "country": "Vento Sul",
-      "value": 2
-    },
-    {
-      "country": "Verveine-19",
-      "value": 1
-    },
-    {
-      "country": "Verveine-41",
-      "value": 1
-    },
-    {
-      "country": "Vesania",
-      "value": 2
-    },
-    {
-      "country": "Vicking",
-      "value": 2
-    },
-    {
-      "country": "Viking",
-      "value": 3
-    },
-    {
-      "country": "Viktoriya",
-      "value": 3
-    },
-    {
-      "country": "Vim III",
-      "value": 2
-    },
-    {
-      "country": "Vinga-1",
-      "value": 5
-    },
-    {
-      "country": "Vinha",
-      "value": 6
-    },
-    {
-      "country": "Virginie",
-      "value": 3
-    },
-    {
-      "country": "Vision",
-      "value": 4
-    },
-    {
-      "country": "Voloira II",
-      "value": 3
-    },
-    {
-      "country": "Wannsee",
-      "value": 2
-    },
-    {
-      "country": "Web II",
-      "value": 3
-    },
-    {
-      "country": "Web III",
-      "value": 3
-    },
-    {
-      "country": "Wendehals",
-      "value": 2
-    },
-    {
-      "country": "West Germany",
-      "value": 50
-    },
-    {
-      "country": "Whirlaway",
-      "value": 2
-    },
-    {
-      "country": "White Lady",
-      "value": 3
-    },
-    {
-      "country": "Widgeon",
-      "value": 2
-    },
-    {
-      "country": "Wiking",
-      "value": 5
-    },
-    {
-      "country": "Willem-Six",
-      "value": 3
-    },
-    {
-      "country": "Windor",
-      "value": 2
-    },
-    {
-      "country": "Xantippa",
-      "value": 3
-    },
-    {
-      "country": "Xolotl",
-      "value": 3
-    },
-    {
-      "country": "Yangon",
-      "value": 2
-    },
-    {
-      "country": "Yeoman",
-      "value": 4
-    },
-    {
-      "country": "Yeoman V",
-      "value": 3
-    },
-    {
-      "country": "Yeoman VII",
-      "value": 3
-    },
-    {
-      "country": "Yeoman XII",
-      "value": 3
-    },
-    {
-      "country": "Ylliam II",
-      "value": 5
-    },
-    {
-      "country": "Ylliam VII",
-      "value": 6
-    },
-    {
-      "country": "Ylliam VIII",
-      "value": 5
-    },
-    {
-      "country": "Yugoslavia",
-      "value": 9
-    },
-    {
-      "country": "Zefyros",
-      "value": 2
+      "country": "Virgin Islands, US",
+      "value": 35
     },
     {
       "country": "Zimbabwe",
-      "value": 6
-    },
-    {
-      "country": "Zut",
-      "value": 3
-    },
-    {
-      "country": "rn-2",
-      "value": 5
+      "value": 9
     }
   ]
 }

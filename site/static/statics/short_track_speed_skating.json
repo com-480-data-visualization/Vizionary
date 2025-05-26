@@ -13738,11 +13738,6 @@
       "value": 19
     },
     {
-      "country": "Great Britain",
-      "sex": "M",
-      "value": 1
-    },
-    {
       "country": "Italy",
       "sex": "F",
       "value": 11
@@ -13769,6 +13764,11 @@
     },
     {
       "country": "Russia",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "country": "Russia",
       "sex": "M",
       "value": 8
     },
@@ -13783,17 +13783,17 @@
       "value": 33
     },
     {
-      "country": "Unified Team",
-      "sex": "F",
-      "value": 4
+      "country": "UK",
+      "sex": "M",
+      "value": 1
     },
     {
-      "country": "United States",
+      "country": "USA",
       "sex": "F",
       "value": 17
     },
     {
-      "country": "United States",
+      "country": "USA",
       "sex": "M",
       "value": 25
     }
@@ -13825,11 +13825,7 @@
     },
     {
       "country": "China",
-      "value": 39
-    },
-    {
-      "country": "Chinese Taipei",
-      "value": 1
+      "value": 43
     },
     {
       "country": "Czech Republic",
@@ -13842,14 +13838,6 @@
     {
       "country": "Germany",
       "value": 17
-    },
-    {
-      "country": "Great Britain",
-      "value": 20
-    },
-    {
-      "country": "Hong Kong",
-      "value": 4
     },
     {
       "country": "Hungary",
@@ -13909,7 +13897,7 @@
     },
     {
       "country": "Russia",
-      "value": 18
+      "value": 22
     },
     {
       "country": "Slovakia",
@@ -13928,16 +13916,20 @@
       "value": 1
     },
     {
+      "country": "Taiwan",
+      "value": 1
+    },
+    {
+      "country": "UK",
+      "value": 20
+    },
+    {
+      "country": "USA",
+      "value": 37
+    },
+    {
       "country": "Ukraine",
       "value": 4
-    },
-    {
-      "country": "Unified Team",
-      "value": 6
-    },
-    {
-      "country": "United States",
-      "value": 37
     }
   ]
 }
