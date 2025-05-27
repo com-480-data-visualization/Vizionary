@@ -4,229 +4,281 @@
     import { feature } from "topojson-client";
 
     // Props using Svelte 5 syntax
-    let { sportKey, sex = "M", name } = $props<{
-        sportKey: string;
-        sex?: "M" | "F";
-        name?: string;
-    }>();
+    let { name, params } = $props();
 
     // State variables using Svelte 5 runes
+    let containerElement = $state<HTMLDivElement>();
     let width = $state(960);
     let height = $state(500);
-    let element = $state<HTMLDivElement>();
-    let mapData = $state<any[]>([]);
-    let countries = $state<any[]>([]);
+    let rawMapData = $state<Array<{year: number; country: string; sex: string; value: number}>>([]);
     let isLoading = $state(false);
     let error = $state<string | null>(null);
 
-    // Derived reactive values
-    const filteredData = $derived(() => {
-        if (!mapData.length) return [];
+    // Derived filtered data based on gender and year range
+    let filteredMapData = $derived.by(() => {
+        if (rawMapData.length === 0) return [];
         
-        // If each row has a `sex` key, filter; otherwise keep all
-        return "sex" in mapData[0] 
-            ? mapData.filter((d: any) => d.sex === sex)
-            : mapData;
-    });
-
-    const valueById = $derived(() => {
-        return new Map(filteredData.map(d => [d.country, d.value]));
-    });
-
-    const maxValue = $derived(() => {
-        return filteredData.length > 0 ? d3.max(filteredData, d => d.value) ?? 1 : 1;
-    });
-
-    const colorScale = $derived(() => {
-        return d3.scaleSequential()
-            .domain([0, maxValue])
-            .interpolator(d3.interpolateBlues);
-    });
-
-    // Function to load geographic data
-    async function loadGeoData() {
-        try {
-            const world = await d3.json(`statics/front/countries-110m.json`);
-            if (world) {
-                countries = feature(world as any, (world as any).objects.countries).features;
-            }
-        } catch (err) {
-            console.error("Error loading geographic data:", err);
-            error = "Failed to load geographic data";
+        console.log('Filtering map data with:', {
+            gender: params.gender,
+            startYear: params.startYear,
+            endYear: params.endYear,
+            rawDataLength: rawMapData.length
+        });
+        
+        // Filter by year range first
+        const yearFiltered = rawMapData.filter(d => 
+            d.year >= params.startYear && d.year <= params.endYear
+        );
+        
+        // Then filter by gender and aggregate by country
+        let processedData;
+        if (params.gender === "male") {
+            processedData = yearFiltered.filter(d => d.sex === "M");
+        } else if (params.gender === "female") {
+            processedData = yearFiltered.filter(d => d.sex === "F");
+        } else {
+            // For "all", keep both male and female data
+            processedData = yearFiltered;
         }
-    }
+        
+        // Group by country and sum values across years and genders (if "all")
+        const grouped = d3.group(processedData, d => d.country);
+        const aggregated = Array.from(grouped, ([country, entries]) => ({
+            country,
+            sex: params.gender === "all" ? "All" : entries[0].sex,
+            value: d3.sum(entries, d => d.value),
+            yearRange: `${params.startYear}-${params.endYear}`
+        }));
+        
+        console.log('Filtered map data result:', aggregated);
+        return aggregated;
+    });
 
-    // Function to load sport data
-    async function loadSportData(sportName: string) {
+    // Function to load data
+    async function loadData(sportName: string) {
         if (!sportName) return;
         
         isLoading = true;
         error = null;
+        rawMapData = [];
         
         try {
             const response = await fetch(`/statics/${sportName}.json`);
             if (!response.ok) {
                 throw new Error(`Failed to fetch data: ${response.statusText}`);
             }
-            
-            const raw = await response.json();
-            // const raw = Array.isArray(resp?.map) ? resp.map : [];
-            
-            mapData = raw;
-            console.log('Loaded map data:', mapData);
-            
+
+            const rawData = await response.json();
+            console.log("Loaded raw data:", rawData);
+
+            // Extract the map data from the raw JSON
+            if (rawData && rawData.map && Array.isArray(rawData.map)) {
+                rawMapData = rawData.map;
+                console.log("Processed map data:", rawMapData);
+            } else {
+                throw new Error("Map data not found in the JSON file or not in expected format.");
+            }
         } catch (err) {
             error = err instanceof Error ? err.message : 'An unknown error occurred';
-            console.error("Error loading sport data:", err);
+            console.error("Error loading map data:", err);
         } finally {
             isLoading = false;
         }
     }
 
-    // Create the map visualization
-    function createMap() {
-        if (!element || !countries.length || !filteredData.length) return;
+    // Function to draw the map
+    async function drawMap() {
+        if (!containerElement || filteredMapData.length === 0) return;
         
-        // Clear existing content
-        element.innerHTML = "";
-        
-        // Set dimensions
-        const containerWidth = element.clientWidth || width;
-        const containerHeight = element.clientHeight || height;
-        
-        // Create SVG
-        const svg = d3.select(element)
-            .append("svg")
-            .attr("width", containerWidth)
-            .attr("height", containerHeight);
-        
-        // Set up projection
-        const projection = d3.geoMercator()
-            .fitSize([containerWidth, containerHeight], {
+        try {
+            // Clear existing content
+            containerElement.innerHTML = "";
+
+            // Load world geo data
+            const world = await d3.json(`/statics/front/countries-110m.json`);
+            const countries = feature(world as any, (world as any).objects.countries).features;
+
+            // Create SVG
+            const svg = d3.select(containerElement)
+                .append("svg")
+                .attr("width", width)
+                .attr("height", height);
+
+            // Set up projection
+            const projection = d3.geoMercator().fitSize([width, height], {
                 type: "FeatureCollection",
                 features: countries,
             });
-        
-        const path = d3.geoPath().projection(projection);
-        
-        // Create tooltip
-        const tooltip = d3.select(element)
-            .append("div")
-            .attr("class", "tooltip")
-            .style("opacity", 0)
-            .style("position", "absolute")
-            .style("background-color", "rgba(0, 0, 0, 0.8)")
-            .style("color", "white")
-            .style("padding", "8px 12px")
-            .style("border-radius", "6px")
-            .style("font-size", "12px")
-            .style("pointer-events", "none")
-            .style("z-index", "10");
-        
-        // Draw countries
-        svg.selectAll("path")
-            .data(countries)
-            .join("path")
-            .attr("d", path)
-            .attr("fill", d => {
-                const val = valueById.get(d.properties.name) ?? 0;
-                return colorScale(val);
-            })
-            .attr("stroke", "#999")
-            .attr("stroke-width", "0.5")
-            .style("cursor", "pointer")
-            .on("mouseover", (event, d) => {
-                const value = valueById.get(d.properties.name) ?? 0;
-                
-                tooltip
-                    .style("left", (event.pageX + 15) + "px")
-                    .style("top", (event.pageY - 30) + "px")
-                    .transition().duration(200)
-                    .style("opacity", 1)
-                    .html(`
-                        <strong>${d.properties.name}</strong><br>
-                        Value: ${value.toFixed(2)}<br>
-                        Sex: ${sex === 'M' ? 'Male' : 'Female'}
-                    `);
-            })
-            .on("mouseout", () => {
-                tooltip.transition().duration(200).style("opacity", 0);
-            });
+            const path = d3.geoPath().projection(projection);
+
+            // Create color scale
+            const valueById = new Map(filteredMapData.map(d => [d.country, d.value]));
+            const maxVal = d3.max(filteredMapData, d => d.value) ?? 1;
+            const color = d3.scaleSequential()
+                .domain([0, maxVal])
+                .interpolator(d3.interpolateBlues);
+
+            // Create tooltip
+            const tooltip = d3.select(containerElement)
+                .append("div")
+                .style("position", "absolute")
+                .style("pointer-events", "none")
+                .style("background-color", "rgba(0, 0, 0, 0.7)")
+                .style("color", "white")
+                .style("padding", "5px 10px")
+                .style("border-radius", "5px")
+                .style("font-size", "12px")
+                .style("opacity", 0);
+
+            // Draw countries
+            svg.selectAll("path")
+                .data(countries)
+                .join("path")
+                .attr("d", path)
+                .attr("fill", d => {
+                    const val = valueById.get(d.properties.name) ?? 0;
+                    return val > 0 ? color(val) : "#f0f0f0";
+                })
+                .attr("stroke", "#999")
+                .attr("stroke-width", 0.5)
+                .on("mouseover", (event, d) => {
+                    const val = valueById.get(d.properties.name) ?? 0;
+                    if (val > 0) {
+                        tooltip
+                            .style("opacity", 1)
+                            .html(`
+                                <strong>${d.properties.name}</strong><br/>
+                                ${params.gender === "all" ? "Total" : params.gender === "male" ? "Male" : "Female"} Athletes: <strong>${val}</strong><br/>
+                                Years: ${params.startYear}-${params.endYear}
+                            `)
+                            .style("left", `${event.pageX + 8}px`)
+                            .style("top", `${event.pageY + 8}px`);
+                    }
+                })
+                .on("mouseout", () => tooltip.style("opacity", 0));
+
+            // Add legend
+            const legendWidth = 300;
+            const legendHeight = 20;
+            const legend = svg.append("g")
+                .attr("transform", `translate(${width - legendWidth - 20}, ${height - 60})`);
+
+            // Create gradient for legend
+            const defs = svg.append("defs");
+            const gradient = defs.append("linearGradient")
+                .attr("id", "map-legend-gradient");
+
+            gradient.selectAll("stop")
+                .data(d3.range(0, 1.01, 0.1))
+                .join("stop")
+                .attr("offset", d => `${d * 100}%`)
+                .attr("stop-color", d => color(d * maxVal));
+
+            legend.append("rect")
+                .attr("width", legendWidth)
+                .attr("height", legendHeight)
+                .style("fill", "url(#map-legend-gradient)")
+                .attr("stroke", "#333")
+                .attr("stroke-width", 1);
+
+            // Add legend labels
+            legend.append("text")
+                .attr("x", 0)
+                .attr("y", legendHeight + 15)
+                .style("text-anchor", "start")
+                .style("font-size", "12px")
+                .text("0");
+
+            legend.append("text")
+                .attr("x", legendWidth)
+                .attr("y", legendHeight + 15)
+                .style("text-anchor", "end")
+                .style("font-size", "12px")
+                .text(maxVal.toString());
+
+            legend.append("text")
+                .attr("x", legendWidth / 2)
+                .attr("y", -5)
+                .style("text-anchor", "middle")
+                .style("font-size", "12px")
+                .style("font-weight", "bold")
+                .text(`Athletes (${params.startYear}-${params.endYear})`);
+
+        } catch (err) {
+            error = err instanceof Error ? err.message : 'Failed to draw map';
+            console.error("Error drawing map:", err);
+        }
     }
 
-    // Effect to load geographic data on mount
+    // Effect to load data when name changes
     $effect(() => {
-        loadGeoData();
+        if (name) {
+            loadData(name);
+        }
+        // console.log('data', filteredMapData)
     });
 
-    // Effect to load sport data when sportKey changes
+    // Effect to draw map when filtered data or dimensions change
     $effect(() => {
-        console.log('map')
-        if (sportKey) {
-            loadSportData(sportKey);
+        if (name || params || filteredMapData.length > 0 && width > 0 && height > 0) {
+            drawMap();
         }
     });
 
-    // Effect to recreate map when data or dependencies change
-    $effect(() => {
-        if (countries.length > 0 && filteredData.length > 0 && element) {
-            createMap();
-        }
-    });
-
-    // Handle resize
+    // Handle resize and initial dimensions setup
     onMount(() => {
-        if (!element) return;
+        if (!containerElement) return;
         
+        // Initialize width and height based on container size once component is mounted
+        width = containerElement.clientWidth || 960;
+        height = containerElement.clientHeight || 500;
+
+        // Handle resizing
         const resizeObserver = new ResizeObserver(() => {
-            if (countries.length > 0 && filteredData.length > 0) {
-                createMap();
+            if (containerElement) {
+                const newWidth = containerElement.clientWidth || 960;
+                const newHeight = containerElement.clientHeight || 500;
+                
+                // Only update if dimensions actually changed
+                if (newWidth !== width || newHeight !== height) {
+                    width = newWidth;
+                    height = newHeight;
+                }
             }
         });
-        
-        resizeObserver.observe(element);
-        
+
+        resizeObserver.observe(containerElement);
+
+        // Cleanup the observer when the component is destroyed
         return () => {
-            // resizeObserver.disconnect();
+            resizeObserver.disconnect();
         };
     });
 </script>
 
-<div class="w-full h-full p-4 flex flex-col">
+<div class="w-full h-full p-4 flex flex-col text-center">
     <h2 class="text-center text-gray-800 text-xl font-bold mb-2">
-        World Map - {name || sportKey}
-        ({sex === "M" ? "Male" : "Female"})
+        World Map
     </h2>
     
-    {#if isLoading}
-        <div class="flex-1 bg-gray-100 p-3 rounded map-container flex items-center justify-center">
-            <div class="text-gray-600">Loading map data for {sportKey}...</div>
-        </div>
-    {:else if error}
-        <div class="flex-1 bg-gray-100 p-3 rounded map-container flex items-center justify-center">
-            <div class="text-red-600">Error: {error}</div>
-        </div>
-    {:else if !filteredData.length}
-        <div class="flex-1 bg-gray-100 p-3 rounded map-container flex items-center justify-center">
-            <div class="text-gray-600">No data available for {sportKey}</div>
-        </div>
-    {:else}
-        <div 
-            class="flex-1 bg-gray-100 p-3 rounded map-container" 
-            bind:this={element}
-        >
-            <!-- D3 will insert the SVG here -->
-        </div>
-    {/if}
-    
-    {#if filteredData.length > 0}
-        <div class="mt-2 text-center text-sm text-gray-600">
-            Showing data for {filteredData.length} countries
-            <span class="ml-2">
-                Max value: {maxValue.toFixed(2)}
-            </span>
-        </div>
-    {/if}
+    <div 
+        class="flex-1 bg-gray-100 p-3 rounded map-container" 
+        bind:this={containerElement}
+    >
+        {#if isLoading}
+            <div class="loading-container">
+                <p class="text-gray-600">Loading map data for {name}...</p>
+            </div>
+        {:else if error}
+            <div class="error-container">
+                <p class="text-red-600">Error loading map data: {error}</p>
+            </div>
+        {:else if !filteredMapData || filteredMapData.length === 0}
+            <div class="loading-container">
+                <p class="text-gray-600">No map data available for {params.gender === "male" ? "Male" : params.gender === "female" ? "Female" : "All"} ({params.startYear}-{params.endYear})</p>
+            </div>
+        {/if}
+    </div>
 </div>
 
 <style>
@@ -237,20 +289,29 @@
         border-radius: 0.75rem;
         overflow: hidden;
         position: relative;
-        min-height: 400px;
     }
-    
-    :global(.tooltip) {
-        z-index: 10;
+
+    .loading-container,
+    .error-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
     }
-    
-    :global(svg) {
+
+    /* Style the map elements */
+    :global(.map-container svg) {
         width: 100%;
         height: 100%;
     }
-    
-    :global(path:hover) {
+
+    :global(.map-container path:hover) {
         stroke: #333;
-        stroke-width: 1.5px;
+        stroke-width: 1px;
+    }
+
+    :global(.tooltip) {
+        z-index: 10;
     }
 </style>
