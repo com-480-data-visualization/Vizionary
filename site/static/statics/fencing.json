@@ -91354,590 +91354,8867 @@
   ],
   "map": [
     {
-      "country": "Argentina",
+      "year": 1900,
+      "country": "Austria",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1900,
+      "country": "Cuba",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1900,
+      "country": "France",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1900,
+      "country": "Italy",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1904,
+      "country": "Cuba",
       "sex": "M",
       "value": 5
     },
     {
-      "country": "Austria",
-      "sex": "F",
-      "value": 3
-    },
-    {
-      "country": "Austria",
+      "year": 1904,
+      "country": "USA",
       "sex": "M",
-      "value": 10
+      "value": 13
     },
     {
+      "year": 1906,
       "country": "Belgium",
-      "sex": "M",
-      "value": 48
-    },
-    {
-      "country": "China",
-      "sex": "F",
-      "value": 20
-    },
-    {
-      "country": "China",
-      "sex": "M",
-      "value": 10
-    },
-    {
-      "country": "Cuba",
-      "sex": "M",
-      "value": 20
-    },
-    {
-      "country": "Czech Republic",
       "sex": "M",
       "value": 6
     },
     {
-      "country": "Denmark",
-      "sex": "F",
-      "value": 4
-    },
-    {
-      "country": "Denmark",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "country": "Egypt",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "country": "France",
-      "sex": "F",
-      "value": 29
-    },
-    {
+      "year": 1906,
       "country": "France",
       "sex": "M",
-      "value": 278
+      "value": 8
     },
     {
-      "country": "Germany",
-      "sex": "F",
-      "value": 40
-    },
-    {
+      "year": 1906,
       "country": "Germany",
       "sex": "M",
-      "value": 82
+      "value": 7
     },
     {
+      "year": 1906,
       "country": "Greece",
       "sex": "M",
       "value": 7
     },
     {
-      "country": "Hungary",
-      "sex": "F",
-      "value": 49
-    },
-    {
+      "year": 1906,
       "country": "Hungary",
       "sex": "M",
-      "value": 187
+      "value": 1
     },
     {
-      "country": "Italy",
-      "sex": "F",
-      "value": 51
-    },
-    {
+      "year": 1906,
       "country": "Italy",
       "sex": "M",
-      "value": 308
+      "value": 2
     },
     {
-      "country": "Japan",
+      "year": 1906,
+      "country": "Netherlands",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1906,
+      "country": "UK",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1908,
+      "country": "Belgium",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1908,
+      "country": "Czech Republic",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1908,
+      "country": "France",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 1908,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1908,
+      "country": "Italy",
       "sex": "M",
       "value": 5
     },
     {
-      "country": "Mexico",
-      "sex": "F",
+      "year": 1908,
+      "country": "UK",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1912,
+      "country": "Austria",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1912,
+      "country": "Belgium",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1912,
+      "country": "Denmark",
+      "sex": "M",
       "value": 1
     },
     {
+      "year": 1912,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 11
+    },
+    {
+      "year": 1912,
+      "country": "Italy",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1912,
       "country": "Netherlands",
       "sex": "M",
-      "value": 31
+      "value": 11
     },
     {
-      "country": "Norway",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "country": "Poland",
-      "sex": "F",
-      "value": 6
-    },
-    {
-      "country": "Poland",
-      "sex": "M",
-      "value": 76
-    },
-    {
-      "country": "Portugal",
+      "year": 1912,
+      "country": "UK",
       "sex": "M",
       "value": 6
     },
     {
-      "country": "Romania",
-      "sex": "F",
-      "value": 30
-    },
-    {
-      "country": "Romania",
+      "year": 1920,
+      "country": "Belgium",
       "sex": "M",
-      "value": 17
+      "value": 7
     },
     {
-      "country": "Russia",
-      "sex": "F",
-      "value": 67
-    },
-    {
-      "country": "Russia",
-      "sex": "M",
-      "value": 154
-    },
-    {
-      "country": "South Korea",
-      "sex": "F",
-      "value": 10
-    },
-    {
-      "country": "South Korea",
-      "sex": "M",
-      "value": 10
-    },
-    {
-      "country": "Spain",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "country": "Sweden",
-      "sex": "M",
-      "value": 26
-    },
-    {
-      "country": "Switzerland",
-      "sex": "F",
-      "value": 4
-    },
-    {
-      "country": "Switzerland",
-      "sex": "M",
-      "value": 19
-    },
-    {
-      "country": "Tunisia",
-      "sex": "F",
-      "value": 1
-    },
-    {
-      "country": "UK",
-      "sex": "F",
-      "value": 4
-    },
-    {
-      "country": "UK",
+      "year": 1920,
+      "country": "France",
       "sex": "M",
       "value": 24
     },
     {
+      "year": 1920,
+      "country": "Italy",
+      "sex": "M",
+      "value": 28
+    },
+    {
+      "year": 1920,
+      "country": "Netherlands",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1920,
       "country": "USA",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1924,
+      "country": "Belgium",
+      "sex": "M",
+      "value": 14
+    },
+    {
+      "year": 1924,
+      "country": "Denmark",
       "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1924,
+      "country": "France",
+      "sex": "M",
       "value": 19
     },
     {
-      "country": "USA",
+      "year": 1924,
+      "country": "Hungary",
       "sex": "M",
-      "value": 50
+      "value": 15
     },
     {
+      "year": 1924,
+      "country": "Italy",
+      "sex": "M",
+      "value": 14
+    },
+    {
+      "year": 1924,
+      "country": "Netherlands",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1924,
+      "country": "Sweden",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1924,
+      "country": "UK",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1928,
+      "country": "Argentina",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1928,
+      "country": "France",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1928,
+      "country": "Germany",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1928,
+      "country": "Germany",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1928,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1928,
+      "country": "Italy",
+      "sex": "M",
+      "value": 20
+    },
+    {
+      "year": 1928,
+      "country": "Poland",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1928,
+      "country": "Portugal",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1928,
+      "country": "UK",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1928,
+      "country": "USA",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "Austria",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "France",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1932,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1932,
+      "country": "Italy",
+      "sex": "M",
+      "value": 22
+    },
+    {
+      "year": 1932,
+      "country": "Poland",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1932,
+      "country": "UK",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "USA",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1936,
+      "country": "Austria",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1936,
+      "country": "France",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1936,
+      "country": "Germany",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1936,
+      "country": "Germany",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "year": 1936,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1936,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1936,
+      "country": "Italy",
+      "sex": "M",
+      "value": 24
+    },
+    {
+      "year": 1936,
+      "country": "Sweden",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1948,
+      "country": "Austria",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "Belgium",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1948,
+      "country": "Denmark",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "France",
+      "sex": "M",
+      "value": 14
+    },
+    {
+      "year": 1948,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 1948,
+      "country": "Italy",
+      "sex": "M",
+      "value": 21
+    },
+    {
+      "year": 1948,
+      "country": "Sweden",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1948,
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "USA",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1952,
+      "country": "Denmark",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1952,
+      "country": "France",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1952,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1952,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1952,
+      "country": "Italy",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1952,
+      "country": "Italy",
+      "sex": "M",
+      "value": 22
+    },
+    {
+      "year": 1952,
+      "country": "Sweden",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1952,
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1956,
+      "country": "France",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1956,
+      "country": "France",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "year": 1956,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 19
+    },
+    {
+      "year": 1956,
+      "country": "Italy",
+      "sex": "M",
+      "value": 17
+    },
+    {
+      "year": 1956,
+      "country": "Poland",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1956,
+      "country": "Romania",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1956,
+      "country": "Russia",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1956,
+      "country": "UK",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1960,
+      "country": "Germany",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1960,
+      "country": "Germany",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1960,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1960,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1960,
+      "country": "Italy",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1960,
+      "country": "Italy",
+      "sex": "M",
+      "value": 18
+    },
+    {
+      "year": 1960,
+      "country": "Poland",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1960,
+      "country": "Romania",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1960,
+      "country": "Russia",
+      "sex": "F",
+      "value": 7
+    },
+    {
+      "year": 1960,
+      "country": "Russia",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1960,
+      "country": "UK",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1960,
+      "country": "USA",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1964,
+      "country": "France",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1964,
+      "country": "Germany",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1964,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 1964,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1964,
+      "country": "Italy",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1964,
+      "country": "Italy",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 1964,
+      "country": "Poland",
+      "sex": "M",
+      "value": 11
+    },
+    {
+      "year": 1964,
+      "country": "Russia",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1964,
+      "country": "Russia",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1964,
+      "country": "UK",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1968,
+      "country": "France",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1968,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 1968,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1968,
+      "country": "Italy",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1968,
+      "country": "Mexico",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1968,
+      "country": "Poland",
+      "sex": "M",
+      "value": 11
+    },
+    {
+      "year": 1968,
+      "country": "Romania",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1968,
+      "country": "Romania",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1968,
+      "country": "Russia",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 1968,
+      "country": "Russia",
+      "sex": "M",
+      "value": 17
+    },
+    {
+      "year": 1972,
+      "country": "France",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1972,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 1972,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 14
+    },
+    {
+      "year": 1972,
+      "country": "Italy",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1972,
+      "country": "Italy",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1972,
+      "country": "Poland",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1972,
+      "country": "Romania",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 1972,
+      "country": "Russia",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 1972,
+      "country": "Russia",
+      "sex": "M",
+      "value": 17
+    },
+    {
+      "year": 1972,
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1976,
+      "country": "France",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1976,
+      "country": "France",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1976,
+      "country": "Germany",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "year": 1976,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 1976,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1976,
+      "country": "Italy",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1976,
+      "country": "Italy",
+      "sex": "M",
+      "value": 11
+    },
+    {
+      "year": 1976,
+      "country": "Romania",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1976,
+      "country": "Russia",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 1976,
+      "country": "Russia",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 1976,
+      "country": "Sweden",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1976,
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1980,
+      "country": "France",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 1980,
+      "country": "France",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "year": 1980,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 1980,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1980,
+      "country": "Italy",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1980,
+      "country": "Poland",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1980,
+      "country": "Poland",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 1980,
+      "country": "Russia",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1980,
+      "country": "Russia",
+      "sex": "M",
+      "value": 19
+    },
+    {
+      "year": 1980,
+      "country": "Sweden",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1984,
+      "country": "China",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1984,
+      "country": "France",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1984,
+      "country": "France",
+      "sex": "M",
+      "value": 18
+    },
+    {
+      "year": 1984,
+      "country": "Germany",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 1984,
+      "country": "Germany",
+      "sex": "M",
+      "value": 11
+    },
+    {
+      "year": 1984,
+      "country": "Italy",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1984,
+      "country": "Italy",
+      "sex": "M",
+      "value": 18
+    },
+    {
+      "year": 1984,
+      "country": "Romania",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1984,
+      "country": "Romania",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1984,
+      "country": "Sweden",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1984,
+      "country": "USA",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1988,
+      "country": "France",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1988,
+      "country": "Germany",
+      "sex": "F",
+      "value": 8
+    },
+    {
+      "year": 1988,
+      "country": "Germany",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "year": 1988,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1988,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 1988,
+      "country": "Italy",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1988,
+      "country": "Italy",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1988,
+      "country": "Poland",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1988,
+      "country": "Russia",
+      "sex": "M",
+      "value": 17
+    },
+    {
+      "year": 1992,
+      "country": "China",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1992,
+      "country": "Cuba",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1992,
+      "country": "France",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 1992,
+      "country": "Germany",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1992,
+      "country": "Germany",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 1992,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 11
+    },
+    {
+      "year": 1992,
+      "country": "Italy",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 1992,
+      "country": "Italy",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1992,
+      "country": "Poland",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1992,
+      "country": "Romania",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1992,
+      "country": "Russia",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1992,
+      "country": "Russia",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "year": 1996,
+      "country": "Cuba",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1996,
+      "country": "France",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1996,
+      "country": "France",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1996,
+      "country": "Germany",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1996,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1996,
+      "country": "Italy",
+      "sex": "F",
+      "value": 8
+    },
+    {
+      "year": 1996,
+      "country": "Italy",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1996,
+      "country": "Poland",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1996,
+      "country": "Romania",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 1996,
+      "country": "Russia",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1996,
+      "country": "Russia",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "year": 2000,
+      "country": "China",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 2000,
+      "country": "China",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 2000,
+      "country": "Cuba",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 2000,
+      "country": "France",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2000,
+      "country": "France",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 2000,
+      "country": "Germany",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 2000,
+      "country": "Germany",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 2000,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2000,
+      "country": "Italy",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 2000,
+      "country": "Italy",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 2000,
+      "country": "Poland",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 2000,
+      "country": "Romania",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2000,
+      "country": "Russia",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 2000,
+      "country": "Russia",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 2000,
+      "country": "South Korea",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2000,
+      "country": "Switzerland",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 2004,
+      "country": "China",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "China",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 2004,
+      "country": "France",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 2004,
+      "country": "France",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 2004,
+      "country": "Germany",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 2004,
+      "country": "Germany",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 2004,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 2004,
+      "country": "Italy",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2004,
+      "country": "Italy",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 2004,
+      "country": "Poland",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "Russia",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 2004,
+      "country": "Russia",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 2004,
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "USA",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2004,
       "country": "Ukraine",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "China",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 2008,
+      "country": "China",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "France",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 2008,
+      "country": "Germany",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "Germany",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "Italy",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 2008,
+      "country": "Italy",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 2008,
+      "country": "Japan",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "Poland",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 2008,
+      "country": "Romania",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "Romania",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "Russia",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 2008,
+      "country": "South Korea",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "Spain",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "USA",
+      "sex": "F",
+      "value": 9
+    },
+    {
+      "year": 2008,
+      "country": "USA",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 2008,
+      "country": "Ukraine",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 2012,
+      "country": "China",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 2012,
+      "country": "China",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "Egypt",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "Germany",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "Germany",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 2012,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "Italy",
+      "sex": "F",
+      "value": 7
+    },
+    {
+      "year": 2012,
+      "country": "Italy",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 2012,
+      "country": "Japan",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 2012,
+      "country": "Norway",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "Romania",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 2012,
+      "country": "Russia",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 2012,
+      "country": "Russia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "South Korea",
+      "sex": "F",
+      "value": 9
+    },
+    {
+      "year": 2012,
+      "country": "South Korea",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 2012,
+      "country": "USA",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 2012,
+      "country": "Ukraine",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2012,
+      "country": "Venezuela",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "China",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 2016,
+      "country": "France",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 2016,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 2016,
+      "country": "Italy",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2016,
+      "country": "Italy",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 2016,
+      "country": "Romania",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 2016,
+      "country": "Russia",
       "sex": "F",
       "value": 11
     },
     {
-      "country": "Ukraine",
+      "year": 2016,
+      "country": "Russia",
       "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 2016,
+      "country": "South Korea",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2016,
+      "country": "Tunisia",
+      "sex": "F",
       "value": 1
     },
     {
-      "country": "Venezuela",
+      "year": 2016,
+      "country": "USA",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 2016,
+      "country": "USA",
       "sex": "M",
-      "value": 1
+      "value": 6
+    },
+    {
+      "year": 2016,
+      "country": "Ukraine",
+      "sex": "F",
+      "value": 5
     }
   ],
   "treemap": [
     {
-      "country": "Algeria",
-      "value": 13
-    },
-    {
+      "year": 1900,
       "country": "Argentina",
-      "value": 90
-    },
-    {
-      "country": "Aruba",
+      "sex": "M",
       "value": 1
     },
     {
-      "country": "Australia",
-      "value": 67
-    },
-    {
+      "year": 1900,
       "country": "Austria",
-      "value": 92
-    },
-    {
-      "country": "Azerbaijan",
-      "value": 3
-    },
-    {
-      "country": "Bahrain",
-      "value": 4
-    },
-    {
-      "country": "Belarus",
+      "sex": "M",
       "value": 8
     },
     {
+      "year": 1900,
       "country": "Belgium",
-      "value": 126
-    },
-    {
-      "country": "Benin",
-      "value": 1
-    },
-    {
-      "country": "Boliva",
-      "value": 3
-    },
-    {
-      "country": "Brazil",
-      "value": 44
-    },
-    {
-      "country": "Bulgaria",
-      "value": 22
-    },
-    {
-      "country": "Burkina Faso",
-      "value": 1
-    },
-    {
-      "country": "Canada",
-      "value": 94
-    },
-    {
-      "country": "Chile",
-      "value": 21
-    },
-    {
-      "country": "China",
-      "value": 124
-    },
-    {
-      "country": "Colombia",
-      "value": 20
-    },
-    {
-      "country": "Costa Rica",
-      "value": 2
-    },
-    {
-      "country": "Croatia",
-      "value": 1
-    },
-    {
-      "country": "Cuba",
-      "value": 72
-    },
-    {
-      "country": "Curacao",
-      "value": 3
-    },
-    {
-      "country": "Czech Republic",
-      "value": 57
-    },
-    {
-      "country": "Denmark",
-      "value": 66
-    },
-    {
-      "country": "Egypt",
-      "value": 67
-    },
-    {
-      "country": "Estonia",
-      "value": 12
-    },
-    {
-      "country": "Finland",
-      "value": 30
-    },
-    {
-      "country": "France",
-      "value": 458
-    },
-    {
-      "country": "Georgia",
-      "value": 2
-    },
-    {
-      "country": "Germany",
-      "value": 207
-    },
-    {
-      "country": "Greece",
-      "value": 52
-    },
-    {
-      "country": "Guatemala",
-      "value": 4
-    },
-    {
-      "country": "Haiti",
-      "value": 4
-    },
-    {
-      "country": "Honduras",
-      "value": 1
-    },
-    {
-      "country": "Hungary",
-      "value": 191
-    },
-    {
-      "country": "Individual Olympic Athletes",
-      "value": 2
-    },
-    {
-      "country": "Indonesia",
-      "value": 10
-    },
-    {
-      "country": "Iran",
-      "value": 21
-    },
-    {
-      "country": "Ireland",
-      "value": 17
-    },
-    {
-      "country": "Israel",
-      "value": 13
-    },
-    {
-      "country": "Italy",
-      "value": 230
-    },
-    {
-      "country": "Ivory Coast",
-      "value": 1
-    },
-    {
-      "country": "Japan",
-      "value": 77
-    },
-    {
-      "country": "Jordan",
-      "value": 2
-    },
-    {
-      "country": "Kazakhstan",
-      "value": 10
-    },
-    {
-      "country": "Kuwait",
-      "value": 22
-    },
-    {
-      "country": "Kyrgyzstan",
-      "value": 2
-    },
-    {
-      "country": "Latvia",
-      "value": 1
-    },
-    {
-      "country": "Lebanon",
-      "value": 18
-    },
-    {
-      "country": "Luxembourg",
-      "value": 22
-    },
-    {
-      "country": "Malaysia",
-      "value": 2
-    },
-    {
-      "country": "Mexico",
-      "value": 55
-    },
-    {
-      "country": "Monaco",
-      "value": 4
-    },
-    {
-      "country": "Morocco",
-      "value": 11
-    },
-    {
-      "country": "Netherlands",
-      "value": 81
-    },
-    {
-      "country": "New Zealand",
+      "sex": "M",
       "value": 5
     },
     {
-      "country": "Norway",
-      "value": 38
+      "year": 1900,
+      "country": "Cuba",
+      "sex": "M",
+      "value": 1
     },
     {
-      "country": "Panama",
+      "year": 1900,
+      "country": "Denmark",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1900,
+      "country": "France",
+      "sex": "M",
+      "value": 211
+    },
+    {
+      "year": 1900,
+      "country": "Germany",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1900,
+      "country": "Haiti",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1900,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1900,
+      "country": "Iran",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1900,
+      "country": "Italy",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1900,
+      "country": "Netherlands",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1900,
+      "country": "Peru",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1900,
+      "country": "Russia",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1900,
+      "country": "Spain",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1900,
+      "country": "Sweden",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1900,
+      "country": "Switzerland",
+      "sex": "M",
       "value": 3
     },
     {
-      "country": "Paraguay",
+      "year": 1900,
+      "country": "UK",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1900,
+      "country": "USA",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1904,
+      "country": "Cuba",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1904,
+      "country": "Germany",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1904,
+      "country": "UK",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1904,
+      "country": "USA",
+      "sex": "M",
       "value": 7
     },
     {
-      "country": "Peru",
-      "value": 6
-    },
-    {
-      "country": "Philippines",
-      "value": 2
-    },
-    {
-      "country": "Poland",
-      "value": 144
-    },
-    {
-      "country": "Portugal",
-      "value": 50
-    },
-    {
-      "country": "Puerto Rico",
-      "value": 11
-    },
-    {
-      "country": "Qatar",
-      "value": 1
-    },
-    {
-      "country": "Republic of Congo",
-      "value": 1
-    },
-    {
-      "country": "Romania",
-      "value": 106
-    },
-    {
-      "country": "Russia",
-      "value": 186
-    },
-    {
-      "country": "Saudi Arabia",
-      "value": 9
-    },
-    {
-      "country": "Senegal",
-      "value": 4
-    },
-    {
-      "country": "Serbia",
-      "value": 17
-    },
-    {
-      "country": "South Africa",
-      "value": 15
-    },
-    {
-      "country": "South Korea",
-      "value": 83
-    },
-    {
-      "country": "Spain",
-      "value": 59
-    },
-    {
-      "country": "Sweden",
-      "value": 100
-    },
-    {
-      "country": "Switzerland",
-      "value": 99
-    },
-    {
-      "country": "Syria",
-      "value": 6
-    },
-    {
-      "country": "Taiwan",
-      "value": 5
-    },
-    {
-      "country": "Thailand",
-      "value": 8
-    },
-    {
-      "country": "Tunisia",
-      "value": 15
-    },
-    {
-      "country": "Turkey",
-      "value": 23
-    },
-    {
-      "country": "UK",
-      "value": 193
-    },
-    {
-      "country": "USA",
-      "value": 264
-    },
-    {
-      "country": "Ukraine",
-      "value": 36
-    },
-    {
-      "country": "Uruguay",
-      "value": 19
-    },
-    {
-      "country": "Uzbekistan",
+      "year": 1906,
+      "country": "Austria",
+      "sex": "M",
       "value": 3
     },
     {
-      "country": "Venezuela",
-      "value": 38
+      "year": 1906,
+      "country": "Belgium",
+      "sex": "M",
+      "value": 5
     },
     {
-      "country": "Vietnam",
+      "year": 1906,
+      "country": "Czech Republic",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1906,
+      "country": "Denmark",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1906,
+      "country": "France",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1906,
+      "country": "Germany",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1906,
+      "country": "Greece",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1906,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1906,
+      "country": "Italy",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1906,
+      "country": "Netherlands",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1906,
+      "country": "Sweden",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1906,
+      "country": "UK",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1908,
+      "country": "Austria",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1908,
+      "country": "Belgium",
+      "sex": "M",
+      "value": 18
+    },
+    {
+      "year": 1908,
+      "country": "Canada",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1908,
+      "country": "Czech Republic",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1908,
+      "country": "Denmark",
+      "sex": "M",
       "value": 8
     },
     {
-      "country": "Virgin Islands, US",
+      "year": 1908,
+      "country": "France",
+      "sex": "M",
+      "value": 22
+    },
+    {
+      "year": 1908,
+      "country": "Germany",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 1908,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1908,
+      "country": "Italy",
+      "sex": "M",
+      "value": 11
+    },
+    {
+      "year": 1908,
+      "country": "Netherlands",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1908,
+      "country": "Norway",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1908,
+      "country": "South Africa",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1908,
+      "country": "Sweden",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1908,
+      "country": "UK",
+      "sex": "M",
+      "value": 23
+    },
+    {
+      "year": 1912,
+      "country": "Austria",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "year": 1912,
+      "country": "Belgium",
+      "sex": "M",
+      "value": 11
+    },
+    {
+      "year": 1912,
+      "country": "Czech Republic",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1912,
+      "country": "Denmark",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1912,
+      "country": "Germany",
+      "sex": "M",
+      "value": 16
+    },
+    {
+      "year": 1912,
+      "country": "Greece",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1912,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1912,
+      "country": "Italy",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 1912,
+      "country": "Netherlands",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "year": 1912,
+      "country": "Norway",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1912,
+      "country": "Portugal",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1912,
+      "country": "Russia",
+      "sex": "M",
+      "value": 24
+    },
+    {
+      "year": 1912,
+      "country": "South Africa",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1912,
+      "country": "Sweden",
+      "sex": "M",
+      "value": 18
+    },
+    {
+      "year": 1912,
+      "country": "UK",
+      "sex": "M",
+      "value": 22
+    },
+    {
+      "year": 1912,
+      "country": "USA",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1920,
+      "country": "Belgium",
+      "sex": "M",
+      "value": 22
+    },
+    {
+      "year": 1920,
+      "country": "Czech Republic",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 1920,
+      "country": "Denmark",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1920,
+      "country": "Egypt",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1920,
+      "country": "France",
+      "sex": "M",
+      "value": 18
+    },
+    {
+      "year": 1920,
+      "country": "Greece",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1920,
+      "country": "Italy",
+      "sex": "M",
+      "value": 19
+    },
+    {
+      "year": 1920,
+      "country": "Netherlands",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 1920,
+      "country": "Portugal",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1920,
+      "country": "Sweden",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1920,
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1920,
+      "country": "UK",
+      "sex": "M",
+      "value": 18
+    },
+    {
+      "year": 1920,
+      "country": "USA",
+      "sex": "M",
+      "value": 17
+    },
+    {
+      "year": 1924,
+      "country": "Argentina",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1924,
+      "country": "Austria",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1924,
+      "country": "Belgium",
+      "sex": "M",
+      "value": 19
+    },
+    {
+      "year": 1924,
+      "country": "Chile",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1924,
+      "country": "Cuba",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1924,
+      "country": "Czech Republic",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1924,
+      "country": "Denmark",
+      "sex": "F",
       "value": 4
     },
     {
+      "year": 1924,
+      "country": "Denmark",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1924,
+      "country": "Egypt",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1924,
+      "country": "France",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 1924,
+      "country": "France",
+      "sex": "M",
+      "value": 20
+    },
+    {
+      "year": 1924,
+      "country": "Greece",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1924,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1924,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 1924,
+      "country": "Italy",
+      "sex": "M",
+      "value": 19
+    },
+    {
+      "year": 1924,
+      "country": "Netherlands",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1924,
+      "country": "Netherlands",
+      "sex": "M",
+      "value": 14
+    },
+    {
+      "year": 1924,
+      "country": "Norway",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1924,
+      "country": "Poland",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1924,
+      "country": "Poland",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1924,
+      "country": "Portugal",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 1924,
+      "country": "Spain",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1924,
+      "country": "Sweden",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1924,
+      "country": "Sweden",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1924,
+      "country": "Switzerland",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1924,
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1924,
+      "country": "Turkey",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1924,
+      "country": "UK",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 1924,
+      "country": "UK",
+      "sex": "M",
+      "value": 16
+    },
+    {
+      "year": 1924,
+      "country": "USA",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1924,
+      "country": "USA",
+      "sex": "M",
+      "value": 19
+    },
+    {
+      "year": 1924,
+      "country": "Uruguay",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1928,
+      "country": "Argentina",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 1928,
+      "country": "Austria",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1928,
+      "country": "Belgium",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1928,
+      "country": "Belgium",
+      "sex": "M",
+      "value": 18
+    },
+    {
+      "year": 1928,
+      "country": "Bulgaria",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1928,
+      "country": "Chile",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1928,
+      "country": "Czech Republic",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1928,
+      "country": "Czech Republic",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1928,
+      "country": "Denmark",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1928,
+      "country": "Denmark",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1928,
+      "country": "Egypt",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1928,
+      "country": "Finland",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1928,
+      "country": "France",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1928,
+      "country": "France",
+      "sex": "M",
+      "value": 17
+    },
+    {
+      "year": 1928,
+      "country": "Germany",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1928,
+      "country": "Germany",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 1928,
+      "country": "Greece",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1928,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1928,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 14
+    },
+    {
+      "year": 1928,
+      "country": "Italy",
+      "sex": "M",
+      "value": 18
+    },
+    {
+      "year": 1928,
+      "country": "Mexico",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1928,
+      "country": "Netherlands",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1928,
+      "country": "Netherlands",
+      "sex": "M",
+      "value": 17
+    },
+    {
+      "year": 1928,
+      "country": "Norway",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1928,
+      "country": "Poland",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1928,
+      "country": "Portugal",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1928,
+      "country": "Romania",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1928,
+      "country": "Serbia",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1928,
+      "country": "Spain",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 1928,
+      "country": "Sweden",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1928,
+      "country": "Sweden",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1928,
+      "country": "Switzerland",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1928,
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1928,
+      "country": "Turkey",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1928,
+      "country": "UK",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1928,
+      "country": "UK",
+      "sex": "M",
+      "value": 16
+    },
+    {
+      "year": 1928,
+      "country": "USA",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1928,
+      "country": "USA",
+      "sex": "M",
+      "value": 14
+    },
+    {
+      "year": 1932,
+      "country": "Argentina",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1932,
+      "country": "Austria",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "Belgium",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "Belgium",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1932,
+      "country": "Canada",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "Canada",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1932,
+      "country": "Denmark",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1932,
+      "country": "Denmark",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1932,
+      "country": "France",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "France",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 1932,
+      "country": "Germany",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "Germany",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1932,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1932,
+      "country": "Italy",
+      "sex": "M",
+      "value": 14
+    },
+    {
+      "year": 1932,
+      "country": "Mexico",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "Mexico",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 1932,
+      "country": "Netherlands",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "Netherlands",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "Poland",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1932,
+      "country": "Sweden",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1932,
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "UK",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1932,
+      "country": "UK",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "USA",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1932,
+      "country": "USA",
+      "sex": "M",
+      "value": 18
+    },
+    {
+      "year": 1936,
+      "country": "Argentina",
+      "sex": "M",
+      "value": 11
+    },
+    {
+      "year": 1936,
+      "country": "Austria",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1936,
+      "country": "Austria",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "year": 1936,
+      "country": "Belgium",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1936,
+      "country": "Belgium",
+      "sex": "M",
+      "value": 17
+    },
+    {
+      "year": 1936,
+      "country": "Brazil",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1936,
+      "country": "Brazil",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1936,
+      "country": "Bulgaria",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1936,
+      "country": "Canada",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1936,
+      "country": "Canada",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1936,
+      "country": "Chile",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1936,
+      "country": "Costa Rica",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1936,
+      "country": "Czech Republic",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1936,
+      "country": "Czech Republic",
+      "sex": "M",
+      "value": 11
+    },
+    {
+      "year": 1936,
+      "country": "Denmark",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1936,
+      "country": "Denmark",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1936,
+      "country": "Egypt",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1936,
+      "country": "France",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1936,
+      "country": "France",
+      "sex": "M",
+      "value": 16
+    },
+    {
+      "year": 1936,
+      "country": "Germany",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1936,
+      "country": "Germany",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1936,
+      "country": "Greece",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1936,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1936,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 16
+    },
+    {
+      "year": 1936,
+      "country": "Italy",
+      "sex": "M",
+      "value": 16
+    },
+    {
+      "year": 1936,
+      "country": "Mexico",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1936,
+      "country": "Netherlands",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1936,
+      "country": "Netherlands",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 1936,
+      "country": "Norway",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1936,
+      "country": "Poland",
+      "sex": "M",
+      "value": 11
+    },
+    {
+      "year": 1936,
+      "country": "Portugal",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1936,
+      "country": "Romania",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1936,
+      "country": "Romania",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1936,
+      "country": "Serbia",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1936,
+      "country": "Serbia",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 1936,
+      "country": "Sweden",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1936,
+      "country": "Sweden",
+      "sex": "M",
+      "value": 11
+    },
+    {
+      "year": 1936,
+      "country": "Switzerland",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1936,
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1936,
+      "country": "Turkey",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1936,
+      "country": "Turkey",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1936,
+      "country": "UK",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1936,
+      "country": "UK",
+      "sex": "M",
+      "value": 16
+    },
+    {
+      "year": 1936,
+      "country": "USA",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1936,
+      "country": "USA",
+      "sex": "M",
+      "value": 19
+    },
+    {
+      "year": 1936,
+      "country": "Uruguay",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1948,
+      "country": "Argentina",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1948,
+      "country": "Argentina",
+      "sex": "M",
+      "value": 16
+    },
+    {
+      "year": 1948,
+      "country": "Austria",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1948,
+      "country": "Austria",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1948,
+      "country": "Belgium",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1948,
+      "country": "Belgium",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1948,
+      "country": "Brazil",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1948,
+      "country": "Canada",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1948,
+      "country": "Canada",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1948,
+      "country": "Chile",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1948,
+      "country": "Colombia",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1948,
+      "country": "Cuba",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1948,
+      "country": "Czech Republic",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1948,
+      "country": "Denmark",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1948,
+      "country": "Denmark",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "year": 1948,
+      "country": "Egypt",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 1948,
+      "country": "Finland",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1948,
+      "country": "France",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1948,
+      "country": "France",
+      "sex": "M",
+      "value": 18
+    },
+    {
+      "year": 1948,
+      "country": "Greece",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1948,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1948,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1948,
+      "country": "Ireland",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "Ireland",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1948,
+      "country": "Italy",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1948,
+      "country": "Italy",
+      "sex": "M",
+      "value": 16
+    },
+    {
+      "year": 1948,
+      "country": "Luxembourg",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1948,
+      "country": "Mexico",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1948,
+      "country": "Mexico",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1948,
+      "country": "Netherlands",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1948,
+      "country": "Netherlands",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1948,
+      "country": "Norway",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1948,
+      "country": "Peru",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1948,
+      "country": "Poland",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "Poland",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1948,
+      "country": "Portugal",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1948,
+      "country": "Sweden",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1948,
+      "country": "Switzerland",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1948,
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 16
+    },
+    {
+      "year": 1948,
+      "country": "Turkey",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1948,
+      "country": "UK",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1948,
+      "country": "UK",
+      "sex": "M",
+      "value": 16
+    },
+    {
+      "year": 1948,
+      "country": "USA",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1948,
+      "country": "USA",
+      "sex": "M",
+      "value": 17
+    },
+    {
+      "year": 1948,
+      "country": "Uruguay",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1952,
+      "country": "Argentina",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1952,
+      "country": "Argentina",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 1952,
+      "country": "Australia",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1952,
+      "country": "Australia",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1952,
+      "country": "Austria",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1952,
+      "country": "Austria",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1952,
+      "country": "Belgium",
+      "sex": "M",
+      "value": 14
+    },
+    {
+      "year": 1952,
+      "country": "Brazil",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1952,
+      "country": "Canada",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1952,
+      "country": "Cuba",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1952,
+      "country": "Denmark",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1952,
+      "country": "Denmark",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 1952,
+      "country": "Egypt",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1952,
+      "country": "Finland",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1952,
+      "country": "Finland",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1952,
+      "country": "France",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1952,
+      "country": "France",
+      "sex": "M",
+      "value": 18
+    },
+    {
+      "year": 1952,
+      "country": "Germany",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1952,
+      "country": "Germany",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1952,
+      "country": "Guatemala",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1952,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1952,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 14
+    },
+    {
+      "year": 1952,
+      "country": "Ireland",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1952,
+      "country": "Italy",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1952,
+      "country": "Italy",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1952,
+      "country": "Japan",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1952,
+      "country": "Luxembourg",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1952,
+      "country": "Mexico",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1952,
+      "country": "Norway",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1952,
+      "country": "Poland",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1952,
+      "country": "Poland",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 1952,
+      "country": "Portugal",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 1952,
+      "country": "Romania",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1952,
+      "country": "Russia",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1952,
+      "country": "Russia",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1952,
+      "country": "Sweden",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 1952,
+      "country": "Switzerland",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1952,
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 1952,
+      "country": "UK",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1952,
+      "country": "UK",
+      "sex": "M",
+      "value": 14
+    },
+    {
+      "year": 1952,
+      "country": "USA",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1952,
+      "country": "USA",
+      "sex": "M",
+      "value": 17
+    },
+    {
+      "year": 1952,
+      "country": "Uruguay",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1952,
+      "country": "Venezuela",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1952,
+      "country": "Venezuela",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1952,
+      "country": "Vietnam",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1956,
+      "country": "Argentina",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1956,
+      "country": "Australia",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1956,
+      "country": "Australia",
+      "sex": "M",
+      "value": 18
+    },
+    {
+      "year": 1956,
+      "country": "Austria",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1956,
+      "country": "Belgium",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1956,
+      "country": "Canada",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1956,
+      "country": "Colombia",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1956,
+      "country": "Denmark",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1956,
+      "country": "Finland",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1956,
+      "country": "France",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1956,
+      "country": "France",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1956,
+      "country": "Germany",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1956,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1956,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 16
+    },
+    {
+      "year": 1956,
+      "country": "Indonesia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1956,
+      "country": "Italy",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1956,
+      "country": "Italy",
+      "sex": "M",
+      "value": 17
+    },
+    {
+      "year": 1956,
+      "country": "Japan",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1956,
+      "country": "Luxembourg",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1956,
+      "country": "Mexico",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1956,
+      "country": "Mexico",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1956,
+      "country": "Poland",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1956,
+      "country": "Romania",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1956,
+      "country": "Russia",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1956,
+      "country": "Russia",
+      "sex": "M",
+      "value": 17
+    },
+    {
+      "year": 1956,
+      "country": "Sweden",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1956,
+      "country": "UK",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1956,
+      "country": "UK",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1956,
+      "country": "USA",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1956,
+      "country": "USA",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1956,
+      "country": "Uruguay",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1960,
+      "country": "Argentina",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1960,
+      "country": "Australia",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1960,
+      "country": "Australia",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 1960,
+      "country": "Austria",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 1960,
+      "country": "Austria",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1960,
+      "country": "Belgium",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1960,
+      "country": "Belgium",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "year": 1960,
+      "country": "Bulgaria",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1960,
+      "country": "Canada",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1960,
+      "country": "Colombia",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1960,
+      "country": "Cuba",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1960,
+      "country": "Denmark",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1960,
+      "country": "Finland",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1960,
+      "country": "Finland",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1960,
+      "country": "France",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1960,
+      "country": "France",
+      "sex": "M",
+      "value": 16
+    },
+    {
+      "year": 1960,
+      "country": "Germany",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 1960,
+      "country": "Germany",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1960,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1960,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 16
+    },
+    {
+      "year": 1960,
+      "country": "Indonesia",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1960,
+      "country": "Indonesia",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1960,
+      "country": "Ireland",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1960,
+      "country": "Ireland",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1960,
+      "country": "Israel",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1960,
+      "country": "Italy",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1960,
+      "country": "Italy",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1960,
+      "country": "Japan",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1960,
+      "country": "Lebanon",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1960,
+      "country": "Luxembourg",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1960,
+      "country": "Luxembourg",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1960,
+      "country": "Mexico",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1960,
+      "country": "Mexico",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1960,
+      "country": "Monaco",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1960,
+      "country": "Morocco",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1960,
+      "country": "Netherlands",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 1960,
+      "country": "Netherlands",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1960,
+      "country": "New Zealand",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1960,
+      "country": "Norway",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1960,
+      "country": "Poland",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1960,
+      "country": "Poland",
+      "sex": "M",
+      "value": 16
+    },
+    {
+      "year": 1960,
+      "country": "Portugal",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1960,
+      "country": "Portugal",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1960,
+      "country": "Puerto Rico",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1960,
+      "country": "Romania",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 1960,
+      "country": "Romania",
+      "sex": "M",
+      "value": 11
+    },
+    {
+      "year": 1960,
+      "country": "Russia",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 1960,
+      "country": "Russia",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1960,
+      "country": "Serbia",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1960,
+      "country": "Serbia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1960,
+      "country": "Spain",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1960,
+      "country": "Spain",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1960,
+      "country": "Sweden",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1960,
+      "country": "Sweden",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1960,
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1960,
+      "country": "Syria",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1960,
+      "country": "Tunisia",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1960,
+      "country": "UK",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1960,
+      "country": "UK",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1960,
+      "country": "USA",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1960,
+      "country": "USA",
+      "sex": "M",
+      "value": 16
+    },
+    {
+      "year": 1960,
+      "country": "Uruguay",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1960,
+      "country": "Venezuela",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 1960,
+      "country": "Venezuela",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1960,
+      "country": "Vietnam",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1964,
+      "country": "Argentina",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1964,
+      "country": "Argentina",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 1964,
+      "country": "Australia",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1964,
+      "country": "Australia",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1964,
+      "country": "Austria",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1964,
+      "country": "Belgium",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1964,
+      "country": "Canada",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1964,
+      "country": "Canada",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1964,
+      "country": "Chile",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1964,
+      "country": "Colombia",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1964,
+      "country": "Cuba",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1964,
+      "country": "Cuba",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1964,
+      "country": "Curacao",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1964,
+      "country": "Egypt",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1964,
+      "country": "France",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1964,
+      "country": "France",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1964,
+      "country": "Germany",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 1964,
+      "country": "Germany",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1964,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1964,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1964,
+      "country": "Iran",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1964,
+      "country": "Ireland",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1964,
+      "country": "Italy",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1964,
+      "country": "Italy",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1964,
+      "country": "Japan",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 1964,
+      "country": "Japan",
+      "sex": "M",
+      "value": 11
+    },
+    {
+      "year": 1964,
+      "country": "Lebanon",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1964,
+      "country": "Luxembourg",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1964,
+      "country": "Malaysia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1964,
+      "country": "Poland",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1964,
+      "country": "Romania",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1964,
+      "country": "Romania",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1964,
+      "country": "Russia",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1964,
+      "country": "Russia",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1964,
+      "country": "South Korea",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1964,
+      "country": "South Korea",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1964,
+      "country": "Sweden",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1964,
+      "country": "Sweden",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1964,
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1964,
+      "country": "UK",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 1964,
+      "country": "UK",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 1964,
+      "country": "USA",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1964,
+      "country": "USA",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1964,
+      "country": "Vietnam",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1964,
       "country": "Zambia",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1968,
+      "country": "Argentina",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1968,
+      "country": "Argentina",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 1968,
+      "country": "Australia",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1968,
+      "country": "Austria",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1968,
+      "country": "Belgium",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1968,
+      "country": "Brazil",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1968,
+      "country": "Canada",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1968,
+      "country": "Canada",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1968,
+      "country": "Cuba",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1968,
+      "country": "Cuba",
+      "sex": "M",
+      "value": 11
+    },
+    {
+      "year": 1968,
+      "country": "Curacao",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1968,
+      "country": "Curacao",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1968,
+      "country": "Egypt",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1968,
+      "country": "France",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1968,
+      "country": "France",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1968,
+      "country": "Germany",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1968,
+      "country": "Germany",
+      "sex": "M",
+      "value": 19
+    },
+    {
+      "year": 1968,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1968,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1968,
+      "country": "Ireland",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1968,
+      "country": "Italy",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1968,
+      "country": "Italy",
+      "sex": "M",
+      "value": 14
+    },
+    {
+      "year": 1968,
+      "country": "Japan",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1968,
+      "country": "Lebanon",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1968,
+      "country": "Luxembourg",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1968,
+      "country": "Mexico",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1968,
+      "country": "Mexico",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 1968,
+      "country": "Norway",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1968,
+      "country": "Paraguay",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1968,
+      "country": "Peru",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1968,
+      "country": "Poland",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1968,
+      "country": "Poland",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1968,
+      "country": "Portugal",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1968,
+      "country": "Puerto Rico",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1968,
+      "country": "Romania",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1968,
+      "country": "Romania",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1968,
+      "country": "Russia",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1968,
+      "country": "Russia",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1968,
+      "country": "Sweden",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1968,
+      "country": "Sweden",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1968,
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1968,
+      "country": "UK",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1968,
+      "country": "UK",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "year": 1968,
+      "country": "USA",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1968,
+      "country": "USA",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1968,
+      "country": "Uruguay",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1968,
+      "country": "Venezuela",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1968,
+      "country": "Vietnam",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1972,
+      "country": "Argentina",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1972,
+      "country": "Argentina",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1972,
+      "country": "Australia",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1972,
+      "country": "Australia",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1972,
+      "country": "Austria",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1972,
+      "country": "Austria",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1972,
+      "country": "Belgium",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1972,
+      "country": "Bulgaria",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1972,
+      "country": "Canada",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1972,
+      "country": "Canada",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1972,
+      "country": "China",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1972,
+      "country": "Cuba",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1972,
+      "country": "Cuba",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 1972,
+      "country": "Czech Republic",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1972,
+      "country": "Czech Republic",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1972,
+      "country": "Denmark",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1972,
+      "country": "Denmark",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1972,
+      "country": "Finland",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1972,
+      "country": "France",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 1972,
+      "country": "France",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1972,
+      "country": "Germany",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 1972,
+      "country": "Germany",
+      "sex": "M",
+      "value": 19
+    },
+    {
+      "year": 1972,
+      "country": "Greece",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1972,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1972,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 14
+    },
+    {
+      "year": 1972,
+      "country": "Iran",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1972,
+      "country": "Ireland",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1972,
+      "country": "Israel",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1972,
+      "country": "Italy",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1972,
+      "country": "Italy",
+      "sex": "M",
+      "value": 14
+    },
+    {
+      "year": 1972,
+      "country": "Japan",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1972,
+      "country": "Lebanon",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1972,
+      "country": "Luxembourg",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1972,
+      "country": "Mexico",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1972,
+      "country": "Monaco",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1972,
+      "country": "Netherlands",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1972,
+      "country": "Norway",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1972,
+      "country": "Peru",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1972,
+      "country": "Poland",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1972,
+      "country": "Poland",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1972,
+      "country": "Puerto Rico",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1972,
+      "country": "Romania",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 1972,
+      "country": "Romania",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1972,
+      "country": "Russia",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1972,
+      "country": "Russia",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1972,
+      "country": "Sweden",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1972,
+      "country": "Sweden",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1972,
+      "country": "Switzerland",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1972,
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 1972,
+      "country": "Turkey",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1972,
+      "country": "Turkey",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1972,
+      "country": "UK",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1972,
+      "country": "UK",
+      "sex": "M",
+      "value": 14
+    },
+    {
+      "year": 1972,
+      "country": "USA",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1972,
+      "country": "USA",
+      "sex": "M",
+      "value": 14
+    },
+    {
+      "year": 1976,
+      "country": "Argentina",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1976,
+      "country": "Australia",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1976,
+      "country": "Australia",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1976,
+      "country": "Austria",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1976,
+      "country": "Belgium",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1976,
+      "country": "Belgium",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1976,
+      "country": "Brazil",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1976,
+      "country": "Bulgaria",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1976,
+      "country": "Canada",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 1976,
+      "country": "Canada",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 1976,
+      "country": "Chile",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1976,
+      "country": "China",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1976,
+      "country": "Cuba",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 1976,
+      "country": "Cuba",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 1976,
+      "country": "Czech Republic",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1976,
+      "country": "Czech Republic",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1976,
+      "country": "Denmark",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1976,
+      "country": "Finland",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1976,
+      "country": "France",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1976,
+      "country": "France",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1976,
+      "country": "Germany",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1976,
+      "country": "Germany",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "year": 1976,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1976,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1976,
+      "country": "Iran",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 1976,
+      "country": "Iran",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 1976,
+      "country": "Israel",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1976,
+      "country": "Italy",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1976,
+      "country": "Italy",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1976,
+      "country": "Japan",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 1976,
+      "country": "Japan",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1976,
+      "country": "Kuwait",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1976,
+      "country": "Luxembourg",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1976,
+      "country": "Norway",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1976,
+      "country": "Paraguay",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1976,
+      "country": "Poland",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1976,
+      "country": "Poland",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1976,
+      "country": "Puerto Rico",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1976,
+      "country": "Puerto Rico",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1976,
+      "country": "Romania",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1976,
+      "country": "Romania",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1976,
+      "country": "Russia",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1976,
+      "country": "Russia",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1976,
+      "country": "Sweden",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1976,
+      "country": "Sweden",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1976,
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1976,
+      "country": "Thailand",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1976,
+      "country": "UK",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1976,
+      "country": "UK",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1976,
+      "country": "USA",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1976,
+      "country": "USA",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1980,
+      "country": "Algeria",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1980,
+      "country": "Australia",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1980,
+      "country": "Australia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1980,
+      "country": "Belgium",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1980,
+      "country": "Belgium",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1980,
+      "country": "Bulgaria",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1980,
+      "country": "Cuba",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1980,
+      "country": "Cuba",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1980,
+      "country": "Czech Republic",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1980,
+      "country": "Czech Republic",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1980,
+      "country": "Denmark",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1980,
+      "country": "Finland",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1980,
+      "country": "France",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1980,
+      "country": "France",
+      "sex": "M",
+      "value": 11
+    },
+    {
+      "year": 1980,
+      "country": "Germany",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1980,
+      "country": "Germany",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 1980,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1980,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1980,
+      "country": "Italy",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1980,
+      "country": "Italy",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 1980,
+      "country": "Kuwait",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 1980,
+      "country": "Lebanon",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1980,
+      "country": "Poland",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1980,
+      "country": "Poland",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1980,
+      "country": "Romania",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1980,
+      "country": "Romania",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1980,
+      "country": "Russia",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1980,
+      "country": "Russia",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1980,
+      "country": "Spain",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1980,
+      "country": "Sweden",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1980,
+      "country": "Sweden",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1980,
+      "country": "UK",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1980,
+      "country": "UK",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1984,
+      "country": "Argentina",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 1984,
+      "country": "Argentina",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1984,
+      "country": "Australia",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1984,
+      "country": "Australia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1984,
+      "country": "Austria",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1984,
+      "country": "Belgium",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1984,
+      "country": "Boliva",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1984,
+      "country": "Canada",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1984,
+      "country": "Canada",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 1984,
+      "country": "China",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1984,
+      "country": "China",
+      "sex": "M",
+      "value": 18
+    },
+    {
+      "year": 1984,
+      "country": "Egypt",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1984,
+      "country": "France",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1984,
+      "country": "France",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1984,
+      "country": "Germany",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1984,
+      "country": "Germany",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1984,
+      "country": "Greece",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1984,
+      "country": "Haiti",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1984,
+      "country": "Israel",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1984,
+      "country": "Israel",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1984,
+      "country": "Italy",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1984,
+      "country": "Italy",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1984,
+      "country": "Japan",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 1984,
+      "country": "Japan",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1984,
+      "country": "Jordan",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1984,
+      "country": "Kuwait",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 1984,
+      "country": "Lebanon",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1984,
+      "country": "Mexico",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1984,
+      "country": "Monaco",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1984,
+      "country": "New Zealand",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1984,
+      "country": "Norway",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1984,
+      "country": "Panama",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1984,
+      "country": "Portugal",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1984,
+      "country": "Puerto Rico",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1984,
+      "country": "Romania",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1984,
+      "country": "Romania",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1984,
+      "country": "Saudi Arabia",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1984,
+      "country": "South Korea",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1984,
+      "country": "South Korea",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1984,
+      "country": "Spain",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1984,
+      "country": "Sweden",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1984,
+      "country": "Sweden",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1984,
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1984,
+      "country": "Taiwan",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1984,
+      "country": "Turkey",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1984,
+      "country": "UK",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1984,
+      "country": "UK",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1984,
+      "country": "USA",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1984,
+      "country": "USA",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1984,
+      "country": "Venezuela",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1984,
+      "country": "Virgin Islands, US",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1984,
+      "country": "Virgin Islands, US",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1988,
+      "country": "Argentina",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1988,
+      "country": "Aruba",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1988,
+      "country": "Australia",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1988,
+      "country": "Australia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1988,
+      "country": "Austria",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1988,
+      "country": "Bahrain",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1988,
+      "country": "Belgium",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1988,
+      "country": "Boliva",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1988,
+      "country": "Brazil",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1988,
+      "country": "Bulgaria",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1988,
+      "country": "Canada",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1988,
+      "country": "Canada",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1988,
+      "country": "China",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 1988,
+      "country": "China",
+      "sex": "M",
+      "value": 16
+    },
+    {
+      "year": 1988,
+      "country": "Colombia",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1988,
+      "country": "Egypt",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1988,
+      "country": "Finland",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1988,
+      "country": "France",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1988,
+      "country": "France",
+      "sex": "M",
+      "value": 14
+    },
+    {
+      "year": 1988,
+      "country": "Germany",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1988,
+      "country": "Germany",
+      "sex": "M",
+      "value": 22
+    },
+    {
+      "year": 1988,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1988,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1988,
+      "country": "Indonesia",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1988,
+      "country": "Indonesia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1988,
+      "country": "Italy",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1988,
+      "country": "Italy",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1988,
+      "country": "Japan",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1988,
+      "country": "Japan",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1988,
+      "country": "Jordan",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1988,
+      "country": "Kuwait",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1988,
+      "country": "Lebanon",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1988,
+      "country": "Mexico",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1988,
+      "country": "Monaco",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1988,
+      "country": "Netherlands",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1988,
+      "country": "New Zealand",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1988,
+      "country": "Paraguay",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1988,
+      "country": "Philippines",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1988,
+      "country": "Poland",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1988,
+      "country": "Poland",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1988,
+      "country": "Portugal",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1988,
+      "country": "Romania",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1988,
+      "country": "Russia",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1988,
+      "country": "Russia",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1988,
+      "country": "South Korea",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1988,
+      "country": "South Korea",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1988,
+      "country": "Spain",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1988,
+      "country": "Sweden",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1988,
+      "country": "Sweden",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 1988,
+      "country": "Switzerland",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1988,
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1988,
+      "country": "Taiwan",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1988,
+      "country": "UK",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1988,
+      "country": "UK",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1988,
+      "country": "USA",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1988,
+      "country": "USA",
+      "sex": "M",
+      "value": 14
+    },
+    {
+      "year": 1992,
+      "country": "Argentina",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1992,
+      "country": "Argentina",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1992,
+      "country": "Australia",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1992,
+      "country": "Austria",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1992,
+      "country": "Brazil",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1992,
+      "country": "Canada",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1992,
+      "country": "Canada",
+      "sex": "M",
+      "value": 11
+    },
+    {
+      "year": 1992,
+      "country": "China",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1992,
+      "country": "China",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1992,
+      "country": "Colombia",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1992,
+      "country": "Costa Rica",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1992,
+      "country": "Cuba",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1992,
+      "country": "Czech Republic",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1992,
+      "country": "Egypt",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1992,
+      "country": "Estonia",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1992,
+      "country": "France",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1992,
+      "country": "France",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1992,
+      "country": "Germany",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1992,
+      "country": "Germany",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1992,
+      "country": "Greece",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1992,
+      "country": "Honduras",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1992,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1992,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1992,
+      "country": "Individual Olympic Athletes",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1992,
+      "country": "Indonesia",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1992,
+      "country": "Ireland",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1992,
+      "country": "Israel",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1992,
+      "country": "Italy",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1992,
+      "country": "Italy",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1992,
+      "country": "Japan",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1992,
+      "country": "Japan",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1992,
+      "country": "Kuwait",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1992,
+      "country": "Lebanon",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1992,
+      "country": "New Zealand",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1992,
+      "country": "Paraguay",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1992,
+      "country": "Philippines",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1992,
+      "country": "Poland",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1992,
+      "country": "Poland",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1992,
+      "country": "Portugal",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1992,
+      "country": "Romania",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1992,
+      "country": "Romania",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 1992,
+      "country": "Russia",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1992,
+      "country": "Russia",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1992,
+      "country": "Saudi Arabia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1992,
+      "country": "South Africa",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1992,
+      "country": "South Africa",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1992,
+      "country": "South Korea",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1992,
+      "country": "South Korea",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 1992,
+      "country": "Spain",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1992,
+      "country": "Spain",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1992,
+      "country": "Sweden",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1992,
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1992,
+      "country": "UK",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1992,
+      "country": "UK",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 1992,
+      "country": "USA",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1992,
+      "country": "USA",
+      "sex": "M",
+      "value": 11
+    },
+    {
+      "year": 1996,
+      "country": "Algeria",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "Algeria",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "Argentina",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1996,
+      "country": "Argentina",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "Australia",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "Austria",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1996,
+      "country": "Azerbaijan",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "Belarus",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "Boliva",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "Bulgaria",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1996,
+      "country": "Bulgaria",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "Canada",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1996,
+      "country": "Chile",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "China",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 1996,
+      "country": "China",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1996,
+      "country": "Colombia",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1996,
+      "country": "Cuba",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1996,
+      "country": "Cuba",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1996,
+      "country": "Czech Republic",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "Denmark",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "Estonia",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1996,
+      "country": "Estonia",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1996,
+      "country": "Finland",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "France",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 1996,
+      "country": "France",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 1996,
+      "country": "Georgia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "Germany",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 1996,
+      "country": "Germany",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 1996,
+      "country": "Greece",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "Guatemala",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 1996,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 1996,
+      "country": "Israel",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1996,
+      "country": "Italy",
+      "sex": "F",
+      "value": 7
+    },
+    {
+      "year": 1996,
+      "country": "Italy",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 1996,
+      "country": "Japan",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1996,
+      "country": "Japan",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "Kazakhstan",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "Kuwait",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "Luxembourg",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "Paraguay",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "Poland",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 1996,
+      "country": "Poland",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1996,
+      "country": "Portugal",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "Puerto Rico",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "Romania",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1996,
+      "country": "Romania",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1996,
+      "country": "Russia",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 1996,
+      "country": "Russia",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 1996,
+      "country": "Serbia",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "South Korea",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 1996,
+      "country": "South Korea",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 1996,
+      "country": "Spain",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1996,
+      "country": "Spain",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 1996,
+      "country": "Sweden",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "Sweden",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "Switzerland",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1996,
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1996,
+      "country": "Tunisia",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "UK",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "UK",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "USA",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 1996,
+      "country": "USA",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 1996,
+      "country": "Ukraine",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1996,
+      "country": "Ukraine",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1996,
+      "country": "Uzbekistan",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "Venezuela",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 2000,
+      "country": "Algeria",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2000,
+      "country": "Argentina",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2000,
+      "country": "Argentina",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2000,
+      "country": "Australia",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2000,
+      "country": "Australia",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 2000,
+      "country": "Austria",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2000,
+      "country": "Austria",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 2000,
+      "country": "Belarus",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 2000,
+      "country": "Brazil",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2000,
+      "country": "Canada",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 2000,
+      "country": "Canada",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2000,
+      "country": "Chile",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2000,
+      "country": "China",
+      "sex": "F",
+      "value": 7
+    },
+    {
+      "year": 2000,
+      "country": "China",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 2000,
+      "country": "Colombia",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2000,
+      "country": "Colombia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2000,
+      "country": "Cuba",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 2000,
+      "country": "Cuba",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 2000,
+      "country": "Egypt",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2000,
+      "country": "Egypt",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 2000,
+      "country": "Estonia",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 2000,
+      "country": "France",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 2000,
+      "country": "France",
+      "sex": "M",
+      "value": 11
+    },
+    {
+      "year": 2000,
+      "country": "Germany",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 2000,
+      "country": "Germany",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "year": 2000,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 2000,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 2000,
+      "country": "Israel",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2000,
+      "country": "Italy",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 2000,
+      "country": "Italy",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "year": 2000,
+      "country": "Japan",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2000,
+      "country": "Japan",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2000,
+      "country": "Kazakhstan",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2000,
+      "country": "Kazakhstan",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 2000,
+      "country": "Kuwait",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2000,
+      "country": "Kyrgyzstan",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2000,
+      "country": "Latvia",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2000,
+      "country": "Norway",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 2000,
+      "country": "Poland",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 2000,
+      "country": "Poland",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 2000,
+      "country": "Portugal",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2000,
+      "country": "Puerto Rico",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2000,
+      "country": "Romania",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2000,
+      "country": "Romania",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 2000,
+      "country": "Russia",
+      "sex": "F",
+      "value": 7
+    },
+    {
+      "year": 2000,
+      "country": "Russia",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 2000,
+      "country": "Serbia",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2000,
+      "country": "South Korea",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2000,
+      "country": "South Korea",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 2000,
+      "country": "Spain",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 2000,
+      "country": "Sweden",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2000,
+      "country": "Switzerland",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 2000,
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2000,
+      "country": "Tunisia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2000,
+      "country": "UK",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2000,
+      "country": "UK",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2000,
+      "country": "USA",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 2000,
+      "country": "USA",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 2000,
+      "country": "Ukraine",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 2000,
+      "country": "Ukraine",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 2000,
+      "country": "Uzbekistan",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2000,
+      "country": "Venezuela",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "Algeria",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2004,
+      "country": "Algeria",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 2004,
+      "country": "Argentina",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "Australia",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "Australia",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2004,
+      "country": "Austria",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2004,
+      "country": "Azerbaijan",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "Belarus",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "Belarus",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "Belgium",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "Brazil",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2004,
+      "country": "Brazil",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "Canada",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 2004,
+      "country": "Canada",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2004,
+      "country": "Chile",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "China",
+      "sex": "F",
+      "value": 9
+    },
+    {
+      "year": 2004,
+      "country": "China",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 2004,
+      "country": "Colombia",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "Cuba",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2004,
+      "country": "Cuba",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2004,
+      "country": "Egypt",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "Egypt",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 2004,
+      "country": "France",
+      "sex": "F",
+      "value": 8
+    },
+    {
+      "year": 2004,
+      "country": "France",
+      "sex": "M",
+      "value": 11
+    },
+    {
+      "year": 2004,
+      "country": "Germany",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 2004,
+      "country": "Germany",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 2004,
+      "country": "Greece",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 2004,
+      "country": "Greece",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 2004,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 7
+    },
+    {
+      "year": 2004,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 2004,
+      "country": "Israel",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "Italy",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 2004,
+      "country": "Italy",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 2004,
+      "country": "Japan",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 2004,
+      "country": "Japan",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2004,
+      "country": "Mexico",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "Morocco",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "Netherlands",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "New Zealand",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "Poland",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2004,
+      "country": "Poland",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "Portugal",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "Republic of Congo",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "Romania",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 2004,
+      "country": "Romania",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2004,
+      "country": "Russia",
+      "sex": "F",
+      "value": 7
+    },
+    {
+      "year": 2004,
+      "country": "Russia",
+      "sex": "M",
+      "value": 11
+    },
+    {
+      "year": 2004,
+      "country": "Senegal",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "South Africa",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 2004,
+      "country": "South Korea",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 2004,
+      "country": "South Korea",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 2004,
+      "country": "Spain",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "Thailand",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2004,
+      "country": "Tunisia",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2004,
+      "country": "UK",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "UK",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "USA",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 2004,
+      "country": "USA",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 2004,
+      "country": "Ukraine",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2004,
+      "country": "Ukraine",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 2004,
+      "country": "Venezuela",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2004,
+      "country": "Venezuela",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2008,
+      "country": "Algeria",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2008,
+      "country": "Argentina",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "Australia",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2008,
+      "country": "Austria",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "Belarus",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 2008,
+      "country": "Brazil",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2008,
+      "country": "Burkina Faso",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "Canada",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 2008,
+      "country": "Canada",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 2008,
+      "country": "Chile",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "China",
+      "sex": "F",
+      "value": 12
+    },
+    {
+      "year": 2008,
+      "country": "China",
+      "sex": "M",
+      "value": 11
+    },
+    {
+      "year": 2008,
+      "country": "Cuba",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2008,
+      "country": "Egypt",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 2008,
+      "country": "Egypt",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 2008,
+      "country": "Estonia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "France",
+      "sex": "F",
+      "value": 7
+    },
+    {
+      "year": 2008,
+      "country": "France",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 2008,
+      "country": "Germany",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 2008,
+      "country": "Germany",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 2008,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 7
+    },
+    {
+      "year": 2008,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 2008,
+      "country": "Ireland",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "Israel",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2008,
+      "country": "Israel",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "Italy",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 2008,
+      "country": "Italy",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 2008,
+      "country": "Japan",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 2008,
+      "country": "Japan",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 2008,
+      "country": "Kyrgyzstan",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "Mexico",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "Morocco",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2008,
+      "country": "Netherlands",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "Netherlands",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "Norway",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "Panama",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "Peru",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "Poland",
+      "sex": "F",
+      "value": 7
+    },
+    {
+      "year": 2008,
+      "country": "Poland",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 2008,
+      "country": "Portugal",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "Portugal",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "Qatar",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "Romania",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2008,
+      "country": "Romania",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 2008,
+      "country": "Russia",
+      "sex": "F",
+      "value": 10
+    },
+    {
+      "year": 2008,
+      "country": "Russia",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 2008,
+      "country": "Senegal",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "Senegal",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2008,
+      "country": "South Africa",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 2008,
+      "country": "South Africa",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 2008,
+      "country": "South Korea",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 2008,
+      "country": "South Korea",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 2008,
+      "country": "Spain",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "Spain",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 2008,
+      "country": "Sweden",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "Switzerland",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "Thailand",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2008,
+      "country": "Tunisia",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2008,
+      "country": "UK",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "UK",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2008,
+      "country": "USA",
+      "sex": "F",
+      "value": 7
+    },
+    {
+      "year": 2008,
+      "country": "USA",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 2008,
+      "country": "Ukraine",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 2008,
+      "country": "Ukraine",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 2008,
+      "country": "Venezuela",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 2008,
+      "country": "Venezuela",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 2012,
+      "country": "Algeria",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2012,
+      "country": "Argentina",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "Austria",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "Azerbaijan",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "Belarus",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 2012,
+      "country": "Brazil",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 2012,
+      "country": "Bulgaria",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "Canada",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 2012,
+      "country": "Canada",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2012,
+      "country": "Chile",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "Chile",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "China",
+      "sex": "F",
+      "value": 10
+    },
+    {
+      "year": 2012,
+      "country": "China",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "year": 2012,
+      "country": "Colombia",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "Croatia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "Egypt",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 2012,
+      "country": "Egypt",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 2012,
+      "country": "Estonia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "France",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 2012,
+      "country": "France",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 2012,
+      "country": "Germany",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 2012,
+      "country": "Germany",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 2012,
+      "country": "Greece",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2012,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2012,
+      "country": "Indonesia",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "Iran",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "Italy",
+      "sex": "F",
+      "value": 10
+    },
+    {
+      "year": 2012,
+      "country": "Italy",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 2012,
+      "country": "Japan",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 2012,
+      "country": "Japan",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 2012,
+      "country": "Kazakhstan",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "Kazakhstan",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2012,
+      "country": "Lebanon",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "Lebanon",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "Malaysia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "Mexico",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "Mexico",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "Morocco",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2012,
+      "country": "Netherlands",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "Norway",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "Poland",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 2012,
+      "country": "Poland",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2012,
+      "country": "Romania",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 2012,
+      "country": "Romania",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 2012,
+      "country": "Russia",
+      "sex": "F",
+      "value": 10
+    },
+    {
+      "year": 2012,
+      "country": "Russia",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 2012,
+      "country": "Senegal",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "South Korea",
+      "sex": "F",
+      "value": 10
+    },
+    {
+      "year": 2012,
+      "country": "South Korea",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 2012,
+      "country": "Switzerland",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2012,
+      "country": "Taiwan",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "Tunisia",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 2012,
+      "country": "Tunisia",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2012,
+      "country": "UK",
+      "sex": "F",
+      "value": 7
+    },
+    {
+      "year": 2012,
+      "country": "UK",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 2012,
+      "country": "USA",
+      "sex": "F",
+      "value": 10
+    },
+    {
+      "year": 2012,
+      "country": "USA",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 2012,
+      "country": "Ukraine",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 2012,
+      "country": "Ukraine",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2012,
+      "country": "Uzbekistan",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "Venezuela",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 2012,
+      "country": "Venezuela",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 2012,
+      "country": "Vietnam",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "Algeria",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "Algeria",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "Argentina",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "Austria",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "Azerbaijan",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "Belarus",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "Belgium",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "Benin",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "Brazil",
+      "sex": "F",
+      "value": 7
+    },
+    {
+      "year": 2016,
+      "country": "Brazil",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 2016,
+      "country": "Bulgaria",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "Canada",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2016,
+      "country": "Canada",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 2016,
+      "country": "China",
+      "sex": "F",
+      "value": 9
+    },
+    {
+      "year": 2016,
+      "country": "China",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 2016,
+      "country": "Colombia",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "Colombia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "Cuba",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "Czech Republic",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2016,
+      "country": "Egypt",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2016,
+      "country": "Egypt",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 2016,
+      "country": "Estonia",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 2016,
+      "country": "Estonia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "France",
+      "sex": "F",
+      "value": 10
+    },
+    {
+      "year": 2016,
+      "country": "France",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 2016,
+      "country": "Georgia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "Germany",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "Germany",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 2016,
+      "country": "Greece",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2016,
+      "country": "Hungary",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 2016,
+      "country": "Hungary",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 2016,
+      "country": "Individual Olympic Athletes",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "Iran",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2016,
+      "country": "Italy",
+      "sex": "F",
+      "value": 7
+    },
+    {
+      "year": 2016,
+      "country": "Italy",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 2016,
+      "country": "Ivory Coast",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "Japan",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 2016,
+      "country": "Japan",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 2016,
+      "country": "Kazakhstan",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "Lebanon",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "Mexico",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 2016,
+      "country": "Mexico",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2016,
+      "country": "Morocco",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "Netherlands",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "Panama",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "Poland",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 2016,
+      "country": "Romania",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 2016,
+      "country": "Romania",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "Russia",
+      "sex": "F",
+      "value": 10
+    },
+    {
+      "year": 2016,
+      "country": "Russia",
+      "sex": "M",
+      "value": 9
+    },
+    {
+      "year": 2016,
+      "country": "Saudi Arabia",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "Senegal",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "South Korea",
+      "sex": "F",
+      "value": 10
+    },
+    {
+      "year": 2016,
+      "country": "South Korea",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 2016,
+      "country": "Switzerland",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "Switzerland",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 2016,
+      "country": "Tunisia",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 2016,
+      "country": "Tunisia",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2016,
+      "country": "Turkey",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "UK",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 2016,
+      "country": "USA",
+      "sex": "F",
+      "value": 10
+    },
+    {
+      "year": 2016,
+      "country": "USA",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 2016,
+      "country": "Ukraine",
+      "sex": "F",
+      "value": 9
+    },
+    {
+      "year": 2016,
+      "country": "Ukraine",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 2016,
+      "country": "Venezuela",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2016,
+      "country": "Venezuela",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 2016,
+      "country": "Vietnam",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 2016,
+      "country": "Vietnam",
+      "sex": "M",
       "value": 1
     }
   ]

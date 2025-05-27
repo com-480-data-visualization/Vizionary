@@ -62,27 +62,35 @@ for sport, grp in df.groupby("Sport"):
     out["bar"] = bars
 
     #MAP 
-    medal_only = grp[grp["Medal"] != "No Medal"]  # exclude non‑winners
-
-    # Compute counts and reshape into the desired structure
+    medal_only = grp[grp["Medal"] != "No Medal"]
     map_records = (
-        medal_only.groupby(["Team", "Sex"]).size().reset_index(name="value").to_dict("records")
+        medal_only.groupby(["Year", "Team", "Sex"]).size().reset_index(name="value")
     )
-
-    # Rename keys to match the desired output spec
     out["map"] = [
-        {"country": rec["Team"], "sex": rec["Sex"], "value": int(rec["value"])}
-        for rec in map_records
+        {
+            "year": int(rec["Year"]),
+            "country": rec["Team"],
+            "sex": rec["Sex"],
+            "value": int(rec["value"])
+        }
+        for rec in map_records.to_dict("records")
     ]
-    
+
+    #TREEMAP
     treemap_records = (
-        grp.groupby("Team")["ID"].nunique().reset_index(name="value").to_dict("records")
+        grp.groupby(["Year", "Team", "Sex"])["ID"].nunique().reset_index(name="value")
     )
     out["treemap"] = [
-        {"country": rec["Team"], "value": int(rec["value"])} for rec in treemap_records
+        {
+            "year": int(rec["Year"]),
+            "country": rec["Team"],
+            "sex": rec["Sex"],
+            "value": int(rec["value"])
+        }
+        for rec in treemap_records.to_dict("records")
     ]
 
-
+    #EXPORT
     with open(f"{out_dir}/{key}.json","w") as f:
         json.dump(clean(out), f, indent=2)
         
