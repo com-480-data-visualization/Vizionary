@@ -51,7 +51,7 @@
     if (gbHeightDiv) drawGroupedBars(gbHeightDiv, sportKey, "height", sex);
     if (gbWeightDiv) drawGroupedBars(gbWeightDiv, sportKey, "weight", sex);
     if (mapDiv) drawMap(mapDiv, sportKey,sex);
-    if (treemapDiv) drawTreemap(treemapDiv, sportKey,sex);
+    if (treemapDiv) drawTreemap(treemapDiv, sportKey,sex,{ minShare: 0.0000, maxShown: 30 });
   }
 // appel de redraw lors du changement initial 
   onMount(() => {

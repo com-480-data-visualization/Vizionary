@@ -1,4 +1,5 @@
 import * as d3 from "d3";
+import { json } from "d3-fetch";
 
 /**
  * Treemap choropleth – version inspirée du code drawMap
@@ -14,7 +15,11 @@ import * as d3 from "d3";
 export async function drawTreemap(
   container: HTMLElement,
   sportKey: string,
-  sex: "M" | "F" | "all" = "all"
+  sex: "M" | "F" | "all" = "all",
+  {
+    minShare = 0.02,   // 2 % du total minimum pour être « majeur »
+    maxShown = 15      // on n'affiche jamais plus de 15 rectangles
+  } = {}
 ) {
   /* ------------------------------------------------------------------ */
   /* 1. Chargement JSON                                                 */
@@ -38,260 +43,48 @@ export async function drawTreemap(
     byCountry.set(rec.country, (byCountry.get(rec.country) ?? 0) + rec.value);
   }
 
+  const total = d3.sum(Array.from(byCountry.values()));
+  const sorted = Array.from(byCountry, ([country, athletes]) => ({ country, athletes }))
+    .sort((a, b) => b.athletes - a.athletes);
+
+  const majors: { country: string; athletes: number }[] = [];
+  let othersAthletes = 0;
+
+  for (const rec of sorted) {
+    const share = rec.athletes / total;
+    if (majors.length < maxShown && share >= minShare) {
+      majors.push(rec);                // on garde ce pays
+    } else {
+      othersAthletes += rec.athletes;  // on l'agrège dans « Rest »
+    }
+  }
+
+  if (othersAthletes) {
+    majors.push({ country: "Rest of the World", athletes: othersAthletes });
+  }
   /* ------------------------------------------------------------------ */
   /* 3. Appariement continent → couleur                                 */
   /* ------------------------------------------------------------------ */
-/**
- * Continent par pays (liste quasi-exhaustive, mai 2025)
- * Clés en anglais pour la cohérence, mais vous pouvez bien sûr
- * y ajouter des traductions/localisations si besoin.
- */
-// const continentOf: Record<string, "Africa" | "Asia" | "Europe" | "North America" | "South America" | "Oceania" | "Antarctica"> = {
-//   /* AFRICA (54) */
-//   "Algeria": "Africa",
-//   "Angola": "Africa",
-//   "Benin": "Africa",
-//   "Botswana": "Africa",
-//   "Burkina Faso": "Africa",
-//   "Burundi": "Africa",
-//   "Cabo Verde": "Africa",
-//   "Cameroon": "Africa",
-//   "Central African Republic": "Africa",
-//   "Chad": "Africa",
-//   "Comoros": "Africa",
-//   "Democratic Republic of the Congo": "Africa",
-//   "DR Congo": "Africa",
-//   "Republic of the Congo": "Africa",
-//   "Côte d'Ivoire": "Africa",
-//   "Ivory Coast": "Africa",
-//   "Djibouti": "Africa",
-//   "Egypt": "Africa",
-//   "Equatorial Guinea": "Africa",
-//   "Eritrea": "Africa",
-//   "Eswatini": "Africa",
-//   "Swaziland": "Africa",
-//   "Ethiopia": "Africa",
-//   "Gabon": "Africa",
-//   "Gambia": "Africa",
-//   "Ghana": "Africa",
-//   "Guinea": "Africa",
-//   "Guinea-Bissau": "Africa",
-//   "Kenya": "Africa",
-//   "Lesotho": "Africa",
-//   "Liberia": "Africa",
-//   "Libya": "Africa",
-//   "Madagascar": "Africa",
-//   "Malawi": "Africa",
-//   "Mali": "Africa",
-//   "Mauritania": "Africa",
-//   "Mauritius": "Africa",
-//   "Morocco": "Africa",
-//   "Mozambique": "Africa",
-//   "Namibia": "Africa",
-//   "Niger": "Africa",
-//   "Nigeria": "Africa",
-//   "Rwanda": "Africa",
-//   "São Tomé and Príncipe": "Africa",
-//   "Senegal": "Africa",
-//   "Seychelles": "Africa",
-//   "Sierra Leone": "Africa",
-//   "Somalia": "Africa",
-//   "South Africa": "Africa",
-//   "South Sudan": "Africa",
-//   "Sudan": "Africa",
-//   "Tanzania": "Africa",
-//   "Togo": "Africa",
-//   "Tunisia": "Africa",
-//   "Uganda": "Africa",
-//   "Zambia": "Africa",
-//   "Zimbabwe": "Africa",
 
-//   /* ASIA (50 + territoires) */
-//   "Afghanistan": "Asia",
-//   "Armenia": "Asia",               // géopol. Eurasie, rangé ici
-//   "Azerbaijan": "Asia",
-//   "Bahrain": "Asia",
-//   "Bangladesh": "Asia",
-//   "Bhutan": "Asia",
-//   "Brunei": "Asia",
-//   "Cambodia": "Asia",
-//   "China": "Asia",
-//   "People's Republic of China": "Asia",
-//   "Cyprus": "Asia",                // membre UE mais géograph. Asie
-//   "Georgia": "Asia",
-//   "India": "Asia",
-//   "Indonesia": "Asia",
-//   "Iran": "Asia",
-//   "Iraq": "Asia",
-//   "Israel": "Asia",
-//   "Japan": "Asia",
-//   "Jordan": "Asia",
-//   "Kazakhstan": "Asia",
-//   "Kuwait": "Asia",
-//   "Kyrgyzstan": "Asia",
-//   "Laos": "Asia",
-//   "Lebanon": "Asia",
-//   "Malaysia": "Asia",
-//   "Maldives": "Asia",
-//   "Mongolia": "Asia",
-//   "Myanmar": "Asia",
-//   "Burma": "Asia",
-//   "Nepal": "Asia",
-//   "North Korea": "Asia",
-//   "Democratic People's Republic of Korea": "Asia",
-//   "Oman": "Asia",
-//   "Pakistan": "Asia",
-//   "Palestine": "Asia",
-//   "Philippines": "Asia",
-//   "Qatar": "Asia",
-//   "Saudi Arabia": "Asia",
-//   "Singapore": "Asia",
-//   "South Korea": "Asia",
-//   "Republic of Korea": "Asia",
-//   "Sri Lanka": "Asia",
-//   "Syria": "Asia",
-//   "Taiwan": "Asia",
-//   "Thailand": "Asia",
-//   "Timor-Leste": "Asia",
-//   "Tajikistan": "Asia",
-//   "Turkey": "Asia",                // la majorité du territoire
-//   "Turkmenistan": "Asia",
-//   "United Arab Emirates": "Asia",
-//   "UAE": "Asia",
-//   "Uzbekistan": "Asia",
-//   "Vietnam": "Asia",
-//   "Yemen": "Asia",
+  const CONTINENTS = [
+    "Africa", "Asia", "Europe",
+    "North America", "South America",
+    "Oceania",
+  ] as const;
+  type Continent = typeof CONTINENTS[number];
+  type Region = Continent | "Other";
 
-//   /* EUROPE (44) */
-//   "Albania": "Europe",
-//   "Andorra": "Europe",
-//   "Austria": "Europe",
-//   "Belarus": "Europe",
-//   "Belgium": "Europe",
-//   "Bosnia and Herzegovina": "Europe",
-//   "Bulgaria": "Europe",
-//   "Croatia": "Europe",
-//   "Czech Republic": "Europe",
-//   "Czechia": "Europe",
-//   "Denmark": "Europe",
-//   "Estonia": "Europe",
-//   "Finland": "Europe",
-//   "France": "Europe",
-//   "Germany": "Europe",
-//   "Greece": "Europe",
-//   "Hungary": "Europe",
-//   "Iceland": "Europe",
-//   "Ireland": "Europe",
-//   "Italy": "Europe",
-//   "Kosovo": "Europe",
-//   "Latvia": "Europe",
-//   "Liechtenstein": "Europe",
-//   "Lithuania": "Europe",
-//   "Luxembourg": "Europe",
-//   "Malta": "Europe",
-//   "Moldova": "Europe",
-//   "Monaco": "Europe",
-//   "Montenegro": "Europe",
-//   "Netherlands": "Europe",
-//   "North Macedonia": "Europe",
-//   "Norway": "Europe",
-//   "Poland": "Europe",
-//   "Portugal": "Europe",
-//   "Romania": "Europe",
-//   "Russia": "Europe",              // partie principale en Eurasie
-//   "San Marino": "Europe",
-//   "Serbia": "Europe",
-//   "Slovakia": "Europe",
-//   "Slovenia": "Europe",
-//   "Spain": "Europe",
-//   "Sweden": "Europe",
-//   "Switzerland": "Europe",
-//   "Ukraine": "Europe",
-//   "United Kingdom": "Europe",
-//   "Great Britain": "Europe",
-//   "Vatican City": "Europe",
-//   "Holy See": "Europe",
+  const continentOf = await json<Record<string, Continent>>(
+    "/statics/front/continents.json"
+  );
 
-//   /* NORTH AMERICA (23) */
-//   "Antigua and Barbuda": "North America",
-//   "Bahamas": "North America",
-//   "Barbados": "North America",
-//   "Belize": "North America",
-//   "Canada": "North America",
-//   "Costa Rica": "North America",
-//   "Cuba": "North America",
-//   "Dominica": "North America",
-//   "Dominican Republic": "North America",
-//   "El Salvador": "North America",
-//   "Grenada": "North America",
-//   "Guatemala": "North America",
-//   "Haiti": "North America",
-//   "Honduras": "North America",
-//   "Jamaica": "North America",
-//   "Mexico": "North America",
-//   "Nicaragua": "North America",
-//   "Panama": "North America",
-//   "Saint Kitts and Nevis": "North America",
-//   "Saint Lucia": "North America",
-//   "Saint Vincent and the Grenadines": "North America",
-//   "Trinidad and Tobago": "North America",
-//   "United States": "North America",
-//   "USA": "North America",
-
-//   /* SOUTH AMERICA (12) */
-//   "Argentina": "South America",
-//   "Bolivia": "South America",
-//   "Brazil": "South America",
-//   "Chile": "South America",
-//   "Colombia": "South America",
-//   "Ecuador": "South America",
-//   "Guyana": "South America",
-//   "Paraguay": "South America",
-//   "Peru": "South America",
-//   "Suriname": "South America",
-//   "Uruguay": "South America",
-//   "Venezuela": "South America",
-
-//   /* OCEANIA (14) */
-//   "Australia": "Oceania",
-//   "Fiji": "Oceania",
-//   "Kiribati": "Oceania",
-//   "Marshall Islands": "Oceania",
-//   "Micronesia": "Oceania",
-//   "Nauru": "Oceania",
-//   "New Zealand": "Oceania",
-//   "Palau": "Oceania",
-//   "Papua New Guinea": "Oceania",
-//   "Samoa": "Oceania",
-//   "Solomon Islands": "Oceania",
-//   "Tonga": "Oceania",
-//   "Tuvalu": "Oceania",
-//   "Vanuatu": "Oceania",
-
-//   /* ANTARCTICA (territoires sans population permanente) */
-//   "Antarctica": "Antarctica"
-// };
-
-const continentsJson: Record<string, Continent> = await d3.json('/statics/front/continents.json');
-
-
-type Continent = 
-  | "Africa"
-  | "Asia"
-  | "Europe"
-  | "North America"
-  | "South America"
-  | "Oceania"
-  | "Antarctica";
-
-const continentOf = continentsJson as Record<string, Continent>;
-
-
-  const data = Array.from(byCountry, ([country, athletes]) => ({
+  const data = majors.map(({ country, athletes }) => ({
     country,
     athletes,
-    region: continentOf[country] ?? "Other",
+    // « Rest of the World » n’est dans aucun continent : on le met en "Other"
+    region: continentOf?.[country] ?? "Other" as Region,
   }));
+
 
   /* ------------------------------------------------------------------ */
   /* 4. Dimension + reset container                                     */
@@ -324,12 +117,12 @@ const continentOf = continentsJson as Record<string, Continent>;
   /* ------------------------------------------------------------------ */
   const regionColor = new Map<string, string>([
     ["Europe", "#2C7BD1"],
-    ["North America", "#D72626"],
+    ["Americas", "#D72626"],
     ["Asia", "#F2C53D"],
     ["South America", "#F26B83"],
     ["Oceania", "#3DB96B"],
     ["Africa", "#9E5CF2"],
-    ["Other", "#8C8C8C"],
+    ["Other", "#E8E5DA"],
   ]);
 
   /* ------------------------------------------------------------------ */
@@ -339,14 +132,13 @@ const continentOf = continentsJson as Record<string, Continent>;
     .selectAll("g")
     .data(root.leaves())
     .join("g")
-    .attr("transform", (d) => `translate(${d.x0},${d.y0})`);
+    .attr("transform", d => `translate(${d.x0},${d.y0})`);
 
-  // Rectangles
-  nodes
-    .append("rect")
-    .attr("width", (d) => d.x1 - d.x0)
-    .attr("height", (d) => d.y1 - d.y0)
-    .attr("fill", (d) => {
+  /* --- rectangles --- */
+  nodes.append("rect")
+    .attr("width", d => d.x1 - d.x0)
+    .attr("height", d => d.y1 - d.y0)
+    .attr("fill", d => {
       const base = regionColor.get((d.data as any).region) ?? "#ccc";
       const parentVal = d.parent?.value ?? d.value!;
       const ratio = Math.min(1, (d.value! / parentVal) * 2);
@@ -354,21 +146,47 @@ const continentOf = continentsJson as Record<string, Continent>;
     })
     .attr("stroke", "#fff");
 
-  // Textes
-  const pad = 4;
-  nodes
-    .append("text")
-    .attr("x", pad)
-    .attr("y", 18)
-    .style("font-weight", "700")
-    .style("font-size", "clamp(12px,0.9vw,24px)")
+  /* --- clipPath pour enfermer le texte --- */
+  nodes.append("clipPath")
+      .attr("id", (d,i) => `clip-${i}`)
+    .append("rect")
+      .attr("width", d => d.x1 - d.x0)
+      .attr("height", d => d.y1 - d.y0);
+
+  const LABEL_PAD  = 4;     // marge interne
+  const MIN_AREA   = 3_000; // px²
+
+  const labels = nodes.filter(d => (d.x1-d.x0)*(d.y1-d.y0) >= MIN_AREA);
+
+  labels.each(function (d, i) {
+    const g   = d3.select(this);
+    const w   = d.x1 - d.x0;
+    const h   = d.y1 - d.y0;
+    const side= Math.min(w, h);          // côté le plus court
+    const fs1 = Math.min(24, side / 5);  // police « Pays »
+    const fs2 = fs1 * 0.8;               // police « athlètes »
+    const lh  = fs1 * 1.1;               // line-height
+
+    /* pays ------------------------------------------------------------ */
+    g.append("text")
+    .attr("clip-path", `url(#clip-${i})`)
+    .attr("x", LABEL_PAD)
+    .attr("y", LABEL_PAD + fs1)         // première ligne = padding + taille de police
+    .style("font-weight", 700)
+    .style("font-size", `${fs1}px`)
     .text((d) => (d.data as any).country);
 
-  nodes
-    .append("text")
-    .attr("x", pad)
-    .attr("y", 36)
+    /* valeur ---------------------------------------------------------- */
+    g.append("text")
+    .attr("clip-path", `url(#clip-${i})`)
+    .attr("x", LABEL_PAD)
+    .attr("y", LABEL_PAD + fs1 + lh)    // deuxième ligne = ligne 1 + interligne
     .style("font-style", "italic")
-    .style("font-size", "clamp(10px,0.7vw,18px)")
+    .style("font-size", `${fs2}px`)
     .text((d) => `${d.value as number} athlètes`);
+  });
+
 }
+
+
+        
