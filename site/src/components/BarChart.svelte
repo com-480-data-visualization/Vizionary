@@ -37,6 +37,45 @@
     let isLoading = $state(false);
     let error = $state<string | null>(null);
 
+    // Function to process the new flat array format into the expected nested structure
+    function processBarData(flatBarData: any[]): BarData {
+        const processedData: BarData = {};
+
+        // Group by sex
+        const groupedBySex = d3.group(flatBarData, d => d.sex);
+
+        groupedBySex.forEach((sexData, sex) => {
+            const sexKey = sex as 'M' | 'F';
+            processedData[sexKey] = {};
+
+            // Group by attribute within each sex
+            const groupedByAttr = d3.group(sexData, d => d.attribute);
+
+            groupedByAttr.forEach((attrData, attr) => {
+                const attrKey = attr as 'age' | 'height' | 'weight';
+                
+                // Extract arrays for year, medal, and value
+                const years: number[] = [];
+                const medals: string[] = [];
+                const values: (number | null)[] = [];
+
+                attrData.forEach(item => {
+                    years.push(item.year);
+                    medals.push(item.medal);
+                    values.push(item.value);
+                });
+
+                processedData[sexKey]![attrKey] = {
+                    year: years,
+                    medal: medals,
+                    value: values
+                };
+            });
+        });
+
+        return processedData;
+    }
+
     // Function to load data
     async function loadData(sportName: string) {
         if (!sportName) return;
@@ -55,12 +94,12 @@
             const rawData = await response.json();
             console.log("Loaded raw data:", rawData);
 
-            // Extract the bar data from the raw JSON
-            if (rawData && rawData.bar) {
-                rawBarData = rawData.bar;
+            // Extract and process the bar data from the raw JSON
+            if (rawData && rawData.bar && Array.isArray(rawData.bar)) {
+                rawBarData = processBarData(rawData.bar);
                 console.log("Processed bar data:", rawBarData);
             } else {
-                throw new Error("Bar data not found in the JSON file.");
+                throw new Error("Bar data not found in the JSON file or not in expected format.");
             }
         } catch (err) {
             error = err instanceof Error ? err.message : 'An unknown error occurred';

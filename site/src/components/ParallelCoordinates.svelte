@@ -18,58 +18,39 @@
         // Extract bar data for processing
         const barData = rawData.bar;
         
-        // Transform the data structure into an array of objects
-        const processed = [];
-        
-        // Process male data
-        if (barData.M) {
-            const maleAgeData = barData.M.age || {};
-            const maleHeightData = barData.M.height || {};
-            const maleWeightData = barData.M.weight || {};
-            
-            const years = maleAgeData.year || [];
-            const medals = maleAgeData.medal || [];
-            const ageValues = maleAgeData.value || [];
-            const heightValues = maleHeightData.value || [];
-            const weightValues = maleWeightData.value || [];
-            
-            for (let i = 0; i < years.length; i++) {
-                processed.push({
-                    year: years[i],
-                    sex: "M",
-                    medal: medals[i],
-                    age: ageValues[i],
-                    height: i < heightValues.length ? heightValues[i] : null,
-                    weight: i < weightValues.length ? weightValues[i] : null
-                });
-            }
+        if (!barData || !Array.isArray(barData)) {
+            return [];
         }
-        
-        // Process female data
-        if (barData.F) {
-            const femaleAgeData = barData.F.age || {};
-            const femaleHeightData = barData.F.height || {};
-            const femaleWeightData = barData.F.weight || {};
+
+        // Group data by year, sex, and medal to reconstruct athlete records
+        const groupedData: { [key: string]: any } = {};
+
+        barData.forEach((item: any) => {
+            const key = `${item.year}-${item.sex}-${item.medal}`;
             
-            const years = femaleAgeData.year || [];
-            const medals = femaleAgeData.medal || [];
-            const ageValues = femaleAgeData.value || [];
-            const heightValues = femaleHeightData.value || [];
-            const weightValues = femaleWeightData.value || [];
-            
-            for (let i = 0; i < years.length; i++) {
-                processed.push({
-                    year: years[i],
-                    sex: "F",
-                    medal: medals[i],
-                    age: ageValues[i],
-                    height: i < heightValues.length ? heightValues[i] : null,
-                    weight: i < weightValues.length ? weightValues[i] : null
-                });
+            if (!groupedData[key]) {
+                groupedData[key] = {
+                    year: item.year,
+                    sex: item.sex,
+                    medal: item.medal,
+                    age: null,
+                    height: null,
+                    weight: null
+                };
             }
-        }
-        
-        return processed;
+            
+            // Assign the value to the appropriate attribute
+            if (item.attribute === 'age') {
+                groupedData[key].age = item.value;
+            } else if (item.attribute === 'height') {
+                groupedData[key].height = item.value;
+            } else if (item.attribute === 'weight') {
+                groupedData[key].weight = item.value;
+            }
+        });
+
+        // Convert grouped data back to array format
+        return Object.values(groupedData);
     }
 
     // Function to load data

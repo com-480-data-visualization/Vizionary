@@ -14,7 +14,7 @@
 
   // Using $bindable for two-way binding with parent
   let { 
-    startYear = $bindable(1902), 
+    startYear = $bindable(1900), 
     endYear = $bindable(2016),
     gender = $bindable('all'),
     medals = $bindable({
@@ -26,7 +26,7 @@
   }: FilterParams = $props();
 
   // Constants for the component
-  const MIN_YEAR = 1902;
+  const MIN_YEAR = 1900;
   const MAX_YEAR = 2016;
   const MEDAL_TYPES = [
     { key: 'gold', label: 'Gold', color: '#FFD700' },

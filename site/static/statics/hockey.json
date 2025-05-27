@@ -1,1353 +1,4823 @@
 {
   "sport": "Hockey",
-  "heatmap": {
-    "M": {
-      "age": {
-        "year": [
-          1908,
-          1920,
-          1928,
-          1936,
-          1948,
-          1952,
-          1956,
-          1960,
-          1964,
-          1968,
-          1972,
-          1976,
-          1980,
-          1984,
-          1988,
-          1992,
-          1996,
-          2000,
-          2004,
-          2008,
-          2012,
-          2016
-        ],
-        "corr": [
-          0.424,
-          0.087,
-          -0.056,
-          -0.023,
-          -0.157,
-          -0.02,
-          -0.109,
-          0.075,
-          0.033,
-          0.136,
-          -0.019,
-          0.02,
-          -0.209,
-          -0.142,
-          0.204,
-          -0.205,
-          0.159,
-          0.13,
-          -0.064,
-          -0.122,
-          -0.019,
-          -0.042
-        ]
-      },
-      "height": {
-        "year": [
-          1936,
-          1948,
-          1952,
-          1956,
-          1960,
-          1964,
-          1968,
-          1972,
-          1976,
-          1980,
-          1984,
-          1988,
-          1992,
-          1996,
-          2000,
-          2004,
-          2008,
-          2012,
-          2016
-        ],
-        "corr": [
-          -0.334,
-          -0.651,
-          -0.417,
-          -0.177,
-          -0.014,
-          -0.075,
-          -0.119,
-          -0.032,
-          -0.063,
-          -0.017,
-          0.113,
-          0.349,
-          0.128,
-          0.084,
-          0.107,
-          0.364,
-          0.167,
-          0.291,
-          0.118
-        ]
-      },
-      "weight": {
-        "year": [
-          1936,
-          1948,
-          1952,
-          1956,
-          1960,
-          1964,
-          1968,
-          1972,
-          1976,
-          1980,
-          1984,
-          1988,
-          1992,
-          1996,
-          2000,
-          2004,
-          2008,
-          2012,
-          2016
-        ],
-        "corr": [
-          1.0,
-          -0.341,
-          -0.38,
-          -0.161,
-          -0.111,
-          0.015,
-          -0.022,
-          0.032,
-          -0.089,
-          0.111,
-          0.049,
-          0.326,
-          0.075,
-          0.143,
-          0.094,
-          0.303,
-          0.152,
-          0.201,
-          0.093
-        ]
-      }
+  "scatter": [],
+  "heatmap": [
+    {
+      "year": 1908,
+      "sex": "M",
+      "attribute": "age",
+      "corr": 0.424
     },
-    "F": {
-      "age": {
-        "year": [
-          1980,
-          1984,
-          1988,
-          1992,
-          1996,
-          2000,
-          2004,
-          2008,
-          2012,
-          2016
-        ],
-        "corr": [
-          0.522,
-          -0.003,
-          -0.185,
-          0.055,
-          -0.131,
-          0.002,
-          0.24,
-          0.173,
-          0.078,
-          0.086
-        ]
-      },
-      "height": {
-        "year": [
-          1980,
-          1984,
-          1988,
-          1992,
-          1996,
-          2000,
-          2004,
-          2008,
-          2012,
-          2016
-        ],
-        "corr": [
-          -0.061,
-          0.293,
-          -0.03,
-          0.047,
-          0.138,
-          -0.076,
-          0.163,
-          0.076,
-          0.186,
-          0.31
-        ]
-      },
-      "weight": {
-        "year": [
-          1980,
-          1984,
-          1988,
-          1992,
-          1996,
-          2000,
-          2004,
-          2008,
-          2012,
-          2016
-        ],
-        "corr": [
-          -0.101,
-          0.12,
-          -0.029,
-          -0.004,
-          0.052,
-          -0.045,
-          0.093,
-          -0.138,
-          0.013,
-          0.262
-        ]
-      }
-    }
-  },
-  "bar": {
-    "M": {
-      "age": {
-        "year": [
-          1908,
-          1908,
-          1908,
-          1908,
-          1920,
-          1920,
-          1920,
-          1920,
-          1928,
-          1928,
-          1928,
-          1928,
-          1932,
-          1932,
-          1932,
-          1936,
-          1936,
-          1936,
-          1936,
-          1948,
-          1948,
-          1948,
-          1948,
-          1952,
-          1952,
-          1952,
-          1952,
-          1956,
-          1956,
-          1956,
-          1956,
-          1960,
-          1960,
-          1960,
-          1960,
-          1964,
-          1964,
-          1964,
-          1964,
-          1968,
-          1968,
-          1968,
-          1968,
-          1972,
-          1972,
-          1972,
-          1972,
-          1976,
-          1976,
-          1976,
-          1976,
-          1980,
-          1980,
-          1980,
-          1980,
-          1984,
-          1984,
-          1984,
-          1984,
-          1988,
-          1988,
-          1988,
-          1988,
-          1992,
-          1992,
-          1992,
-          1992,
-          1996,
-          1996,
-          1996,
-          1996,
-          2000,
-          2000,
-          2000,
-          2000,
-          2004,
-          2004,
-          2004,
-          2004,
-          2008,
-          2008,
-          2008,
-          2008,
-          2012,
-          2012,
-          2012,
-          2012,
-          2016,
-          2016,
-          2016,
-          2016
-        ],
-        "medal": [
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver"
-        ],
-        "value": [
-          26.32,
-          25.18,
-          21.0,
-          24.9,
-          27.4,
-          31.85,
-          26.0,
-          26.75,
-          26.06,
-          24.08,
-          24.97,
-          22.45,
-          27.29,
-          24.64,
-          22.88,
-          21.92,
-          25.56,
-          25.06,
-          25.86,
-          25.83,
-          25.06,
-          28.84,
-          30.92,
-          26.15,
-          26.79,
-          27.18,
-          28.18,
-          26.64,
-          28.12,
-          27.78,
-          25.07,
-          24.43,
-          28.15,
-          25.65,
-          27.31,
-          26.07,
-          27.53,
-          26.15,
-          25.88,
-          25.69,
-          25.69,
-          24.76,
-          27.36,
-          24.43,
-          25.78,
-          25.25,
-          24.8,
-          24.19,
-          26.5,
-          25.26,
-          25.73,
-          23.81,
-          23.31,
-          25.81,
-          25.38,
-          26.2,
-          23.5,
-          25.88,
-          24.44,
-          25.31,
-          27.56,
-          24.49,
-          25.75,
-          23.06,
-          24.12,
-          25.77,
-          24.81,
-          26.06,
-          25.94,
-          25.08,
-          26.88,
-          26.56,
-          28.0,
-          25.36,
-          25.06,
-          25.81,
-          25.31,
-          26.15,
-          25.69,
-          26.29,
-          24.41,
-          26.52,
-          25.75,
-          26.75,
-          26.19,
-          26.45,
-          25.94,
-          24.75,
-          29.22,
-          27.03,
-          25.69
-        ]
-      },
-      "height": {
-        "year": [
-          1908,
-          1928,
-          1932,
-          1932,
-          1936,
-          1936,
-          1936,
-          1948,
-          1948,
-          1952,
-          1952,
-          1956,
-          1956,
-          1956,
-          1956,
-          1960,
-          1960,
-          1960,
-          1960,
-          1964,
-          1964,
-          1964,
-          1964,
-          1968,
-          1968,
-          1968,
-          1968,
-          1972,
-          1972,
-          1972,
-          1972,
-          1976,
-          1976,
-          1976,
-          1976,
-          1980,
-          1980,
-          1980,
-          1980,
-          1984,
-          1984,
-          1984,
-          1984,
-          1988,
-          1988,
-          1988,
-          1988,
-          1992,
-          1992,
-          1992,
-          1992,
-          1996,
-          1996,
-          1996,
-          1996,
-          2000,
-          2000,
-          2000,
-          2000,
-          2004,
-          2004,
-          2004,
-          2004,
-          2008,
-          2008,
-          2008,
-          2008,
-          2012,
-          2012,
-          2012,
-          2012,
-          2016,
-          2016,
-          2016,
-          2016
-        ],
-        "medal": [
-          "Gold",
-          "Gold",
-          "Bronze",
-          "Gold",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Gold",
-          "No Medal",
-          "Gold",
-          "No Medal",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver"
-        ],
-        "value": [
-          193.0,
-          176.25,
-          178.0,
-          175.15,
-          173.2,
-          178.0,
-          177.0,
-          162.0,
-          177.67,
-          165.0,
-          176.87,
-          178.0,
-          171.6,
-          177.46,
-          174.8,
-          176.79,
-          174.85,
-          174.55,
-          171.08,
-          175.86,
-          170.07,
-          174.83,
-          174.69,
-          172.31,
-          170.85,
-          175.17,
-          176.0,
-          171.79,
-          179.11,
-          175.13,
-          171.73,
-          174.06,
-          174.57,
-          176.47,
-          178.07,
-          176.25,
-          169.75,
-          174.45,
-          176.56,
-          179.4,
-          172.56,
-          176.11,
-          181.81,
-          179.13,
-          180.75,
-          175.2,
-          182.56,
-          172.57,
-          184.73,
-          178.42,
-          179.25,
-          178.8,
-          182.53,
-          178.24,
-          177.31,
-          179.38,
-          183.12,
-          178.14,
-          176.69,
-          182.12,
-          180.62,
-          176.66,
-          185.25,
-          181.82,
-          181.18,
-          178.25,
-          178.94,
-          180.5,
-          183.75,
-          178.4,
-          182.71,
-          184.25,
-          178.78,
-          179.49,
-          180.75
-        ]
-      },
-      "weight": {
-        "year": [
-          1908,
-          1932,
-          1936,
-          1936,
-          1948,
-          1948,
-          1952,
-          1952,
-          1956,
-          1956,
-          1956,
-          1956,
-          1960,
-          1960,
-          1960,
-          1960,
-          1964,
-          1964,
-          1964,
-          1964,
-          1968,
-          1968,
-          1968,
-          1968,
-          1972,
-          1972,
-          1972,
-          1972,
-          1976,
-          1976,
-          1976,
-          1976,
-          1980,
-          1980,
-          1980,
-          1980,
-          1984,
-          1984,
-          1984,
-          1984,
-          1988,
-          1988,
-          1988,
-          1988,
-          1992,
-          1992,
-          1992,
-          1992,
-          1996,
-          1996,
-          1996,
-          1996,
-          2000,
-          2000,
-          2000,
-          2000,
-          2004,
-          2004,
-          2004,
-          2004,
-          2008,
-          2008,
-          2008,
-          2008,
-          2012,
-          2012,
-          2012,
-          2012,
-          2016,
-          2016,
-          2016,
-          2016
-        ],
-        "medal": [
-          "Gold",
-          "Bronze",
-          "No Medal",
-          "Silver",
-          "Gold",
-          "No Medal",
-          "Gold",
-          "No Medal",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver"
-        ],
-        "value": [
-          89.0,
-          79.0,
-          79.0,
-          85.0,
-          66.0,
-          75.5,
-          63.33,
-          73.76,
-          78.33,
-          63.8,
-          73.69,
-          69.9,
-          71.79,
-          69.46,
-          70.11,
-          62.15,
-          74.36,
-          63.47,
-          69.62,
-          72.0,
-          66.5,
-          71.0,
-          70.38,
-          72.86,
-          65.64,
-          75.56,
-          71.14,
-          72.87,
-          69.06,
-          70.29,
-          71.9,
-          71.8,
-          75.69,
-          66.75,
-          70.17,
-          73.0,
-          74.47,
-          66.62,
-          71.68,
-          76.56,
-          77.87,
-          76.38,
-          71.62,
-          77.56,
-          66.71,
-          79.87,
-          75.73,
-          79.33,
-          77.93,
-          81.73,
-          75.66,
-          74.31,
-          77.0,
-          81.12,
-          75.65,
-          73.5,
-          80.81,
-          77.81,
-          74.79,
-          82.88,
-          78.53,
-          80.41,
-          75.28,
-          75.75,
-          77.38,
-          81.88,
-          76.27,
-          79.06,
-          80.56,
-          77.78,
-          76.9,
-          76.88
-        ]
-      }
+    {
+      "year": 1908,
+      "sex": "M",
+      "attribute": "height",
+      "corr": null
     },
-    "F": {
-      "age": {
-        "year": [
-          1980,
-          1980,
-          1980,
-          1980,
-          1984,
-          1984,
-          1984,
-          1984,
-          1988,
-          1988,
-          1988,
-          1988,
-          1992,
-          1992,
-          1992,
-          1992,
-          1996,
-          1996,
-          1996,
-          1996,
-          2000,
-          2000,
-          2000,
-          2000,
-          2004,
-          2004,
-          2004,
-          2004,
-          2008,
-          2008,
-          2008,
-          2008,
-          2012,
-          2012,
-          2012,
-          2012,
-          2016,
-          2016,
-          2016,
-          2016
-        ],
-        "medal": [
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver"
-        ],
-        "value": [
-          23.25,
-          26.8,
-          20.32,
-          26.06,
-          27.19,
-          24.56,
-          25.19,
-          23.75,
-          25.5,
-          24.5,
-          25.24,
-          22.19,
-          27.69,
-          24.73,
-          24.51,
-          22.38,
-          24.94,
-          26.25,
-          25.8,
-          23.38,
-          25.88,
-          27.06,
-          25.88,
-          24.75,
-          27.31,
-          26.5,
-          25.21,
-          27.06,
-          28.25,
-          25.81,
-          25.57,
-          27.19,
-          27.31,
-          25.38,
-          25.44,
-          25.8,
-          24.29,
-          27.81,
-          25.39,
-          26.31
-        ]
-      },
-      "height": {
-        "year": [
-          1980,
-          1980,
-          1980,
-          1980,
-          1984,
-          1984,
-          1984,
-          1984,
-          1988,
-          1988,
-          1988,
-          1988,
-          1992,
-          1992,
-          1992,
-          1992,
-          1996,
-          1996,
-          1996,
-          1996,
-          2000,
-          2000,
-          2000,
-          2000,
-          2004,
-          2004,
-          2004,
-          2004,
-          2008,
-          2008,
-          2008,
-          2008,
-          2012,
-          2012,
-          2012,
-          2012,
-          2016,
-          2016,
-          2016,
-          2016
-        ],
-        "medal": [
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver"
-        ],
-        "value": [
-          161.38,
-          161.0,
-          162.39,
-          162.44,
-          167.88,
-          167.88,
-          163.98,
-          165.81,
-          168.2,
-          165.12,
-          165.66,
-          162.81,
-          165.31,
-          163.78,
-          166.59,
-          170.88,
-          169.73,
-          166.69,
-          165.79,
-          165.0,
-          167.38,
-          167.75,
-          167.75,
-          165.25,
-          165.19,
-          169.25,
-          165.23,
-          167.12,
-          165.31,
-          167.44,
-          165.91,
-          168.12,
-          170.12,
-          170.69,
-          166.28,
-          166.07,
-          170.06,
-          168.81,
-          165.37,
-          171.38
-        ]
-      },
-      "weight": {
-        "year": [
-          1980,
-          1980,
-          1980,
-          1980,
-          1984,
-          1984,
-          1984,
-          1984,
-          1988,
-          1988,
-          1988,
-          1988,
-          1992,
-          1992,
-          1992,
-          1992,
-          1996,
-          1996,
-          1996,
-          1996,
-          2000,
-          2000,
-          2000,
-          2000,
-          2004,
-          2004,
-          2004,
-          2004,
-          2008,
-          2008,
-          2008,
-          2008,
-          2012,
-          2012,
-          2012,
-          2012,
-          2016,
-          2016,
-          2016,
-          2016
-        ],
-        "medal": [
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver",
-          "Bronze",
-          "Gold",
-          "No Medal",
-          "Silver"
-        ],
-        "value": [
-          58.44,
-          58.73,
-          59.23,
-          57.38,
-          59.88,
-          62.56,
-          58.98,
-          58.31,
-          61.4,
-          60.69,
-          60.24,
-          57.81,
-          62.38,
-          58.22,
-          61.25,
-          61.75,
-          61.91,
-          60.06,
-          60.07,
-          59.25,
-          60.69,
-          61.94,
-          61.46,
-          60.06,
-          60.06,
-          62.69,
-          59.84,
-          60.19,
-          59.12,
-          58.88,
-          61.51,
-          60.62,
-          63.62,
-          61.44,
-          61.27,
-          59.13,
-          63.12,
-          63.75,
-          59.29,
-          62.31
-        ]
-      }
+    {
+      "year": 1908,
+      "sex": "M",
+      "attribute": "weight",
+      "corr": null
+    },
+    {
+      "year": 1920,
+      "sex": "M",
+      "attribute": "age",
+      "corr": 0.087
+    },
+    {
+      "year": 1920,
+      "sex": "M",
+      "attribute": "height",
+      "corr": null
+    },
+    {
+      "year": 1920,
+      "sex": "M",
+      "attribute": "weight",
+      "corr": null
+    },
+    {
+      "year": 1928,
+      "sex": "M",
+      "attribute": "age",
+      "corr": -0.056
+    },
+    {
+      "year": 1928,
+      "sex": "M",
+      "attribute": "height",
+      "corr": null
+    },
+    {
+      "year": 1928,
+      "sex": "M",
+      "attribute": "weight",
+      "corr": null
+    },
+    {
+      "year": 1932,
+      "sex": "M",
+      "attribute": "age",
+      "corr": null
+    },
+    {
+      "year": 1932,
+      "sex": "M",
+      "attribute": "height",
+      "corr": null
+    },
+    {
+      "year": 1932,
+      "sex": "M",
+      "attribute": "weight",
+      "corr": null
+    },
+    {
+      "year": 1936,
+      "sex": "M",
+      "attribute": "age",
+      "corr": -0.023
+    },
+    {
+      "year": 1936,
+      "sex": "M",
+      "attribute": "height",
+      "corr": -0.334
+    },
+    {
+      "year": 1936,
+      "sex": "M",
+      "attribute": "weight",
+      "corr": 1.0
+    },
+    {
+      "year": 1948,
+      "sex": "M",
+      "attribute": "age",
+      "corr": -0.157
+    },
+    {
+      "year": 1948,
+      "sex": "M",
+      "attribute": "height",
+      "corr": -0.651
+    },
+    {
+      "year": 1948,
+      "sex": "M",
+      "attribute": "weight",
+      "corr": -0.341
+    },
+    {
+      "year": 1952,
+      "sex": "M",
+      "attribute": "age",
+      "corr": -0.02
+    },
+    {
+      "year": 1952,
+      "sex": "M",
+      "attribute": "height",
+      "corr": -0.417
+    },
+    {
+      "year": 1952,
+      "sex": "M",
+      "attribute": "weight",
+      "corr": -0.38
+    },
+    {
+      "year": 1956,
+      "sex": "M",
+      "attribute": "age",
+      "corr": -0.109
+    },
+    {
+      "year": 1956,
+      "sex": "M",
+      "attribute": "height",
+      "corr": -0.177
+    },
+    {
+      "year": 1956,
+      "sex": "M",
+      "attribute": "weight",
+      "corr": -0.161
+    },
+    {
+      "year": 1960,
+      "sex": "M",
+      "attribute": "age",
+      "corr": 0.075
+    },
+    {
+      "year": 1960,
+      "sex": "M",
+      "attribute": "height",
+      "corr": -0.014
+    },
+    {
+      "year": 1960,
+      "sex": "M",
+      "attribute": "weight",
+      "corr": -0.111
+    },
+    {
+      "year": 1964,
+      "sex": "M",
+      "attribute": "age",
+      "corr": 0.033
+    },
+    {
+      "year": 1964,
+      "sex": "M",
+      "attribute": "height",
+      "corr": -0.075
+    },
+    {
+      "year": 1964,
+      "sex": "M",
+      "attribute": "weight",
+      "corr": 0.015
+    },
+    {
+      "year": 1968,
+      "sex": "M",
+      "attribute": "age",
+      "corr": 0.136
+    },
+    {
+      "year": 1968,
+      "sex": "M",
+      "attribute": "height",
+      "corr": -0.119
+    },
+    {
+      "year": 1968,
+      "sex": "M",
+      "attribute": "weight",
+      "corr": -0.022
+    },
+    {
+      "year": 1972,
+      "sex": "M",
+      "attribute": "age",
+      "corr": -0.019
+    },
+    {
+      "year": 1972,
+      "sex": "M",
+      "attribute": "height",
+      "corr": -0.032
+    },
+    {
+      "year": 1972,
+      "sex": "M",
+      "attribute": "weight",
+      "corr": 0.032
+    },
+    {
+      "year": 1976,
+      "sex": "M",
+      "attribute": "age",
+      "corr": 0.02
+    },
+    {
+      "year": 1976,
+      "sex": "M",
+      "attribute": "height",
+      "corr": -0.063
+    },
+    {
+      "year": 1976,
+      "sex": "M",
+      "attribute": "weight",
+      "corr": -0.089
+    },
+    {
+      "year": 1980,
+      "sex": "F",
+      "attribute": "age",
+      "corr": 0.522
+    },
+    {
+      "year": 1980,
+      "sex": "F",
+      "attribute": "height",
+      "corr": -0.061
+    },
+    {
+      "year": 1980,
+      "sex": "F",
+      "attribute": "weight",
+      "corr": -0.101
+    },
+    {
+      "year": 1980,
+      "sex": "M",
+      "attribute": "age",
+      "corr": -0.209
+    },
+    {
+      "year": 1980,
+      "sex": "M",
+      "attribute": "height",
+      "corr": -0.017
+    },
+    {
+      "year": 1980,
+      "sex": "M",
+      "attribute": "weight",
+      "corr": 0.111
+    },
+    {
+      "year": 1984,
+      "sex": "F",
+      "attribute": "age",
+      "corr": -0.003
+    },
+    {
+      "year": 1984,
+      "sex": "F",
+      "attribute": "height",
+      "corr": 0.293
+    },
+    {
+      "year": 1984,
+      "sex": "F",
+      "attribute": "weight",
+      "corr": 0.12
+    },
+    {
+      "year": 1984,
+      "sex": "M",
+      "attribute": "age",
+      "corr": -0.142
+    },
+    {
+      "year": 1984,
+      "sex": "M",
+      "attribute": "height",
+      "corr": 0.113
+    },
+    {
+      "year": 1984,
+      "sex": "M",
+      "attribute": "weight",
+      "corr": 0.049
+    },
+    {
+      "year": 1988,
+      "sex": "F",
+      "attribute": "age",
+      "corr": -0.185
+    },
+    {
+      "year": 1988,
+      "sex": "F",
+      "attribute": "height",
+      "corr": -0.03
+    },
+    {
+      "year": 1988,
+      "sex": "F",
+      "attribute": "weight",
+      "corr": -0.029
+    },
+    {
+      "year": 1988,
+      "sex": "M",
+      "attribute": "age",
+      "corr": 0.204
+    },
+    {
+      "year": 1988,
+      "sex": "M",
+      "attribute": "height",
+      "corr": 0.349
+    },
+    {
+      "year": 1988,
+      "sex": "M",
+      "attribute": "weight",
+      "corr": 0.326
+    },
+    {
+      "year": 1992,
+      "sex": "F",
+      "attribute": "age",
+      "corr": 0.055
+    },
+    {
+      "year": 1992,
+      "sex": "F",
+      "attribute": "height",
+      "corr": 0.047
+    },
+    {
+      "year": 1992,
+      "sex": "F",
+      "attribute": "weight",
+      "corr": -0.004
+    },
+    {
+      "year": 1992,
+      "sex": "M",
+      "attribute": "age",
+      "corr": -0.205
+    },
+    {
+      "year": 1992,
+      "sex": "M",
+      "attribute": "height",
+      "corr": 0.128
+    },
+    {
+      "year": 1992,
+      "sex": "M",
+      "attribute": "weight",
+      "corr": 0.075
+    },
+    {
+      "year": 1996,
+      "sex": "F",
+      "attribute": "age",
+      "corr": -0.131
+    },
+    {
+      "year": 1996,
+      "sex": "F",
+      "attribute": "height",
+      "corr": 0.138
+    },
+    {
+      "year": 1996,
+      "sex": "F",
+      "attribute": "weight",
+      "corr": 0.052
+    },
+    {
+      "year": 1996,
+      "sex": "M",
+      "attribute": "age",
+      "corr": 0.159
+    },
+    {
+      "year": 1996,
+      "sex": "M",
+      "attribute": "height",
+      "corr": 0.084
+    },
+    {
+      "year": 1996,
+      "sex": "M",
+      "attribute": "weight",
+      "corr": 0.143
+    },
+    {
+      "year": 2000,
+      "sex": "F",
+      "attribute": "age",
+      "corr": 0.002
+    },
+    {
+      "year": 2000,
+      "sex": "F",
+      "attribute": "height",
+      "corr": -0.076
+    },
+    {
+      "year": 2000,
+      "sex": "F",
+      "attribute": "weight",
+      "corr": -0.045
+    },
+    {
+      "year": 2000,
+      "sex": "M",
+      "attribute": "age",
+      "corr": 0.13
+    },
+    {
+      "year": 2000,
+      "sex": "M",
+      "attribute": "height",
+      "corr": 0.107
+    },
+    {
+      "year": 2000,
+      "sex": "M",
+      "attribute": "weight",
+      "corr": 0.094
+    },
+    {
+      "year": 2004,
+      "sex": "F",
+      "attribute": "age",
+      "corr": 0.24
+    },
+    {
+      "year": 2004,
+      "sex": "F",
+      "attribute": "height",
+      "corr": 0.163
+    },
+    {
+      "year": 2004,
+      "sex": "F",
+      "attribute": "weight",
+      "corr": 0.093
+    },
+    {
+      "year": 2004,
+      "sex": "M",
+      "attribute": "age",
+      "corr": -0.064
+    },
+    {
+      "year": 2004,
+      "sex": "M",
+      "attribute": "height",
+      "corr": 0.364
+    },
+    {
+      "year": 2004,
+      "sex": "M",
+      "attribute": "weight",
+      "corr": 0.303
+    },
+    {
+      "year": 2008,
+      "sex": "F",
+      "attribute": "age",
+      "corr": 0.173
+    },
+    {
+      "year": 2008,
+      "sex": "F",
+      "attribute": "height",
+      "corr": 0.076
+    },
+    {
+      "year": 2008,
+      "sex": "F",
+      "attribute": "weight",
+      "corr": -0.138
+    },
+    {
+      "year": 2008,
+      "sex": "M",
+      "attribute": "age",
+      "corr": -0.122
+    },
+    {
+      "year": 2008,
+      "sex": "M",
+      "attribute": "height",
+      "corr": 0.167
+    },
+    {
+      "year": 2008,
+      "sex": "M",
+      "attribute": "weight",
+      "corr": 0.152
+    },
+    {
+      "year": 2012,
+      "sex": "F",
+      "attribute": "age",
+      "corr": 0.078
+    },
+    {
+      "year": 2012,
+      "sex": "F",
+      "attribute": "height",
+      "corr": 0.186
+    },
+    {
+      "year": 2012,
+      "sex": "F",
+      "attribute": "weight",
+      "corr": 0.013
+    },
+    {
+      "year": 2012,
+      "sex": "M",
+      "attribute": "age",
+      "corr": -0.019
+    },
+    {
+      "year": 2012,
+      "sex": "M",
+      "attribute": "height",
+      "corr": 0.291
+    },
+    {
+      "year": 2012,
+      "sex": "M",
+      "attribute": "weight",
+      "corr": 0.201
+    },
+    {
+      "year": 2016,
+      "sex": "F",
+      "attribute": "age",
+      "corr": 0.086
+    },
+    {
+      "year": 2016,
+      "sex": "F",
+      "attribute": "height",
+      "corr": 0.31
+    },
+    {
+      "year": 2016,
+      "sex": "F",
+      "attribute": "weight",
+      "corr": 0.262
+    },
+    {
+      "year": 2016,
+      "sex": "M",
+      "attribute": "age",
+      "corr": -0.042
+    },
+    {
+      "year": 2016,
+      "sex": "M",
+      "attribute": "height",
+      "corr": 0.118
+    },
+    {
+      "year": 2016,
+      "sex": "M",
+      "attribute": "weight",
+      "corr": 0.093
     }
-  }
+  ],
+  "bar": [
+    {
+      "year": 1908,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 25.18
+    },
+    {
+      "year": 1908,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 193.0
+    },
+    {
+      "year": 1908,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": 89.0
+    },
+    {
+      "year": 1908,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 24.9
+    },
+    {
+      "year": 1908,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1908,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1908,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 26.32
+    },
+    {
+      "year": 1908,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1908,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1908,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 21.0
+    },
+    {
+      "year": 1908,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1908,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1908,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1908,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1908,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1908,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1908,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1908,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1908,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1908,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1908,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1908,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1908,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1908,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1920,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 31.85
+    },
+    {
+      "year": 1920,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1920,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1920,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 26.75
+    },
+    {
+      "year": 1920,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1920,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1920,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 27.4
+    },
+    {
+      "year": 1920,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1920,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1920,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 26.0
+    },
+    {
+      "year": 1920,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1920,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1920,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1920,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1920,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1920,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1920,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1920,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1920,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1920,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1920,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1920,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1920,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1920,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1928,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 24.08
+    },
+    {
+      "year": 1928,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 176.25
+    },
+    {
+      "year": 1928,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1928,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 22.45
+    },
+    {
+      "year": 1928,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1928,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1928,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 26.06
+    },
+    {
+      "year": 1928,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1928,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1928,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 24.97
+    },
+    {
+      "year": 1928,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1928,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1928,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1928,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1928,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1928,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1928,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1928,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1928,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1928,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1928,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1928,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1928,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1928,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1932,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 24.64
+    },
+    {
+      "year": 1932,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 175.15
+    },
+    {
+      "year": 1932,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1932,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 22.88
+    },
+    {
+      "year": 1932,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1932,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1932,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 27.29
+    },
+    {
+      "year": 1932,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": 178.0
+    },
+    {
+      "year": 1932,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": 79.0
+    },
+    {
+      "year": 1932,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1932,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1932,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1932,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1932,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1932,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1932,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1932,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1932,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1932,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1932,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1932,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1932,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1932,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1932,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 25.56
+    },
+    {
+      "year": 1936,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 173.2
+    },
+    {
+      "year": 1936,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 25.86
+    },
+    {
+      "year": 1936,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": 177.0
+    },
+    {
+      "year": 1936,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": 85.0
+    },
+    {
+      "year": 1936,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 21.92
+    },
+    {
+      "year": 1936,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 25.06
+    },
+    {
+      "year": 1936,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": 178.0
+    },
+    {
+      "year": 1936,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": 79.0
+    },
+    {
+      "year": 1936,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1936,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1948,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 25.06
+    },
+    {
+      "year": 1948,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 162.0
+    },
+    {
+      "year": 1948,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": 66.0
+    },
+    {
+      "year": 1948,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 30.92
+    },
+    {
+      "year": 1948,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1948,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1948,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 25.83
+    },
+    {
+      "year": 1948,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1948,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1948,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 28.84
+    },
+    {
+      "year": 1948,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": 177.67
+    },
+    {
+      "year": 1948,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": 75.5
+    },
+    {
+      "year": 1948,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1948,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1948,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1948,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1948,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1948,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1948,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1948,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1948,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1948,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1948,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1948,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1952,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 26.79
+    },
+    {
+      "year": 1952,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 165.0
+    },
+    {
+      "year": 1952,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": 63.33
+    },
+    {
+      "year": 1952,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 28.18
+    },
+    {
+      "year": 1952,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1952,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1952,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 26.15
+    },
+    {
+      "year": 1952,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1952,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1952,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 27.18
+    },
+    {
+      "year": 1952,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": 176.87
+    },
+    {
+      "year": 1952,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": 73.76
+    },
+    {
+      "year": 1952,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1952,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1952,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1952,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1952,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1952,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1952,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1952,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1952,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1952,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1952,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1952,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1956,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 28.12
+    },
+    {
+      "year": 1956,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 171.6
+    },
+    {
+      "year": 1956,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": 63.8
+    },
+    {
+      "year": 1956,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 25.07
+    },
+    {
+      "year": 1956,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": 174.8
+    },
+    {
+      "year": 1956,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": 69.9
+    },
+    {
+      "year": 1956,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 26.64
+    },
+    {
+      "year": 1956,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": 178.0
+    },
+    {
+      "year": 1956,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": 78.33
+    },
+    {
+      "year": 1956,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 27.78
+    },
+    {
+      "year": 1956,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": 177.46
+    },
+    {
+      "year": 1956,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": 73.69
+    },
+    {
+      "year": 1956,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1956,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1956,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1956,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1956,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1956,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1956,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1956,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1956,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1956,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1956,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1956,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1960,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 28.15
+    },
+    {
+      "year": 1960,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 174.85
+    },
+    {
+      "year": 1960,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": 69.46
+    },
+    {
+      "year": 1960,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 27.31
+    },
+    {
+      "year": 1960,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": 171.08
+    },
+    {
+      "year": 1960,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": 62.15
+    },
+    {
+      "year": 1960,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 24.43
+    },
+    {
+      "year": 1960,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": 176.79
+    },
+    {
+      "year": 1960,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": 71.79
+    },
+    {
+      "year": 1960,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 25.65
+    },
+    {
+      "year": 1960,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": 174.55
+    },
+    {
+      "year": 1960,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": 70.11
+    },
+    {
+      "year": 1960,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1960,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1960,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1960,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1960,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1960,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1960,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1960,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1960,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1960,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1960,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1960,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1964,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 27.53
+    },
+    {
+      "year": 1964,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 170.07
+    },
+    {
+      "year": 1964,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": 63.47
+    },
+    {
+      "year": 1964,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 25.88
+    },
+    {
+      "year": 1964,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": 174.69
+    },
+    {
+      "year": 1964,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": 72.0
+    },
+    {
+      "year": 1964,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 26.07
+    },
+    {
+      "year": 1964,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": 175.86
+    },
+    {
+      "year": 1964,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": 74.36
+    },
+    {
+      "year": 1964,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 26.15
+    },
+    {
+      "year": 1964,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": 174.83
+    },
+    {
+      "year": 1964,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": 69.62
+    },
+    {
+      "year": 1964,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1964,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1964,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1964,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1964,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1964,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1964,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1964,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1964,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1964,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1964,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1964,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1968,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 25.69
+    },
+    {
+      "year": 1968,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 170.85
+    },
+    {
+      "year": 1968,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": 71.0
+    },
+    {
+      "year": 1968,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 27.36
+    },
+    {
+      "year": 1968,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": 176.0
+    },
+    {
+      "year": 1968,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": 72.86
+    },
+    {
+      "year": 1968,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 25.69
+    },
+    {
+      "year": 1968,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": 172.31
+    },
+    {
+      "year": 1968,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": 66.5
+    },
+    {
+      "year": 1968,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 24.76
+    },
+    {
+      "year": 1968,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": 175.17
+    },
+    {
+      "year": 1968,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": 70.38
+    },
+    {
+      "year": 1968,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1968,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1968,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1968,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1968,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1968,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1968,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1968,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1968,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1968,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1968,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1968,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1972,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 25.78
+    },
+    {
+      "year": 1972,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 179.11
+    },
+    {
+      "year": 1972,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": 75.56
+    },
+    {
+      "year": 1972,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 24.8
+    },
+    {
+      "year": 1972,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": 171.73
+    },
+    {
+      "year": 1972,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": 72.87
+    },
+    {
+      "year": 1972,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 24.43
+    },
+    {
+      "year": 1972,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": 171.79
+    },
+    {
+      "year": 1972,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": 65.64
+    },
+    {
+      "year": 1972,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 25.25
+    },
+    {
+      "year": 1972,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": 175.13
+    },
+    {
+      "year": 1972,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": 71.14
+    },
+    {
+      "year": 1972,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1972,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1972,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1972,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1972,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1972,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1972,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1972,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1972,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1972,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1972,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1972,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1976,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 26.5
+    },
+    {
+      "year": 1976,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 174.57
+    },
+    {
+      "year": 1976,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": 70.29
+    },
+    {
+      "year": 1976,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 25.73
+    },
+    {
+      "year": 1976,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": 178.07
+    },
+    {
+      "year": 1976,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": 71.8
+    },
+    {
+      "year": 1976,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 24.19
+    },
+    {
+      "year": 1976,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": 174.06
+    },
+    {
+      "year": 1976,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": 69.06
+    },
+    {
+      "year": 1976,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 25.26
+    },
+    {
+      "year": 1976,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": 176.47
+    },
+    {
+      "year": 1976,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": 71.9
+    },
+    {
+      "year": 1976,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1976,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1976,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1976,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1976,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1976,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1976,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1976,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1976,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1976,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": null
+    },
+    {
+      "year": 1976,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": null
+    },
+    {
+      "year": 1976,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": null
+    },
+    {
+      "year": 1980,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 23.31
+    },
+    {
+      "year": 1980,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 169.75
+    },
+    {
+      "year": 1980,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": 66.75
+    },
+    {
+      "year": 1980,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 25.38
+    },
+    {
+      "year": 1980,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": 176.56
+    },
+    {
+      "year": 1980,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": 73.0
+    },
+    {
+      "year": 1980,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 23.81
+    },
+    {
+      "year": 1980,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": 176.25
+    },
+    {
+      "year": 1980,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": 75.69
+    },
+    {
+      "year": 1980,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 25.81
+    },
+    {
+      "year": 1980,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": 174.45
+    },
+    {
+      "year": 1980,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": 70.17
+    },
+    {
+      "year": 1980,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 26.8
+    },
+    {
+      "year": 1980,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 161.0
+    },
+    {
+      "year": 1980,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": 58.73
+    },
+    {
+      "year": 1980,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 26.06
+    },
+    {
+      "year": 1980,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": 162.44
+    },
+    {
+      "year": 1980,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": 57.38
+    },
+    {
+      "year": 1980,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 23.25
+    },
+    {
+      "year": 1980,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": 161.38
+    },
+    {
+      "year": 1980,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": 58.44
+    },
+    {
+      "year": 1980,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 20.32
+    },
+    {
+      "year": 1980,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": 162.39
+    },
+    {
+      "year": 1980,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": 59.23
+    },
+    {
+      "year": 1984,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 23.5
+    },
+    {
+      "year": 1984,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 172.56
+    },
+    {
+      "year": 1984,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": 66.62
+    },
+    {
+      "year": 1984,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 24.44
+    },
+    {
+      "year": 1984,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": 181.81
+    },
+    {
+      "year": 1984,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": 76.56
+    },
+    {
+      "year": 1984,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 26.2
+    },
+    {
+      "year": 1984,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": 179.4
+    },
+    {
+      "year": 1984,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": 74.47
+    },
+    {
+      "year": 1984,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 25.88
+    },
+    {
+      "year": 1984,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": 176.11
+    },
+    {
+      "year": 1984,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": 71.68
+    },
+    {
+      "year": 1984,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 24.56
+    },
+    {
+      "year": 1984,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 167.88
+    },
+    {
+      "year": 1984,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": 62.56
+    },
+    {
+      "year": 1984,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 23.75
+    },
+    {
+      "year": 1984,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": 165.81
+    },
+    {
+      "year": 1984,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": 58.31
+    },
+    {
+      "year": 1984,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 27.19
+    },
+    {
+      "year": 1984,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": 167.88
+    },
+    {
+      "year": 1984,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": 59.88
+    },
+    {
+      "year": 1984,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 25.19
+    },
+    {
+      "year": 1984,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": 163.98
+    },
+    {
+      "year": 1984,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": 58.98
+    },
+    {
+      "year": 1988,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 27.56
+    },
+    {
+      "year": 1988,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 180.75
+    },
+    {
+      "year": 1988,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": 76.38
+    },
+    {
+      "year": 1988,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 25.75
+    },
+    {
+      "year": 1988,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": 182.56
+    },
+    {
+      "year": 1988,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": 77.56
+    },
+    {
+      "year": 1988,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 25.31
+    },
+    {
+      "year": 1988,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": 179.13
+    },
+    {
+      "year": 1988,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": 77.87
+    },
+    {
+      "year": 1988,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 24.49
+    },
+    {
+      "year": 1988,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": 175.2
+    },
+    {
+      "year": 1988,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": 71.62
+    },
+    {
+      "year": 1988,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 24.5
+    },
+    {
+      "year": 1988,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 165.12
+    },
+    {
+      "year": 1988,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": 60.69
+    },
+    {
+      "year": 1988,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 22.19
+    },
+    {
+      "year": 1988,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": 162.81
+    },
+    {
+      "year": 1988,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": 57.81
+    },
+    {
+      "year": 1988,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 25.5
+    },
+    {
+      "year": 1988,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": 168.2
+    },
+    {
+      "year": 1988,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": 61.4
+    },
+    {
+      "year": 1988,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 25.24
+    },
+    {
+      "year": 1988,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": 165.66
+    },
+    {
+      "year": 1988,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": 60.24
+    },
+    {
+      "year": 1992,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 24.12
+    },
+    {
+      "year": 1992,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 184.73
+    },
+    {
+      "year": 1992,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": 79.87
+    },
+    {
+      "year": 1992,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 24.81
+    },
+    {
+      "year": 1992,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": 179.25
+    },
+    {
+      "year": 1992,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": 79.33
+    },
+    {
+      "year": 1992,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 23.06
+    },
+    {
+      "year": 1992,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": 172.57
+    },
+    {
+      "year": 1992,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": 66.71
+    },
+    {
+      "year": 1992,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 25.77
+    },
+    {
+      "year": 1992,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": 178.42
+    },
+    {
+      "year": 1992,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": 75.73
+    },
+    {
+      "year": 1992,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 24.73
+    },
+    {
+      "year": 1992,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 163.78
+    },
+    {
+      "year": 1992,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": 58.22
+    },
+    {
+      "year": 1992,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 22.38
+    },
+    {
+      "year": 1992,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": 170.88
+    },
+    {
+      "year": 1992,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": 61.75
+    },
+    {
+      "year": 1992,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 27.69
+    },
+    {
+      "year": 1992,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": 165.31
+    },
+    {
+      "year": 1992,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": 62.38
+    },
+    {
+      "year": 1992,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 24.51
+    },
+    {
+      "year": 1992,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": 166.59
+    },
+    {
+      "year": 1992,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": 61.25
+    },
+    {
+      "year": 1996,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 25.94
+    },
+    {
+      "year": 1996,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 182.53
+    },
+    {
+      "year": 1996,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": 81.73
+    },
+    {
+      "year": 1996,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 26.88
+    },
+    {
+      "year": 1996,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": 177.31
+    },
+    {
+      "year": 1996,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": 74.31
+    },
+    {
+      "year": 1996,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 26.06
+    },
+    {
+      "year": 1996,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": 178.8
+    },
+    {
+      "year": 1996,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": 77.93
+    },
+    {
+      "year": 1996,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 25.08
+    },
+    {
+      "year": 1996,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": 178.24
+    },
+    {
+      "year": 1996,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": 75.66
+    },
+    {
+      "year": 1996,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 26.25
+    },
+    {
+      "year": 1996,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 166.69
+    },
+    {
+      "year": 1996,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": 60.06
+    },
+    {
+      "year": 1996,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 23.38
+    },
+    {
+      "year": 1996,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": 165.0
+    },
+    {
+      "year": 1996,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": 59.25
+    },
+    {
+      "year": 1996,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 24.94
+    },
+    {
+      "year": 1996,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": 169.73
+    },
+    {
+      "year": 1996,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": 61.91
+    },
+    {
+      "year": 1996,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 25.8
+    },
+    {
+      "year": 1996,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": 165.79
+    },
+    {
+      "year": 1996,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": 60.07
+    },
+    {
+      "year": 2000,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 28.0
+    },
+    {
+      "year": 2000,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 183.12
+    },
+    {
+      "year": 2000,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": 81.12
+    },
+    {
+      "year": 2000,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 25.06
+    },
+    {
+      "year": 2000,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": 176.69
+    },
+    {
+      "year": 2000,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": 73.5
+    },
+    {
+      "year": 2000,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 26.56
+    },
+    {
+      "year": 2000,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": 179.38
+    },
+    {
+      "year": 2000,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": 77.0
+    },
+    {
+      "year": 2000,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 25.36
+    },
+    {
+      "year": 2000,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": 178.14
+    },
+    {
+      "year": 2000,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": 75.65
+    },
+    {
+      "year": 2000,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 27.06
+    },
+    {
+      "year": 2000,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 167.75
+    },
+    {
+      "year": 2000,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": 61.94
+    },
+    {
+      "year": 2000,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 24.75
+    },
+    {
+      "year": 2000,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": 165.25
+    },
+    {
+      "year": 2000,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": 60.06
+    },
+    {
+      "year": 2000,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 25.88
+    },
+    {
+      "year": 2000,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": 167.38
+    },
+    {
+      "year": 2000,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": 60.69
+    },
+    {
+      "year": 2000,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 25.88
+    },
+    {
+      "year": 2000,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": 167.75
+    },
+    {
+      "year": 2000,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": 61.46
+    },
+    {
+      "year": 2004,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 25.31
+    },
+    {
+      "year": 2004,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 180.62
+    },
+    {
+      "year": 2004,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": 77.81
+    },
+    {
+      "year": 2004,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 25.69
+    },
+    {
+      "year": 2004,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": 185.25
+    },
+    {
+      "year": 2004,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": 82.88
+    },
+    {
+      "year": 2004,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 25.81
+    },
+    {
+      "year": 2004,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": 182.12
+    },
+    {
+      "year": 2004,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": 80.81
+    },
+    {
+      "year": 2004,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 26.15
+    },
+    {
+      "year": 2004,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": 176.66
+    },
+    {
+      "year": 2004,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": 74.79
+    },
+    {
+      "year": 2004,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 26.5
+    },
+    {
+      "year": 2004,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 169.25
+    },
+    {
+      "year": 2004,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": 62.69
+    },
+    {
+      "year": 2004,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 27.06
+    },
+    {
+      "year": 2004,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": 167.12
+    },
+    {
+      "year": 2004,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": 60.19
+    },
+    {
+      "year": 2004,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 27.31
+    },
+    {
+      "year": 2004,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": 165.19
+    },
+    {
+      "year": 2004,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": 60.06
+    },
+    {
+      "year": 2004,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 25.21
+    },
+    {
+      "year": 2004,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": 165.23
+    },
+    {
+      "year": 2004,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": 59.84
+    },
+    {
+      "year": 2008,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 24.41
+    },
+    {
+      "year": 2008,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 181.18
+    },
+    {
+      "year": 2008,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": 80.41
+    },
+    {
+      "year": 2008,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 25.75
+    },
+    {
+      "year": 2008,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": 178.94
+    },
+    {
+      "year": 2008,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": 75.75
+    },
+    {
+      "year": 2008,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 26.29
+    },
+    {
+      "year": 2008,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": 181.82
+    },
+    {
+      "year": 2008,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": 78.53
+    },
+    {
+      "year": 2008,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 26.52
+    },
+    {
+      "year": 2008,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": 178.25
+    },
+    {
+      "year": 2008,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": 75.28
+    },
+    {
+      "year": 2008,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 25.81
+    },
+    {
+      "year": 2008,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 167.44
+    },
+    {
+      "year": 2008,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": 58.88
+    },
+    {
+      "year": 2008,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 27.19
+    },
+    {
+      "year": 2008,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": 168.12
+    },
+    {
+      "year": 2008,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": 60.62
+    },
+    {
+      "year": 2008,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 28.25
+    },
+    {
+      "year": 2008,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": 165.31
+    },
+    {
+      "year": 2008,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": 59.12
+    },
+    {
+      "year": 2008,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 25.57
+    },
+    {
+      "year": 2008,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": 165.91
+    },
+    {
+      "year": 2008,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": 61.51
+    },
+    {
+      "year": 2012,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 26.19
+    },
+    {
+      "year": 2012,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 183.75
+    },
+    {
+      "year": 2012,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": 81.88
+    },
+    {
+      "year": 2012,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 25.94
+    },
+    {
+      "year": 2012,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": 182.71
+    },
+    {
+      "year": 2012,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": 79.06
+    },
+    {
+      "year": 2012,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 26.75
+    },
+    {
+      "year": 2012,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": 180.5
+    },
+    {
+      "year": 2012,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": 77.38
+    },
+    {
+      "year": 2012,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 26.45
+    },
+    {
+      "year": 2012,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": 178.4
+    },
+    {
+      "year": 2012,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": 76.27
+    },
+    {
+      "year": 2012,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 25.38
+    },
+    {
+      "year": 2012,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 170.69
+    },
+    {
+      "year": 2012,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": 61.44
+    },
+    {
+      "year": 2012,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 25.8
+    },
+    {
+      "year": 2012,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": 166.07
+    },
+    {
+      "year": 2012,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": 59.13
+    },
+    {
+      "year": 2012,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 27.31
+    },
+    {
+      "year": 2012,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": 170.12
+    },
+    {
+      "year": 2012,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": 63.62
+    },
+    {
+      "year": 2012,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 25.44
+    },
+    {
+      "year": 2012,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": 166.28
+    },
+    {
+      "year": 2012,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": 61.27
+    },
+    {
+      "year": 2016,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 29.22
+    },
+    {
+      "year": 2016,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 178.78
+    },
+    {
+      "year": 2016,
+      "sex": "M",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": 77.78
+    },
+    {
+      "year": 2016,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 25.69
+    },
+    {
+      "year": 2016,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": 180.75
+    },
+    {
+      "year": 2016,
+      "sex": "M",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": 76.88
+    },
+    {
+      "year": 2016,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 24.75
+    },
+    {
+      "year": 2016,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": 184.25
+    },
+    {
+      "year": 2016,
+      "sex": "M",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": 80.56
+    },
+    {
+      "year": 2016,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 27.03
+    },
+    {
+      "year": 2016,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": 179.49
+    },
+    {
+      "year": 2016,
+      "sex": "M",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": 76.9
+    },
+    {
+      "year": 2016,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "age",
+      "value": 27.81
+    },
+    {
+      "year": 2016,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "height",
+      "value": 168.81
+    },
+    {
+      "year": 2016,
+      "sex": "F",
+      "medal": "Gold",
+      "attribute": "weight",
+      "value": 63.75
+    },
+    {
+      "year": 2016,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "age",
+      "value": 26.31
+    },
+    {
+      "year": 2016,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "height",
+      "value": 171.38
+    },
+    {
+      "year": 2016,
+      "sex": "F",
+      "medal": "Silver",
+      "attribute": "weight",
+      "value": 62.31
+    },
+    {
+      "year": 2016,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "age",
+      "value": 24.29
+    },
+    {
+      "year": 2016,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "height",
+      "value": 170.06
+    },
+    {
+      "year": 2016,
+      "sex": "F",
+      "medal": "Bronze",
+      "attribute": "weight",
+      "value": 63.12
+    },
+    {
+      "year": 2016,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "age",
+      "value": 25.39
+    },
+    {
+      "year": 2016,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "height",
+      "value": 165.37
+    },
+    {
+      "year": 2016,
+      "sex": "F",
+      "medal": "No Medal",
+      "attribute": "weight",
+      "value": 59.29
+    }
+  ],
+  "map": [
+    {
+      "country": "Argentina",
+      "sex": "F",
+      "value": 63
+    },
+    {
+      "country": "Argentina",
+      "sex": "M",
+      "value": 18
+    },
+    {
+      "country": "Australia",
+      "sex": "F",
+      "value": 48
+    },
+    {
+      "country": "Australia",
+      "sex": "M",
+      "value": 140
+    },
+    {
+      "country": "Belgium",
+      "sex": "M",
+      "value": 30
+    },
+    {
+      "country": "China",
+      "sex": "F",
+      "value": 16
+    },
+    {
+      "country": "Czechoslovakia",
+      "sex": "F",
+      "value": 16
+    },
+    {
+      "country": "Denmark",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "country": "England-1",
+      "sex": "M",
+      "value": 11
+    },
+    {
+      "country": "Germany",
+      "sex": "F",
+      "value": 49
+    },
+    {
+      "country": "Germany",
+      "sex": "M",
+      "value": 133
+    },
+    {
+      "country": "Great Britain",
+      "sex": "F",
+      "value": 48
+    },
+    {
+      "country": "Great Britain",
+      "sex": "M",
+      "value": 70
+    },
+    {
+      "country": "India",
+      "sex": "M",
+      "value": 173
+    },
+    {
+      "country": "Ireland-2",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "country": "Japan",
+      "sex": "M",
+      "value": 11
+    },
+    {
+      "country": "Netherlands",
+      "sex": "F",
+      "value": 128
+    },
+    {
+      "country": "Netherlands",
+      "sex": "M",
+      "value": 127
+    },
+    {
+      "country": "New Zealand",
+      "sex": "M",
+      "value": 14
+    },
+    {
+      "country": "Pakistan",
+      "sex": "M",
+      "value": 119
+    },
+    {
+      "country": "Scotland-3",
+      "sex": "M",
+      "value": 11
+    },
+    {
+      "country": "South Korea",
+      "sex": "F",
+      "value": 32
+    },
+    {
+      "country": "South Korea",
+      "sex": "M",
+      "value": 16
+    },
+    {
+      "country": "Soviet Union",
+      "sex": "F",
+      "value": 16
+    },
+    {
+      "country": "Soviet Union",
+      "sex": "M",
+      "value": 16
+    },
+    {
+      "country": "Spain",
+      "sex": "F",
+      "value": 15
+    },
+    {
+      "country": "Spain",
+      "sex": "M",
+      "value": 62
+    },
+    {
+      "country": "United States",
+      "sex": "F",
+      "value": 16
+    },
+    {
+      "country": "United States",
+      "sex": "M",
+      "value": 14
+    },
+    {
+      "country": "Wales-4",
+      "sex": "M",
+      "value": 11
+    },
+    {
+      "country": "West Germany",
+      "sex": "F",
+      "value": 16
+    },
+    {
+      "country": "West Germany",
+      "sex": "M",
+      "value": 50
+    },
+    {
+      "country": "Zimbabwe",
+      "sex": "F",
+      "value": 15
+    }
+  ],
+  "treemap": [
+    {
+      "country": "Afghanistan",
+      "value": 33
+    },
+    {
+      "country": "Argentina",
+      "value": 178
+    },
+    {
+      "country": "Australia",
+      "value": 233
+    },
+    {
+      "country": "Austria",
+      "value": 49
+    },
+    {
+      "country": "Belgium",
+      "value": 158
+    },
+    {
+      "country": "Brazil",
+      "value": 16
+    },
+    {
+      "country": "Canada",
+      "value": 124
+    },
+    {
+      "country": "China",
+      "value": 63
+    },
+    {
+      "country": "Cuba",
+      "value": 16
+    },
+    {
+      "country": "Czechoslovakia",
+      "value": 16
+    },
+    {
+      "country": "Denmark",
+      "value": 55
+    },
+    {
+      "country": "East Germany",
+      "value": 14
+    },
+    {
+      "country": "Egypt",
+      "value": 32
+    },
+    {
+      "country": "England-1",
+      "value": 11
+    },
+    {
+      "country": "Finland",
+      "value": 11
+    },
+    {
+      "country": "France",
+      "value": 108
+    },
+    {
+      "country": "Germany",
+      "value": 223
+    },
+    {
+      "country": "Great Britain",
+      "value": 257
+    },
+    {
+      "country": "Hong Kong",
+      "value": 17
+    },
+    {
+      "country": "Hungary",
+      "value": 15
+    },
+    {
+      "country": "India",
+      "value": 256
+    },
+    {
+      "country": "Ireland",
+      "value": 16
+    },
+    {
+      "country": "Ireland-2",
+      "value": 12
+    },
+    {
+      "country": "Italy",
+      "value": 32
+    },
+    {
+      "country": "Japan",
+      "value": 93
+    },
+    {
+      "country": "Kenya",
+      "value": 69
+    },
+    {
+      "country": "Malaya",
+      "value": 17
+    },
+    {
+      "country": "Malaysia",
+      "value": 91
+    },
+    {
+      "country": "Mexico",
+      "value": 24
+    },
+    {
+      "country": "Netherlands",
+      "value": 262
+    },
+    {
+      "country": "New Zealand",
+      "value": 199
+    },
+    {
+      "country": "Pakistan",
+      "value": 165
+    },
+    {
+      "country": "Poland",
+      "value": 86
+    },
+    {
+      "country": "Scotland-3",
+      "value": 11
+    },
+    {
+      "country": "Singapore",
+      "value": 17
+    },
+    {
+      "country": "South Africa",
+      "value": 96
+    },
+    {
+      "country": "South Korea",
+      "value": 157
+    },
+    {
+      "country": "Soviet Union",
+      "value": 41
+    },
+    {
+      "country": "Spain",
+      "value": 208
+    },
+    {
+      "country": "Switzerland",
+      "value": 63
+    },
+    {
+      "country": "Tanzania",
+      "value": 16
+    },
+    {
+      "country": "Uganda",
+      "value": 17
+    },
+    {
+      "country": "Unified Team",
+      "value": 15
+    },
+    {
+      "country": "United States",
+      "value": 146
+    },
+    {
+      "country": "Wales-4",
+      "value": 11
+    },
+    {
+      "country": "West Germany",
+      "value": 79
+    },
+    {
+      "country": "Zimbabwe",
+      "value": 30
+    }
+  ]
 }

@@ -10,8 +10,8 @@ import BoxComponent from './../../components/BoxComponent.svelte';
     import WorldMap from '../../components/WorldMap.svelte';
 
     let filterParams = $state({
-    startYear: 1980,
-    endYear: 2000,
+    startYear: 1900,
+    endYear: 2016,
     gender: 'all',
     medals: {
       gold: true,
@@ -94,8 +94,7 @@ import BoxComponent from './../../components/BoxComponent.svelte';
           <!-- Bottom right section -->
           <div class="w-1/3 h-full bg-white border-2 border-gray-300 rounded-xl flex items-center justify-center shadow-sm p-3">
             <BoxComponent title="Bottom Right">
-              <BarChart name={sportname} 
-              attribute="height" params={filterParams} />
+              <BarChart name={sportname} attribute="age" params={filterParams} />
             </BoxComponent>
         </div>
         </div>
