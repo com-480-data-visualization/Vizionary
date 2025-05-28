@@ -1,21 +1,18 @@
 <script lang="ts">
     import { onMount } from "svelte";
     import * as d3 from "d3";
-  
+
     // Define the types for the heatmap data - now using flat array format
     type HeatmapDataPoint = {
-      year: number;
-      sex: string;
-      attribute: string;
-      corr: number | null;
+        year: number;
+        sex: string;
+        attribute: string;
+        corr: number | null;
     };
-  
+
     // Props using Svelte 5 syntax - removed attribute prop since we show all attributes
-    let { 
-        name, 
-        params
-    } = $props();
-  
+    let { name, params } = $props();
+
     // State variables using Svelte 5 runes
     let containerElement = $state<HTMLDivElement>();
     let width = $state(600);
@@ -28,12 +25,12 @@
     // Function to load data
     async function loadData(sportName: string) {
         if (!sportName) return;
-        
+
         isLoading = true;
         error = null;
         rawHeatmapData = [];
         filteredHeatmapData = [];
-        
+
         try {
             const response = await fetch(`/statics/${sportName}.json`);
             if (!response.ok) {
@@ -48,10 +45,15 @@
                 rawHeatmapData = rawData.heatmap;
                 console.log("Processed heatmap data:", rawHeatmapData);
             } else {
-                throw new Error("Heatmap data not found in the JSON file or not in expected format.");
+                throw new Error(
+                    "Heatmap data not found in the JSON file or not in expected format.",
+                );
             }
         } catch (err) {
-            error = err instanceof Error ? err.message : 'An unknown error occurred';
+            error =
+                err instanceof Error
+                    ? err.message
+                    : "An unknown error occurred";
             console.error("Error loading heatmap data:", err);
         } finally {
             isLoading = false;
@@ -59,10 +61,20 @@
     }
 
     // Function to filter data based on gender and year range
-    function filterHeatmapData(data: HeatmapDataPoint[], genderParam: "all" | "male" | "female", startYear: number, endYear: number): HeatmapDataPoint[] {
-        console.log('Filtering with:', { genderParam, startYear, endYear, dataLength: data.length });
-        
-        const filtered = data.filter(item => {
+    function filterHeatmapData(
+        data: HeatmapDataPoint[],
+        genderParam: "all" | "male" | "female",
+        startYear: number,
+        endYear: number,
+    ): HeatmapDataPoint[] {
+        console.log("Filtering with:", {
+            genderParam,
+            startYear,
+            endYear,
+            dataLength: data.length,
+        });
+
+        const filtered = data.filter((item) => {
             // Filter by gender
             let genderMatch = true;
             if (genderParam === "male") {
@@ -71,16 +83,19 @@
                 genderMatch = item.sex === "F";
             }
             // If genderParam is "all", genderMatch stays true
-            
+
             // Filter by year range
             const yearMatch = item.year >= startYear && item.year <= endYear;
-            
+
             const matches = genderMatch && yearMatch;
-            
+
             return matches;
         });
-        
-        console.log('Filter result:', { inputLength: data.length, outputLength: filtered.length });
+
+        console.log("Filter result:", {
+            inputLength: data.length,
+            outputLength: filtered.length,
+        });
         return filtered;
     }
 
@@ -94,31 +109,38 @@
         container: HTMLElement,
         data: HeatmapDataPoint[],
         chartWidth: number,
-        chartHeight: number
+        chartHeight: number,
     ) {
         // Clear existing SVG to redraw
         container.innerHTML = "";
 
         // Filter out null correlations
-        const validData = data.filter(d => d.corr !== null);
+        const validData = data.filter((d) => d.corr !== null);
 
         if (validData.length === 0) {
             // Show message if no data
-            const messageDiv = d3.select(container)
+            const messageDiv = d3
+                .select(container)
                 .append("div")
                 .style("display", "flex")
                 .style("align-items", "center")
                 .style("justify-content", "center")
                 .style("height", "100%")
                 .style("color", "#666");
-            
-            messageDiv.append("p").text("No correlation data available for this selection");
+
+            messageDiv
+                .append("p")
+                .text("No correlation data available for this selection");
             return;
         }
 
         // Get unique years and attributes for the scales
-        const uniqueYears = [...new Set(validData.map(d => d.year))].sort((a, b) => a - b);
-        const uniqueAttributes = [...new Set(validData.map(d => d.attribute))].sort();
+        const uniqueYears = [...new Set(validData.map((d) => d.year))].sort(
+            (a, b) => a - b,
+        );
+        const uniqueAttributes = [
+            ...new Set(validData.map((d) => d.attribute)),
+        ].sort();
 
         // Set up dimensions and margins
         const margin = { top: 0, right: 40, bottom: 60, left: 50 };
@@ -136,7 +158,7 @@
         // Set up scales
         const xScale = d3
             .scaleBand()
-            .domain(uniqueYears.map(d => d.toString()))
+            .domain(uniqueYears.map((d) => d.toString()))
             .range([0, w])
             .padding(0.05);
 
@@ -152,24 +174,20 @@
             .domain([1, -1]); // Reverse domain so positive correlations are red, negative are blue
 
         // Create axes
-        svg
-            .append("g")
+        svg.append("g")
             .attr("transform", `translate(0,${h})`)
-            .call(
-                d3.axisBottom(xScale)
-                    .tickFormat(d => d)
-            )
+            .call(d3.axisBottom(xScale).tickFormat((d) => d))
             .selectAll("text")
             .attr("transform", "rotate(45)")
             .attr("dx", "0.6em")
             .attr("dy", "0.6em")
             .style("text-anchor", "start");
 
-        svg
-            .append("g")
-            .call(d3.axisLeft(yScale)
-                .tickFormat(d => d.charAt(0).toUpperCase() + d.slice(1)) // Capitalize first letter
-            );
+        svg.append("g").call(
+            d3
+                .axisLeft(yScale)
+                .tickFormat((d) => d.charAt(0).toUpperCase() + d.slice(1)), // Capitalize first letter
+        );
 
         // Create tooltip
         const tooltip = d3
@@ -185,35 +203,45 @@
             .style("opacity", 0);
 
         // Draw heatmap rectangles
-        svg
-            .selectAll("rect")
+        svg.selectAll("rect")
             .data(validData)
             .join("rect")
-            .attr("x", d => xScale(d.year.toString())!)
-            .attr("y", d => yScale(d.attribute)!)
+            .attr("x", (d) => xScale(d.year.toString())!)
+            .attr("y", (d) => yScale(d.attribute)!)
             .attr("width", xScale.bandwidth())
             .attr("height", yScale.bandwidth())
-            .attr("fill", d => colorScale(d.corr!))
+            .attr("fill", (d) => colorScale(d.corr!))
             .attr("stroke", "#fff")
             .attr("stroke-width", 1)
             .on("mouseover", (event, d) => {
+                const containerRect = containerElement.getBoundingClientRect();
+
+                // Calculate tooltip position relative to the container
+                // event.clientX/Y are viewport coordinates
+                // containerRect.left/top are container's viewport coordinates
+                // So, event.clientX - containerRect.left gives position relative to container
+                const x = event.clientX - containerRect.left + 15; // +15px offset from cursor
+                const y = event.clientY - containerRect.top + 15; // +15px offset from cursor
+
                 tooltip
                     .style("opacity", 1)
-                    .html(`
+                    .html(
+                        `
                         <strong>Year:</strong> ${d.year}<br/>
                         <strong>Attribute:</strong> ${d.attribute}<br/>
-                        <strong>Sex:</strong> ${d.sex === 'M' ? 'Male' : 'Female'}<br/>
+                        <strong>Sex:</strong> ${d.sex === "M" ? "Male" : "Female"}<br/>
                         <strong>Correlation:</strong> ${d.corr!.toFixed(3)}
-                    `)
-                    .style("left", `${event.pageX + 8}px`)
-                    .style("top", `${event.pageY + 8}px`);
+                    `,
+                    )
+                    .style("left", `${x}px`)
+                    .style("top", `${y}px`);
             })
             .on("mouseout", () => tooltip.style("opacity", 0));
 
         // Add color legend
         const legendWidth = 200;
         const legendHeight = 20;
-        
+
         const legend = svg
             .append("g")
             .attr("transform", `translate(${w - legendWidth}, ${h + 40})`);
@@ -286,44 +314,60 @@
         const startYear = params?.startYear;
         const endYear = params?.endYear;
         const hasRawData = rawHeatmapData.length > 0;
-        
-        console.log('Effect triggered with:', {
+
+        console.log("Effect triggered with:", {
             rawDataLength: rawHeatmapData.length,
             gender,
             startYear,
-            endYear
+            endYear,
         });
-        
+
         if (hasRawData && gender && startYear && endYear) {
-            const newFilteredData = filterHeatmapData(rawHeatmapData, gender, startYear, endYear);
+            const newFilteredData = filterHeatmapData(
+                rawHeatmapData,
+                gender,
+                startYear,
+                endYear,
+            );
             // Only update if the data actually changed
-            if (JSON.stringify(newFilteredData) !== JSON.stringify(filteredHeatmapData)) {
+            if (
+                JSON.stringify(newFilteredData) !==
+                JSON.stringify(filteredHeatmapData)
+            ) {
                 filteredHeatmapData = newFilteredData;
-                console.log('Filtered heatmap data updated:', filteredHeatmapData);
+                console.log(
+                    "Filtered heatmap data updated:",
+                    filteredHeatmapData,
+                );
             }
         } else {
             if (filteredHeatmapData.length > 0) {
                 filteredHeatmapData = [];
-                console.log('Cleared filtered data');
+                console.log("Cleared filtered data");
             }
         }
     });
 
     // Effect to draw chart when filtered data or dimensions change
     $effect(() => {
-        if (containerElement && filteredHeatmapData.length > 0 && width > 0 && height > 0) {
+        if (
+            containerElement &&
+            filteredHeatmapData.length > 0 &&
+            width > 0 &&
+            height > 0
+        ) {
             drawHeatmap(containerElement, filteredHeatmapData, width, height);
         }
     });
 </script>
 
 <div class="w-full h-full p-2 flex flex-col">
-    <h2 class="text-gray-800 text-xl font-bold mb-2">
-        HeatMap
-    </h2>
-    <div 
-        class="flex-1 bg-gray-100 p-3 rounded heatmap-container" 
-        bind:this={containerElement} bind:clientHeight={height} bind:clientWidth={width}
+    <h2 class="text-gray-800 text-xl font-bold mb-2">HeatMap</h2>
+    <div
+        class="flex-1 bg-gray-100 p-3 rounded heatmap-container"
+        bind:this={containerElement}
+        bind:clientHeight={height}
+        bind:clientWidth={width}
     >
         {#if isLoading}
             <div class="loading-container">
@@ -335,7 +379,13 @@
             </div>
         {:else if !filteredHeatmapData || filteredHeatmapData.length === 0}
             <div class="loading-container">
-                <p class="text-gray-600">No heatmap data available for {params.gender === "male" ? "Male" : params.gender === "female" ? "Female" : "All"} ({params.startYear}-{params.endYear})</p>
+                <p class="text-gray-600">
+                    No heatmap data available for {params.gender === "male"
+                        ? "Male"
+                        : params.gender === "female"
+                          ? "Female"
+                          : "All"} ({params.startYear}-{params.endYear})
+                </p>
             </div>
         {/if}
     </div>

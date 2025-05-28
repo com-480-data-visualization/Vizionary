@@ -4,32 +4,29 @@
 
     // Define the types for the bar chart data
     type BarAttr = {
-      year: number[];
-      medal: string[];
-      value: (number | null)[];
-      // Added attribute and sex to BarAttr for easier filtering and grouping later
-      attribute: 'age' | 'height' | 'weight';
-      sex: 'M' | 'F';
+        year: number[];
+        medal: string[];
+        value: (number | null)[];
+        // Added attribute and sex to BarAttr for easier filtering and grouping later
+        attribute: "age" | "height" | "weight";
+        sex: "M" | "F";
     };
 
     type BarData = {
-      M?: {
-        age?: BarAttr;
-        height?: BarAttr;
-        weight?: BarAttr;
-      };
-      F?: {
-        age?: BarAttr;
-        height?: BarAttr;
-        weight?: BarAttr;
-      };
+        M?: {
+            age?: BarAttr;
+            height?: BarAttr;
+            weight?: BarAttr;
+        };
+        F?: {
+            age?: BarAttr;
+            height?: BarAttr;
+            weight?: BarAttr;
+        };
     };
 
     // Props using Svelte 5 syntax
-    let {
-        name,
-        attribute, params
-    } = $props();
+    let { name, attribute, params } = $props();
 
     // State variables using Svelte 5 runes
     let containerElement = $state<HTMLDivElement>();
@@ -97,10 +94,15 @@
                 rawBarData = rawData.bar; // Store the raw flat array
                 console.log("Raw bar data loaded:", rawBarData);
             } else {
-                throw new Error("Bar data not found in the JSON file or not in expected format.");
+                throw new Error(
+                    "Bar data not found in the JSON file or not in expected format.",
+                );
             }
         } catch (err) {
-            error = err instanceof Error ? err.message : 'An unknown error occurred';
+            error =
+                err instanceof Error
+                    ? err.message
+                    : "An unknown error occurred";
             console.error("Error loading bar data:", err);
         } finally {
             isLoading = false;
@@ -126,7 +128,7 @@
 
         // Filter by attribute
         const attributeFiltered = yearFiltered.filter(
-            (d) => d.attribute === attribute
+            (d) => d.attribute === attribute,
         );
 
         let genderFiltered;
@@ -138,7 +140,11 @@
             // --- START MODIFICATION ---
             // For "all", calculate the MEAN of male and female data, but correctly handle missing genders.
             // First, group by year and medal to get male and female values separately for each combination.
-            const groupedByYearMedal = d3.group(attributeFiltered, d => d.year, d => d.medal);
+            const groupedByYearMedal = d3.group(
+                attributeFiltered,
+                (d) => d.year,
+                (d) => d.medal,
+            );
 
             const combinedData = [];
 
@@ -170,18 +176,17 @@
                     combinedData.push({
                         year: year,
                         medal: medal,
-                        value: meanValue // This is the combined average
+                        value: meanValue, // This is the combined average
                     });
                 }
             }
-            genderFiltered = combinedData.sort((a,b) => a.year - b.year);
+            genderFiltered = combinedData.sort((a, b) => a.year - b.year);
             // --- END MODIFICATION ---
         }
 
         console.log("Filtered and grouped bar data result:", genderFiltered);
         return genderFiltered;
     });
-
 
     /**
      * @param container  The div to draw into
@@ -193,9 +198,14 @@
     function drawGroupedBars(
         container: HTMLElement,
         data: any[], // Now expects a flat array of filtered data
-        medalFilters: { gold: boolean; silver: boolean; bronze: boolean; noMedal: boolean },
+        medalFilters: {
+            gold: boolean;
+            silver: boolean;
+            bronze: boolean;
+            noMedal: boolean;
+        },
         chartWidth: number,
-        chartHeight: number
+        chartHeight: number,
     ) {
         // Clear existing SVG to redraw
         container.innerHTML = "";
@@ -208,7 +218,9 @@
         if (medalFilters.noMedal) visibleMedals.push("No Medal");
 
         // Filter by chosen medals
-        const filteredByMedal = data.filter((d) => visibleMedals.includes(d.medal));
+        const filteredByMedal = data.filter((d) =>
+            visibleMedals.includes(d.medal),
+        );
 
         // group by year to create nested data structure for grouped bars
         const chartData = Array.from(
@@ -220,13 +232,14 @@
                     .concat(
                         visibleMedals
                             .filter((m) => !records.find((r) => r.medal === m))
-                            .map((m) => ({ year, medal: m, value: 0 }))
+                            .map((m) => ({ year, medal: m, value: 0 })),
                     )
                     .sort(
                         (a, b) =>
-                            visibleMedals.indexOf(a.medal) - visibleMedals.indexOf(b.medal)
+                            visibleMedals.indexOf(a.medal) -
+                            visibleMedals.indexOf(b.medal),
                     ),
-            })
+            }),
         ).sort((a, b) => a.year - b.year);
 
         // margins
@@ -260,18 +273,18 @@
             .padding(0.05);
 
         // y
-        const maxVal = d3.max(chartData.flatMap((d) => d.values.map((v) => v.value))) || 0;
+        const maxVal =
+            d3.max(chartData.flatMap((d) => d.values.map((v) => v.value))) || 0;
         const y = d3.scaleLinear().domain([0, maxVal]).nice().range([h, 0]);
 
         // axes
-        svg
-            .append("g")
+        svg.append("g")
             .attr("transform", `translate(0,${h})`)
             .call(
                 d3
                     .axisBottom(x0)
                     .tickValues(chartData.map((d) => d.year))
-                    .tickFormat(d3.format("d"))
+                    .tickFormat(d3.format("d")),
             )
             .selectAll("text")
             .attr("transform", "rotate(45)")
@@ -283,10 +296,13 @@
 
         // color
         const color = (m: string) =>
-            m === "Gold" ? "#FFD700" : // Gold
-            m === "Silver" ? "#C0C0C0" : // Silver
-            m === "Bronze" ? "#CD7F32" : // Bronze
-            "lightblue";
+            m === "Gold"
+                ? "#FFD700" // Gold
+                : m === "Silver"
+                  ? "#C0C0C0" // Silver
+                  : m === "Bronze"
+                    ? "#CD7F32" // Bronze
+                    : "lightblue";
 
         // tooltip
         const tooltip = d3
@@ -319,15 +335,26 @@
             .attr("height", (v) => h - y(v.value))
             .attr("fill", (v) => color(v.medal))
             .on("mouseover", (event, v) => {
+                const containerRect = containerElement.getBoundingClientRect();
+
+                // Calculate tooltip position relative to the container
+                // event.clientX/Y are viewport coordinates
+                // containerRect.left/top are container's viewport coordinates
+                // So, event.clientX - containerRect.left gives position relative to container
+                const x = event.clientX - containerRect.left + 15; // +15px offset from cursor
+                const y = event.clientY - containerRect.top + 15; // +15px offset from cursor
+
                 tooltip
                     .style("opacity", 1)
-                    .html(`
+                    .html(
+                        `
                         <strong>${v.medal}</strong><br/>
                         Year: <strong>${v.year}</strong><br/>
-                        Avg: <strong>${v.value !== null ? v.value.toFixed(2) : 'N/A'}</strong>
-                    `)
-                    .style("left", `${event.pageX + 8}px`)
-                    .style("top", `${event.pageY + 8}px`);
+                        Avg: <strong>${v.value !== null ? v.value.toFixed(2) : "N/A"}</strong>
+                    `,
+                    )
+                    .style("left", `${x}px`)
+                    .style("top", `${y}px`);
             })
             .on("mouseout", () => tooltip.style("opacity", 0));
     }
@@ -341,8 +368,20 @@
 
     // Effect to draw chart when filteredAndGroupedBarData, params.medals, or dimensions change
     $effect(() => {
-        if (containerElement && filteredAndGroupedBarData && params.medals && width > 0 && height > 0) {
-            drawGroupedBars(containerElement, filteredAndGroupedBarData, params.medals, width, height);
+        if (
+            containerElement &&
+            filteredAndGroupedBarData &&
+            params.medals &&
+            width > 0 &&
+            height > 0
+        ) {
+            drawGroupedBars(
+                containerElement,
+                filteredAndGroupedBarData,
+                params.medals,
+                width,
+                height,
+            );
         }
     });
 </script>
@@ -354,20 +393,31 @@
 
     <div
         class="flex-1 bg-gray-100 p-3 rounded bar-chart-container"
-        bind:this={containerElement} bind:clientHeight={height} bind:clientWidth={width}
+        bind:this={containerElement}
+        bind:clientHeight={height}
+        bind:clientWidth={width}
     >
         {#if isLoading}
             <div class="loading-container">
-                <p class="text-gray-600">Loading bar chart data for {name}...</p>
+                <p class="text-gray-600">
+                    Loading bar chart data for {name}...
+                </p>
             </div>
         {:else if error}
             <div class="error-container">
-                <p class="text-red-600">Error loading bar chart data: {error}</p>
+                <p class="text-red-600">
+                    Error loading bar chart data: {error}
+                </p>
             </div>
         {:else if !filteredAndGroupedBarData || filteredAndGroupedBarData.length === 0}
             <div class="loading-container">
                 <p class="text-gray-600">
-                    No bar chart data available for {params.gender === "male" ? "Male" : params.gender === "female" ? "Female" : "All"} {attribute}
+                    No bar chart data available for {params.gender === "male"
+                        ? "Male"
+                        : params.gender === "female"
+                          ? "Female"
+                          : "All"}
+                    {attribute}
                     between {params.startYear} and {params.endYear}.
                 </p>
             </div>
