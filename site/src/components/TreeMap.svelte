@@ -9,48 +9,75 @@
     let containerElement = $state<HTMLDivElement>();
     let width = $state(960);
     let height = $state(500);
-    let rawTreemapData = $state<Array<{country: string; sex?: string; value: number}>>([]);
-    let continentData = $state<Record<string, string>>({});
+    let rawTreemapData = $state<
+        Array<{ year: number; country: string; noc: string; continent: string; sex?: string; value: number }>
+    >([]);
+    // continentData is no longer needed as continent is now in rawTreemapData
     let isLoading = $state(false);
     let error = $state<string | null>(null);
 
     // Configuration constants
-    const MIN_SHARE = 0.02;  // 2% minimum for major countries
-    const MAX_SHOWN = 30;    // maximum 15 rectangles shown
+    const MIN_SHARE = 0.00; // 2% minimum for major countries
+    const MAX_SHOWN = 100; // maximum 15 rectangles shown
 
     // Derived filtered and processed data using $derived.by for complex logic
     let filteredTreemapData = $derived.by(() => {
         if (rawTreemapData.length === 0) return [];
-        
-        console.log('Processing treemap data with:', {
+
+        console.log("Processing treemap data with:", {
             gender: params?.gender,
-            rawDataLength: rawTreemapData.length
+            startYear: params.startYear, // Added startYear
+            endYear: params.endYear,     // Added endYear
+            rawDataLength: rawTreemapData.length,
         });
-        
+
+        // --- START MODIFICATION (Filtering by Year) ---
+        // Filter by year range first
+        const yearFiltered = rawTreemapData.filter(
+            (d) => d.year >= params.startYear && d.year <= params.endYear,
+        );
+        // --- END MODIFICATION ---
+
         // Filter by gender if specified
-        let filtered;
+        let genderFiltered;
         if (params?.gender === "male") {
-            filtered = rawTreemapData.filter(d => d.sex === "M");
+            genderFiltered = yearFiltered.filter((d) => d.sex === "M");
         } else if (params?.gender === "female") {
-            filtered = rawTreemapData.filter(d => d.sex === "F");
+            genderFiltered = yearFiltered.filter((d) => d.sex === "F");
         } else {
             // For "all", keep all data
-            filtered = rawTreemapData;
+            genderFiltered = yearFiltered;
         }
 
-        // Aggregate by country
-        const byCountry = new Map<string, number>();
-        for (const rec of filtered) {
-            byCountry.set(rec.country, (byCountry.get(rec.country) ?? 0) + rec.value);
+        // Aggregate by country, preserving NOC and Continent for each country
+        const byCountry = new Map<string, { athletes: number; noc: string; continent: string }>();
+        for (const rec of genderFiltered) {
+            const current = byCountry.get(rec.country);
+            if (current) {
+                byCountry.set(rec.country, {
+                    ...current,
+                    athletes: current.athletes + rec.value,
+                });
+            } else {
+                byCountry.set(rec.country, {
+                    athletes: rec.value,
+                    noc: rec.noc,
+                    continent: rec.continent,
+                });
+            }
         }
 
-        const total = d3.sum(Array.from(byCountry.values()));
+        const total = d3.sum(Array.from(byCountry.values()), (d) => d.athletes);
         if (total === 0) return [];
 
-        const sorted = Array.from(byCountry, ([country, athletes]) => ({ country, athletes }))
-            .sort((a, b) => b.athletes - a.athletes);
+        const sorted = Array.from(byCountry, ([country, data]) => ({
+            country,
+            athletes: data.athletes,
+            noc: data.noc,
+            continent: data.continent,
+        })).sort((a, b) => b.athletes - a.athletes);
 
-        const majors: { country: string; athletes: number }[] = [];
+        const majors: { country: string; athletes: number; noc: string; continent: string }[] = [];
         let othersAthletes = 0;
 
         for (const rec of sorted) {
@@ -63,48 +90,41 @@
         }
 
         if (othersAthletes > 0) {
-            majors.push({ country: "Rest of the World", athletes: othersAthletes });
+            majors.push({
+                country: "Rest of the World",
+                athletes: othersAthletes,
+                noc: "ROW", // Assign a generic NOC for "Rest of the World"
+                continent: "Other", // Assign "Other" continent for "Rest of the World"
+            });
         }
 
-        // Map to continents/regions
-        const CONTINENTS = [
-            "Africa", "Asia", "Europe",
-            "North America", "South America",
-            "Oceania",
-        ] as const;
-        type Continent = typeof CONTINENTS[number];
-        type Region = Continent | "Other";
+        // The processedData is already in the desired format from the 'majors' array
+        const processedData = majors;
 
-        const processedData = majors.map(({ country, athletes }) => ({
-            country,
-            athletes,
-            region: (continentData[country] as Region) ?? "Other" as Region,
-        }));
-
-        console.log('Processed treemap data:', processedData);
+        console.log("Processed treemap data:", processedData);
         return processedData;
     });
 
-    // Function to load continent mapping data
-    async function loadContinentData() {
-        try {
-            const response = await fetch('/statics/front/continents.json');
-            if (response.ok) {
-                continentData = await response.json();
-            }
-        } catch (err) {
-            console.warn('Could not load continent data:', err);
-        }
-    }
+    // Removed loadContinentData as continent is now directly in treemap data
+    // async function loadContinentData() {
+    //     try {
+    //         const response = await fetch("/statics/front/continents.json");
+    //         if (response.ok) {
+    //             continentData = await response.json();
+    //         }
+    //     } catch (err) {
+    //         console.warn("Could not load continent data:", err);
+    //     }
+    // }
 
     // Function to load treemap data
     async function loadData(sportName: string) {
         if (!sportName) return;
-        
+
         isLoading = true;
         error = null;
         rawTreemapData = [];
-        
+
         try {
             const response = await fetch(`/statics/${sportName}.json`);
             if (!response.ok) {
@@ -119,10 +139,15 @@
                 rawTreemapData = rawData.treemap;
                 console.log("Processed treemap data:", rawTreemapData);
             } else {
-                throw new Error("Treemap data not found in the JSON file or not in expected format.");
+                throw new Error(
+                    "Treemap data not found in the JSON file or not in expected format.",
+                );
             }
         } catch (err) {
-            error = err instanceof Error ? err.message : 'An unknown error occurred';
+            error =
+                err instanceof Error
+                    ? err.message
+                    : "An unknown error occurred";
             console.error("Error loading treemap data:", err);
         } finally {
             isLoading = false;
@@ -132,40 +157,47 @@
     // Function to draw the treemap
     function drawTreemap() {
         if (!containerElement || filteredTreemapData.length === 0) return;
-        
+
         try {
             // Clear existing content
             containerElement.innerHTML = "";
 
+            const margin = { top: 50, right: 100, bottom: 50, left: 50 };
+            const w = width - margin.left - margin.right;
+            const h = height - margin.top - margin.bottom;
+
             // Create SVG
-            const svg = d3.select(containerElement)
+            const svg = d3
+                .select(containerElement)
                 .append("svg")
-                .attr("viewBox", `0 0 ${width} ${height}`)
+                .attr("viewBox", `0 0 ${w} ${h}`)
                 .style("max-width", "100%")
                 .style("height", "auto");
 
             // Create hierarchy and layout
-            const root = d3.hierarchy({ name: "root", children: filteredTreemapData } as any)
+            const root = d3
+                .hierarchy({
+                    name: "root",
+                    children: filteredTreemapData,
+                } as any)
                 .sum((d: any) => d.athletes)
                 .sort((a, b) => (b.value ?? 0) - (a.value ?? 0));
 
-            d3.treemap<any>()
-                .size([width, height])
-                .paddingInner(2)(root);
+            d3.treemap<any>().size([w, h]).paddingInner(2)(root);
 
-            // Color palette by region
+            // Color palette by region (Continent)
             const regionColor = new Map<string, string>([
-                ["Europe", "#2C7BD1"],
-                ["North America", "#D72626"],
-                ["Asia", "#F2C53D"],
-                ["South America", "#F26B83"],
-                ["Oceania", "#3DB96B"],
-                ["Africa", "#9E5CF2"],
-                ["Other", "#E8E5DA"],
-            ]);
+    ["Europe", "#6A994E"], // Muted Green
+    ["Americas", "#A44A3F"], // Rusty Red
+    ["Asia", "#E0B75D"], // Goldenrod
+    ["Oceania", "#4E8D7C"], // Teal Green
+    ["Africa", "#8C6BB0"], // Muted Purple
+    ["Other", "#C7C7C7"],  // Light Gray
+]);
 
             // Create tooltip
-            const tooltip = d3.select(containerElement)
+            const tooltip = d3
+                .select(containerElement)
                 .append("div")
                 .style("position", "absolute")
                 .style("pointer-events", "none")
@@ -177,51 +209,77 @@
                 .style("opacity", 0);
 
             // Draw rectangles and labels
-            const nodes = svg.selectAll("g")
+            const nodes = svg
+                .selectAll("g")
                 .data(root.leaves())
                 .join("g")
-                .attr("transform", d => `translate(${d.x0},${d.y0})`);
+                .attr("transform", (d) => `translate(${d.x0},${d.y0})`);
 
             // Add rectangles
-            nodes.append("rect")
-                .attr("width", d => d.x1 - d.x0)
-                .attr("height", d => d.y1 - d.y0)
-                .attr("fill", d => {
-                    const base = regionColor.get((d.data as any).region) ?? "#ccc";
+            nodes
+                .append("rect")
+                .attr("width", (d) => d.x1 - d.x0)
+                .attr("height", (d) => d.y1 - d.y0)
+                .attr("fill", (d) => {
+                    // --- START MODIFICATION (Color by Continent) ---
+                    const base = regionColor.get((d.data as any).continent) ?? "#ccc";
                     const parentVal = d.parent?.value ?? d.value!;
                     const ratio = Math.min(1, (d.value! / parentVal) * 2);
-                    return d3.color(base)!.brighter(1 - ratio).formatHex();
+                    return d3
+                        .color(base)!
+                        .brighter(1 - ratio)
+                        .formatHex();
+                    // --- END MODIFICATION ---
                 })
                 .attr("stroke", "#fff")
                 .attr("stroke-width", 1)
                 .on("mouseover", (event, d) => {
                     const data = d.data as any;
+
+                    const containerRect = containerElement.getBoundingClientRect();
+
+                        // Calculate tooltip position relative to the container
+                        // event.clientX/Y are viewport coordinates
+                        // containerRect.left/top are container's viewport coordinates
+                        // So, event.clientX - containerRect.left gives position relative to container
+                        const x = event.clientX - containerRect.left + 15; // +15px offset from cursor
+                        const y = event.clientY - containerRect.top + 15;  // +15px offset from cursor
+
+
                     tooltip
                         .style("opacity", 1)
-                        .html(`
-                            <strong>${data.country}</strong><br/>
-                            Region: ${data.region}<br/>
+                        .html(
+                            `
+                            <strong>${data.country} (${data.noc})</strong><br/>
+                            Continent: ${data.continent}<br/>
                             Athletes: <strong>${data.athletes}</strong><br/>
                             ${params?.gender === "all" ? "All genders" : params?.gender === "male" ? "Male" : "Female"}
-                        `)
-                        .style("left", `${event.pageX + 8}px`)
-                        .style("top", `${event.pageY + 8}px`);
+                        `,
+                        )
+                        .style("left", `${x}px`)
+                        .style("top", `${y}px`);
                 })
                 .on("mouseout", () => tooltip.style("opacity", 0));
 
             // Add clip paths for text
-            nodes.append("clipPath")
+            nodes
+                .append("clipPath")
                 .attr("id", (d, i) => `clip-${i}`)
                 .append("rect")
-                .attr("width", d => d.x1 - d.x0)
-                .attr("height", d => d.y1 - d.y0);
+                .attr("width", (d) => d.x1 - d.x0)
+                .attr("height", (d) => d.y1 - d.y0);
 
             // Constants for text sizing
             const LABEL_PAD = 4;
             const MIN_AREA = 3000; // minimum area in px² to show labels
+            // --- START MODIFICATION (Adjusted MIN_AREA for NOC vs Country Name) ---
+            const MIN_AREA_FOR_COUNTRY_NAME = 6000; // Larger area to show full country name
+            // --- END MODIFICATION ---
 
             // Filter nodes large enough for labels
-            const labels = nodes.filter(d => (d.x1 - d.x0) * (d.y1 - d.y0) >= MIN_AREA);
+            const labels = nodes.filter(
+                (d) => (d.x1 - d.x0) * (d.y1 - d.y0) >= MIN_AREA,
+            );
 
             // Add country labels
             labels.each(function (d, i) {
@@ -229,11 +287,20 @@
                 const w = d.x1 - d.x0;
                 const h = d.y1 - d.y0;
                 const side = Math.min(w, h);
-                const fs1 = Math.min(24, side / 5);  // country font size
-                const fs2 = fs1 * 0.8;               // athletes font size
-                const lh = fs1 * 1.1;                // line height
+                const fs1 = Math.min(24, side / 5); // country/NOC font size
+                const fs2 = fs1 * 0.8; // athletes font size
+                const lh = fs1 * 1.1; // line height
 
-                // Country name
+                // --- START MODIFICATION (Display NOC for smaller countries) ---
+                const displayLabel = (d.data as any).country;
+                const displayNOC = (d.data as any).noc;
+                const area = w * h;
+
+                // Determine whether to show full country name or NOC
+                const primaryText = area >= MIN_AREA_FOR_COUNTRY_NAME ? displayLabel : displayNOC;
+                // --- END MODIFICATION ---
+
+                // Country name or NOC
                 g.append("text")
                     .attr("clip-path", `url(#clip-${i})`)
                     .attr("x", LABEL_PAD)
@@ -241,7 +308,7 @@
                     .style("font-weight", "700")
                     .style("font-size", `${fs1}px`)
                     .style("fill", "#333")
-                    .text((d.data as any).country);
+                    .text(primaryText); // Use the determined primaryText
 
                 // Athletes count
                 g.append("text")
@@ -253,9 +320,9 @@
                     .style("fill", "#666")
                     .text(`${d.value} athletes`);
             });
-
         } catch (err) {
-            error = err instanceof Error ? err.message : 'Failed to draw treemap';
+            error =
+                err instanceof Error ? err.message : "Failed to draw treemap";
             console.error("Error drawing treemap:", err);
         }
     }
@@ -269,53 +336,20 @@
 
     // Effect to draw treemap when conditions are met
     $effect(() => {
-        if (name || params || filteredTreemapData.length > 0 && width > 0 && height > 0) {
+        if (
+            name ||
+            params || width || height ||
+            (filteredTreemapData.length > 0)
+        ) {
             drawTreemap();
         }
     });
-
-    // Handle resize and initial setup
-    onMount(() => {
-        // Load continent data on mount
-        loadContinentData();
-        
-        if (!containerElement) return;
-        
-        // Initialize dimensions
-        width = containerElement.clientWidth || 960;
-        height = containerElement.clientHeight || 500;
-
-        // Handle resizing
-        const resizeObserver = new ResizeObserver(() => {
-            if (containerElement) {
-                const newWidth = containerElement.clientWidth || 960;
-                const newHeight = containerElement.clientHeight || 500;
-                
-                // Only update if dimensions actually changed
-                if (newWidth !== width || newHeight !== height) {
-                    width = newWidth;
-                    height = newHeight;
-                }
-            }
-        });
-
-        // resizeObserver.observe(containerElement);
-
-        // Cleanup
-        return () => {
-            // resizeObserver.disconnect();
-        };
-    });
 </script>
 
-<div class="w-full h-full p-4 flex flex-col text-center">
-    <h2 class="text-center text-gray-800 text-xl font-bold mb-2">
-        Country Participation
-    </h2>
-    
-    <div 
-        class="flex-1 bg-gray-100 p-3 rounded treemap-container" 
-        bind:this={containerElement}
+<div class="w-full p-4 flex-1 flex flex-col text-center">
+    <div
+        class="flex-1 bg-gray-100 p-3 rounded treemap-container"
+        bind:this={containerElement} bind:clientHeight={height} bind:clientWidth={width}
     >
         {#if isLoading}
             <div class="loading-container">
@@ -327,7 +361,14 @@
             </div>
         {:else if !filteredTreemapData || filteredTreemapData.length === 0}
             <div class="loading-container">
-                <p class="text-gray-600">No treemap data available for {params?.gender === "male" ? "Male" : params?.gender === "female" ? "Female" : "All"} athletes</p>
+                <p class="text-gray-600">
+                    No treemap data available for {params?.gender === "male"
+                        ? "Male"
+                        : params?.gender === "female"
+                          ? "Female"
+                          : "All"} athletes
+                    between {params.startYear} and {params.endYear}.
+                </p>
             </div>
         {/if}
     </div>

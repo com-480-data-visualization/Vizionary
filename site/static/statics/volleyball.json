@@ -30097,506 +30097,2046 @@
   "map": [
     {
       "year": 1964,
-      "country": "Czechoslovakia",
+      "country": "Brazil",
       "sex": "M",
-      "value": 11
-    },
-    {
-      "year": 1964,
-      "country": "Japan",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 1964,
-      "country": "Japan",
-      "sex": "M",
-      "value": 9
-    },
-    {
-      "year": 1964,
-      "country": "Poland",
-      "sex": "F",
+      "medal": "No Medal",
       "value": 10
     },
     {
       "year": 1964,
+      "country": "Bulgaria",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1964,
+      "country": "Czechoslovakia",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 11
+    },
+    {
+      "year": 1964,
+      "country": "Hungary",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 11
+    },
+    {
+      "year": 1964,
+      "country": "Japan",
+      "sex": "F",
+      "medal": "Gold",
+      "value": 12
+    },
+    {
+      "year": 1964,
+      "country": "Japan",
+      "sex": "M",
+      "medal": "Bronze",
+      "value": 9
+    },
+    {
+      "year": 1964,
+      "country": "Netherlands",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1964,
+      "country": "Poland",
+      "sex": "F",
+      "medal": "Bronze",
+      "value": 10
+    },
+    {
+      "year": 1964,
+      "country": "Romania",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 10
+    },
+    {
+      "year": 1964,
+      "country": "Romania",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 11
+    },
+    {
+      "year": 1964,
+      "country": "South Korea",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1964,
+      "country": "South Korea",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1964,
       "country": "Soviet Union",
       "sex": "F",
+      "medal": "Silver",
       "value": 12
     },
     {
       "year": 1964,
       "country": "Soviet Union",
       "sex": "M",
+      "medal": "Gold",
       "value": 11
+    },
+    {
+      "year": 1964,
+      "country": "United States",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1964,
+      "country": "United States",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1968,
+      "country": "Belgium",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1968,
+      "country": "Brazil",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1968,
+      "country": "Bulgaria",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1968,
+      "country": "Czechoslovakia",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
     },
     {
       "year": 1968,
       "country": "Czechoslovakia",
       "sex": "M",
+      "medal": "Bronze",
+      "value": 12
+    },
+    {
+      "year": 1968,
+      "country": "East Germany",
+      "sex": "M",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 1968,
       "country": "Japan",
       "sex": "F",
+      "medal": "Silver",
       "value": 9
     },
     {
       "year": 1968,
       "country": "Japan",
       "sex": "M",
+      "medal": "Silver",
       "value": 11
+    },
+    {
+      "year": 1968,
+      "country": "Mexico",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1968,
+      "country": "Mexico",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1968,
+      "country": "Peru",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 9
     },
     {
       "year": 1968,
       "country": "Poland",
       "sex": "F",
+      "medal": "Bronze",
       "value": 12
+    },
+    {
+      "year": 1968,
+      "country": "Poland",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1968,
+      "country": "South Korea",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 10
     },
     {
       "year": 1968,
       "country": "Soviet Union",
       "sex": "F",
+      "medal": "Gold",
       "value": 11
     },
     {
       "year": 1968,
       "country": "Soviet Union",
       "sex": "M",
+      "medal": "Gold",
+      "value": 12
+    },
+    {
+      "year": 1968,
+      "country": "United States",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1968,
+      "country": "United States",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1972,
+      "country": "Brazil",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1972,
+      "country": "Bulgaria",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1972,
+      "country": "Cuba",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1972,
+      "country": "Cuba",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1972,
+      "country": "Czechoslovakia",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1972,
+      "country": "Czechoslovakia",
+      "sex": "M",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 1972,
       "country": "East Germany",
       "sex": "M",
+      "medal": "Silver",
+      "value": 12
+    },
+    {
+      "year": 1972,
+      "country": "Hungary",
+      "sex": "F",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 1972,
       "country": "Japan",
       "sex": "F",
+      "medal": "Silver",
       "value": 12
     },
     {
       "year": 1972,
       "country": "Japan",
       "sex": "M",
+      "medal": "Gold",
       "value": 12
     },
     {
       "year": 1972,
       "country": "North Korea",
       "sex": "F",
+      "medal": "Bronze",
       "value": 11
+    },
+    {
+      "year": 1972,
+      "country": "Poland",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1972,
+      "country": "Romania",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 11
+    },
+    {
+      "year": 1972,
+      "country": "South Korea",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 9
+    },
+    {
+      "year": 1972,
+      "country": "South Korea",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 10
     },
     {
       "year": 1972,
       "country": "Soviet Union",
       "sex": "F",
+      "medal": "Gold",
       "value": 12
     },
     {
       "year": 1972,
       "country": "Soviet Union",
       "sex": "M",
+      "medal": "Bronze",
+      "value": 12
+    },
+    {
+      "year": 1972,
+      "country": "Tunisia",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 11
+    },
+    {
+      "year": 1972,
+      "country": "West Germany",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 11
+    },
+    {
+      "year": 1972,
+      "country": "West Germany",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1976,
+      "country": "Brazil",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1976,
+      "country": "Canada",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1976,
+      "country": "Canada",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1976,
+      "country": "Cuba",
+      "sex": "F",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 1976,
       "country": "Cuba",
       "sex": "M",
+      "medal": "Bronze",
+      "value": 12
+    },
+    {
+      "year": 1976,
+      "country": "Czechoslovakia",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1976,
+      "country": "East Germany",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1976,
+      "country": "Egypt",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1976,
+      "country": "Hungary",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1976,
+      "country": "Italy",
+      "sex": "M",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 1976,
       "country": "Japan",
       "sex": "F",
+      "medal": "Gold",
+      "value": 12
+    },
+    {
+      "year": 1976,
+      "country": "Japan",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1976,
+      "country": "Peru",
+      "sex": "F",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 1976,
       "country": "Poland",
       "sex": "M",
+      "medal": "Gold",
       "value": 12
     },
     {
       "year": 1976,
       "country": "South Korea",
       "sex": "F",
+      "medal": "Bronze",
+      "value": 12
+    },
+    {
+      "year": 1976,
+      "country": "South Korea",
+      "sex": "M",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 1976,
       "country": "Soviet Union",
       "sex": "F",
+      "medal": "Silver",
       "value": 12
     },
     {
       "year": 1976,
       "country": "Soviet Union",
       "sex": "M",
+      "medal": "Silver",
+      "value": 12
+    },
+    {
+      "year": 1980,
+      "country": "Brazil",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1980,
+      "country": "Brazil",
+      "sex": "M",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 1980,
       "country": "Bulgaria",
       "sex": "F",
+      "medal": "Bronze",
       "value": 10
     },
     {
       "year": 1980,
       "country": "Bulgaria",
       "sex": "M",
+      "medal": "Silver",
+      "value": 12
+    },
+    {
+      "year": 1980,
+      "country": "Cuba",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 11
+    },
+    {
+      "year": 1980,
+      "country": "Cuba",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1980,
+      "country": "Czechoslovakia",
+      "sex": "M",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 1980,
       "country": "East Germany",
       "sex": "F",
+      "medal": "Silver",
+      "value": 12
+    },
+    {
+      "year": 1980,
+      "country": "Hungary",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1980,
+      "country": "Italy",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1980,
+      "country": "Libya",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 9
+    },
+    {
+      "year": 1980,
+      "country": "Peru",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 10
+    },
+    {
+      "year": 1980,
+      "country": "Poland",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 11
+    },
+    {
+      "year": 1980,
+      "country": "Romania",
+      "sex": "F",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 1980,
       "country": "Romania",
       "sex": "M",
+      "medal": "Bronze",
       "value": 10
     },
     {
       "year": 1980,
       "country": "Soviet Union",
       "sex": "F",
+      "medal": "Gold",
       "value": 11
     },
     {
       "year": 1980,
       "country": "Soviet Union",
       "sex": "M",
+      "medal": "Gold",
+      "value": 12
+    },
+    {
+      "year": 1980,
+      "country": "Yugoslavia",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1984,
+      "country": "Argentina",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 10
+    },
+    {
+      "year": 1984,
+      "country": "Brazil",
+      "sex": "F",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 1984,
       "country": "Brazil",
       "sex": "M",
+      "medal": "Silver",
+      "value": 12
+    },
+    {
+      "year": 1984,
+      "country": "Canada",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1984,
+      "country": "Canada",
+      "sex": "M",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 1984,
       "country": "China",
       "sex": "F",
+      "medal": "Gold",
       "value": 10
+    },
+    {
+      "year": 1984,
+      "country": "China",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1984,
+      "country": "Egypt",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
     },
     {
       "year": 1984,
       "country": "Italy",
       "sex": "M",
+      "medal": "Bronze",
       "value": 12
     },
     {
       "year": 1984,
       "country": "Japan",
       "sex": "F",
+      "medal": "Bronze",
+      "value": 12
+    },
+    {
+      "year": 1984,
+      "country": "Japan",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1984,
+      "country": "Peru",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 11
+    },
+    {
+      "year": 1984,
+      "country": "South Korea",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 10
+    },
+    {
+      "year": 1984,
+      "country": "South Korea",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1984,
+      "country": "Tunisia",
+      "sex": "M",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 1984,
       "country": "United States",
       "sex": "F",
+      "medal": "Silver",
       "value": 12
     },
     {
       "year": 1984,
       "country": "United States",
       "sex": "M",
+      "medal": "Gold",
       "value": 12
+    },
+    {
+      "year": 1984,
+      "country": "West Germany",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 11
     },
     {
       "year": 1988,
       "country": "Argentina",
       "sex": "M",
+      "medal": "Bronze",
+      "value": 12
+    },
+    {
+      "year": 1988,
+      "country": "Brazil",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1988,
+      "country": "Brazil",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1988,
+      "country": "Bulgaria",
+      "sex": "M",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 1988,
       "country": "China",
       "sex": "F",
+      "medal": "Bronze",
       "value": 11
+    },
+    {
+      "year": 1988,
+      "country": "East Germany",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1988,
+      "country": "France",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1988,
+      "country": "Italy",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1988,
+      "country": "Japan",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1988,
+      "country": "Japan",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1988,
+      "country": "Netherlands",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
     },
     {
       "year": 1988,
       "country": "Peru",
       "sex": "F",
+      "medal": "Silver",
+      "value": 12
+    },
+    {
+      "year": 1988,
+      "country": "South Korea",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1988,
+      "country": "South Korea",
+      "sex": "M",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 1988,
       "country": "Soviet Union",
       "sex": "F",
+      "medal": "Gold",
       "value": 12
     },
     {
       "year": 1988,
       "country": "Soviet Union",
       "sex": "M",
+      "medal": "Silver",
+      "value": 12
+    },
+    {
+      "year": 1988,
+      "country": "Sweden",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1988,
+      "country": "Tunisia",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1988,
+      "country": "United States",
+      "sex": "F",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 1988,
       "country": "United States",
       "sex": "M",
+      "medal": "Gold",
+      "value": 12
+    },
+    {
+      "year": 1992,
+      "country": "Algeria",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 10
+    },
+    {
+      "year": 1992,
+      "country": "Brazil",
+      "sex": "F",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 1992,
       "country": "Brazil",
       "sex": "M",
+      "medal": "Gold",
+      "value": 12
+    },
+    {
+      "year": 1992,
+      "country": "Canada",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1992,
+      "country": "China",
+      "sex": "F",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 1992,
       "country": "Cuba",
       "sex": "F",
+      "medal": "Gold",
       "value": 10
+    },
+    {
+      "year": 1992,
+      "country": "Cuba",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1992,
+      "country": "France",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1992,
+      "country": "Italy",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1992,
+      "country": "Japan",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1992,
+      "country": "Japan",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1992,
+      "country": "Netherlands",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 11
     },
     {
       "year": 1992,
       "country": "Netherlands",
       "sex": "M",
+      "medal": "Silver",
+      "value": 12
+    },
+    {
+      "year": 1992,
+      "country": "South Korea",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1992,
+      "country": "Spain",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1992,
+      "country": "Spain",
+      "sex": "M",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 1992,
       "country": "Unified Team",
       "sex": "F",
+      "medal": "Silver",
       "value": 8
+    },
+    {
+      "year": 1992,
+      "country": "Unified Team",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
     },
     {
       "year": 1992,
       "country": "United States",
       "sex": "F",
+      "medal": "Bronze",
       "value": 12
     },
     {
       "year": 1992,
       "country": "United States",
       "sex": "M",
+      "medal": "Bronze",
+      "value": 12
+    },
+    {
+      "year": 1996,
+      "country": "Argentina",
+      "sex": "M",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 1996,
       "country": "Brazil",
       "sex": "F",
+      "medal": "Bronze",
+      "value": 12
+    },
+    {
+      "year": 1996,
+      "country": "Brazil",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 11
+    },
+    {
+      "year": 1996,
+      "country": "Bulgaria",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1996,
+      "country": "Canada",
+      "sex": "F",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 1996,
       "country": "China",
       "sex": "F",
+      "medal": "Silver",
       "value": 9
     },
     {
       "year": 1996,
       "country": "Cuba",
       "sex": "F",
+      "medal": "Gold",
       "value": 10
+    },
+    {
+      "year": 1996,
+      "country": "Cuba",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1996,
+      "country": "Germany",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
     },
     {
       "year": 1996,
       "country": "Italy",
       "sex": "M",
+      "medal": "Silver",
+      "value": 12
+    },
+    {
+      "year": 1996,
+      "country": "Japan",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1996,
+      "country": "Netherlands",
+      "sex": "F",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 1996,
       "country": "Netherlands",
       "sex": "M",
+      "medal": "Gold",
+      "value": 12
+    },
+    {
+      "year": 1996,
+      "country": "Peru",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 10
+    },
+    {
+      "year": 1996,
+      "country": "Poland",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 11
+    },
+    {
+      "year": 1996,
+      "country": "Russia",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1996,
+      "country": "Russia",
+      "sex": "M",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 1996,
       "country": "Serbia and Montenegro",
       "sex": "M",
+      "medal": "Bronze",
+      "value": 12
+    },
+    {
+      "year": 1996,
+      "country": "South Korea",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 9
+    },
+    {
+      "year": 1996,
+      "country": "South Korea",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1996,
+      "country": "Tunisia",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1996,
+      "country": "Ukraine",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1996,
+      "country": "United States",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1996,
+      "country": "United States",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 11
+    },
+    {
+      "year": 2000,
+      "country": "Argentina",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2000,
+      "country": "Australia",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2000,
+      "country": "Australia",
+      "sex": "M",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 2000,
       "country": "Brazil",
       "sex": "F",
+      "medal": "Bronze",
       "value": 12
+    },
+    {
+      "year": 2000,
+      "country": "Brazil",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2000,
+      "country": "China",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2000,
+      "country": "Croatia",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 11
     },
     {
       "year": 2000,
       "country": "Cuba",
       "sex": "F",
+      "medal": "Gold",
       "value": 8
+    },
+    {
+      "year": 2000,
+      "country": "Cuba",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2000,
+      "country": "Egypt",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2000,
+      "country": "Germany",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2000,
+      "country": "Italy",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
     },
     {
       "year": 2000,
       "country": "Italy",
       "sex": "M",
+      "medal": "Bronze",
       "value": 12
+    },
+    {
+      "year": 2000,
+      "country": "Kenya",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2000,
+      "country": "Netherlands",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 10
+    },
+    {
+      "year": 2000,
+      "country": "Peru",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 11
     },
     {
       "year": 2000,
       "country": "Russia",
       "sex": "F",
+      "medal": "Silver",
       "value": 12
     },
     {
       "year": 2000,
       "country": "Russia",
       "sex": "M",
+      "medal": "Silver",
       "value": 12
     },
     {
       "year": 2000,
       "country": "Serbia and Montenegro",
       "sex": "M",
+      "medal": "Gold",
       "value": 11
+    },
+    {
+      "year": 2000,
+      "country": "South Korea",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2000,
+      "country": "South Korea",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2000,
+      "country": "Spain",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2000,
+      "country": "United States",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2000,
+      "country": "United States",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2004,
+      "country": "Argentina",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2004,
+      "country": "Australia",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2004,
+      "country": "Brazil",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
     },
     {
       "year": 2004,
       "country": "Brazil",
       "sex": "M",
+      "medal": "Gold",
       "value": 12
     },
     {
       "year": 2004,
       "country": "China",
       "sex": "F",
+      "medal": "Gold",
       "value": 12
     },
     {
       "year": 2004,
       "country": "Cuba",
       "sex": "F",
+      "medal": "Bronze",
+      "value": 12
+    },
+    {
+      "year": 2004,
+      "country": "Dominican Republic",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2004,
+      "country": "France",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2004,
+      "country": "Germany",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2004,
+      "country": "Greece",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2004,
+      "country": "Greece",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2004,
+      "country": "Italy",
+      "sex": "F",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 2004,
       "country": "Italy",
       "sex": "M",
+      "medal": "Silver",
+      "value": 12
+    },
+    {
+      "year": 2004,
+      "country": "Japan",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 11
+    },
+    {
+      "year": 2004,
+      "country": "Kenya",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2004,
+      "country": "Netherlands",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2004,
+      "country": "Poland",
+      "sex": "M",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 2004,
       "country": "Russia",
       "sex": "F",
+      "medal": "Silver",
       "value": 10
     },
     {
       "year": 2004,
       "country": "Russia",
       "sex": "M",
+      "medal": "Bronze",
       "value": 12
+    },
+    {
+      "year": 2004,
+      "country": "Serbia and Montenegro",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2004,
+      "country": "South Korea",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 11
+    },
+    {
+      "year": 2004,
+      "country": "Tunisia",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 11
+    },
+    {
+      "year": 2004,
+      "country": "United States",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2004,
+      "country": "United States",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2008,
+      "country": "Algeria",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 10
     },
     {
       "year": 2008,
       "country": "Brazil",
       "sex": "F",
+      "medal": "Gold",
       "value": 12
     },
     {
       "year": 2008,
       "country": "Brazil",
       "sex": "M",
+      "medal": "Silver",
+      "value": 12
+    },
+    {
+      "year": 2008,
+      "country": "Bulgaria",
+      "sex": "M",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 2008,
       "country": "China",
       "sex": "F",
+      "medal": "Bronze",
+      "value": 12
+    },
+    {
+      "year": 2008,
+      "country": "China",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2008,
+      "country": "Cuba",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2008,
+      "country": "Egypt",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2008,
+      "country": "Germany",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2008,
+      "country": "Italy",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2008,
+      "country": "Italy",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2008,
+      "country": "Japan",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2008,
+      "country": "Japan",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2008,
+      "country": "Kazakhstan",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2008,
+      "country": "Poland",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2008,
+      "country": "Poland",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2008,
+      "country": "Russia",
+      "sex": "F",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 2008,
       "country": "Russia",
       "sex": "M",
+      "medal": "Bronze",
+      "value": 12
+    },
+    {
+      "year": 2008,
+      "country": "Serbia",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 11
+    },
+    {
+      "year": 2008,
+      "country": "Serbia",
+      "sex": "M",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 2008,
       "country": "United States",
       "sex": "F",
+      "medal": "Silver",
       "value": 12
     },
     {
       "year": 2008,
       "country": "United States",
       "sex": "M",
+      "medal": "Gold",
+      "value": 12
+    },
+    {
+      "year": 2008,
+      "country": "Venezuela",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 11
+    },
+    {
+      "year": 2008,
+      "country": "Venezuela",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 11
+    },
+    {
+      "year": 2012,
+      "country": "Algeria",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 11
+    },
+    {
+      "year": 2012,
+      "country": "Argentina",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2012,
+      "country": "Australia",
+      "sex": "M",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 2012,
       "country": "Brazil",
       "sex": "F",
+      "medal": "Gold",
       "value": 12
     },
     {
       "year": 2012,
       "country": "Brazil",
       "sex": "M",
+      "medal": "Silver",
+      "value": 12
+    },
+    {
+      "year": 2012,
+      "country": "Bulgaria",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2012,
+      "country": "China",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2012,
+      "country": "Dominican Republic",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2012,
+      "country": "Germany",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2012,
+      "country": "Great Britain",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2012,
+      "country": "Great Britain",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2012,
+      "country": "Italy",
+      "sex": "F",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 2012,
       "country": "Italy",
       "sex": "M",
+      "medal": "Bronze",
       "value": 12
     },
     {
       "year": 2012,
       "country": "Japan",
       "sex": "F",
+      "medal": "Bronze",
+      "value": 12
+    },
+    {
+      "year": 2012,
+      "country": "Poland",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2012,
+      "country": "Russia",
+      "sex": "F",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 2012,
       "country": "Russia",
       "sex": "M",
+      "medal": "Gold",
+      "value": 12
+    },
+    {
+      "year": 2012,
+      "country": "Serbia",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2012,
+      "country": "Serbia",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2012,
+      "country": "South Korea",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2012,
+      "country": "Tunisia",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2012,
+      "country": "Turkey",
+      "sex": "F",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 2012,
       "country": "United States",
       "sex": "F",
+      "medal": "Silver",
+      "value": 12
+    },
+    {
+      "year": 2012,
+      "country": "United States",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2016,
+      "country": "Argentina",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2016,
+      "country": "Argentina",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2016,
+      "country": "Brazil",
+      "sex": "F",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 2016,
       "country": "Brazil",
       "sex": "M",
+      "medal": "Gold",
+      "value": 12
+    },
+    {
+      "year": 2016,
+      "country": "Cameroon",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 10
+    },
+    {
+      "year": 2016,
+      "country": "Canada",
+      "sex": "M",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 2016,
       "country": "China",
       "sex": "F",
+      "medal": "Gold",
+      "value": 12
+    },
+    {
+      "year": 2016,
+      "country": "Cuba",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 11
+    },
+    {
+      "year": 2016,
+      "country": "Egypt",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2016,
+      "country": "France",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 10
+    },
+    {
+      "year": 2016,
+      "country": "Iran",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2016,
+      "country": "Italy",
+      "sex": "F",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 2016,
       "country": "Italy",
       "sex": "M",
+      "medal": "Silver",
+      "value": 12
+    },
+    {
+      "year": 2016,
+      "country": "Japan",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2016,
+      "country": "Mexico",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2016,
+      "country": "Netherlands",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2016,
+      "country": "Poland",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2016,
+      "country": "Puerto Rico",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2016,
+      "country": "Russia",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 2016,
+      "country": "Russia",
+      "sex": "M",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 2016,
       "country": "Serbia",
       "sex": "F",
+      "medal": "Silver",
+      "value": 12
+    },
+    {
+      "year": 2016,
+      "country": "South Korea",
+      "sex": "F",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 2016,
       "country": "United States",
       "sex": "F",
+      "medal": "Bronze",
       "value": 12
     },
     {
       "year": 2016,
       "country": "United States",
       "sex": "M",
+      "medal": "Bronze",
       "value": 12
     }
   ],
@@ -30604,1753 +32144,1601 @@
     {
       "year": 1964,
       "country": "Brazil",
+      "noc": "BRA",
+      "continent": "Americas",
       "sex": "M",
       "value": 10
     },
     {
       "year": 1964,
       "country": "Bulgaria",
+      "noc": "BUL",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1964,
-      "country": "Czechoslovakia",
-      "sex": "M",
-      "value": 11
-    },
-    {
-      "year": 1964,
       "country": "Hungary",
+      "noc": "HUN",
+      "continent": "Europe",
       "sex": "M",
       "value": 11
     },
     {
       "year": 1964,
       "country": "Japan",
+      "noc": "JPN",
+      "continent": "Asia",
       "sex": "F",
       "value": 12
     },
     {
       "year": 1964,
       "country": "Japan",
+      "noc": "JPN",
+      "continent": "Asia",
       "sex": "M",
       "value": 9
     },
     {
       "year": 1964,
       "country": "Netherlands",
+      "noc": "NED",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1964,
       "country": "Poland",
+      "noc": "POL",
+      "continent": "Europe",
       "sex": "F",
       "value": 10
     },
     {
       "year": 1964,
       "country": "Romania",
+      "noc": "ROU",
+      "continent": "Europe",
       "sex": "F",
       "value": 10
     },
     {
       "year": 1964,
       "country": "Romania",
+      "noc": "ROU",
+      "continent": "Europe",
       "sex": "M",
       "value": 11
-    },
-    {
-      "year": 1964,
-      "country": "South Korea",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 1964,
-      "country": "South Korea",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 1964,
-      "country": "Soviet Union",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 1964,
-      "country": "Soviet Union",
-      "sex": "M",
-      "value": 11
-    },
-    {
-      "year": 1964,
-      "country": "United States",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 1964,
-      "country": "United States",
-      "sex": "M",
-      "value": 12
     },
     {
       "year": 1968,
       "country": "Belgium",
+      "noc": "BEL",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1968,
       "country": "Brazil",
+      "noc": "BRA",
+      "continent": "Americas",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1968,
       "country": "Bulgaria",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 1968,
-      "country": "Czechoslovakia",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 1968,
-      "country": "Czechoslovakia",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 1968,
-      "country": "East Germany",
+      "noc": "BUL",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1968,
       "country": "Japan",
+      "noc": "JPN",
+      "continent": "Asia",
       "sex": "F",
       "value": 9
     },
     {
       "year": 1968,
       "country": "Japan",
+      "noc": "JPN",
+      "continent": "Asia",
       "sex": "M",
       "value": 11
     },
     {
       "year": 1968,
       "country": "Mexico",
+      "noc": "MEX",
+      "continent": "Americas",
       "sex": "F",
       "value": 12
     },
     {
       "year": 1968,
       "country": "Mexico",
+      "noc": "MEX",
+      "continent": "Americas",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1968,
       "country": "Peru",
+      "noc": "PER",
+      "continent": "Americas",
       "sex": "F",
       "value": 9
     },
     {
       "year": 1968,
       "country": "Poland",
+      "noc": "POL",
+      "continent": "Europe",
       "sex": "F",
       "value": 12
     },
     {
       "year": 1968,
       "country": "Poland",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 1968,
-      "country": "South Korea",
-      "sex": "F",
-      "value": 10
-    },
-    {
-      "year": 1968,
-      "country": "Soviet Union",
-      "sex": "F",
-      "value": 11
-    },
-    {
-      "year": 1968,
-      "country": "Soviet Union",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 1968,
-      "country": "United States",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 1968,
-      "country": "United States",
+      "noc": "POL",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1972,
       "country": "Brazil",
+      "noc": "BRA",
+      "continent": "Americas",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1972,
       "country": "Bulgaria",
+      "noc": "BUL",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1972,
       "country": "Cuba",
+      "noc": "CUB",
+      "continent": "Americas",
       "sex": "F",
       "value": 12
     },
     {
       "year": 1972,
       "country": "Cuba",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 1972,
-      "country": "Czechoslovakia",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 1972,
-      "country": "Czechoslovakia",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 1972,
-      "country": "East Germany",
+      "noc": "CUB",
+      "continent": "Americas",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1972,
       "country": "Hungary",
+      "noc": "HUN",
+      "continent": "Europe",
       "sex": "F",
       "value": 12
     },
     {
       "year": 1972,
       "country": "Japan",
+      "noc": "JPN",
+      "continent": "Asia",
       "sex": "F",
       "value": 12
     },
     {
       "year": 1972,
       "country": "Japan",
+      "noc": "JPN",
+      "continent": "Asia",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1972,
-      "country": "North Korea",
-      "sex": "F",
-      "value": 11
-    },
-    {
-      "year": 1972,
       "country": "Poland",
+      "noc": "POL",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1972,
       "country": "Romania",
+      "noc": "ROU",
+      "continent": "Europe",
       "sex": "M",
       "value": 11
-    },
-    {
-      "year": 1972,
-      "country": "South Korea",
-      "sex": "F",
-      "value": 9
-    },
-    {
-      "year": 1972,
-      "country": "South Korea",
-      "sex": "M",
-      "value": 10
-    },
-    {
-      "year": 1972,
-      "country": "Soviet Union",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 1972,
-      "country": "Soviet Union",
-      "sex": "M",
-      "value": 12
     },
     {
       "year": 1972,
       "country": "Tunisia",
+      "noc": "TUN",
+      "continent": "Africa",
       "sex": "M",
       "value": 11
-    },
-    {
-      "year": 1972,
-      "country": "West Germany",
-      "sex": "F",
-      "value": 11
-    },
-    {
-      "year": 1972,
-      "country": "West Germany",
-      "sex": "M",
-      "value": 12
     },
     {
       "year": 1976,
       "country": "Brazil",
+      "noc": "BRA",
+      "continent": "Americas",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1976,
       "country": "Canada",
+      "noc": "CAN",
+      "continent": "Americas",
       "sex": "F",
       "value": 12
     },
     {
       "year": 1976,
       "country": "Canada",
+      "noc": "CAN",
+      "continent": "Americas",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1976,
       "country": "Cuba",
+      "noc": "CUB",
+      "continent": "Americas",
       "sex": "F",
       "value": 12
     },
     {
       "year": 1976,
       "country": "Cuba",
+      "noc": "CUB",
+      "continent": "Americas",
       "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 1976,
-      "country": "Czechoslovakia",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 1976,
-      "country": "East Germany",
-      "sex": "F",
       "value": 12
     },
     {
       "year": 1976,
       "country": "Egypt",
+      "noc": "EGY",
+      "continent": "Africa",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1976,
       "country": "Hungary",
+      "noc": "HUN",
+      "continent": "Europe",
       "sex": "F",
       "value": 12
     },
     {
       "year": 1976,
       "country": "Italy",
+      "noc": "ITA",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1976,
       "country": "Japan",
+      "noc": "JPN",
+      "continent": "Asia",
       "sex": "F",
       "value": 12
     },
     {
       "year": 1976,
       "country": "Japan",
+      "noc": "JPN",
+      "continent": "Asia",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1976,
       "country": "Peru",
+      "noc": "PER",
+      "continent": "Americas",
       "sex": "F",
       "value": 12
     },
     {
       "year": 1976,
       "country": "Poland",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 1976,
-      "country": "South Korea",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 1976,
-      "country": "South Korea",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 1976,
-      "country": "Soviet Union",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 1976,
-      "country": "Soviet Union",
+      "noc": "POL",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1980,
       "country": "Brazil",
+      "noc": "BRA",
+      "continent": "Americas",
       "sex": "F",
       "value": 12
     },
     {
       "year": 1980,
       "country": "Brazil",
+      "noc": "BRA",
+      "continent": "Americas",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1980,
       "country": "Bulgaria",
+      "noc": "BUL",
+      "continent": "Europe",
       "sex": "F",
       "value": 10
     },
     {
       "year": 1980,
       "country": "Bulgaria",
+      "noc": "BUL",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1980,
       "country": "Cuba",
+      "noc": "CUB",
+      "continent": "Americas",
       "sex": "F",
       "value": 11
     },
     {
       "year": 1980,
       "country": "Cuba",
+      "noc": "CUB",
+      "continent": "Americas",
       "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 1980,
-      "country": "Czechoslovakia",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 1980,
-      "country": "East Germany",
-      "sex": "F",
       "value": 12
     },
     {
       "year": 1980,
       "country": "Hungary",
+      "noc": "HUN",
+      "continent": "Europe",
       "sex": "F",
       "value": 12
     },
     {
       "year": 1980,
       "country": "Italy",
+      "noc": "ITA",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1980,
       "country": "Libya",
+      "noc": "LBA",
+      "continent": "Africa",
       "sex": "M",
       "value": 9
     },
     {
       "year": 1980,
       "country": "Peru",
+      "noc": "PER",
+      "continent": "Americas",
       "sex": "F",
       "value": 10
     },
     {
       "year": 1980,
       "country": "Poland",
+      "noc": "POL",
+      "continent": "Europe",
       "sex": "M",
       "value": 11
     },
     {
       "year": 1980,
       "country": "Romania",
+      "noc": "ROU",
+      "continent": "Europe",
       "sex": "F",
       "value": 12
     },
     {
       "year": 1980,
       "country": "Romania",
+      "noc": "ROU",
+      "continent": "Europe",
       "sex": "M",
       "value": 10
-    },
-    {
-      "year": 1980,
-      "country": "Soviet Union",
-      "sex": "F",
-      "value": 11
-    },
-    {
-      "year": 1980,
-      "country": "Soviet Union",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 1980,
-      "country": "Yugoslavia",
-      "sex": "M",
-      "value": 12
     },
     {
       "year": 1984,
       "country": "Argentina",
+      "noc": "ARG",
+      "continent": "Americas",
       "sex": "M",
       "value": 10
     },
     {
       "year": 1984,
       "country": "Brazil",
+      "noc": "BRA",
+      "continent": "Americas",
       "sex": "F",
       "value": 12
     },
     {
       "year": 1984,
       "country": "Brazil",
+      "noc": "BRA",
+      "continent": "Americas",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1984,
       "country": "Canada",
+      "noc": "CAN",
+      "continent": "Americas",
       "sex": "F",
       "value": 12
     },
     {
       "year": 1984,
       "country": "Canada",
+      "noc": "CAN",
+      "continent": "Americas",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1984,
       "country": "China",
+      "noc": "CHN",
+      "continent": "Asia",
       "sex": "F",
       "value": 10
     },
     {
       "year": 1984,
       "country": "China",
+      "noc": "CHN",
+      "continent": "Asia",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1984,
       "country": "Egypt",
+      "noc": "EGY",
+      "continent": "Africa",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1984,
       "country": "Italy",
+      "noc": "ITA",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1984,
       "country": "Japan",
+      "noc": "JPN",
+      "continent": "Asia",
       "sex": "F",
       "value": 12
     },
     {
       "year": 1984,
       "country": "Japan",
+      "noc": "JPN",
+      "continent": "Asia",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1984,
       "country": "Peru",
+      "noc": "PER",
+      "continent": "Americas",
       "sex": "F",
       "value": 11
-    },
-    {
-      "year": 1984,
-      "country": "South Korea",
-      "sex": "F",
-      "value": 10
-    },
-    {
-      "year": 1984,
-      "country": "South Korea",
-      "sex": "M",
-      "value": 12
     },
     {
       "year": 1984,
       "country": "Tunisia",
+      "noc": "TUN",
+      "continent": "Africa",
       "sex": "M",
       "value": 12
-    },
-    {
-      "year": 1984,
-      "country": "United States",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 1984,
-      "country": "United States",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 1984,
-      "country": "West Germany",
-      "sex": "F",
-      "value": 11
     },
     {
       "year": 1988,
       "country": "Argentina",
+      "noc": "ARG",
+      "continent": "Americas",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1988,
       "country": "Brazil",
+      "noc": "BRA",
+      "continent": "Americas",
       "sex": "F",
       "value": 12
     },
     {
       "year": 1988,
       "country": "Brazil",
+      "noc": "BRA",
+      "continent": "Americas",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1988,
       "country": "Bulgaria",
+      "noc": "BUL",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1988,
       "country": "China",
+      "noc": "CHN",
+      "continent": "Asia",
       "sex": "F",
       "value": 11
     },
     {
       "year": 1988,
-      "country": "East Germany",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 1988,
       "country": "France",
+      "noc": "FRA",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1988,
       "country": "Italy",
+      "noc": "ITA",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1988,
       "country": "Japan",
+      "noc": "JPN",
+      "continent": "Asia",
       "sex": "F",
       "value": 12
     },
     {
       "year": 1988,
       "country": "Japan",
+      "noc": "JPN",
+      "continent": "Asia",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1988,
       "country": "Netherlands",
+      "noc": "NED",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1988,
       "country": "Peru",
+      "noc": "PER",
+      "continent": "Americas",
       "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 1988,
-      "country": "South Korea",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 1988,
-      "country": "South Korea",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 1988,
-      "country": "Soviet Union",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 1988,
-      "country": "Soviet Union",
-      "sex": "M",
       "value": 12
     },
     {
       "year": 1988,
       "country": "Sweden",
+      "noc": "SWE",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1988,
       "country": "Tunisia",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 1988,
-      "country": "United States",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 1988,
-      "country": "United States",
+      "noc": "TUN",
+      "continent": "Africa",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1992,
       "country": "Algeria",
+      "noc": "ALG",
+      "continent": "Africa",
       "sex": "M",
       "value": 10
     },
     {
       "year": 1992,
       "country": "Brazil",
+      "noc": "BRA",
+      "continent": "Americas",
       "sex": "F",
       "value": 12
     },
     {
       "year": 1992,
       "country": "Brazil",
+      "noc": "BRA",
+      "continent": "Americas",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1992,
       "country": "Canada",
+      "noc": "CAN",
+      "continent": "Americas",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1992,
       "country": "China",
+      "noc": "CHN",
+      "continent": "Asia",
       "sex": "F",
       "value": 12
     },
     {
       "year": 1992,
       "country": "Cuba",
+      "noc": "CUB",
+      "continent": "Americas",
       "sex": "F",
       "value": 10
     },
     {
       "year": 1992,
       "country": "Cuba",
+      "noc": "CUB",
+      "continent": "Americas",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1992,
       "country": "France",
+      "noc": "FRA",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1992,
       "country": "Italy",
+      "noc": "ITA",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1992,
       "country": "Japan",
+      "noc": "JPN",
+      "continent": "Asia",
       "sex": "F",
       "value": 12
     },
     {
       "year": 1992,
       "country": "Japan",
+      "noc": "JPN",
+      "continent": "Asia",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1992,
       "country": "Netherlands",
+      "noc": "NED",
+      "continent": "Europe",
       "sex": "F",
       "value": 11
     },
     {
       "year": 1992,
       "country": "Netherlands",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 1992,
-      "country": "South Korea",
+      "noc": "NED",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1992,
       "country": "Spain",
+      "noc": "ESP",
+      "continent": "Europe",
       "sex": "F",
       "value": 12
     },
     {
       "year": 1992,
       "country": "Spain",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 1992,
-      "country": "Unified Team",
-      "sex": "F",
-      "value": 8
-    },
-    {
-      "year": 1992,
-      "country": "Unified Team",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 1992,
-      "country": "United States",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 1992,
-      "country": "United States",
+      "noc": "ESP",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1996,
       "country": "Argentina",
+      "noc": "ARG",
+      "continent": "Americas",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1996,
       "country": "Brazil",
+      "noc": "BRA",
+      "continent": "Americas",
       "sex": "F",
       "value": 12
     },
     {
       "year": 1996,
       "country": "Brazil",
+      "noc": "BRA",
+      "continent": "Americas",
       "sex": "M",
       "value": 11
     },
     {
       "year": 1996,
       "country": "Bulgaria",
+      "noc": "BUL",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1996,
       "country": "Canada",
+      "noc": "CAN",
+      "continent": "Americas",
       "sex": "F",
       "value": 12
     },
     {
       "year": 1996,
       "country": "China",
+      "noc": "CHN",
+      "continent": "Asia",
       "sex": "F",
       "value": 9
     },
     {
       "year": 1996,
       "country": "Cuba",
+      "noc": "CUB",
+      "continent": "Americas",
       "sex": "F",
       "value": 10
     },
     {
       "year": 1996,
       "country": "Cuba",
+      "noc": "CUB",
+      "continent": "Americas",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1996,
       "country": "Germany",
+      "noc": "GER",
+      "continent": "Europe",
       "sex": "F",
       "value": 12
     },
     {
       "year": 1996,
       "country": "Italy",
+      "noc": "ITA",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1996,
       "country": "Japan",
+      "noc": "JPN",
+      "continent": "Asia",
       "sex": "F",
       "value": 12
     },
     {
       "year": 1996,
       "country": "Netherlands",
+      "noc": "NED",
+      "continent": "Europe",
       "sex": "F",
       "value": 12
     },
     {
       "year": 1996,
       "country": "Netherlands",
+      "noc": "NED",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1996,
       "country": "Peru",
+      "noc": "PER",
+      "continent": "Americas",
       "sex": "F",
       "value": 10
     },
     {
       "year": 1996,
       "country": "Poland",
+      "noc": "POL",
+      "continent": "Europe",
       "sex": "M",
       "value": 11
     },
     {
       "year": 1996,
-      "country": "Russia",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 1996,
-      "country": "Russia",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 1996,
-      "country": "Serbia and Montenegro",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 1996,
-      "country": "South Korea",
-      "sex": "F",
-      "value": 9
-    },
-    {
-      "year": 1996,
-      "country": "South Korea",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 1996,
       "country": "Tunisia",
+      "noc": "TUN",
+      "continent": "Africa",
       "sex": "M",
       "value": 12
     },
     {
       "year": 1996,
       "country": "Ukraine",
+      "noc": "UKR",
+      "continent": "Europe",
       "sex": "F",
       "value": 12
-    },
-    {
-      "year": 1996,
-      "country": "United States",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 1996,
-      "country": "United States",
-      "sex": "M",
-      "value": 11
     },
     {
       "year": 2000,
       "country": "Argentina",
+      "noc": "ARG",
+      "continent": "Americas",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2000,
       "country": "Australia",
+      "noc": "AUS",
+      "continent": "Oceania",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2000,
       "country": "Australia",
+      "noc": "AUS",
+      "continent": "Oceania",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2000,
       "country": "Brazil",
+      "noc": "BRA",
+      "continent": "Americas",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2000,
       "country": "Brazil",
+      "noc": "BRA",
+      "continent": "Americas",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2000,
       "country": "China",
+      "noc": "CHN",
+      "continent": "Asia",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2000,
       "country": "Croatia",
+      "noc": "CRO",
+      "continent": "Europe",
       "sex": "F",
       "value": 11
     },
     {
       "year": 2000,
       "country": "Cuba",
+      "noc": "CUB",
+      "continent": "Americas",
       "sex": "F",
       "value": 8
     },
     {
       "year": 2000,
       "country": "Cuba",
+      "noc": "CUB",
+      "continent": "Americas",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2000,
       "country": "Egypt",
+      "noc": "EGY",
+      "continent": "Africa",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2000,
       "country": "Germany",
+      "noc": "GER",
+      "continent": "Europe",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2000,
       "country": "Italy",
+      "noc": "ITA",
+      "continent": "Europe",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2000,
       "country": "Italy",
+      "noc": "ITA",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2000,
       "country": "Kenya",
+      "noc": "KEN",
+      "continent": "Africa",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2000,
       "country": "Netherlands",
+      "noc": "NED",
+      "continent": "Europe",
       "sex": "M",
       "value": 10
     },
     {
       "year": 2000,
       "country": "Peru",
+      "noc": "PER",
+      "continent": "Americas",
       "sex": "F",
       "value": 11
-    },
-    {
-      "year": 2000,
-      "country": "Russia",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 2000,
-      "country": "Russia",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 2000,
-      "country": "Serbia and Montenegro",
-      "sex": "M",
-      "value": 11
-    },
-    {
-      "year": 2000,
-      "country": "South Korea",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 2000,
-      "country": "South Korea",
-      "sex": "M",
-      "value": 12
     },
     {
       "year": 2000,
       "country": "Spain",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 2000,
-      "country": "United States",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 2000,
-      "country": "United States",
+      "noc": "ESP",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2004,
       "country": "Argentina",
+      "noc": "ARG",
+      "continent": "Americas",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2004,
       "country": "Australia",
+      "noc": "AUS",
+      "continent": "Oceania",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2004,
       "country": "Brazil",
+      "noc": "BRA",
+      "continent": "Americas",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2004,
       "country": "Brazil",
+      "noc": "BRA",
+      "continent": "Americas",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2004,
       "country": "China",
+      "noc": "CHN",
+      "continent": "Asia",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2004,
       "country": "Cuba",
+      "noc": "CUB",
+      "continent": "Americas",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2004,
       "country": "Dominican Republic",
+      "noc": "DOM",
+      "continent": "Americas",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2004,
       "country": "France",
+      "noc": "FRA",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2004,
       "country": "Germany",
+      "noc": "GER",
+      "continent": "Europe",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2004,
       "country": "Greece",
+      "noc": "GRE",
+      "continent": "Europe",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2004,
       "country": "Greece",
+      "noc": "GRE",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2004,
       "country": "Italy",
+      "noc": "ITA",
+      "continent": "Europe",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2004,
       "country": "Italy",
+      "noc": "ITA",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2004,
       "country": "Japan",
+      "noc": "JPN",
+      "continent": "Asia",
       "sex": "F",
       "value": 11
     },
     {
       "year": 2004,
       "country": "Kenya",
+      "noc": "KEN",
+      "continent": "Africa",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2004,
       "country": "Netherlands",
+      "noc": "NED",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2004,
       "country": "Poland",
+      "noc": "POL",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
-    },
-    {
-      "year": 2004,
-      "country": "Russia",
-      "sex": "F",
-      "value": 10
-    },
-    {
-      "year": 2004,
-      "country": "Russia",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 2004,
-      "country": "Serbia and Montenegro",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 2004,
-      "country": "South Korea",
-      "sex": "F",
-      "value": 11
     },
     {
       "year": 2004,
       "country": "Tunisia",
+      "noc": "TUN",
+      "continent": "Africa",
       "sex": "M",
       "value": 11
     },
     {
-      "year": 2004,
-      "country": "United States",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 2004,
-      "country": "United States",
-      "sex": "M",
-      "value": 12
-    },
-    {
       "year": 2008,
       "country": "Algeria",
+      "noc": "ALG",
+      "continent": "Africa",
       "sex": "F",
       "value": 10
     },
     {
       "year": 2008,
       "country": "Brazil",
+      "noc": "BRA",
+      "continent": "Americas",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2008,
       "country": "Brazil",
+      "noc": "BRA",
+      "continent": "Americas",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2008,
       "country": "Bulgaria",
+      "noc": "BUL",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2008,
       "country": "China",
+      "noc": "CHN",
+      "continent": "Asia",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2008,
       "country": "China",
+      "noc": "CHN",
+      "continent": "Asia",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2008,
       "country": "Cuba",
+      "noc": "CUB",
+      "continent": "Americas",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2008,
       "country": "Egypt",
+      "noc": "EGY",
+      "continent": "Africa",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2008,
       "country": "Germany",
+      "noc": "GER",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2008,
       "country": "Italy",
+      "noc": "ITA",
+      "continent": "Europe",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2008,
       "country": "Italy",
+      "noc": "ITA",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2008,
       "country": "Japan",
+      "noc": "JPN",
+      "continent": "Asia",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2008,
       "country": "Japan",
+      "noc": "JPN",
+      "continent": "Asia",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2008,
       "country": "Kazakhstan",
+      "noc": "KAZ",
+      "continent": "Asia",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2008,
       "country": "Poland",
+      "noc": "POL",
+      "continent": "Europe",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2008,
       "country": "Poland",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 2008,
-      "country": "Russia",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 2008,
-      "country": "Russia",
+      "noc": "POL",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2008,
       "country": "Serbia",
+      "noc": "SRB",
+      "continent": "Europe",
       "sex": "F",
       "value": 11
     },
     {
       "year": 2008,
       "country": "Serbia",
+      "noc": "SRB",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
-    },
-    {
-      "year": 2008,
-      "country": "United States",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 2008,
-      "country": "United States",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 2008,
-      "country": "Venezuela",
-      "sex": "F",
-      "value": 11
-    },
-    {
-      "year": 2008,
-      "country": "Venezuela",
-      "sex": "M",
-      "value": 11
     },
     {
       "year": 2012,
       "country": "Algeria",
+      "noc": "ALG",
+      "continent": "Africa",
       "sex": "F",
       "value": 11
     },
     {
       "year": 2012,
       "country": "Argentina",
+      "noc": "ARG",
+      "continent": "Americas",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2012,
       "country": "Australia",
+      "noc": "AUS",
+      "continent": "Oceania",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2012,
       "country": "Brazil",
+      "noc": "BRA",
+      "continent": "Americas",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2012,
       "country": "Brazil",
+      "noc": "BRA",
+      "continent": "Americas",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2012,
       "country": "Bulgaria",
+      "noc": "BUL",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2012,
       "country": "China",
+      "noc": "CHN",
+      "continent": "Asia",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2012,
       "country": "Dominican Republic",
+      "noc": "DOM",
+      "continent": "Americas",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2012,
       "country": "Germany",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 2012,
-      "country": "Great Britain",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 2012,
-      "country": "Great Britain",
+      "noc": "GER",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2012,
       "country": "Italy",
+      "noc": "ITA",
+      "continent": "Europe",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2012,
       "country": "Italy",
+      "noc": "ITA",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2012,
       "country": "Japan",
+      "noc": "JPN",
+      "continent": "Asia",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2012,
       "country": "Poland",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 2012,
-      "country": "Russia",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 2012,
-      "country": "Russia",
+      "noc": "POL",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2012,
       "country": "Serbia",
+      "noc": "SRB",
+      "continent": "Europe",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2012,
       "country": "Serbia",
+      "noc": "SRB",
+      "continent": "Europe",
       "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 2012,
-      "country": "South Korea",
-      "sex": "F",
       "value": 12
     },
     {
       "year": 2012,
       "country": "Tunisia",
+      "noc": "TUN",
+      "continent": "Africa",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2012,
       "country": "Turkey",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 2012,
-      "country": "United States",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 2012,
-      "country": "United States",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 2016,
-      "country": "Argentina",
+      "noc": "TUR",
+      "continent": "Asia",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2016,
       "country": "Argentina",
+      "noc": "ARG",
+      "continent": "Americas",
+      "sex": "F",
+      "value": 12
+    },
+    {
+      "year": 2016,
+      "country": "Argentina",
+      "noc": "ARG",
+      "continent": "Americas",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2016,
       "country": "Brazil",
+      "noc": "BRA",
+      "continent": "Americas",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2016,
       "country": "Brazil",
+      "noc": "BRA",
+      "continent": "Americas",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2016,
       "country": "Cameroon",
+      "noc": "CMR",
+      "continent": "Africa",
       "sex": "F",
       "value": 10
     },
     {
       "year": 2016,
       "country": "Canada",
+      "noc": "CAN",
+      "continent": "Americas",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2016,
       "country": "China",
+      "noc": "CHN",
+      "continent": "Asia",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2016,
       "country": "Cuba",
+      "noc": "CUB",
+      "continent": "Americas",
       "sex": "M",
       "value": 11
     },
     {
       "year": 2016,
       "country": "Egypt",
+      "noc": "EGY",
+      "continent": "Africa",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2016,
       "country": "France",
+      "noc": "FRA",
+      "continent": "Europe",
       "sex": "M",
       "value": 10
     },
     {
       "year": 2016,
-      "country": "Iran",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 2016,
       "country": "Italy",
+      "noc": "ITA",
+      "continent": "Europe",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2016,
       "country": "Italy",
+      "noc": "ITA",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2016,
       "country": "Japan",
+      "noc": "JPN",
+      "continent": "Asia",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2016,
       "country": "Mexico",
+      "noc": "MEX",
+      "continent": "Americas",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2016,
       "country": "Netherlands",
+      "noc": "NED",
+      "continent": "Europe",
       "sex": "F",
       "value": 12
     },
     {
       "year": 2016,
       "country": "Poland",
+      "noc": "POL",
+      "continent": "Europe",
       "sex": "M",
       "value": 12
     },
     {
       "year": 2016,
       "country": "Puerto Rico",
+      "noc": "PUR",
+      "continent": "Americas",
       "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 2016,
-      "country": "Russia",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 2016,
-      "country": "Russia",
-      "sex": "M",
       "value": 12
     },
     {
       "year": 2016,
       "country": "Serbia",
+      "noc": "SRB",
+      "continent": "Europe",
       "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 2016,
-      "country": "South Korea",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 2016,
-      "country": "United States",
-      "sex": "F",
-      "value": 12
-    },
-    {
-      "year": 2016,
-      "country": "United States",
-      "sex": "M",
       "value": 12
     }
   ]

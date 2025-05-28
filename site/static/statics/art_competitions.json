@@ -30007,1655 +30007,3441 @@
   "map": [
     {
       "year": 1912,
-      "country": "France",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1912,
-      "country": "Germany",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1912,
-      "country": "Italy",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "year": 1912,
-      "country": "Switzerland",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "year": 1912,
-      "country": "United States",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1920,
       "country": "Belgium",
       "sex": "M",
-      "value": 6
-    },
-    {
-      "year": 1920,
-      "country": "France",
-      "sex": "F",
-      "value": 1
-    },
-    {
-      "year": 1920,
-      "country": "Great Britain",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1920,
-      "country": "Italy",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "year": 1920,
-      "country": "Norway",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1924,
-      "country": "Denmark",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "year": 1924,
-      "country": "France",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "year": 1924,
-      "country": "Great Britain",
-      "sex": "F",
-      "value": 1
-    },
-    {
-      "year": 1924,
-      "country": "Greece",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1924,
-      "country": "Hungary",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "year": 1924,
-      "country": "Ireland",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "year": 1924,
-      "country": "Luxembourg",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "year": 1924,
-      "country": "Monaco",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1924,
-      "country": "Netherlands",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1928,
-      "country": "Austria",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1928,
-      "country": "Denmark",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "year": 1928,
-      "country": "France",
-      "sex": "M",
-      "value": 4
-    },
-    {
-      "year": 1928,
-      "country": "Germany",
-      "sex": "F",
-      "value": 1
-    },
-    {
-      "year": 1928,
-      "country": "Germany",
-      "sex": "M",
-      "value": 7
-    },
-    {
-      "year": 1928,
-      "country": "Great Britain",
-      "sex": "F",
-      "value": 1
-    },
-    {
-      "year": 1928,
-      "country": "Great Britain",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1928,
-      "country": "Hungary",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1928,
-      "country": "Italy",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1928,
-      "country": "Luxembourg",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1928,
-      "country": "Netherlands",
-      "sex": "F",
-      "value": 1
-    },
-    {
-      "year": 1928,
-      "country": "Netherlands",
-      "sex": "M",
-      "value": 4
-    },
-    {
-      "year": 1928,
-      "country": "Poland",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "year": 1928,
-      "country": "Switzerland",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "year": 1932,
-      "country": "Belgium",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1932,
-      "country": "Canada",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1932,
-      "country": "Czechoslovakia",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "year": 1932,
-      "country": "Denmark",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "year": 1932,
-      "country": "France",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "year": 1932,
-      "country": "Germany",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "year": 1932,
-      "country": "Great Britain",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1932,
-      "country": "Hungary",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1932,
-      "country": "Netherlands",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1932,
-      "country": "Poland",
-      "sex": "F",
-      "value": 1
-    },
-    {
-      "year": 1932,
-      "country": "Poland",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1932,
-      "country": "Sweden",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1932,
-      "country": "United States",
-      "sex": "F",
-      "value": 1
-    },
-    {
-      "year": 1932,
-      "country": "United States",
-      "sex": "M",
-      "value": 6
-    },
-    {
-      "year": 1936,
-      "country": "Austria",
-      "sex": "M",
-      "value": 5
-    },
-    {
-      "year": 1936,
-      "country": "Belgium",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1936,
-      "country": "Czechoslovakia",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1936,
-      "country": "Finland",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1936,
-      "country": "Germany",
-      "sex": "M",
-      "value": 14
-    },
-    {
-      "year": 1936,
-      "country": "Italy",
-      "sex": "M",
-      "value": 5
-    },
-    {
-      "year": 1936,
-      "country": "Japan",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "year": 1936,
-      "country": "Poland",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "year": 1936,
-      "country": "Sweden",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1936,
-      "country": "Switzerland",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1936,
-      "country": "United States",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1948,
-      "country": "Austria",
-      "sex": "M",
-      "value": 4
-    },
-    {
-      "year": 1948,
-      "country": "Canada",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1948,
-      "country": "Denmark",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "year": 1948,
-      "country": "Finland",
-      "sex": "F",
-      "value": 1
-    },
-    {
-      "year": 1948,
-      "country": "Finland",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "year": 1948,
-      "country": "France",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "year": 1948,
-      "country": "Great Britain",
-      "sex": "F",
-      "value": 1
-    },
-    {
-      "year": 1948,
-      "country": "Great Britain",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "year": 1948,
-      "country": "Hungary",
-      "sex": "F",
-      "value": 1
-    },
-    {
-      "year": 1948,
-      "country": "Ireland",
-      "sex": "F",
-      "value": 1
-    },
-    {
-      "year": 1948,
-      "country": "Italy",
-      "sex": "M",
-      "value": 4
-    },
-    {
-      "year": 1948,
-      "country": "Poland",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1948,
-      "country": "South Africa",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "year": 1948,
-      "country": "Sweden",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "year": 1948,
-      "country": "Switzerland",
-      "sex": "M",
-      "value": 4
-    }
-  ],
-  "treemap": [
-    {
-      "year": 1912,
-      "country": "Belgium",
-      "sex": "M",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1912,
       "country": "Bohemia",
       "sex": "M",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1912,
       "country": "Canada",
       "sex": "M",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1912,
       "country": "France",
       "sex": "M",
-      "value": 10
+      "medal": "No Medal",
+      "value": 9
+    },
+    {
+      "year": 1912,
+      "country": "France",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 1
     },
     {
       "year": 1912,
       "country": "Germany",
       "sex": "M",
-      "value": 2
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 1912,
+      "country": "Germany",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 1
     },
     {
       "year": 1912,
       "country": "Great Britain",
       "sex": "M",
+      "medal": "No Medal",
       "value": 3
     },
     {
       "year": 1912,
       "country": "Italy",
       "sex": "M",
-      "value": 4
+      "medal": "Gold",
+      "value": 2
+    },
+    {
+      "year": 1912,
+      "country": "Italy",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 2
     },
     {
       "year": 1912,
       "country": "Poland",
       "sex": "M",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1912,
       "country": "Russia",
       "sex": "M",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1912,
       "country": "Switzerland",
       "sex": "M",
-      "value": 6
+      "medal": "Gold",
+      "value": 2
+    },
+    {
+      "year": 1912,
+      "country": "Switzerland",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 4
     },
     {
       "year": 1912,
       "country": "United States",
       "sex": "M",
+      "medal": "Gold",
       "value": 1
     },
     {
       "year": 1912,
       "country": "Unknown",
       "sex": "M",
+      "medal": "No Medal",
       "value": 2
     },
     {
       "year": 1920,
       "country": "Belgium",
       "sex": "M",
-      "value": 6
+      "medal": "Bronze",
+      "value": 3
+    },
+    {
+      "year": 1920,
+      "country": "Belgium",
+      "sex": "M",
+      "medal": "Gold",
+      "value": 2
+    },
+    {
+      "year": 1920,
+      "country": "Belgium",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 1
     },
     {
       "year": 1920,
       "country": "France",
       "sex": "F",
+      "medal": "Silver",
       "value": 1
     },
     {
       "year": 1920,
       "country": "Great Britain",
       "sex": "M",
+      "medal": "Silver",
       "value": 1
     },
     {
       "year": 1920,
       "country": "Italy",
       "sex": "M",
-      "value": 2
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 1920,
+      "country": "Italy",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 1
     },
     {
       "year": 1920,
       "country": "Norway",
       "sex": "M",
+      "medal": "Silver",
       "value": 1
     },
     {
       "year": 1924,
       "country": "Australia",
       "sex": "F",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1924,
       "country": "Belgium",
       "sex": "F",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1924,
       "country": "Belgium",
       "sex": "M",
-      "value": 3
+      "medal": "No Medal",
+      "value": 5
     },
     {
       "year": 1924,
       "country": "Brazil",
       "sex": "M",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1924,
       "country": "Czechoslovakia",
       "sex": "M",
-      "value": 2
+      "medal": "No Medal",
+      "value": 3
     },
     {
       "year": 1924,
       "country": "Denmark",
       "sex": "F",
-      "value": 2
+      "medal": "No Medal",
+      "value": 3
     },
     {
       "year": 1924,
       "country": "Denmark",
       "sex": "M",
-      "value": 14
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1924,
+      "country": "Denmark",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 23
+    },
+    {
+      "year": 1924,
+      "country": "Denmark",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 1
     },
     {
       "year": 1924,
       "country": "Egypt",
       "sex": "M",
-      "value": 1
+      "medal": "No Medal",
+      "value": 3
     },
     {
       "year": 1924,
       "country": "Finland",
       "sex": "M",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1924,
       "country": "France",
       "sex": "F",
-      "value": 11
+      "medal": "No Medal",
+      "value": 21
     },
     {
       "year": 1924,
       "country": "France",
       "sex": "M",
-      "value": 71
+      "medal": "Bronze",
+      "value": 2
+    },
+    {
+      "year": 1924,
+      "country": "France",
+      "sex": "M",
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 1924,
+      "country": "France",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 140
     },
     {
       "year": 1924,
       "country": "Great Britain",
       "sex": "F",
+      "medal": "No Medal",
       "value": 2
     },
     {
       "year": 1924,
       "country": "Great Britain",
+      "sex": "F",
+      "medal": "Silver",
+      "value": 1
+    },
+    {
+      "year": 1924,
+      "country": "Great Britain",
       "sex": "M",
-      "value": 6
+      "medal": "No Medal",
+      "value": 13
     },
     {
       "year": 1924,
       "country": "Greece",
       "sex": "M",
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 1924,
+      "country": "Greece",
+      "sex": "M",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1924,
       "country": "Hungary",
       "sex": "M",
+      "medal": "Silver",
       "value": 2
     },
     {
       "year": 1924,
       "country": "Ireland",
       "sex": "M",
-      "value": 8
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1924,
+      "country": "Ireland",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 7
+    },
+    {
+      "year": 1924,
+      "country": "Ireland",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 1
     },
     {
       "year": 1924,
       "country": "Italy",
       "sex": "F",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1924,
       "country": "Italy",
       "sex": "M",
-      "value": 3
+      "medal": "No Medal",
+      "value": 9
     },
     {
       "year": 1924,
       "country": "Luxembourg",
       "sex": "M",
-      "value": 4
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 1924,
+      "country": "Luxembourg",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 2
+    },
+    {
+      "year": 1924,
+      "country": "Luxembourg",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 1
     },
     {
       "year": 1924,
       "country": "Monaco",
       "sex": "M",
+      "medal": "Bronze",
       "value": 1
     },
     {
       "year": 1924,
       "country": "Netherlands",
       "sex": "M",
-      "value": 24
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1924,
+      "country": "Netherlands",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 31
     },
     {
       "year": 1924,
       "country": "Norway",
       "sex": "M",
-      "value": 3
+      "medal": "No Medal",
+      "value": 4
     },
     {
       "year": 1924,
       "country": "Russia",
       "sex": "F",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1924,
       "country": "Russia",
       "sex": "M",
+      "medal": "No Medal",
       "value": 2
     },
     {
       "year": 1924,
       "country": "South Africa",
       "sex": "M",
-      "value": 1
+      "medal": "No Medal",
+      "value": 2
     },
     {
       "year": 1924,
       "country": "Spain",
       "sex": "M",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1924,
       "country": "Switzerland",
       "sex": "F",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1924,
       "country": "Switzerland",
       "sex": "M",
-      "value": 13
+      "medal": "No Medal",
+      "value": 15
     },
     {
       "year": 1924,
       "country": "United States",
       "sex": "F",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1924,
       "country": "United States",
       "sex": "M",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1924,
       "country": "Uruguay",
       "sex": "M",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1924,
       "country": "Yugoslavia",
       "sex": "M",
-      "value": 4
+      "medal": "No Medal",
+      "value": 6
     },
     {
       "year": 1928,
       "country": "Austria",
       "sex": "F",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1928,
       "country": "Austria",
       "sex": "M",
-      "value": 20
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 1928,
+      "country": "Austria",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 47
     },
     {
       "year": 1928,
       "country": "Belgium",
       "sex": "F",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1928,
       "country": "Belgium",
       "sex": "M",
-      "value": 15
+      "medal": "No Medal",
+      "value": 37
     },
     {
       "year": 1928,
       "country": "Canada",
       "sex": "M",
-      "value": 1
+      "medal": "No Medal",
+      "value": 7
     },
     {
       "year": 1928,
       "country": "Denmark",
       "sex": "M",
-      "value": 13
+      "medal": "Bronze",
+      "value": 2
+    },
+    {
+      "year": 1928,
+      "country": "Denmark",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 17
+    },
+    {
+      "year": 1928,
+      "country": "Denmark",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 1
     },
     {
       "year": 1928,
       "country": "France",
       "sex": "F",
-      "value": 4
+      "medal": "No Medal",
+      "value": 12
     },
     {
       "year": 1928,
       "country": "France",
       "sex": "M",
-      "value": 20
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1928,
+      "country": "France",
+      "sex": "M",
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 1928,
+      "country": "France",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 72
+    },
+    {
+      "year": 1928,
+      "country": "France",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 2
     },
     {
       "year": 1928,
       "country": "Germany",
       "sex": "F",
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1928,
+      "country": "Germany",
+      "sex": "F",
+      "medal": "No Medal",
       "value": 4
     },
     {
       "year": 1928,
       "country": "Germany",
       "sex": "M",
-      "value": 77
+      "medal": "Bronze",
+      "value": 4
     },
     {
       "year": 1928,
-      "country": "Great Britain",
-      "sex": "F",
+      "country": "Germany",
+      "sex": "M",
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 1928,
+      "country": "Germany",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 124
+    },
+    {
+      "year": 1928,
+      "country": "Germany",
+      "sex": "M",
+      "medal": "Silver",
       "value": 2
     },
     {
       "year": 1928,
       "country": "Great Britain",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 2
+    },
+    {
+      "year": 1928,
+      "country": "Great Britain",
+      "sex": "F",
+      "medal": "Silver",
+      "value": 1
+    },
+    {
+      "year": 1928,
+      "country": "Great Britain",
       "sex": "M",
-      "value": 37
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 1928,
+      "country": "Great Britain",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 78
     },
     {
       "year": 1928,
       "country": "Hungary",
       "sex": "M",
-      "value": 5
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 1928,
+      "country": "Hungary",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 37
     },
     {
       "year": 1928,
       "country": "Ireland",
       "sex": "F",
-      "value": 4
+      "medal": "No Medal",
+      "value": 6
     },
     {
       "year": 1928,
       "country": "Ireland",
       "sex": "M",
-      "value": 5
+      "medal": "No Medal",
+      "value": 6
     },
     {
       "year": 1928,
       "country": "Italy",
       "sex": "M",
-      "value": 11
+      "medal": "No Medal",
+      "value": 27
+    },
+    {
+      "year": 1928,
+      "country": "Italy",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 1
     },
     {
       "year": 1928,
       "country": "Latvia",
       "sex": "M",
-      "value": 2
+      "medal": "No Medal",
+      "value": 8
     },
     {
       "year": 1928,
       "country": "Luxembourg",
       "sex": "M",
+      "medal": "Gold",
       "value": 1
+    },
+    {
+      "year": 1928,
+      "country": "Luxembourg",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 5
     },
     {
       "year": 1928,
       "country": "Mexico",
       "sex": "M",
-      "value": 1
+      "medal": "No Medal",
+      "value": 16
     },
     {
       "year": 1928,
       "country": "Monaco",
       "sex": "M",
-      "value": 3
+      "medal": "No Medal",
+      "value": 4
     },
     {
       "year": 1928,
       "country": "Netherlands",
       "sex": "F",
-      "value": 9
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1928,
+      "country": "Netherlands",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 8
     },
     {
       "year": 1928,
       "country": "Netherlands",
       "sex": "M",
-      "value": 41
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1928,
+      "country": "Netherlands",
+      "sex": "M",
+      "medal": "Gold",
+      "value": 2
+    },
+    {
+      "year": 1928,
+      "country": "Netherlands",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 58
+    },
+    {
+      "year": 1928,
+      "country": "Netherlands",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 1
     },
     {
       "year": 1928,
       "country": "Norway",
       "sex": "M",
-      "value": 2
+      "medal": "No Medal",
+      "value": 9
     },
     {
       "year": 1928,
       "country": "Poland",
       "sex": "F",
-      "value": 6
+      "medal": "No Medal",
+      "value": 9
     },
     {
       "year": 1928,
       "country": "Poland",
       "sex": "M",
-      "value": 21
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1928,
+      "country": "Poland",
+      "sex": "M",
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 1928,
+      "country": "Poland",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 51
     },
     {
       "year": 1928,
       "country": "Switzerland",
       "sex": "M",
-      "value": 19
+      "medal": "No Medal",
+      "value": 41
+    },
+    {
+      "year": 1928,
+      "country": "Switzerland",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 2
     },
     {
       "year": 1928,
       "country": "United States",
       "sex": "F",
-      "value": 7
+      "medal": "No Medal",
+      "value": 9
     },
     {
       "year": 1928,
       "country": "United States",
       "sex": "M",
-      "value": 38
+      "medal": "No Medal",
+      "value": 82
     },
     {
       "year": 1932,
       "country": "Argentina",
       "sex": "M",
-      "value": 1
+      "medal": "No Medal",
+      "value": 2
     },
     {
       "year": 1932,
       "country": "Australia",
       "sex": "M",
-      "value": 1
+      "medal": "No Medal",
+      "value": 2
     },
     {
       "year": 1932,
       "country": "Austria",
       "sex": "M",
-      "value": 10
+      "medal": "No Medal",
+      "value": 21
     },
     {
       "year": 1932,
       "country": "Belgium",
       "sex": "F",
-      "value": 6
+      "medal": "No Medal",
+      "value": 24
     },
     {
       "year": 1932,
       "country": "Belgium",
       "sex": "M",
-      "value": 23
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "Belgium",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 32
     },
     {
       "year": 1932,
       "country": "Bulgaria",
       "sex": "M",
+      "medal": "No Medal",
       "value": 2
     },
     {
       "year": 1932,
       "country": "Canada",
       "sex": "M",
-      "value": 2
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "Canada",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 44
     },
     {
       "year": 1932,
       "country": "Colombia",
       "sex": "M",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1932,
       "country": "Cuba",
       "sex": "M",
+      "medal": "No Medal",
       "value": 3
     },
     {
       "year": 1932,
       "country": "Czechoslovakia",
       "sex": "M",
-      "value": 18
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "Czechoslovakia",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 33
+    },
+    {
+      "year": 1932,
+      "country": "Czechoslovakia",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 1
     },
     {
       "year": 1932,
       "country": "Denmark",
       "sex": "F",
-      "value": 2
+      "medal": "No Medal",
+      "value": 14
     },
     {
       "year": 1932,
       "country": "Denmark",
       "sex": "M",
-      "value": 17
+      "medal": "No Medal",
+      "value": 29
+    },
+    {
+      "year": 1932,
+      "country": "Denmark",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 2
     },
     {
       "year": 1932,
       "country": "El Salvador",
       "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1932,
-      "country": "France",
-      "sex": "F",
+      "medal": "No Medal",
       "value": 4
     },
     {
       "year": 1932,
       "country": "France",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 8
+    },
+    {
+      "year": 1932,
+      "country": "France",
       "sex": "M",
-      "value": 34
+      "medal": "Gold",
+      "value": 3
+    },
+    {
+      "year": 1932,
+      "country": "France",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 57
     },
     {
       "year": 1932,
       "country": "Germany",
       "sex": "F",
+      "medal": "No Medal",
+      "value": 4
+    },
+    {
+      "year": 1932,
+      "country": "Germany",
+      "sex": "M",
+      "medal": "Bronze",
       "value": 2
     },
     {
       "year": 1932,
       "country": "Germany",
       "sex": "M",
-      "value": 58
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "Germany",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 78
     },
     {
       "year": 1932,
       "country": "Great Britain",
       "sex": "F",
+      "medal": "No Medal",
       "value": 3
     },
     {
       "year": 1932,
       "country": "Great Britain",
       "sex": "M",
-      "value": 32
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "Great Britain",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 60
     },
     {
       "year": 1932,
       "country": "Guatemala",
       "sex": "F",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1932,
       "country": "Haiti",
       "sex": "M",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1932,
       "country": "Hungary",
       "sex": "M",
-      "value": 12
+      "medal": "No Medal",
+      "value": 37
+    },
+    {
+      "year": 1932,
+      "country": "Hungary",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 1
     },
     {
       "year": 1932,
       "country": "Ireland",
       "sex": "F",
-      "value": 2
+      "medal": "No Medal",
+      "value": 3
     },
     {
       "year": 1932,
       "country": "Ireland",
       "sex": "M",
+      "medal": "No Medal",
       "value": 6
     },
     {
       "year": 1932,
       "country": "Italy",
       "sex": "M",
-      "value": 10
+      "medal": "No Medal",
+      "value": 15
     },
     {
       "year": 1932,
       "country": "Japan",
       "sex": "F",
+      "medal": "No Medal",
       "value": 2
     },
     {
       "year": 1932,
       "country": "Japan",
       "sex": "M",
-      "value": 38
+      "medal": "No Medal",
+      "value": 43
     },
     {
       "year": 1932,
       "country": "Latvia",
       "sex": "M",
-      "value": 3
+      "medal": "No Medal",
+      "value": 11
     },
     {
       "year": 1932,
       "country": "Luxembourg",
       "sex": "M",
-      "value": 3
+      "medal": "No Medal",
+      "value": 11
     },
     {
       "year": 1932,
       "country": "Mexico",
       "sex": "M",
+      "medal": "No Medal",
       "value": 2
     },
     {
       "year": 1932,
       "country": "Monaco",
       "sex": "M",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1932,
       "country": "Netherlands",
       "sex": "F",
-      "value": 4
+      "medal": "No Medal",
+      "value": 5
     },
     {
       "year": 1932,
       "country": "Netherlands",
       "sex": "M",
-      "value": 18
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "Netherlands",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 32
     },
     {
       "year": 1932,
       "country": "Norway",
       "sex": "F",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1932,
       "country": "Norway",
       "sex": "M",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1932,
       "country": "Peru",
       "sex": "M",
-      "value": 2
+      "medal": "No Medal",
+      "value": 3
     },
     {
       "year": 1932,
       "country": "Poland",
       "sex": "F",
-      "value": 6
+      "medal": "No Medal",
+      "value": 7
+    },
+    {
+      "year": 1932,
+      "country": "Poland",
+      "sex": "F",
+      "medal": "Silver",
+      "value": 1
     },
     {
       "year": 1932,
       "country": "Poland",
       "sex": "M",
-      "value": 26
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "Poland",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 34
     },
     {
       "year": 1932,
       "country": "Romania",
       "sex": "M",
-      "value": 1
+      "medal": "No Medal",
+      "value": 2
     },
     {
       "year": 1932,
       "country": "Spain",
       "sex": "M",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1932,
       "country": "Sweden",
       "sex": "F",
-      "value": 2
+      "medal": "No Medal",
+      "value": 4
     },
     {
       "year": 1932,
       "country": "Sweden",
       "sex": "M",
-      "value": 27
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "Sweden",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 48
     },
     {
       "year": 1932,
       "country": "Switzerland",
       "sex": "M",
+      "medal": "No Medal",
       "value": 2
     },
     {
       "year": 1932,
       "country": "Turkey",
       "sex": "M",
-      "value": 1
+      "medal": "No Medal",
+      "value": 2
     },
     {
       "year": 1932,
       "country": "United States",
       "sex": "F",
-      "value": 40
+      "medal": "No Medal",
+      "value": 80
+    },
+    {
+      "year": 1932,
+      "country": "United States",
+      "sex": "F",
+      "medal": "Silver",
+      "value": 1
     },
     {
       "year": 1932,
       "country": "United States",
       "sex": "M",
-      "value": 153
+      "medal": "Gold",
+      "value": 3
+    },
+    {
+      "year": 1932,
+      "country": "United States",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 317
+    },
+    {
+      "year": 1932,
+      "country": "United States",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 3
     },
     {
       "year": 1932,
       "country": "Uruguay",
       "sex": "M",
-      "value": 1
+      "medal": "No Medal",
+      "value": 5
     },
     {
       "year": 1932,
       "country": "Venezuela",
       "sex": "M",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1936,
       "country": "Austria",
       "sex": "M",
-      "value": 60
+      "medal": "Bronze",
+      "value": 3
+    },
+    {
+      "year": 1936,
+      "country": "Austria",
+      "sex": "M",
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 1936,
+      "country": "Austria",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 79
+    },
+    {
+      "year": 1936,
+      "country": "Austria",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 1
     },
     {
       "year": 1936,
       "country": "Belgium",
       "sex": "M",
-      "value": 31
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1936,
+      "country": "Belgium",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 55
     },
     {
       "year": 1936,
       "country": "Bolivia",
       "sex": "M",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1936,
       "country": "Bulgaria",
       "sex": "M",
-      "value": 2
+      "medal": "No Medal",
+      "value": 3
     },
     {
       "year": 1936,
       "country": "Canada",
       "sex": "M",
-      "value": 1
+      "medal": "No Medal",
+      "value": 5
     },
     {
       "year": 1936,
       "country": "Czechoslovakia",
       "sex": "F",
+      "medal": "No Medal",
+      "value": 3
+    },
+    {
+      "year": 1936,
+      "country": "Czechoslovakia",
+      "sex": "M",
+      "medal": "Bronze",
       "value": 1
     },
     {
       "year": 1936,
       "country": "Czechoslovakia",
       "sex": "M",
-      "value": 25
+      "medal": "No Medal",
+      "value": 31
     },
     {
       "year": 1936,
       "country": "Denmark",
       "sex": "F",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1936,
       "country": "Denmark",
       "sex": "M",
+      "medal": "No Medal",
       "value": 4
     },
     {
       "year": 1936,
       "country": "Finland",
       "sex": "M",
+      "medal": "Gold",
       "value": 1
     },
     {
       "year": 1936,
       "country": "Germany",
       "sex": "F",
+      "medal": "No Medal",
+      "value": 4
+    },
+    {
+      "year": 1936,
+      "country": "Germany",
+      "sex": "M",
+      "medal": "Bronze",
       "value": 2
     },
     {
       "year": 1936,
       "country": "Germany",
       "sex": "M",
-      "value": 83
+      "medal": "Gold",
+      "value": 6
+    },
+    {
+      "year": 1936,
+      "country": "Germany",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 115
+    },
+    {
+      "year": 1936,
+      "country": "Germany",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 6
     },
     {
       "year": 1936,
       "country": "Greece",
       "sex": "M",
+      "medal": "No Medal",
       "value": 2
     },
     {
       "year": 1936,
       "country": "Hungary",
       "sex": "F",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1936,
       "country": "Hungary",
       "sex": "M",
+      "medal": "No Medal",
       "value": 6
     },
     {
       "year": 1936,
       "country": "Italy",
       "sex": "F",
-      "value": 3
+      "medal": "No Medal",
+      "value": 4
     },
     {
       "year": 1936,
       "country": "Italy",
       "sex": "M",
-      "value": 59
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 1936,
+      "country": "Italy",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 74
+    },
+    {
+      "year": 1936,
+      "country": "Italy",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 4
     },
     {
       "year": 1936,
       "country": "Japan",
       "sex": "F",
+      "medal": "No Medal",
       "value": 3
     },
     {
       "year": 1936,
       "country": "Japan",
       "sex": "M",
-      "value": 65
+      "medal": "Bronze",
+      "value": 2
+    },
+    {
+      "year": 1936,
+      "country": "Japan",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 79
     },
     {
       "year": 1936,
       "country": "Latvia",
       "sex": "M",
+      "medal": "No Medal",
       "value": 5
     },
     {
       "year": 1936,
       "country": "Luxembourg",
       "sex": "F",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1936,
       "country": "Luxembourg",
       "sex": "M",
-      "value": 4
+      "medal": "No Medal",
+      "value": 20
     },
     {
       "year": 1936,
       "country": "Monaco",
       "sex": "M",
+      "medal": "No Medal",
       "value": 2
     },
     {
       "year": 1936,
       "country": "Netherlands",
       "sex": "F",
+      "medal": "No Medal",
       "value": 2
     },
     {
       "year": 1936,
       "country": "Netherlands",
       "sex": "M",
-      "value": 35
+      "medal": "No Medal",
+      "value": 54
     },
     {
       "year": 1936,
       "country": "Poland",
       "sex": "F",
-      "value": 6
+      "medal": "No Medal",
+      "value": 8
     },
     {
       "year": 1936,
       "country": "Poland",
       "sex": "M",
-      "value": 25
+      "medal": "Bronze",
+      "value": 2
+    },
+    {
+      "year": 1936,
+      "country": "Poland",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 31
+    },
+    {
+      "year": 1936,
+      "country": "Poland",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 1
     },
     {
       "year": 1936,
       "country": "Romania",
       "sex": "M",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1936,
       "country": "South Africa",
       "sex": "F",
-      "value": 5
+      "medal": "No Medal",
+      "value": 12
     },
     {
       "year": 1936,
       "country": "South Africa",
       "sex": "M",
-      "value": 2
+      "medal": "No Medal",
+      "value": 3
     },
     {
       "year": 1936,
       "country": "Sweden",
       "sex": "F",
+      "medal": "No Medal",
+      "value": 7
+    },
+    {
+      "year": 1936,
+      "country": "Sweden",
+      "sex": "M",
+      "medal": "Bronze",
       "value": 1
     },
     {
       "year": 1936,
       "country": "Sweden",
       "sex": "M",
-      "value": 20
+      "medal": "No Medal",
+      "value": 39
     },
     {
       "year": 1936,
       "country": "Switzerland",
       "sex": "M",
-      "value": 15
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 1936,
+      "country": "Switzerland",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 57
     },
     {
       "year": 1936,
       "country": "United States",
       "sex": "F",
-      "value": 5
+      "medal": "No Medal",
+      "value": 6
     },
     {
       "year": 1936,
       "country": "United States",
       "sex": "M",
-      "value": 44
+      "medal": "No Medal",
+      "value": 57
+    },
+    {
+      "year": 1936,
+      "country": "United States",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 1
     },
     {
       "year": 1936,
       "country": "Yugoslavia",
       "sex": "M",
+      "medal": "No Medal",
       "value": 3
     },
     {
       "year": 1948,
       "country": "Austria",
       "sex": "F",
+      "medal": "No Medal",
       "value": 6
     },
     {
       "year": 1948,
       "country": "Austria",
       "sex": "M",
-      "value": 28
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "Austria",
+      "sex": "M",
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "Austria",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 35
+    },
+    {
+      "year": 1948,
+      "country": "Austria",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 2
     },
     {
       "year": 1948,
       "country": "Belgium",
       "sex": "F",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1948,
       "country": "Belgium",
       "sex": "M",
-      "value": 3
+      "medal": "No Medal",
+      "value": 6
     },
     {
       "year": 1948,
       "country": "Canada",
       "sex": "F",
+      "medal": "No Medal",
       "value": 6
     },
     {
       "year": 1948,
       "country": "Canada",
       "sex": "M",
-      "value": 17
+      "medal": "No Medal",
+      "value": 18
+    },
+    {
+      "year": 1948,
+      "country": "Canada",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 1
     },
     {
       "year": 1948,
       "country": "China",
       "sex": "F",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1948,
       "country": "China",
       "sex": "M",
+      "medal": "No Medal",
       "value": 4
     },
     {
       "year": 1948,
       "country": "Czechoslovakia",
       "sex": "F",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1948,
       "country": "Czechoslovakia",
       "sex": "M",
-      "value": 10
+      "medal": "No Medal",
+      "value": 13
     },
     {
       "year": 1948,
       "country": "Denmark",
       "sex": "M",
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "Denmark",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 4
+    },
+    {
+      "year": 1948,
+      "country": "Denmark",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "Finland",
+      "sex": "F",
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "Finland",
+      "sex": "M",
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "Finland",
+      "sex": "M",
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "Finland",
+      "sex": "M",
+      "medal": "No Medal",
       "value": 3
     },
     {
       "year": 1948,
       "country": "Finland",
-      "sex": "F",
-      "value": 1
-    },
-    {
-      "year": 1948,
-      "country": "Finland",
       "sex": "M",
-      "value": 6
+      "medal": "Silver",
+      "value": 1
     },
     {
       "year": 1948,
       "country": "France",
       "sex": "F",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1948,
       "country": "France",
       "sex": "M",
-      "value": 32
+      "medal": "Bronze",
+      "value": 2
+    },
+    {
+      "year": 1948,
+      "country": "France",
+      "sex": "M",
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "France",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 31
     },
     {
       "year": 1948,
       "country": "Great Britain",
       "sex": "F",
-      "value": 22
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "Great Britain",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 40
     },
     {
       "year": 1948,
       "country": "Great Britain",
       "sex": "M",
-      "value": 72
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "Great Britain",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 129
+    },
+    {
+      "year": 1948,
+      "country": "Great Britain",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 2
     },
     {
       "year": 1948,
       "country": "Greece",
       "sex": "M",
-      "value": 4
+      "medal": "No Medal",
+      "value": 5
     },
     {
       "year": 1948,
       "country": "Hungary",
       "sex": "F",
+      "medal": "Bronze",
       "value": 1
     },
     {
       "year": 1948,
       "country": "Hungary",
       "sex": "M",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1948,
       "country": "Iceland",
       "sex": "M",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1948,
       "country": "India",
       "sex": "M",
+      "medal": "No Medal",
       "value": 2
     },
     {
       "year": 1948,
       "country": "Ireland",
       "sex": "F",
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "Ireland",
+      "sex": "F",
+      "medal": "No Medal",
       "value": 4
     },
     {
       "year": 1948,
       "country": "Ireland",
       "sex": "M",
-      "value": 6
+      "medal": "No Medal",
+      "value": 7
     },
     {
       "year": 1948,
       "country": "Italy",
       "sex": "F",
+      "medal": "No Medal",
+      "value": 5
+    },
+    {
+      "year": 1948,
+      "country": "Italy",
+      "sex": "M",
+      "medal": "Bronze",
       "value": 2
     },
     {
       "year": 1948,
       "country": "Italy",
       "sex": "M",
-      "value": 30
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "Italy",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 38
+    },
+    {
+      "year": 1948,
+      "country": "Italy",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 1
     },
     {
       "year": 1948,
       "country": "Netherlands",
       "sex": "M",
+      "medal": "No Medal",
       "value": 12
     },
     {
       "year": 1948,
       "country": "Norway",
       "sex": "F",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1948,
       "country": "Philippines",
       "sex": "M",
+      "medal": "No Medal",
       "value": 2
     },
     {
       "year": 1948,
       "country": "Poland",
       "sex": "F",
+      "medal": "No Medal",
       "value": 3
     },
     {
       "year": 1948,
       "country": "Poland",
       "sex": "M",
-      "value": 12
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "Poland",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 11
     },
     {
       "year": 1948,
       "country": "Portugal",
       "sex": "M",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1948,
       "country": "South Africa",
       "sex": "M",
-      "value": 3
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "South Africa",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 2
+    },
+    {
+      "year": 1948,
+      "country": "South Africa",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 1
     },
     {
       "year": 1948,
       "country": "Spain",
       "sex": "M",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1948,
       "country": "Sweden",
       "sex": "M",
-      "value": 7
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "Sweden",
+      "sex": "M",
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "Sweden",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 5
     },
     {
       "year": 1948,
       "country": "Switzerland",
       "sex": "F",
-      "value": 2
+      "medal": "No Medal",
+      "value": 4
     },
     {
       "year": 1948,
       "country": "Switzerland",
       "sex": "M",
-      "value": 14
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "Switzerland",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 25
+    },
+    {
+      "year": 1948,
+      "country": "Switzerland",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 3
     },
     {
       "year": 1948,
       "country": "Turkey",
       "sex": "M",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1948,
       "country": "Uruguay",
       "sex": "F",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1948,
       "country": "Uruguay",
       "sex": "M",
+      "medal": "No Medal",
       "value": 1
     },
     {
       "year": 1948,
       "country": "Yugoslavia",
       "sex": "M",
+      "medal": "No Medal",
+      "value": 6
+    }
+  ],
+  "treemap": [
+    {
+      "year": 1912,
+      "country": "Belgium",
+      "noc": "BEL",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1912,
+      "country": "Canada",
+      "noc": "CAN",
+      "continent": "Americas",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1912,
+      "country": "France",
+      "noc": "FRA",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 1912,
+      "country": "Germany",
+      "noc": "GER",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1912,
+      "country": "Italy",
+      "noc": "ITA",
+      "continent": "Europe",
+      "sex": "M",
       "value": 4
+    },
+    {
+      "year": 1912,
+      "country": "Poland",
+      "noc": "POL",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1912,
+      "country": "Switzerland",
+      "noc": "SUI",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1920,
+      "country": "Belgium",
+      "noc": "BEL",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1920,
+      "country": "France",
+      "noc": "FRA",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1920,
+      "country": "Italy",
+      "noc": "ITA",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1920,
+      "country": "Norway",
+      "noc": "NOR",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1924,
+      "country": "Australia",
+      "noc": "AUS",
+      "continent": "Oceania",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1924,
+      "country": "Belgium",
+      "noc": "BEL",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1924,
+      "country": "Belgium",
+      "noc": "BEL",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1924,
+      "country": "Brazil",
+      "noc": "BRA",
+      "continent": "Americas",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1924,
+      "country": "Denmark",
+      "noc": "DEN",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1924,
+      "country": "Denmark",
+      "noc": "DEN",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 14
+    },
+    {
+      "year": 1924,
+      "country": "Egypt",
+      "noc": "EGY",
+      "continent": "Africa",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1924,
+      "country": "Finland",
+      "noc": "FIN",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1924,
+      "country": "France",
+      "noc": "FRA",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 11
+    },
+    {
+      "year": 1924,
+      "country": "France",
+      "noc": "FRA",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 71
+    },
+    {
+      "year": 1924,
+      "country": "Greece",
+      "noc": "GRE",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1924,
+      "country": "Hungary",
+      "noc": "HUN",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1924,
+      "country": "Ireland",
+      "noc": "IRL",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 1924,
+      "country": "Italy",
+      "noc": "ITA",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1924,
+      "country": "Italy",
+      "noc": "ITA",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1924,
+      "country": "Luxembourg",
+      "noc": "LUX",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1924,
+      "country": "Monaco",
+      "noc": "MON",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1924,
+      "country": "Netherlands",
+      "noc": "NED",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 24
+    },
+    {
+      "year": 1924,
+      "country": "Norway",
+      "noc": "NOR",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1924,
+      "country": "South Africa",
+      "noc": "RSA",
+      "continent": "Africa",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1924,
+      "country": "Spain",
+      "noc": "ESP",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1924,
+      "country": "Switzerland",
+      "noc": "SUI",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1924,
+      "country": "Switzerland",
+      "noc": "SUI",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1924,
+      "country": "Uruguay",
+      "noc": "URU",
+      "continent": "Americas",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1928,
+      "country": "Austria",
+      "noc": "AUT",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1928,
+      "country": "Austria",
+      "noc": "AUT",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 20
+    },
+    {
+      "year": 1928,
+      "country": "Belgium",
+      "noc": "BEL",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1928,
+      "country": "Belgium",
+      "noc": "BEL",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1928,
+      "country": "Canada",
+      "noc": "CAN",
+      "continent": "Americas",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1928,
+      "country": "Denmark",
+      "noc": "DEN",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 13
+    },
+    {
+      "year": 1928,
+      "country": "France",
+      "noc": "FRA",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 1928,
+      "country": "France",
+      "noc": "FRA",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 20
+    },
+    {
+      "year": 1928,
+      "country": "Germany",
+      "noc": "GER",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 1928,
+      "country": "Germany",
+      "noc": "GER",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 77
+    },
+    {
+      "year": 1928,
+      "country": "Hungary",
+      "noc": "HUN",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1928,
+      "country": "Ireland",
+      "noc": "IRL",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 1928,
+      "country": "Ireland",
+      "noc": "IRL",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1928,
+      "country": "Italy",
+      "noc": "ITA",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 11
+    },
+    {
+      "year": 1928,
+      "country": "Latvia",
+      "noc": "LAT",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1928,
+      "country": "Luxembourg",
+      "noc": "LUX",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1928,
+      "country": "Mexico",
+      "noc": "MEX",
+      "continent": "Americas",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1928,
+      "country": "Monaco",
+      "noc": "MON",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1928,
+      "country": "Netherlands",
+      "noc": "NED",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 9
+    },
+    {
+      "year": 1928,
+      "country": "Netherlands",
+      "noc": "NED",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 41
+    },
+    {
+      "year": 1928,
+      "country": "Norway",
+      "noc": "NOR",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1928,
+      "country": "Poland",
+      "noc": "POL",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 1928,
+      "country": "Poland",
+      "noc": "POL",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 21
+    },
+    {
+      "year": 1928,
+      "country": "Switzerland",
+      "noc": "SUI",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 19
+    },
+    {
+      "year": 1932,
+      "country": "Argentina",
+      "noc": "ARG",
+      "continent": "Americas",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "Australia",
+      "noc": "AUS",
+      "continent": "Oceania",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "Austria",
+      "noc": "AUT",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 1932,
+      "country": "Belgium",
+      "noc": "BEL",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 1932,
+      "country": "Belgium",
+      "noc": "BEL",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 23
+    },
+    {
+      "year": 1932,
+      "country": "Bulgaria",
+      "noc": "BUL",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1932,
+      "country": "Canada",
+      "noc": "CAN",
+      "continent": "Americas",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1932,
+      "country": "Colombia",
+      "noc": "COL",
+      "continent": "Americas",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "Cuba",
+      "noc": "CUB",
+      "continent": "Americas",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1932,
+      "country": "Denmark",
+      "noc": "DEN",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1932,
+      "country": "Denmark",
+      "noc": "DEN",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 17
+    },
+    {
+      "year": 1932,
+      "country": "El Salvador",
+      "noc": "ESA",
+      "continent": "Americas",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "France",
+      "noc": "FRA",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 1932,
+      "country": "France",
+      "noc": "FRA",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 34
+    },
+    {
+      "year": 1932,
+      "country": "Germany",
+      "noc": "GER",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1932,
+      "country": "Germany",
+      "noc": "GER",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 58
+    },
+    {
+      "year": 1932,
+      "country": "Guatemala",
+      "noc": "GUA",
+      "continent": "Americas",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "Haiti",
+      "noc": "HAI",
+      "continent": "Americas",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "Hungary",
+      "noc": "HUN",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "year": 1932,
+      "country": "Ireland",
+      "noc": "IRL",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1932,
+      "country": "Ireland",
+      "noc": "IRL",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1932,
+      "country": "Italy",
+      "noc": "ITA",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 1932,
+      "country": "Japan",
+      "noc": "JPN",
+      "continent": "Asia",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1932,
+      "country": "Japan",
+      "noc": "JPN",
+      "continent": "Asia",
+      "sex": "M",
+      "value": 38
+    },
+    {
+      "year": 1932,
+      "country": "Latvia",
+      "noc": "LAT",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1932,
+      "country": "Luxembourg",
+      "noc": "LUX",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1932,
+      "country": "Mexico",
+      "noc": "MEX",
+      "continent": "Americas",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1932,
+      "country": "Monaco",
+      "noc": "MON",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "Netherlands",
+      "noc": "NED",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 1932,
+      "country": "Netherlands",
+      "noc": "NED",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 18
+    },
+    {
+      "year": 1932,
+      "country": "Norway",
+      "noc": "NOR",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "Norway",
+      "noc": "NOR",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "Peru",
+      "noc": "PER",
+      "continent": "Americas",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1932,
+      "country": "Poland",
+      "noc": "POL",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 1932,
+      "country": "Poland",
+      "noc": "POL",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 26
+    },
+    {
+      "year": 1932,
+      "country": "Romania",
+      "noc": "ROU",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "Spain",
+      "noc": "ESP",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "Sweden",
+      "noc": "SWE",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1932,
+      "country": "Sweden",
+      "noc": "SWE",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 27
+    },
+    {
+      "year": 1932,
+      "country": "Switzerland",
+      "noc": "SUI",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1932,
+      "country": "Turkey",
+      "noc": "TUR",
+      "continent": "Asia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1932,
+      "country": "Uruguay",
+      "noc": "URU",
+      "continent": "Americas",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1936,
+      "country": "Austria",
+      "noc": "AUT",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 60
+    },
+    {
+      "year": 1936,
+      "country": "Belgium",
+      "noc": "BEL",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 31
+    },
+    {
+      "year": 1936,
+      "country": "Bulgaria",
+      "noc": "BUL",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1936,
+      "country": "Canada",
+      "noc": "CAN",
+      "continent": "Americas",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1936,
+      "country": "Denmark",
+      "noc": "DEN",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1936,
+      "country": "Denmark",
+      "noc": "DEN",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1936,
+      "country": "Finland",
+      "noc": "FIN",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1936,
+      "country": "Germany",
+      "noc": "GER",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1936,
+      "country": "Germany",
+      "noc": "GER",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 83
+    },
+    {
+      "year": 1936,
+      "country": "Greece",
+      "noc": "GRE",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1936,
+      "country": "Hungary",
+      "noc": "HUN",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1936,
+      "country": "Hungary",
+      "noc": "HUN",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1936,
+      "country": "Italy",
+      "noc": "ITA",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1936,
+      "country": "Italy",
+      "noc": "ITA",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 59
+    },
+    {
+      "year": 1936,
+      "country": "Japan",
+      "noc": "JPN",
+      "continent": "Asia",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1936,
+      "country": "Japan",
+      "noc": "JPN",
+      "continent": "Asia",
+      "sex": "M",
+      "value": 65
+    },
+    {
+      "year": 1936,
+      "country": "Latvia",
+      "noc": "LAT",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 1936,
+      "country": "Luxembourg",
+      "noc": "LUX",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1936,
+      "country": "Luxembourg",
+      "noc": "LUX",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1936,
+      "country": "Monaco",
+      "noc": "MON",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1936,
+      "country": "Netherlands",
+      "noc": "NED",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1936,
+      "country": "Netherlands",
+      "noc": "NED",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 35
+    },
+    {
+      "year": 1936,
+      "country": "Poland",
+      "noc": "POL",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 1936,
+      "country": "Poland",
+      "noc": "POL",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 25
+    },
+    {
+      "year": 1936,
+      "country": "Romania",
+      "noc": "ROU",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1936,
+      "country": "South Africa",
+      "noc": "RSA",
+      "continent": "Africa",
+      "sex": "F",
+      "value": 5
+    },
+    {
+      "year": 1936,
+      "country": "South Africa",
+      "noc": "RSA",
+      "continent": "Africa",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1936,
+      "country": "Sweden",
+      "noc": "SWE",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1936,
+      "country": "Sweden",
+      "noc": "SWE",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 20
+    },
+    {
+      "year": 1936,
+      "country": "Switzerland",
+      "noc": "SUI",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1948,
+      "country": "Austria",
+      "noc": "AUT",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 1948,
+      "country": "Austria",
+      "noc": "AUT",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 28
+    },
+    {
+      "year": 1948,
+      "country": "Belgium",
+      "noc": "BEL",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "Belgium",
+      "noc": "BEL",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1948,
+      "country": "Canada",
+      "noc": "CAN",
+      "continent": "Americas",
+      "sex": "F",
+      "value": 6
+    },
+    {
+      "year": 1948,
+      "country": "Canada",
+      "noc": "CAN",
+      "continent": "Americas",
+      "sex": "M",
+      "value": 17
+    },
+    {
+      "year": 1948,
+      "country": "China",
+      "noc": "CHN",
+      "continent": "Asia",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "China",
+      "noc": "CHN",
+      "continent": "Asia",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1948,
+      "country": "Denmark",
+      "noc": "DEN",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1948,
+      "country": "Finland",
+      "noc": "FIN",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "Finland",
+      "noc": "FIN",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1948,
+      "country": "France",
+      "noc": "FRA",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "France",
+      "noc": "FRA",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 32
+    },
+    {
+      "year": 1948,
+      "country": "Greece",
+      "noc": "GRE",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1948,
+      "country": "Hungary",
+      "noc": "HUN",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "Hungary",
+      "noc": "HUN",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "Iceland",
+      "noc": "ISL",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "India",
+      "noc": "IND",
+      "continent": "Asia",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1948,
+      "country": "Ireland",
+      "noc": "IRL",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 4
+    },
+    {
+      "year": 1948,
+      "country": "Ireland",
+      "noc": "IRL",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1948,
+      "country": "Italy",
+      "noc": "ITA",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1948,
+      "country": "Italy",
+      "noc": "ITA",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 30
+    },
+    {
+      "year": 1948,
+      "country": "Netherlands",
+      "noc": "NED",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "year": 1948,
+      "country": "Norway",
+      "noc": "NOR",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "Philippines",
+      "noc": "PHI",
+      "continent": "Asia",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1948,
+      "country": "Poland",
+      "noc": "POL",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 3
+    },
+    {
+      "year": 1948,
+      "country": "Poland",
+      "noc": "POL",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "year": 1948,
+      "country": "Portugal",
+      "noc": "POR",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "South Africa",
+      "noc": "RSA",
+      "continent": "Africa",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1948,
+      "country": "Spain",
+      "noc": "ESP",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "Sweden",
+      "noc": "SWE",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1948,
+      "country": "Switzerland",
+      "noc": "SUI",
+      "continent": "Europe",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 1948,
+      "country": "Switzerland",
+      "noc": "SUI",
+      "continent": "Europe",
+      "sex": "M",
+      "value": 14
+    },
+    {
+      "year": 1948,
+      "country": "Turkey",
+      "noc": "TUR",
+      "continent": "Asia",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "Uruguay",
+      "noc": "URU",
+      "continent": "Americas",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 1948,
+      "country": "Uruguay",
+      "noc": "URU",
+      "continent": "Americas",
+      "sex": "M",
+      "value": 1
     }
   ]
 }

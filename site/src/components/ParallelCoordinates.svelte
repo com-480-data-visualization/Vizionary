@@ -89,10 +89,12 @@
         element.innerHTML = "";
         
         // Set the dimensions and margins of the graph
-        const margin = {top: 30, right: 50, bottom: 10, left: 50};
-        const plotWidth = element.clientWidth || width;
-        const plotHeight = (element.clientHeight || height) - margin.top - margin.bottom;
-        
+        const margin = {top: 30, right: 25, bottom: 10, left: 25};
+        const plotWidth = (element.clientWidth || width);
+        const plotHeight = (element.clientHeight || height) - margin.top - margin.bottom - 30;
+    
+
+
         // Filter data based on params
         const filteredData = data.filter(d => {
             // Apply gender filter
@@ -288,28 +290,11 @@
 
     // Effect to recreate chart when data or filter props change
     $effect(() => {
-        if (data.length > 0 && element) {
+        if (data.length > 0 && element && height && width) {
             createParallelCoordinatesPlot();
         }
     });
 
-    // Handle resize
-    onMount(() => {
-        if (!element) return;
-        
-        const resizeObserver = new ResizeObserver(() => {
-            if (data.length > 0) {
-                createParallelCoordinatesPlot();
-            }
-        });
-        
-        resizeObserver.observe(element);
-        
-        return () => {
-            resizeObserver.disconnect();
-        };
-    });
-    
     // Update filters function - for backward compatibility if needed
     export function updateFilters(male: boolean, female: boolean, selectedYears: number[] = []) {
         // This function is kept for backward compatibility
@@ -318,10 +303,9 @@
     }
 </script>
 
-<div class="w-full h-full p-4 flex flex-col text-center">
-    <h2 class="text-center text-gray-800 text-xl font-bold mb-2">
-        Parallel Coordinates - {name} 
-        ({params.startYear}-{params.endYear}, {params.gender === "all" ? "All" : params.gender === "male" ? "Male" : "Female"})
+<div class="w-full h-full p-2 flex flex-col " bind:clientHeight={height} bind:clientWidth={width}>
+    <h2 class=" text-gray-800 text-xl font-bold mb-2">
+        Parallel Coordinates
     </h2>
     
     {#if isLoading}

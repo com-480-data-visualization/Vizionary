@@ -121,7 +121,7 @@
         const uniqueAttributes = [...new Set(validData.map(d => d.attribute))].sort();
 
         // Set up dimensions and margins
-        const margin = { top: 30, right: 20, bottom: 60, left: 80 };
+        const margin = { top: 0, right: 40, bottom: 60, left: 50 };
         const w = chartWidth - margin.left - margin.right;
         const h = chartHeight - margin.top - margin.bottom;
 
@@ -218,58 +218,58 @@
             .append("g")
             .attr("transform", `translate(${w - legendWidth}, ${h + 40})`);
 
-        // Create gradient for legend
-        const defs = svg.append("defs");
-        const gradient = defs
-            .append("linearGradient")
-            .attr("id", "correlation-gradient");
+        // // Create gradient for legend
+        // const defs = svg.append("defs");
+        // const gradient = defs
+        //     .append("linearGradient")
+        //     .attr("id", "correlation-gradient");
 
-        gradient
-            .selectAll("stop")
-            .data(d3.range(0, 1.01, 0.1))
-            .join("stop")
-            .attr("offset", d => `${d * 100}%`)
-            .attr("stop-color", d => colorScale(1 - 2 * d)); // Map 0-1 to 1 to -1
+        // gradient
+        //     .selectAll("stop")
+        //     .data(d3.range(0, 1.01, 0.1))
+        //     .join("stop")
+        //     .attr("offset", d => `${d * 100}%`)
+        //     .attr("stop-color", d => colorScale(1 - 2 * d)); // Map 0-1 to 1 to -1
 
-        legend
-            .append("rect")
-            .attr("width", legendWidth)
-            .attr("height", legendHeight)
-            .style("fill", "url(#correlation-gradient)");
+        // legend
+        //     .append("rect")
+        //     .attr("width", legendWidth)
+        //     .attr("height", legendHeight)
+        //     .style("fill", "url(#correlation-gradient)");
 
-        // Add legend labels
-        legend
-            .append("text")
-            .attr("x", 0)
-            .attr("y", legendHeight + 15)
-            .style("text-anchor", "start")
-            .style("font-size", "12px")
-            .text("1.0");
+        // // Add legend labels
+        // legend
+        //     .append("text")
+        //     .attr("x", 0)
+        //     .attr("y", legendHeight + 15)
+        //     .style("text-anchor", "start")
+        //     .style("font-size", "12px")
+        //     .text("1.0");
 
-        legend
-            .append("text")
-            .attr("x", legendWidth / 2)
-            .attr("y", legendHeight + 15)
-            .style("text-anchor", "middle")
-            .style("font-size", "12px")
-            .text("0.0");
+        // legend
+        //     .append("text")
+        //     .attr("x", legendWidth / 2)
+        //     .attr("y", legendHeight + 15)
+        //     .style("text-anchor", "middle")
+        //     .style("font-size", "12px")
+        //     .text("0.0");
 
-        legend
-            .append("text")
-            .attr("x", legendWidth)
-            .attr("y", legendHeight + 15)
-            .style("text-anchor", "end")
-            .style("font-size", "12px")
-            .text("-1.0");
+        // legend
+        //     .append("text")
+        //     .attr("x", legendWidth)
+        //     .attr("y", legendHeight + 15)
+        //     .style("text-anchor", "end")
+        //     .style("font-size", "12px")
+        //     .text("-1.0");
 
-        legend
-            .append("text")
-            .attr("x", legendWidth / 2)
-            .attr("y", -5)
-            .style("text-anchor", "middle")
-            .style("font-size", "12px")
-            .style("font-weight", "bold")
-            .text("Correlation with Medal Success");
+        // legend
+        //     .append("text")
+        //     .attr("x", legendWidth / 2)
+        //     .attr("y", -5)
+        //     .style("text-anchor", "middle")
+        //     .style("font-size", "12px")
+        //     .style("font-weight", "bold")
+        //     .text("Correlation with Medal Success");
     }
 
     // Effect to load data when name changes
@@ -315,42 +315,15 @@
             drawHeatmap(containerElement, filteredHeatmapData, width, height);
         }
     });
-
-    // Handle resize and initial dimensions setup
-    onMount(() => {
-        if (!containerElement) return;
-        
-        // Initialize width and height based on container size once component is mounted
-        width = containerElement.clientWidth;
-        height = containerElement.clientHeight;
-
-        // Handle resizing
-        const resizeObserver = new ResizeObserver(() => {
-            if (containerElement) {
-                width = containerElement.clientWidth;
-                height = containerElement.clientHeight;
-                // The effect above will automatically redraw the chart
-            }
-        });
-
-        // resizeObserver.observe(containerElement);
-
-        // Cleanup the observer when the component is destroyed
-        return () => {
-            resizeObserver.disconnect();
-        };
-    });
 </script>
 
-<div class="max-height-500px w-full h-full p-4 flex flex-col text-center">
-    <h2 class="text-center text-gray-800 text-xl font-bold mb-2">
-        Correlation Heatmap - {name} ({params.gender === "male" ? "Male" : params.gender === "female" ? "Female" : "All"})
-        - ({params.startYear}-{params.endYear})
+<div class="w-full h-full p-2 flex flex-col">
+    <h2 class="text-gray-800 text-xl font-bold mb-2">
+        HeatMap
     </h2>
-    
     <div 
         class="flex-1 bg-gray-100 p-3 rounded heatmap-container" 
-        bind:this={containerElement}
+        bind:this={containerElement} bind:clientHeight={height} bind:clientWidth={width}
     >
         {#if isLoading}
             <div class="loading-container">
