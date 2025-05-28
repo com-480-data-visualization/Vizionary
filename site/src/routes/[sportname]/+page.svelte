@@ -154,7 +154,7 @@
   position="bottom"
 >
                     <h2 class="text-gray-800 text-xl font-bold">
-                    Athletes
+                    Medals and Athletes per country
                     </h2>
                   </ToolTip>
                       
