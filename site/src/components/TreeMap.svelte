@@ -12,9 +12,12 @@
     let rawTreemapData = $state<
         Array<{ year: number; country: string; noc: string; continent: string; sex?: string; value: number }>
     >([]);
-    // continentData is no longer needed as continent is now in rawTreemapData
     let isLoading = $state(false);
     let error = $state<string | null>(null);
+    
+    // NEW: Resize loading state
+    let isResizing = $state(false);
+    let resizeTimeout: NodeJS.Timeout | null = null;
 
     // Configuration constants
     const MIN_SHARE = 0.00; // 2% minimum for major countries
@@ -105,18 +108,6 @@
         return processedData;
     });
 
-    // Removed loadContinentData as continent is now directly in treemap data
-    // async function loadContinentData() {
-    //     try {
-    //         const response = await fetch("/statics/front/continents.json");
-    //         if (response.ok) {
-    //             continentData = await response.json();
-    //         }
-    //     } catch (err) {
-    //         console.warn("Could not load continent data:", err);
-    //     }
-    // }
-
     // Function to load treemap data
     async function loadData(sportName: string) {
         if (!sportName) return;
@@ -154,9 +145,26 @@
         }
     }
 
+    // NEW: Handle resize with debouncing
+    function handleResize() {
+        // Set resizing state immediately
+        isResizing = true;
+        
+        // Clear existing timeout
+        if (resizeTimeout) {
+            clearTimeout(resizeTimeout);
+        }
+        
+        // Set new timeout to end resizing state after 500ms
+        resizeTimeout = setTimeout(() => {
+            isResizing = false;
+            resizeTimeout = null;
+        }, 500);
+    }
+
     // Function to draw the treemap
     function drawTreemap() {
-        if (!containerElement || filteredTreemapData.length === 0) return;
+        if (!containerElement || filteredTreemapData.length === 0 || isResizing) return;
 
         try {
             // Clear existing content
@@ -334,6 +342,13 @@
         }
     });
 
+    // NEW: Effect to handle width/height changes with resize detection
+    $effect(() => {
+        if (width && height) {
+            handleResize();
+        }
+    });
+
     // Effect to draw treemap when conditions are met
     $effect(() => {
         if (
@@ -354,6 +369,11 @@
         {#if isLoading}
             <div class="loading-container">
                 <p class="text-gray-600">Loading treemap data for {name}...</p>
+            </div>
+        {:else if isResizing}
+            <div class="loading-container">
+                <div class="resize-spinner"></div>
+                <p class="text-gray-600">Adjusting layout...</p>
             </div>
         {:else if error}
             <div class="error-container">
@@ -387,10 +407,26 @@
     .loading-container,
     .error-container {
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         height: 100%;
         width: 100%;
+        gap: 1rem;
+    }
+
+    .resize-spinner {
+        width: 24px;
+        height: 24px;
+        border: 2px solid #e5e5e5;
+        border-top: 2px solid #666;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
     }
 
     /* Style the treemap elements */

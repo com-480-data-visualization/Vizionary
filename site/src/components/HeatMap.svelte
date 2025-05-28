@@ -143,7 +143,9 @@
         ].sort();
 
         // Set up dimensions and margins
-        const margin = { top: 0, right: 40, bottom: 60, left: 50 };
+        chartHeight -= 30;
+        
+        const margin = { top: 10, right: 40, bottom: 30, left: 50 };
         const w = chartWidth - margin.left - margin.right;
         const h = chartHeight - margin.top - margin.bottom;
 
@@ -221,7 +223,7 @@
                 // containerRect.left/top are container's viewport coordinates
                 // So, event.clientX - containerRect.left gives position relative to container
                 const x = event.clientX - containerRect.left + 15; // +15px offset from cursor
-                const y = event.clientY - containerRect.top + 15; // +15px offset from cursor
+                const y = event.clientY - containerRect.top - 25; // +15px offset from cursor
 
                 tooltip
                     .style("opacity", 1)
@@ -362,7 +364,6 @@
 </script>
 
 <div class="w-full h-full p-2 flex flex-col">
-    <h2 class="text-gray-800 text-xl font-bold mb-2">HeatMap</h2>
     <div
         class="flex-1 bg-gray-100 p-3 rounded heatmap-container"
         bind:this={containerElement}

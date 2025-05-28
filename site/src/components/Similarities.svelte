@@ -107,7 +107,6 @@
 		<div class="no-data">No similar sports found for {name}</div>
 	{:else}
 		<div class="table-container overflow-auto flex-1 h-full">
-			<h3>Sports Most Similar to {similarities[name]?.Sport || name}</h3>
 			<table>
 				<thead>
 					<tr>

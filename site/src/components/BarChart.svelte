@@ -387,10 +387,6 @@
 </script>
 
 <div class="max-height-500px w-full h-full p-2 flex flex-col">
-    <h2 class="text-gray-800 text-xl font-bold mb-2">
-        Grouped Bars: {attribute}
-    </h2>
-
     <div
         class="flex-1 bg-gray-100 p-3 rounded bar-chart-container"
         bind:this={containerElement}

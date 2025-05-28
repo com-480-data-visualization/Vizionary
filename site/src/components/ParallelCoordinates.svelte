@@ -304,10 +304,6 @@
 </script>
 
 <div class="w-full h-full p-2 flex flex-col " bind:clientHeight={height} bind:clientWidth={width}>
-    <h2 class=" text-gray-800 text-xl font-bold mb-2">
-        Parallel Coordinates
-    </h2>
-    
     {#if isLoading}
         <div class="flex-1 bg-gray-100 p-3 rounded parallel-chart-container flex items-center justify-center">
             <div class="text-gray-600">Loading data for {name}...</div>
