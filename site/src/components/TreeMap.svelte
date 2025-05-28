@@ -342,12 +342,21 @@
         }
     });
 
-    // NEW: Effect to handle width/height changes with resize detection
     $effect(() => {
-        if (width && height) {
-            handleResize();
-        }
-    });
+    if (width && height) {
+        isResizing = true;
+        
+        // Set timeout
+        const timeoutId = setTimeout(() => {
+            isResizing = false;
+        }, 500);
+        
+        // Return cleanup function that clears the timeout
+        return () => {
+            clearTimeout(timeoutId);
+        };
+    }
+});
 
     // Effect to draw treemap when conditions are met
     $effect(() => {

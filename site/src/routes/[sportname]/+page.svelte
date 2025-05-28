@@ -103,12 +103,9 @@
           <ArrowLeft size="20" />
           Back to Sports
         </button>
-        <span class="font-bold text-3xl text-gray-700">{name_display}</span>
-        <div class="w-24"></div>
+        <span class="font-bold text-3xl text-gray-700">{name_display} </span> <span class="font-bold text-3xl text-gray-700 pr-10">Hover the titles !</span>
       </div>
-      <div class="w-full justify-between items-center p-1 text-center">
-        <span class="font-bold text-sm text-gray-700 ">Hover the titles !</span>
-      </div>
+      
       <div
         class="flex flex-col flex-1 w-full p-2 gap-4 {isMapZoomed
           ? 'items-center justify-center'
