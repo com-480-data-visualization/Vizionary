@@ -6,8 +6,8 @@
     let { name, params } = $props();
 
     // State variables using Svelte 5 runes
-    let width = $state(500);
-    let height = $state(100);
+    let width = $state(0);
+    let height = $state(0);
     let element = $state<HTMLDivElement>();
     let data = $state([]);
     let isLoading = $state(false);

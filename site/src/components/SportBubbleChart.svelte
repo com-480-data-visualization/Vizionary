@@ -6,25 +6,22 @@
   let element: HTMLDivElement;
   let chartData: any[] = [];
 
+  let height=$state(0);
+  let width=$state(0);
+
   let currentWidth: number = 0;
   let currentHeight: number = 0;
 
   let resizeObserver: ResizeObserver;
 
-  onMount(async () => {
-    resizeObserver = new ResizeObserver(entries => {
-      for (let entry of entries) {
-        if (entry.target === element) {
-          const { width, height } = entry.contentRect;
-          if (Math.abs(width - currentWidth) > 1 || Math.abs(height - currentHeight) > 1) {
-            currentWidth = width;
-            currentHeight = height;
-          }
-        }
-      }
-    });
+  $effect(() => {
+    currentWidth = width;
+    currentHeight = height;
+    drawChart(chartData);
+  });
 
-    resizeObserver.observe(element);
+  onMount(async () => {
+    
 
     const rawData = await d3.json("/statics/sport_bubble_data.json");
     chartData = rawData ?? [];
@@ -54,7 +51,7 @@
       .scaleSqrt()
       .domain([0, d3.max(data, d => d.participants) || 0])
       // ADJUSTED RANGE HERE:
-      .range([Math.max(8, Math.min(currentWidth, currentHeight) * 0.02), Math.max(25, Math.min(currentWidth, currentHeight) * 0.08)]);
+      .range([Math.max(8, Math.min(currentWidth, currentHeight) * 0.04), Math.max(25, Math.min(currentWidth, currentHeight) * 0.1)]);
       // Explanation:
       // - Using Math.min(currentWidth, currentHeight) makes the size scale adapt to the smaller dimension, preventing bubbles from being too big in a very wide but short container, or vice versa.
       // - Multipliers 0.02 and 0.08 (2% to 8% of the smaller dimension) are more conservative.
@@ -70,7 +67,7 @@
 
     const group = svg.append("g");
 
-    const color = d3.scaleOrdinal(d3.schemePaired).domain(data.map(d => d.name));
+    const color = d3.scaleOrdinal(d3.schemeTableau10).domain(data.map(d => d.name));
 
     const bubbles = group
       .selectAll(".bubble-group")
@@ -126,8 +123,8 @@
       .force("charge", d3.forceManyBody().strength(d => -sizeScale(d.participants) * 1.5))
       .force("center", d3.forceCenter(currentWidth / 2, currentHeight / 2))
       .force("collision", d3.forceCollide().radius(d => sizeScale(d.participants) + 4))
-      .force("x", d3.forceX(currentWidth / 2).strength(0.08))
-      .force("y", d3.forceY(currentHeight / 2).strength(0.08))
+      .force("x", d3.forceX(currentWidth / 2).strength(40 / currentWidth))
+      .force("y", d3.forceY(currentHeight / 2).strength(40 / currentHeight))
       .on("tick", () => {
         bubbles.attr("transform", d => `translate(${d.x}, ${d.y})`);
       });
@@ -137,7 +134,7 @@
   }
 </script>
 
-<div class="chart-container" bind:this={element}></div>
+<div class="chart-container" bind:this={element} bind:clientHeight={height} bind:clientWidth={width}></div>
 
 <style>
   .chart-container {

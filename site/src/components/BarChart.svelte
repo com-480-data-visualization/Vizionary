@@ -341,8 +341,16 @@
                 // event.clientX/Y are viewport coordinates
                 // containerRect.left/top are container's viewport coordinates
                 // So, event.clientX - containerRect.left gives position relative to container
-                const x = event.clientX - containerRect.left + 15; // +15px offset from cursor
-                const y = event.clientY - containerRect.top + 15; // +15px offset from cursor
+                let x = event.clientX - containerRect.left + 15; // +15px offset from cursor
+                let y = event.clientY - containerRect.top + 15; // +15px offset from cursor
+                
+                if (x > 300) {
+                    x -= 100; // Adjust position to the left
+                }
+                if (y > 100) {
+                    y -= 50;
+                }
+
 
                 tooltip
                     .style("opacity", 1)
