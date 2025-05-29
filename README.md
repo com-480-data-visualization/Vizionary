@@ -5,7 +5,7 @@
 Vizionary is a web app built for the COM-480 Data Visualization course. It visualizes how attributes like age, height, and weight correlate with medal outcomes in the Olympic Games. Users can explore an engaging homepage of sports “bubbles” and dive into detailed analysis pages for each sport.
 
 For this milestone, we delivered:
-- A complete interactive visualization website (available !(here)[https://com-480-data-visualization.github.io/Vizionary]
+- A complete interactive visualization website (available [here](https://com-480-data-visualization.github.io/Vizionary)
 - A process book outlining our development journey  
 - A 2-minute screencast highlighting main features in a funny way,  
 
