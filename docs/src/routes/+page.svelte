@@ -8,7 +8,7 @@
   function handleSportSelect(event: CustomEvent<{ sportKey: string }>) {
     const sportKey = event.detail.sportKey;
     selectedSport.set(sportKey);
-    goto(`/${sportKey}`); // Navigate to the new sport-specific route
+    goto(`aaa`); // Navigate to the new sport-specific route
   }
 </script>
 

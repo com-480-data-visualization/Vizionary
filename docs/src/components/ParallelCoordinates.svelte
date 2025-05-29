@@ -61,7 +61,7 @@
         error = null;
         
         try {
-            const response = await fetch(`/statics/${sportName}.json`);
+            const response = await fetch(`statics/${sportName}.json`);
             if (!response.ok) {
                 throw new Error(`Failed to fetch data: ${response.statusText}`);
             }

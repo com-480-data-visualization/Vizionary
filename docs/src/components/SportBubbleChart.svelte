@@ -23,7 +23,7 @@
   onMount(async () => {
     
 
-    const rawData = await d3.json("/statics/sport_bubble_data.json");
+    const rawData = await d3.json("statics/sport_bubble_data.json");
     chartData = rawData ?? [];
 
     if (currentWidth > 0 && currentHeight > 0) {
@@ -102,7 +102,7 @@
       })
       .on("click", (event, d) => {
         const sportKey = d.name.toLowerCase().replace(/\s+/g, "_");
-        goto(`/${sportKey}`);
+        goto(`/Vizionary/${sportKey}`);
       });
 
     bubbles

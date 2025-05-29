@@ -47,7 +47,7 @@
 
   onMount(async () => {
     try {
-      const response = await fetch("/statics/similarities.json");
+      const response = await fetch("statics/similarities.json");
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }

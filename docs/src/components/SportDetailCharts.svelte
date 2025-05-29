@@ -14,7 +14,7 @@
 
   // whenever sex or medal‐set changes, re‐draw both charts
   function redraw(s: "M"|"F", sel: Set<string>) {
-    fetch(`/statics/${sportKey}.json`)
+    fetch(`statics/${sportKey}.json`)
       .then(r => r.json())
       .then(data => {
         const hm  = data.heatmap[s];

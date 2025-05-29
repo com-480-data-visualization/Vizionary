@@ -23,7 +23,7 @@ jobs:
           
       - name: build
         env:
-          BASE_PATH: ''
+          BASE_PATH: '/${{ github.event.repository.name }}'
         run: |
           cd docs
           npm run build

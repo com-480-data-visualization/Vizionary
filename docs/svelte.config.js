@@ -7,7 +7,7 @@ const config = {
 			fallback: '404.html'
 		}),
 		paths: {
-			base: ''
+			base: '/Vizionary'
 		},
 		prerender: {
       			handleHttpError: 'warn', // Prevents build failure
