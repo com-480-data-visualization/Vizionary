@@ -5,10 +5,10 @@
     // Props using Svelte 5 syntax
     let { name, params } = $props();
 
-    // State variables using Svelte 5 runes
+    // State variables using Svelte 5 runes - FIXED: Remove height binding
     let containerElement = $state<HTMLDivElement>();
     let width = $state(960);
-    let height = $state(500);
+    // FIXED: Don't bind height, calculate it from container
     let rawTreemapData = $state<
         Array<{ year: number; country: string; noc: string; continent: string; sex?: string; value: number }>
     >([]);
@@ -20,8 +20,8 @@
     let resizeTimeout: NodeJS.Timeout | null = null;
 
     // Configuration constants
-    const MIN_SHARE = 0.00; // 2% minimum for major countries
-    const MAX_SHOWN = 100; // maximum 15 rectangles shown
+    const MIN_SHARE = 0.005; // 2% minimum for major countries
+    const MAX_SHOWN = 50; // maximum 15 rectangles shown
 
     // Derived filtered and processed data using $derived.by for complex logic
     let filteredTreemapData = $derived.by(() => {
@@ -170,17 +170,25 @@
             // Clear existing content
             containerElement.innerHTML = "";
 
-            const margin = { top: 50, right: 100, bottom: 50, left: 50 };
-            const w = width - margin.left - margin.right;
-            const h = height - margin.top - margin.bottom;
+            // FIXED: Calculate dimensions from container, with fixed aspect ratio
+            const containerRect = containerElement.getBoundingClientRect();
+            const containerWidth = containerRect.width;
+            const containerHeight = containerRect.height;
+            
+            // Use container dimensions with padding
+            const margin = { top: 20, right: 0, bottom: 20, left: 10 };
+            const w = Math.max(100, containerWidth - margin.left - margin.right);
+            const h = Math.max(100, containerHeight - margin.top - margin.bottom);
 
-            // Create SVG
+            // Create SVG - FIXED: Proper viewBox and sizing
             const svg = d3
                 .select(containerElement)
                 .append("svg")
+                .attr("width", "100%")
+                .attr("height", "100%")
                 .attr("viewBox", `0 0 ${w} ${h}`)
-                .style("max-width", "100%")
-                .style("height", "auto");
+                .attr("preserveAspectRatio", "xMidYMid meet")
+                .style("display", "block"); // FIXED: Prevent extra space
 
             // Create hierarchy and layout
             const root = d3
@@ -195,13 +203,13 @@
 
             // Color palette by region (Continent)
             const regionColor = new Map<string, string>([
-    ["Europe", "#6A994E"], // Muted Green
-    ["Americas", "#A44A3F"], // Rusty Red
-    ["Asia", "#E0B75D"], // Goldenrod
-    ["Oceania", "#4E8D7C"], // Teal Green
-    ["Africa", "#8C6BB0"], // Muted Purple
-    ["Other", "#C7C7C7"],  // Light Gray
-]);
+                ["Europe", "#6A994E"], // Muted Green
+                ["Americas", "#A44A3F"], // Rusty Red
+                ["Asia", "#E0B75D"], // Goldenrod
+                ["Oceania", "#4E8D7C"], // Teal Green
+                ["Africa", "#8C6BB0"], // Muted Purple
+                ["Other", "#C7C7C7"],  // Light Gray
+            ]);
 
             // Create tooltip
             const tooltip = d3
@@ -250,9 +258,15 @@
                         // event.clientX/Y are viewport coordinates
                         // containerRect.left/top are container's viewport coordinates
                         // So, event.clientX - containerRect.left gives position relative to container
-                        const x = event.clientX - containerRect.left + 15; // +15px offset from cursor
-                        const y = event.clientY - containerRect.top + 15;  // +15px offset from cursor
-
+                        let x = event.clientX - containerRect.left + 15; // +15px offset from cursor
+                        let y = event.clientY - containerRect.top + 15;  // +15px offset from cursor
+                        
+                        if (x > 100){
+                            x -= 100;
+                        }
+                        if (y > 100){
+                            y -= 100;
+                        }
 
                     tooltip
                         .style("opacity", 1)
@@ -343,26 +357,26 @@
     });
 
     $effect(() => {
-    if (width && height) {
-        isResizing = true;
-        
-        // Set timeout
-        const timeoutId = setTimeout(() => {
-            isResizing = false;
-        }, 500);
-        
-        // Return cleanup function that clears the timeout
-        return () => {
-            clearTimeout(timeoutId);
-        };
-    }
-});
+        if (width) {
+            isResizing = true;
+            
+            // Set timeout
+            const timeoutId = setTimeout(() => {
+                isResizing = false;
+            }, 500);
+            
+            // Return cleanup function that clears the timeout
+            return () => {
+                clearTimeout(timeoutId);
+            };
+        }
+    });
 
     // Effect to draw treemap when conditions are met
     $effect(() => {
         if (
             name ||
-            params || width || height ||
+            params || width ||
             (filteredTreemapData.length > 0)
         ) {
             drawTreemap();
@@ -370,10 +384,12 @@
     });
 </script>
 
+<!-- FIXED: Remove height binding, use CSS for sizing -->
 <div class="w-full p-4 flex-1 flex flex-col text-center">
     <div
         class="flex-1 bg-gray-100 p-3 rounded treemap-container"
-        bind:this={containerElement} bind:clientHeight={height} bind:clientWidth={width}
+        bind:this={containerElement} 
+        bind:clientWidth={width}
     >
         {#if isLoading}
             <div class="loading-container">
@@ -411,6 +427,9 @@
         border-radius: 0.75rem;
         overflow: hidden;
         position: relative;
+        /* FIXED: Ensure container doesn't grow */
+        min-height: 0;
+        flex-shrink: 1;
     }
 
     .loading-container,
@@ -442,6 +461,9 @@
     :global(.treemap-container svg) {
         width: 100%;
         height: 100%;
+        /* FIXED: Prevent SVG from expanding container */
+        max-width: 100%;
+        max-height: 100%;
     }
 
     :global(.treemap-container rect:hover) {
