@@ -5,7 +5,7 @@
 Vizionary is a web app built for the COM-480 Data Visualization course. It visualizes how attributes like age, height, and weight correlate with medal outcomes in the Olympic Games. Users can explore an engaging homepage of sports “bubbles” and dive into detailed analysis pages for each sport.
 
 For this milestone, we delivered:
-- A complete interactive visualization website  
+- A complete interactive visualization website (available !(here)[https://com-480-data-visualization.github.io/Vizionary]
 - A process book outlining our development journey  
 - A 2-minute screencast highlighting main features in a funny way,  
 
@@ -33,7 +33,7 @@ For this milestone, we delivered:
 
 Here’s what the key folders and files contain:
 
-- **`site/`** – The main SvelteKit app  
+- **`docs/`** – The main SvelteKit app  
   - **`src/routes/`** – All page components, including the homepage and dynamic sport detail pages  
   - **`src/lib/components/`** – Reusable UI components (e.g., charts, layout)  
   - **`src/lib/charts/`** – D3 modules for different visualizations (like heatmaps, bar charts)  
@@ -70,7 +70,7 @@ Open http://localhost:5173 in your browser
 npm run build
 npm run preview
 ```
-The production-ready build will be in `site/build/`
+The production-ready build will be in `docs/build/`
 
 ---
 
