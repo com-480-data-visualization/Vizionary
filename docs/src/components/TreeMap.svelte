@@ -20,8 +20,8 @@
     let resizeTimeout: NodeJS.Timeout | null = null;
 
     // Configuration constants
-    const MIN_SHARE = 0.005; // 2% minimum for major countries
-    const MAX_SHOWN = 50; // maximum 15 rectangles shown
+    const MIN_SHARE = 0.0; // 2% minimum for major countries
+    const MAX_SHOWN = 80; // maximum 15 rectangles shown
 
     // Derived filtered and processed data using $derived.by for complex logic
     let filteredTreemapData = $derived.by(() => {

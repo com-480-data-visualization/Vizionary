@@ -113,7 +113,7 @@
             containerElement.innerHTML = "";
 
             // Load world geo data
-            const world = await d3.json(`/statics/front/countries-110m.json`);
+            const world = await d3.json(`statics/front/countries-110m.json`);
             const countries = feature(
                 world as any,
                 (world as any).objects.countries,
