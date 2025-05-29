@@ -1,11 +1,18 @@
-import { mdsvex } from 'mdsvex';
-import adapter from '@sveltejs/adapter-auto';
-import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+import adapter from '@sveltejs/adapter-static';
 
+/** @type {import('@sveltejs/kit').Config} */
 const config = {
-	preprocess: [vitePreprocess(), mdsvex()],
-	kit: { adapter: adapter() },
-	extensions: ['.svelte', '.svx']
+	kit: {
+		adapter: adapter({
+			fallback: '404.html'
+		}),
+		paths: {
+			base: '/Vizionary'
+		},
+		prerender: {
+      			handleHttpError: 'warn', // Prevents build failure
+	    	}
+	}
 };
 
 export default config;
