@@ -130,6 +130,9 @@
                 .attr("width", plotWidth)
                 .attr("height", plotHeight);
 
+                const g = svg.append("g");
+
+
             // Set up projection
             const projection = d3
                 .geoMercator()
@@ -164,6 +167,15 @@
                 filteredMapData.map((d) => [d.iso_numeric, d.country]),
             );
 
+            // Zoom behavior
+const zoom = d3.zoom<SVGSVGElement, unknown>()
+    .scaleExtent([1, 8]) // set zoom limits
+    .on("zoom", (event) => {
+        g.attr("transform", event.transform.toString());
+    });
+
+svg.call(zoom);
+
             const maxVal = d3.max(filteredMapData, (d) => d.value) ?? 1;
             console.log('maxval', filteredMapData);
             const color = d3
@@ -185,7 +197,7 @@
                 .style("opacity", 0);
 
             // Draw countries
-            svg.selectAll("path")
+            g.selectAll("path")
                 .data(countries)
                 .join("path")
                 .attr("d", path)
