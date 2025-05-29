@@ -88,7 +88,7 @@
   }
 
   function goHome() {
-    goto("/"); // Navigate to the root (home) page
+    goto("/Vizionary/"); // Navigate to the root (home) page
   }
 </script>
 
