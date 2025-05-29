@@ -9,11 +9,11 @@ path = kagglehub.dataset_download("statchaitya/country-to-continent")
 country_info_df = pd.read_csv(os.path.join(path, 'countryContinent.csv'), sep=',', encoding='unicode_escape')
 
 # Load Olympic dataset
-df = pd.read_csv('site/src/data/df_filtered.csv', sep=',')
+df = pd.read_csv('docs/src/data/df_filtered.csv', sep=',')
 df["Medal"] = df["Medal"].fillna("No Medal")
 
 # Output directory for Svelte static
-out_dir = "site/static/statics"
+out_dir = "docs/static/statics"
 os.makedirs(out_dir, exist_ok=True)
 
 # Define constants
@@ -295,14 +295,14 @@ for sport, grp in df.groupby("Sport"):
     
     # MAP - Updated to include isonumeric code    
     map_records = (
-        grp_with_country_info.groupby(["Year", "Team", "NOC", "country_code", "Sex", "Medal"]).size().reset_index(name="value")
+        grp_with_country_info.groupby(["Year", "country", "NOC", "country_code", "Sex", "Medal"]).size().reset_index(name="value")
     )
     
     # Create map records with formatted isonumeric code
     out["map"] = [
         {
             "year": int(rec["Year"]),
-            "country": rec["Team"],
+            "country": rec["country"],
             "noc": rec["NOC"],
             "iso_numeric": str(int(rec["country_code"])).zfill(3) if pd.notna(rec["country_code"]) else None,
             "sex": rec["Sex"],
@@ -314,14 +314,14 @@ for sport, grp in df.groupby("Sport"):
 
     # TREEMAP - Updated logic
     treemap_records = (
-        grp_with_country_info.groupby(["Year", "Team", "NOC", "continent", "country_code", "Sex"])["ID"].nunique().reset_index(name="value")
+        grp_with_country_info.groupby(["Year", "country", "NOC", "continent", "country_code", "Sex"])["ID"].nunique().reset_index(name="value")
     )
     
     # Create treemap records with formatted isonumeric code
     out["treemap"] = [
         {
             "year": int(rec["Year"]),
-            "country": rec["Team"],
+            "country": rec["country"],
             "noc": rec["NOC"],
             "continent": rec["continent"],
             "iso_numeric": str(int(rec["country_code"])).zfill(3) if pd.notna(rec["country_code"]) else None,

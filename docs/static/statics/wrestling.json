@@ -62340,7 +62340,7 @@
     },
     {
       "year": 1904,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -62349,7 +62349,7 @@
     },
     {
       "year": 1904,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -62358,7 +62358,7 @@
     },
     {
       "year": 1904,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -62367,7 +62367,7 @@
     },
     {
       "year": 1904,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -62529,7 +62529,7 @@
     },
     {
       "year": 1906,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -62619,42 +62619,6 @@
     },
     {
       "year": 1908,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso_numeric": "826",
-      "sex": "M",
-      "medal": "Bronze",
-      "value": 4
-    },
-    {
-      "year": 1908,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso_numeric": "826",
-      "sex": "M",
-      "medal": "Gold",
-      "value": 3
-    },
-    {
-      "year": 1908,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso_numeric": "826",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 57
-    },
-    {
-      "year": 1908,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso_numeric": "826",
-      "sex": "M",
-      "medal": "Silver",
-      "value": 4
-    },
-    {
-      "year": 1908,
       "country": "Hungary",
       "noc": "HUN",
       "iso_numeric": "348",
@@ -62709,7 +62673,7 @@
     },
     {
       "year": 1908,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "M",
@@ -62718,7 +62682,7 @@
     },
     {
       "year": 1908,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "M",
@@ -62754,7 +62718,43 @@
     },
     {
       "year": 1908,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "iso_numeric": "826",
+      "sex": "M",
+      "medal": "Bronze",
+      "value": 4
+    },
+    {
+      "year": 1908,
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "iso_numeric": "826",
+      "sex": "M",
+      "medal": "Gold",
+      "value": 3
+    },
+    {
+      "year": 1908,
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "iso_numeric": "826",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 57
+    },
+    {
+      "year": 1908,
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "iso_numeric": "826",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 4
+    },
+    {
+      "year": 1908,
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -62763,7 +62763,7 @@
     },
     {
       "year": 1908,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -62871,15 +62871,6 @@
     },
     {
       "year": 1912,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso_numeric": "826",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 12
-    },
-    {
-      "year": 1912,
       "country": "Greece",
       "noc": "GRE",
       "iso_numeric": "300",
@@ -62952,7 +62943,7 @@
     },
     {
       "year": 1912,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "M",
@@ -62961,7 +62952,7 @@
     },
     {
       "year": 1912,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "M",
@@ -63006,7 +62997,16 @@
     },
     {
       "year": 1912,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "iso_numeric": "826",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1912,
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -63120,24 +63120,6 @@
       "sex": "M",
       "medal": "No Medal",
       "value": 17
-    },
-    {
-      "year": 1920,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso_numeric": "826",
-      "sex": "M",
-      "medal": "Bronze",
-      "value": 2
-    },
-    {
-      "year": 1920,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso_numeric": "826",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 8
     },
     {
       "year": 1920,
@@ -63276,7 +63258,25 @@
     },
     {
       "year": 1920,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "iso_numeric": "826",
+      "sex": "M",
+      "medal": "Bronze",
+      "value": 2
+    },
+    {
+      "year": 1920,
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "iso_numeric": "826",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 8
+    },
+    {
+      "year": 1920,
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -63285,7 +63285,7 @@
     },
     {
       "year": 1920,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -63294,7 +63294,7 @@
     },
     {
       "year": 1920,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -63303,7 +63303,7 @@
     },
     {
       "year": 1920,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -63453,24 +63453,6 @@
       "sex": "M",
       "medal": "No Medal",
       "value": 23
-    },
-    {
-      "year": 1924,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso_numeric": "826",
-      "sex": "M",
-      "medal": "Bronze",
-      "value": 1
-    },
-    {
-      "year": 1924,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso_numeric": "826",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 13
     },
     {
       "year": 1924,
@@ -63672,7 +63654,25 @@
     },
     {
       "year": 1924,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "iso_numeric": "826",
+      "sex": "M",
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1924,
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "iso_numeric": "826",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 13
+    },
+    {
+      "year": 1924,
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -63681,7 +63681,7 @@
     },
     {
       "year": 1924,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -63690,7 +63690,7 @@
     },
     {
       "year": 1924,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -63699,7 +63699,7 @@
     },
     {
       "year": 1924,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -63930,24 +63930,6 @@
       "sex": "M",
       "medal": "Silver",
       "value": 2
-    },
-    {
-      "year": 1928,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso_numeric": "826",
-      "sex": "M",
-      "medal": "Bronze",
-      "value": 1
-    },
-    {
-      "year": 1928,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso_numeric": "826",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 5
     },
     {
       "year": 1928,
@@ -64149,7 +64131,25 @@
     },
     {
       "year": 1928,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "iso_numeric": "826",
+      "sex": "M",
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1928,
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "iso_numeric": "826",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 5
+    },
+    {
+      "year": 1928,
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -64158,7 +64158,7 @@
     },
     {
       "year": 1928,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -64167,7 +64167,7 @@
     },
     {
       "year": 1928,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -64338,15 +64338,6 @@
     },
     {
       "year": 1932,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso_numeric": "826",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 2
-    },
-    {
-      "year": 1932,
       "country": "Greece",
       "noc": "GRE",
       "iso_numeric": "300",
@@ -64482,7 +64473,16 @@
     },
     {
       "year": 1932,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "iso_numeric": "826",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 2
+    },
+    {
+      "year": 1932,
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -64491,7 +64491,7 @@
     },
     {
       "year": 1932,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -64500,7 +64500,7 @@
     },
     {
       "year": 1932,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -64686,15 +64686,6 @@
       "sex": "M",
       "medal": "Silver",
       "value": 3
-    },
-    {
-      "year": 1936,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso_numeric": "826",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 7
     },
     {
       "year": 1936,
@@ -64905,7 +64896,16 @@
     },
     {
       "year": 1936,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "iso_numeric": "826",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 7
+    },
+    {
+      "year": 1936,
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -64914,7 +64914,7 @@
     },
     {
       "year": 1936,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -64923,7 +64923,7 @@
     },
     {
       "year": 1936,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -65103,15 +65103,6 @@
     },
     {
       "year": 1948,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso_numeric": "826",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 16
-    },
-    {
-      "year": 1948,
       "country": "Greece",
       "noc": "GRE",
       "iso_numeric": "300",
@@ -65166,7 +65157,7 @@
     },
     {
       "year": 1948,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -65199,6 +65190,15 @@
       "sex": "M",
       "medal": "No Medal",
       "value": 8
+    },
+    {
+      "year": 1948,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 4
     },
     {
       "year": 1948,
@@ -65265,15 +65265,6 @@
     },
     {
       "year": 1948,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 4
-    },
-    {
-      "year": 1948,
       "country": "Sweden",
       "noc": "SWE",
       "iso_numeric": "752",
@@ -65373,7 +65364,16 @@
     },
     {
       "year": 1948,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "iso_numeric": "826",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 16
+    },
+    {
+      "year": 1948,
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -65382,7 +65382,7 @@
     },
     {
       "year": 1948,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -65391,7 +65391,7 @@
     },
     {
       "year": 1948,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -65400,7 +65400,7 @@
     },
     {
       "year": 1948,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -65535,24 +65535,6 @@
     },
     {
       "year": 1952,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso_numeric": "826",
-      "sex": "M",
-      "medal": "Bronze",
-      "value": 1
-    },
-    {
-      "year": 1952,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso_numeric": "826",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 5
-    },
-    {
-      "year": 1952,
       "country": "Greece",
       "noc": "GRE",
       "iso_numeric": "300",
@@ -65625,7 +65607,7 @@
     },
     {
       "year": 1952,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -65634,7 +65616,7 @@
     },
     {
       "year": 1952,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -65643,7 +65625,7 @@
     },
     {
       "year": 1952,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -65702,6 +65684,15 @@
       "iso_numeric": "392",
       "sex": "M",
       "medal": "Silver",
+      "value": 1
+    },
+    {
+      "year": 1952,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "No Medal",
       "value": 1
     },
     {
@@ -65766,15 +65757,6 @@
       "sex": "M",
       "medal": "No Medal",
       "value": 5
-    },
-    {
-      "year": 1952,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 1
     },
     {
       "year": 1952,
@@ -65850,7 +65832,25 @@
     },
     {
       "year": 1952,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "iso_numeric": "826",
+      "sex": "M",
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1952,
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "iso_numeric": "826",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 5
+    },
+    {
+      "year": 1952,
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -65859,7 +65859,7 @@
     },
     {
       "year": 1952,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -65868,7 +65868,7 @@
     },
     {
       "year": 1952,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -65877,7 +65877,7 @@
     },
     {
       "year": 1952,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -65886,7 +65886,7 @@
     },
     {
       "year": 1952,
-      "country": "Venezuela",
+      "country": "Venezuela (Bolivarian Republic of)",
       "noc": "VEN",
       "iso_numeric": "862",
       "sex": "M",
@@ -66030,15 +66030,6 @@
     },
     {
       "year": 1956,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso_numeric": "826",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 4
-    },
-    {
-      "year": 1956,
       "country": "Greece",
       "noc": "GRE",
       "iso_numeric": "300",
@@ -66084,7 +66075,7 @@
     },
     {
       "year": 1956,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -66093,7 +66084,7 @@
     },
     {
       "year": 1956,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -66102,7 +66093,7 @@
     },
     {
       "year": 1956,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -66171,6 +66162,15 @@
       "sex": "M",
       "medal": "Silver",
       "value": 1
+    },
+    {
+      "year": 1956,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 3
     },
     {
       "year": 1956,
@@ -66246,15 +66246,6 @@
     },
     {
       "year": 1956,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 3
-    },
-    {
-      "year": 1956,
       "country": "Sweden",
       "noc": "SWE",
       "iso_numeric": "752",
@@ -66318,7 +66309,16 @@
     },
     {
       "year": 1956,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "iso_numeric": "826",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 4
+    },
+    {
+      "year": 1956,
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -66327,7 +66327,7 @@
     },
     {
       "year": 1956,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -66336,7 +66336,7 @@
     },
     {
       "year": 1956,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -66507,15 +66507,6 @@
     },
     {
       "year": 1960,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso_numeric": "826",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 6
-    },
-    {
-      "year": 1960,
       "country": "Greece",
       "noc": "GRE",
       "iso_numeric": "300",
@@ -66552,7 +66543,7 @@
     },
     {
       "year": 1960,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -66561,7 +66552,7 @@
     },
     {
       "year": 1960,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -66570,7 +66561,7 @@
     },
     {
       "year": 1960,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -66621,6 +66612,15 @@
       "sex": "M",
       "medal": "Silver",
       "value": 1
+    },
+    {
+      "year": 1960,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 4
     },
     {
       "year": 1960,
@@ -66786,15 +66786,6 @@
     },
     {
       "year": 1960,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 4
-    },
-    {
-      "year": 1960,
       "country": "Spain",
       "noc": "ESP",
       "iso_numeric": "724",
@@ -66858,7 +66849,16 @@
     },
     {
       "year": 1960,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "iso_numeric": "826",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 6
+    },
+    {
+      "year": 1960,
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -66867,7 +66867,7 @@
     },
     {
       "year": 1960,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -66876,7 +66876,7 @@
     },
     {
       "year": 1960,
-      "country": "Venezuela",
+      "country": "Venezuela (Bolivarian Republic of)",
       "noc": "VEN",
       "iso_numeric": "862",
       "sex": "M",
@@ -67038,15 +67038,6 @@
     },
     {
       "year": 1964,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso_numeric": "826",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 6
-    },
-    {
-      "year": 1964,
       "country": "Greece",
       "noc": "GRE",
       "iso_numeric": "300",
@@ -67083,7 +67074,7 @@
     },
     {
       "year": 1964,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -67092,7 +67083,7 @@
     },
     {
       "year": 1964,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -67143,6 +67134,24 @@
       "sex": "M",
       "medal": "No Medal",
       "value": 10
+    },
+    {
+      "year": 1964,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1964,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 1
     },
     {
       "year": 1964,
@@ -67263,24 +67272,6 @@
     },
     {
       "year": 1964,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 12
-    },
-    {
-      "year": 1964,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "Silver",
-      "value": 1
-    },
-    {
-      "year": 1964,
       "country": "Spain",
       "noc": "ESP",
       "iso_numeric": "724",
@@ -67371,7 +67362,16 @@
     },
     {
       "year": 1964,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "iso_numeric": "826",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 6
+    },
+    {
+      "year": 1964,
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -67380,7 +67380,7 @@
     },
     {
       "year": 1964,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -67569,12 +67569,21 @@
     },
     {
       "year": 1968,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso_numeric": "826",
+      "country": "Germany",
+      "noc": "FRG",
+      "iso_numeric": "276",
+      "sex": "M",
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1968,
+      "country": "Germany",
+      "noc": "FRG",
+      "iso_numeric": "276",
       "sex": "M",
       "medal": "No Medal",
-      "value": 4
+      "value": 11
     },
     {
       "year": 1968,
@@ -67641,7 +67650,7 @@
     },
     {
       "year": 1968,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -67650,7 +67659,7 @@
     },
     {
       "year": 1968,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -67659,7 +67668,7 @@
     },
     {
       "year": 1968,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -67710,6 +67719,15 @@
       "sex": "M",
       "medal": "Silver",
       "value": 1
+    },
+    {
+      "year": 1968,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 8
     },
     {
       "year": 1968,
@@ -67839,15 +67857,6 @@
     },
     {
       "year": 1968,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 8
-    },
-    {
-      "year": 1968,
       "country": "Sweden",
       "noc": "SWE",
       "iso_numeric": "752",
@@ -67866,7 +67875,7 @@
     },
     {
       "year": 1968,
-      "country": "Syria",
+      "country": "Syrian Arab Republic",
       "noc": "SYR",
       "iso_numeric": "760",
       "sex": "M",
@@ -67893,7 +67902,16 @@
     },
     {
       "year": 1968,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "iso_numeric": "826",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 4
+    },
+    {
+      "year": 1968,
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -67902,30 +67920,12 @@
     },
     {
       "year": 1968,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
       "medal": "Silver",
       "value": 2
-    },
-    {
-      "year": 1968,
-      "country": "West Germany",
-      "noc": "FRG",
-      "iso_numeric": "276",
-      "sex": "M",
-      "medal": "Bronze",
-      "value": 1
-    },
-    {
-      "year": 1968,
-      "country": "West Germany",
-      "noc": "FRG",
-      "iso_numeric": "276",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 11
     },
     {
       "year": 1972,
@@ -68019,15 +68019,6 @@
     },
     {
       "year": 1972,
-      "country": "Chinese Taipei",
-      "noc": "TPE",
-      "iso_numeric": "158",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 1
-    },
-    {
-      "year": 1972,
       "country": "Cuba",
       "noc": "CUB",
       "iso_numeric": "192",
@@ -68082,12 +68073,30 @@
     },
     {
       "year": 1972,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso_numeric": "826",
+      "country": "Germany",
+      "noc": "FRG",
+      "iso_numeric": "276",
+      "sex": "M",
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1972,
+      "country": "Germany",
+      "noc": "FRG",
+      "iso_numeric": "276",
       "sex": "M",
       "medal": "No Medal",
-      "value": 6
+      "value": 16
+    },
+    {
+      "year": 1972,
+      "country": "Germany",
+      "noc": "FRG",
+      "iso_numeric": "276",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 1
     },
     {
       "year": 1972,
@@ -68154,7 +68163,7 @@
     },
     {
       "year": 1972,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -68163,7 +68172,7 @@
     },
     {
       "year": 1972,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -68172,7 +68181,7 @@
     },
     {
       "year": 1972,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -68235,6 +68244,33 @@
     },
     {
       "year": 1972,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "iso_numeric": "408",
+      "sex": "M",
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1972,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "iso_numeric": "408",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 1
+    },
+    {
+      "year": 1972,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 4
+    },
+    {
+      "year": 1972,
       "country": "Mexico",
       "noc": "MEX",
       "iso_numeric": "484",
@@ -68274,24 +68310,6 @@
       "country": "New Zealand",
       "noc": "NZL",
       "iso_numeric": "554",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 1
-    },
-    {
-      "year": 1972,
-      "country": "North Korea",
-      "noc": "PRK",
-      "iso_numeric": "408",
-      "sex": "M",
-      "medal": "Bronze",
-      "value": 1
-    },
-    {
-      "year": 1972,
-      "country": "North Korea",
-      "noc": "PRK",
-      "iso_numeric": "408",
       "sex": "M",
       "medal": "No Medal",
       "value": 1
@@ -68406,15 +68424,6 @@
     },
     {
       "year": 1972,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 4
-    },
-    {
-      "year": 1972,
       "country": "Sweden",
       "noc": "SWE",
       "iso_numeric": "752",
@@ -68451,12 +68460,21 @@
     },
     {
       "year": 1972,
-      "country": "Syria",
+      "country": "Syrian Arab Republic",
       "noc": "SYR",
       "iso_numeric": "760",
       "sex": "M",
       "medal": "No Medal",
       "value": 2
+    },
+    {
+      "year": 1972,
+      "country": "Taiwan, Province of China",
+      "noc": "TPE",
+      "iso_numeric": "158",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 1
     },
     {
       "year": 1972,
@@ -68487,7 +68505,16 @@
     },
     {
       "year": 1972,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "iso_numeric": "826",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 6
+    },
+    {
+      "year": 1972,
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -68496,7 +68523,7 @@
     },
     {
       "year": 1972,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -68505,7 +68532,7 @@
     },
     {
       "year": 1972,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -68514,39 +68541,12 @@
     },
     {
       "year": 1972,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
       "medal": "Silver",
       "value": 2
-    },
-    {
-      "year": 1972,
-      "country": "West Germany",
-      "noc": "FRG",
-      "iso_numeric": "276",
-      "sex": "M",
-      "medal": "Bronze",
-      "value": 1
-    },
-    {
-      "year": 1972,
-      "country": "West Germany",
-      "noc": "FRG",
-      "iso_numeric": "276",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 16
-    },
-    {
-      "year": 1972,
-      "country": "West Germany",
-      "noc": "FRG",
-      "iso_numeric": "276",
-      "sex": "M",
-      "medal": "Silver",
-      "value": 1
     },
     {
       "year": 1976,
@@ -68676,12 +68676,21 @@
     },
     {
       "year": 1976,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso_numeric": "826",
+      "country": "Germany",
+      "noc": "FRG",
+      "iso_numeric": "276",
+      "sex": "M",
+      "medal": "Bronze",
+      "value": 2
+    },
+    {
+      "year": 1976,
+      "country": "Germany",
+      "noc": "FRG",
+      "iso_numeric": "276",
       "sex": "M",
       "medal": "No Medal",
-      "value": 7
+      "value": 13
     },
     {
       "year": 1976,
@@ -68721,7 +68730,7 @@
     },
     {
       "year": 1976,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -68730,7 +68739,7 @@
     },
     {
       "year": 1976,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -68784,6 +68793,42 @@
     },
     {
       "year": 1976,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "iso_numeric": "408",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 3
+    },
+    {
+      "year": 1976,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1976,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 1976,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 9
+    },
+    {
+      "year": 1976,
       "country": "Mexico",
       "noc": "MEX",
       "iso_numeric": "484",
@@ -68826,15 +68871,6 @@
       "sex": "M",
       "medal": "No Medal",
       "value": 2
-    },
-    {
-      "year": 1976,
-      "country": "North Korea",
-      "noc": "PRK",
-      "iso_numeric": "408",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 3
     },
     {
       "year": 1976,
@@ -68946,33 +68982,6 @@
     },
     {
       "year": 1976,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "Bronze",
-      "value": 1
-    },
-    {
-      "year": 1976,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "Gold",
-      "value": 1
-    },
-    {
-      "year": 1976,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 9
-    },
-    {
-      "year": 1976,
       "country": "Sweden",
       "noc": "SWE",
       "iso_numeric": "752",
@@ -68991,7 +69000,16 @@
     },
     {
       "year": 1976,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "iso_numeric": "826",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 7
+    },
+    {
+      "year": 1976,
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -69000,7 +69018,7 @@
     },
     {
       "year": 1976,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -69009,7 +69027,7 @@
     },
     {
       "year": 1976,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -69018,7 +69036,7 @@
     },
     {
       "year": 1976,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -69027,30 +69045,12 @@
     },
     {
       "year": 1976,
-      "country": "United States Virgin Islands",
+      "country": "Virgin Islands (U.S.)",
       "noc": "ISV",
       "iso_numeric": "850",
       "sex": "M",
       "medal": "No Medal",
       "value": 4
-    },
-    {
-      "year": 1976,
-      "country": "West Germany",
-      "noc": "FRG",
-      "iso_numeric": "276",
-      "sex": "M",
-      "medal": "Bronze",
-      "value": 2
-    },
-    {
-      "year": 1976,
-      "country": "West Germany",
-      "noc": "FRG",
-      "iso_numeric": "276",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 13
     },
     {
       "year": 1980,
@@ -69189,15 +69189,6 @@
     },
     {
       "year": 1980,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso_numeric": "826",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 6
-    },
-    {
-      "year": 1980,
       "country": "Greece",
       "noc": "GRE",
       "iso_numeric": "300",
@@ -69297,6 +69288,24 @@
     },
     {
       "year": 1980,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "iso_numeric": "408",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 1
+    },
+    {
+      "year": 1980,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "iso_numeric": "408",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 2
+    },
+    {
+      "year": 1980,
       "country": "Mexico",
       "noc": "MEX",
       "iso_numeric": "484",
@@ -69339,24 +69348,6 @@
       "sex": "M",
       "medal": "No Medal",
       "value": 1
-    },
-    {
-      "year": 1980,
-      "country": "North Korea",
-      "noc": "PRK",
-      "iso_numeric": "408",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 1
-    },
-    {
-      "year": 1980,
-      "country": "North Korea",
-      "noc": "PRK",
-      "iso_numeric": "408",
-      "sex": "M",
-      "medal": "Silver",
-      "value": 2
     },
     {
       "year": 1980,
@@ -69477,7 +69468,7 @@
     },
     {
       "year": 1980,
-      "country": "Syria",
+      "country": "Syrian Arab Republic",
       "noc": "SYR",
       "iso_numeric": "760",
       "sex": "M",
@@ -69486,7 +69477,16 @@
     },
     {
       "year": 1980,
-      "country": "Vietnam",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "iso_numeric": "826",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 6
+    },
+    {
+      "year": 1980,
+      "country": "Viet Nam",
       "noc": "VIE",
       "iso_numeric": "704",
       "sex": "M",
@@ -69522,7 +69522,7 @@
     },
     {
       "year": 1984,
-      "country": "Bolivia",
+      "country": "Bolivia (Plurinational State of)",
       "noc": "BOL",
       "iso_numeric": "068",
       "sex": "M",
@@ -69573,15 +69573,6 @@
       "sex": "M",
       "medal": "No Medal",
       "value": 7
-    },
-    {
-      "year": 1984,
-      "country": "Chinese Taipei",
-      "noc": "TPE",
-      "iso_numeric": "158",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 1
     },
     {
       "year": 1984,
@@ -69675,21 +69666,30 @@
     },
     {
       "year": 1984,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso_numeric": "826",
+      "country": "Germany",
+      "noc": "FRG",
+      "iso_numeric": "276",
       "sex": "M",
-      "medal": "Bronze",
+      "medal": "Gold",
       "value": 1
     },
     {
       "year": 1984,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso_numeric": "826",
+      "country": "Germany",
+      "noc": "FRG",
+      "iso_numeric": "276",
       "sex": "M",
       "medal": "No Medal",
-      "value": 6
+      "value": 11
+    },
+    {
+      "year": 1984,
+      "country": "Germany",
+      "noc": "FRG",
+      "iso_numeric": "276",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 2
     },
     {
       "year": 1984,
@@ -69789,6 +69789,42 @@
       "sex": "M",
       "medal": "Silver",
       "value": 5
+    },
+    {
+      "year": 1984,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "Bronze",
+      "value": 4
+    },
+    {
+      "year": 1984,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "Gold",
+      "value": 2
+    },
+    {
+      "year": 1984,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 7
+    },
+    {
+      "year": 1984,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 1
     },
     {
       "year": 1984,
@@ -69945,42 +69981,6 @@
     },
     {
       "year": 1984,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "Bronze",
-      "value": 4
-    },
-    {
-      "year": 1984,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "Gold",
-      "value": 2
-    },
-    {
-      "year": 1984,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 7
-    },
-    {
-      "year": 1984,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "Silver",
-      "value": 1
-    },
-    {
-      "year": 1984,
       "country": "Spain",
       "noc": "ESP",
       "iso_numeric": "724",
@@ -70035,7 +70035,7 @@
     },
     {
       "year": 1984,
-      "country": "Syria",
+      "country": "Syrian Arab Republic",
       "noc": "SYR",
       "iso_numeric": "760",
       "sex": "M",
@@ -70044,11 +70044,20 @@
     },
     {
       "year": 1984,
-      "country": "Syria",
+      "country": "Syrian Arab Republic",
       "noc": "SYR",
       "iso_numeric": "760",
       "sex": "M",
       "medal": "Silver",
+      "value": 1
+    },
+    {
+      "year": 1984,
+      "country": "Taiwan, Province of China",
+      "noc": "TPE",
+      "iso_numeric": "158",
+      "sex": "M",
+      "medal": "No Medal",
       "value": 1
     },
     {
@@ -70071,7 +70080,25 @@
     },
     {
       "year": 1984,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "iso_numeric": "826",
+      "sex": "M",
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1984,
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "iso_numeric": "826",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 6
+    },
+    {
+      "year": 1984,
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -70080,7 +70107,7 @@
     },
     {
       "year": 1984,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -70089,7 +70116,7 @@
     },
     {
       "year": 1984,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -70098,39 +70125,12 @@
     },
     {
       "year": 1984,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
       "medal": "Silver",
       "value": 3
-    },
-    {
-      "year": 1984,
-      "country": "West Germany",
-      "noc": "FRG",
-      "iso_numeric": "276",
-      "sex": "M",
-      "medal": "Gold",
-      "value": 1
-    },
-    {
-      "year": 1984,
-      "country": "West Germany",
-      "noc": "FRG",
-      "iso_numeric": "276",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 11
-    },
-    {
-      "year": 1984,
-      "country": "West Germany",
-      "noc": "FRG",
-      "iso_numeric": "276",
-      "sex": "M",
-      "medal": "Silver",
-      "value": 2
     },
     {
       "year": 1988,
@@ -70260,15 +70260,6 @@
     },
     {
       "year": 1988,
-      "country": "Chinese Taipei",
-      "noc": "TPE",
-      "iso_numeric": "158",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 4
-    },
-    {
-      "year": 1988,
       "country": "Colombia",
       "noc": "COL",
       "iso_numeric": "170",
@@ -70341,12 +70332,21 @@
     },
     {
       "year": 1988,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso_numeric": "826",
+      "country": "Germany",
+      "noc": "FRG",
+      "iso_numeric": "276",
       "sex": "M",
       "medal": "No Medal",
-      "value": 6
+      "value": 16
+    },
+    {
+      "year": 1988,
+      "country": "Germany",
+      "noc": "FRG",
+      "iso_numeric": "276",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 1
     },
     {
       "year": 1988,
@@ -70440,7 +70440,7 @@
     },
     {
       "year": 1988,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -70449,7 +70449,7 @@
     },
     {
       "year": 1988,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -70545,6 +70545,42 @@
       "sex": "M",
       "medal": "No Medal",
       "value": 7
+    },
+    {
+      "year": 1988,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "Bronze",
+      "value": 5
+    },
+    {
+      "year": 1988,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "Gold",
+      "value": 2
+    },
+    {
+      "year": 1988,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 10
+    },
+    {
+      "year": 1988,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 2
     },
     {
       "year": 1988,
@@ -70764,42 +70800,6 @@
     },
     {
       "year": 1988,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "Bronze",
-      "value": 5
-    },
-    {
-      "year": 1988,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "Gold",
-      "value": 2
-    },
-    {
-      "year": 1988,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 10
-    },
-    {
-      "year": 1988,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "Silver",
-      "value": 2
-    },
-    {
-      "year": 1988,
       "country": "Spain",
       "noc": "ESP",
       "iso_numeric": "724",
@@ -70836,12 +70836,21 @@
     },
     {
       "year": 1988,
-      "country": "Syria",
+      "country": "Syrian Arab Republic",
       "noc": "SYR",
       "iso_numeric": "760",
       "sex": "M",
       "medal": "No Medal",
       "value": 8
+    },
+    {
+      "year": 1988,
+      "country": "Taiwan, Province of China",
+      "noc": "TPE",
+      "iso_numeric": "158",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 4
     },
     {
       "year": 1988,
@@ -70872,7 +70881,16 @@
     },
     {
       "year": 1988,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "iso_numeric": "826",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 6
+    },
+    {
+      "year": 1988,
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -70881,7 +70899,7 @@
     },
     {
       "year": 1988,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -70890,7 +70908,7 @@
     },
     {
       "year": 1988,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -70899,7 +70917,7 @@
     },
     {
       "year": 1988,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -70908,29 +70926,11 @@
     },
     {
       "year": 1988,
-      "country": "Vietnam",
+      "country": "Viet Nam",
       "noc": "VIE",
       "iso_numeric": "704",
       "sex": "M",
       "medal": "No Medal",
-      "value": 1
-    },
-    {
-      "year": 1988,
-      "country": "West Germany",
-      "noc": "FRG",
-      "iso_numeric": "276",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 16
-    },
-    {
-      "year": 1988,
-      "country": "West Germany",
-      "noc": "FRG",
-      "iso_numeric": "276",
-      "sex": "M",
-      "medal": "Silver",
       "value": 1
     },
     {
@@ -71178,15 +71178,6 @@
     },
     {
       "year": 1992,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso_numeric": "826",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 1
-    },
-    {
-      "year": 1992,
       "country": "Greece",
       "noc": "GRE",
       "iso_numeric": "300",
@@ -71241,7 +71232,7 @@
     },
     {
       "year": 1992,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -71250,7 +71241,7 @@
     },
     {
       "year": 1992,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -71259,7 +71250,7 @@
     },
     {
       "year": 1992,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -71310,6 +71301,69 @@
       "sex": "M",
       "medal": "No Medal",
       "value": 15
+    },
+    {
+      "year": 1992,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "iso_numeric": "408",
+      "sex": "M",
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1992,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "iso_numeric": "408",
+      "sex": "M",
+      "medal": "Gold",
+      "value": 2
+    },
+    {
+      "year": 1992,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "iso_numeric": "408",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 1
+    },
+    {
+      "year": 1992,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1992,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "Gold",
+      "value": 2
+    },
+    {
+      "year": 1992,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 12
+    },
+    {
+      "year": 1992,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 1
     },
     {
       "year": 1992,
@@ -71382,33 +71436,6 @@
       "sex": "M",
       "medal": "No Medal",
       "value": 5
-    },
-    {
-      "year": 1992,
-      "country": "North Korea",
-      "noc": "PRK",
-      "iso_numeric": "408",
-      "sex": "M",
-      "medal": "Bronze",
-      "value": 1
-    },
-    {
-      "year": 1992,
-      "country": "North Korea",
-      "noc": "PRK",
-      "iso_numeric": "408",
-      "sex": "M",
-      "medal": "Gold",
-      "value": 2
-    },
-    {
-      "year": 1992,
-      "country": "North Korea",
-      "noc": "PRK",
-      "iso_numeric": "408",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 1
     },
     {
       "year": 1992,
@@ -71520,42 +71547,6 @@
     },
     {
       "year": 1992,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "Bronze",
-      "value": 1
-    },
-    {
-      "year": 1992,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "Gold",
-      "value": 2
-    },
-    {
-      "year": 1992,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 12
-    },
-    {
-      "year": 1992,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "Silver",
-      "value": 1
-    },
-    {
-      "year": 1992,
       "country": "Spain",
       "noc": "ESP",
       "iso_numeric": "724",
@@ -71601,7 +71592,7 @@
     },
     {
       "year": 1992,
-      "country": "Syria",
+      "country": "Syrian Arab Republic",
       "noc": "SYR",
       "iso_numeric": "760",
       "sex": "M",
@@ -71655,7 +71646,16 @@
     },
     {
       "year": 1992,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "iso_numeric": "826",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 1
+    },
+    {
+      "year": 1992,
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -71664,7 +71664,7 @@
     },
     {
       "year": 1992,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -71673,7 +71673,7 @@
     },
     {
       "year": 1992,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -71682,7 +71682,7 @@
     },
     {
       "year": 1992,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -71691,7 +71691,7 @@
     },
     {
       "year": 1992,
-      "country": "Venezuela",
+      "country": "Venezuela (Bolivarian Republic of)",
       "noc": "VEN",
       "iso_numeric": "862",
       "sex": "M",
@@ -72087,15 +72087,6 @@
     },
     {
       "year": 1996,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso_numeric": "826",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 1
-    },
-    {
-      "year": 1996,
       "country": "Greece",
       "noc": "GRE",
       "iso_numeric": "300",
@@ -72123,7 +72114,7 @@
     },
     {
       "year": 1996,
-      "country": "Guinea Bissau",
+      "country": "Guinea-Bissau",
       "noc": "GBS",
       "iso_numeric": "624",
       "sex": "M",
@@ -72150,7 +72141,7 @@
     },
     {
       "year": 1996,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -72159,7 +72150,7 @@
     },
     {
       "year": 1996,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -72168,7 +72159,7 @@
     },
     {
       "year": 1996,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -72177,7 +72168,7 @@
     },
     {
       "year": 1996,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -72249,6 +72240,60 @@
     },
     {
       "year": 1996,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "iso_numeric": "408",
+      "sex": "M",
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "iso_numeric": "408",
+      "sex": "M",
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "iso_numeric": "408",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 11
+    },
+    {
+      "year": 1996,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 3
+    },
+    {
+      "year": 1996,
       "country": "Kyrgyzstan",
       "noc": "KGZ",
       "iso_numeric": "417",
@@ -72276,7 +72321,7 @@
     },
     {
       "year": 1996,
-      "country": "Macedonia",
+      "country": "Macedonia (the former Yugoslav Republic of)",
       "noc": "MKD",
       "iso_numeric": "807",
       "sex": "M",
@@ -72294,7 +72339,7 @@
     },
     {
       "year": 1996,
-      "country": "Moldova",
+      "country": "Moldova (Republic of)",
       "noc": "MDA",
       "iso_numeric": "498",
       "sex": "M",
@@ -72303,7 +72348,7 @@
     },
     {
       "year": 1996,
-      "country": "Moldova",
+      "country": "Moldova (Republic of)",
       "noc": "MDA",
       "iso_numeric": "498",
       "sex": "M",
@@ -72336,33 +72381,6 @@
       "sex": "M",
       "medal": "No Medal",
       "value": 4
-    },
-    {
-      "year": 1996,
-      "country": "North Korea",
-      "noc": "PRK",
-      "iso_numeric": "408",
-      "sex": "M",
-      "medal": "Bronze",
-      "value": 1
-    },
-    {
-      "year": 1996,
-      "country": "North Korea",
-      "noc": "PRK",
-      "iso_numeric": "408",
-      "sex": "M",
-      "medal": "Gold",
-      "value": 1
-    },
-    {
-      "year": 1996,
-      "country": "North Korea",
-      "noc": "PRK",
-      "iso_numeric": "408",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 1
     },
     {
       "year": 1996,
@@ -72465,7 +72483,7 @@
     },
     {
       "year": 1996,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "M",
@@ -72474,7 +72492,7 @@
     },
     {
       "year": 1996,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "M",
@@ -72483,7 +72501,7 @@
     },
     {
       "year": 1996,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "M",
@@ -72492,7 +72510,7 @@
     },
     {
       "year": 1996,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "M",
@@ -72528,33 +72546,6 @@
     },
     {
       "year": 1996,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "Gold",
-      "value": 1
-    },
-    {
-      "year": 1996,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 11
-    },
-    {
-      "year": 1996,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "Silver",
-      "value": 3
-    },
-    {
-      "year": 1996,
       "country": "Sweden",
       "noc": "SWE",
       "iso_numeric": "752",
@@ -72582,7 +72573,7 @@
     },
     {
       "year": 1996,
-      "country": "Syria",
+      "country": "Syrian Arab Republic",
       "noc": "SYR",
       "iso_numeric": "760",
       "sex": "M",
@@ -72672,7 +72663,16 @@
     },
     {
       "year": 1996,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "iso_numeric": "826",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -72681,7 +72681,7 @@
     },
     {
       "year": 1996,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -72690,7 +72690,7 @@
     },
     {
       "year": 1996,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -72699,7 +72699,7 @@
     },
     {
       "year": 1996,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -72717,7 +72717,7 @@
     },
     {
       "year": 1996,
-      "country": "Venezuela",
+      "country": "Venezuela (Bolivarian Republic of)",
       "noc": "VEN",
       "iso_numeric": "862",
       "sex": "M",
@@ -72870,15 +72870,6 @@
     },
     {
       "year": 2000,
-      "country": "Cote d'Ivoire",
-      "noc": "CIV",
-      "iso_numeric": "384",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 1
-    },
-    {
-      "year": 2000,
       "country": "Cuba",
       "noc": "CUB",
       "iso_numeric": "192",
@@ -72921,6 +72912,15 @@
       "sex": "M",
       "medal": "No Medal",
       "value": 3
+    },
+    {
+      "year": 2000,
+      "country": "C\u00f4te d'Ivoire",
+      "noc": "CIV",
+      "iso_numeric": "384",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 1
     },
     {
       "year": 2000,
@@ -73014,7 +73014,7 @@
     },
     {
       "year": 2000,
-      "country": "Guinea Bissau",
+      "country": "Guinea-Bissau",
       "noc": "GBS",
       "iso_numeric": "624",
       "sex": "M",
@@ -73050,7 +73050,7 @@
     },
     {
       "year": 2000,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -73059,7 +73059,7 @@
     },
     {
       "year": 2000,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -73122,6 +73122,60 @@
     },
     {
       "year": 2000,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "iso_numeric": "408",
+      "sex": "M",
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 2000,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "iso_numeric": "408",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 3
+    },
+    {
+      "year": 2000,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 2000,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 2000,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 6
+    },
+    {
+      "year": 2000,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 2
+    },
+    {
+      "year": 2000,
       "country": "Kyrgyzstan",
       "noc": "KGZ",
       "iso_numeric": "417",
@@ -73149,7 +73203,7 @@
     },
     {
       "year": 2000,
-      "country": "Macedonia",
+      "country": "Macedonia (the former Yugoslav Republic of)",
       "noc": "MKD",
       "iso_numeric": "807",
       "sex": "M",
@@ -73158,7 +73212,7 @@
     },
     {
       "year": 2000,
-      "country": "Macedonia",
+      "country": "Macedonia (the former Yugoslav Republic of)",
       "noc": "MKD",
       "iso_numeric": "807",
       "sex": "M",
@@ -73167,7 +73221,7 @@
     },
     {
       "year": 2000,
-      "country": "Moldova",
+      "country": "Moldova (Republic of)",
       "noc": "MDA",
       "iso_numeric": "498",
       "sex": "M",
@@ -73212,24 +73266,6 @@
     },
     {
       "year": 2000,
-      "country": "North Korea",
-      "noc": "PRK",
-      "iso_numeric": "408",
-      "sex": "M",
-      "medal": "Bronze",
-      "value": 1
-    },
-    {
-      "year": 2000,
-      "country": "North Korea",
-      "noc": "PRK",
-      "iso_numeric": "408",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 3
-    },
-    {
-      "year": 2000,
       "country": "Norway",
       "noc": "NOR",
       "iso_numeric": "578",
@@ -73257,7 +73293,7 @@
     },
     {
       "year": 2000,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "M",
@@ -73266,7 +73302,7 @@
     },
     {
       "year": 2000,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "M",
@@ -73275,7 +73311,7 @@
     },
     {
       "year": 2000,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "M",
@@ -73284,7 +73320,7 @@
     },
     {
       "year": 2000,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "M",
@@ -73326,42 +73362,6 @@
       "sex": "M",
       "medal": "No Medal",
       "value": 1
-    },
-    {
-      "year": 2000,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "Bronze",
-      "value": 1
-    },
-    {
-      "year": 2000,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "Gold",
-      "value": 1
-    },
-    {
-      "year": 2000,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 6
-    },
-    {
-      "year": 2000,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "Silver",
-      "value": 2
     },
     {
       "year": 2000,
@@ -73455,7 +73455,7 @@
     },
     {
       "year": 2000,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -73464,7 +73464,7 @@
     },
     {
       "year": 2000,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -73473,7 +73473,7 @@
     },
     {
       "year": 2000,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -73482,7 +73482,7 @@
     },
     {
       "year": 2000,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -73509,7 +73509,7 @@
     },
     {
       "year": 2000,
-      "country": "Venezuela",
+      "country": "Venezuela (Bolivarian Republic of)",
       "noc": "VEN",
       "iso_numeric": "862",
       "sex": "M",
@@ -73896,15 +73896,6 @@
     },
     {
       "year": 2004,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso_numeric": "826",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 1
-    },
-    {
-      "year": 2004,
       "country": "Greece",
       "noc": "GRE",
       "iso_numeric": "300",
@@ -73941,7 +73932,7 @@
     },
     {
       "year": 2004,
-      "country": "Guinea Bissau",
+      "country": "Guinea-Bissau",
       "noc": "GBS",
       "iso_numeric": "624",
       "sex": "F",
@@ -73977,7 +73968,7 @@
     },
     {
       "year": 2004,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -73986,7 +73977,7 @@
     },
     {
       "year": 2004,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -73995,7 +73986,7 @@
     },
     {
       "year": 2004,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -74103,6 +74094,51 @@
     },
     {
       "year": 2004,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "iso_numeric": "408",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 6
+    },
+    {
+      "year": 2004,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "Silver",
+      "value": 1
+    },
+    {
+      "year": 2004,
       "country": "Kyrgyzstan",
       "noc": "KGZ",
       "iso_numeric": "417",
@@ -74130,7 +74166,7 @@
     },
     {
       "year": 2004,
-      "country": "Macedonia",
+      "country": "Macedonia (the former Yugoslav Republic of)",
       "noc": "MKD",
       "iso_numeric": "807",
       "sex": "M",
@@ -74139,7 +74175,7 @@
     },
     {
       "year": 2004,
-      "country": "Moldova",
+      "country": "Moldova (Republic of)",
       "noc": "MDA",
       "iso_numeric": "498",
       "sex": "M",
@@ -74178,15 +74214,6 @@
       "country": "Nigeria",
       "noc": "NGR",
       "iso_numeric": "566",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 1
-    },
-    {
-      "year": 2004,
-      "country": "North Korea",
-      "noc": "PRK",
-      "iso_numeric": "408",
       "sex": "M",
       "medal": "No Medal",
       "value": 1
@@ -74256,7 +74283,7 @@
     },
     {
       "year": 2004,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "F",
@@ -74265,7 +74292,7 @@
     },
     {
       "year": 2004,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "F",
@@ -74274,7 +74301,7 @@
     },
     {
       "year": 2004,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "M",
@@ -74283,7 +74310,7 @@
     },
     {
       "year": 2004,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "M",
@@ -74292,7 +74319,7 @@
     },
     {
       "year": 2004,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "M",
@@ -74301,7 +74328,7 @@
     },
     {
       "year": 2004,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "M",
@@ -74333,42 +74360,6 @@
       "iso_numeric": "710",
       "sex": "M",
       "medal": "No Medal",
-      "value": 1
-    },
-    {
-      "year": 2004,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "F",
-      "medal": "No Medal",
-      "value": 1
-    },
-    {
-      "year": 2004,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "Gold",
-      "value": 1
-    },
-    {
-      "year": 2004,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 6
-    },
-    {
-      "year": 2004,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "Silver",
       "value": 1
     },
     {
@@ -74508,7 +74499,16 @@
     },
     {
       "year": 2004,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "iso_numeric": "826",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "F",
@@ -74517,7 +74517,7 @@
     },
     {
       "year": 2004,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "F",
@@ -74526,7 +74526,7 @@
     },
     {
       "year": 2004,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "F",
@@ -74535,7 +74535,7 @@
     },
     {
       "year": 2004,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -74544,7 +74544,7 @@
     },
     {
       "year": 2004,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -74553,7 +74553,7 @@
     },
     {
       "year": 2004,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -74562,7 +74562,7 @@
     },
     {
       "year": 2004,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -74598,7 +74598,7 @@
     },
     {
       "year": 2004,
-      "country": "Venezuela",
+      "country": "Venezuela (Bolivarian Republic of)",
       "noc": "VEN",
       "iso_numeric": "862",
       "sex": "F",
@@ -74607,7 +74607,7 @@
     },
     {
       "year": 2004,
-      "country": "Venezuela",
+      "country": "Venezuela (Bolivarian Republic of)",
       "noc": "VEN",
       "iso_numeric": "862",
       "sex": "M",
@@ -75075,7 +75075,7 @@
     },
     {
       "year": 2008,
-      "country": "Guinea Bissau",
+      "country": "Guinea-Bissau",
       "noc": "GBS",
       "iso_numeric": "624",
       "sex": "M",
@@ -75129,7 +75129,7 @@
     },
     {
       "year": 2008,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -75138,7 +75138,7 @@
     },
     {
       "year": 2008,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -75264,6 +75264,42 @@
     },
     {
       "year": 2008,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "iso_numeric": "408",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 3
+    },
+    {
+      "year": 2008,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 9
+    },
+    {
+      "year": 2008,
       "country": "Kyrgyzstan",
       "noc": "KGZ",
       "iso_numeric": "417",
@@ -75309,7 +75345,7 @@
     },
     {
       "year": 2008,
-      "country": "Macedonia",
+      "country": "Macedonia (the former Yugoslav Republic of)",
       "noc": "MKD",
       "iso_numeric": "807",
       "sex": "M",
@@ -75327,7 +75363,7 @@
     },
     {
       "year": 2008,
-      "country": "Moldova",
+      "country": "Moldova (Republic of)",
       "noc": "MDA",
       "iso_numeric": "498",
       "sex": "F",
@@ -75336,7 +75372,7 @@
     },
     {
       "year": 2008,
-      "country": "Moldova",
+      "country": "Moldova (Republic of)",
       "noc": "MDA",
       "iso_numeric": "498",
       "sex": "M",
@@ -75378,15 +75414,6 @@
       "sex": "M",
       "medal": "No Medal",
       "value": 1
-    },
-    {
-      "year": 2008,
-      "country": "North Korea",
-      "noc": "PRK",
-      "iso_numeric": "408",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 3
     },
     {
       "year": 2008,
@@ -75462,7 +75489,7 @@
     },
     {
       "year": 2008,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "F",
@@ -75471,7 +75498,7 @@
     },
     {
       "year": 2008,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "F",
@@ -75480,7 +75507,7 @@
     },
     {
       "year": 2008,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "M",
@@ -75489,7 +75516,7 @@
     },
     {
       "year": 2008,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "M",
@@ -75498,7 +75525,7 @@
     },
     {
       "year": 2008,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "M",
@@ -75507,7 +75534,7 @@
     },
     {
       "year": 2008,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "M",
@@ -75558,33 +75585,6 @@
       "sex": "M",
       "medal": "No Medal",
       "value": 1
-    },
-    {
-      "year": 2008,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "F",
-      "medal": "No Medal",
-      "value": 1
-    },
-    {
-      "year": 2008,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "Bronze",
-      "value": 1
-    },
-    {
-      "year": 2008,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 9
     },
     {
       "year": 2008,
@@ -75741,7 +75741,7 @@
     },
     {
       "year": 2008,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "F",
@@ -75750,7 +75750,7 @@
     },
     {
       "year": 2008,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "F",
@@ -75759,7 +75759,7 @@
     },
     {
       "year": 2008,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -75768,7 +75768,7 @@
     },
     {
       "year": 2008,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -75777,7 +75777,7 @@
     },
     {
       "year": 2008,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -75813,7 +75813,7 @@
     },
     {
       "year": 2008,
-      "country": "Venezuela",
+      "country": "Venezuela (Bolivarian Republic of)",
       "noc": "VEN",
       "iso_numeric": "862",
       "sex": "F",
@@ -75822,7 +75822,7 @@
     },
     {
       "year": 2008,
-      "country": "Venezuela",
+      "country": "Venezuela (Bolivarian Republic of)",
       "noc": "VEN",
       "iso_numeric": "862",
       "sex": "M",
@@ -76101,15 +76101,6 @@
     },
     {
       "year": 2012,
-      "country": "Cote d'Ivoire",
-      "noc": "CIV",
-      "iso_numeric": "384",
-      "sex": "F",
-      "medal": "No Medal",
-      "value": 1
-    },
-    {
-      "year": 2012,
       "country": "Croatia",
       "noc": "CRO",
       "iso_numeric": "191",
@@ -76159,6 +76150,15 @@
       "noc": "CZE",
       "iso_numeric": "203",
       "sex": "M",
+      "medal": "No Medal",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "C\u00f4te d'Ivoire",
+      "noc": "CIV",
+      "iso_numeric": "384",
+      "sex": "F",
       "medal": "No Medal",
       "value": 1
     },
@@ -76232,15 +76232,6 @@
       "iso_numeric": "233",
       "sex": "M",
       "medal": "Silver",
-      "value": 1
-    },
-    {
-      "year": 2012,
-      "country": "Federated States of Micronesia",
-      "noc": "FSM",
-      "iso_numeric": "583",
-      "sex": "M",
-      "medal": "No Medal",
       "value": 1
     },
     {
@@ -76326,15 +76317,6 @@
     },
     {
       "year": 2012,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso_numeric": "826",
-      "sex": "F",
-      "medal": "No Medal",
-      "value": 1
-    },
-    {
-      "year": 2012,
       "country": "Greece",
       "noc": "GRE",
       "iso_numeric": "300",
@@ -76362,7 +76344,7 @@
     },
     {
       "year": 2012,
-      "country": "Guinea Bissau",
+      "country": "Guinea-Bissau",
       "noc": "GBS",
       "iso_numeric": "624",
       "sex": "F",
@@ -76371,7 +76353,7 @@
     },
     {
       "year": 2012,
-      "country": "Guinea Bissau",
+      "country": "Guinea-Bissau",
       "noc": "GBS",
       "iso_numeric": "624",
       "sex": "M",
@@ -76461,7 +76443,7 @@
     },
     {
       "year": 2012,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -76470,7 +76452,7 @@
     },
     {
       "year": 2012,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -76479,7 +76461,7 @@
     },
     {
       "year": 2012,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -76488,7 +76470,7 @@
     },
     {
       "year": 2012,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -76596,6 +76578,60 @@
     },
     {
       "year": 2012,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "iso_numeric": "408",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 2
+    },
+    {
+      "year": 2012,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "iso_numeric": "408",
+      "sex": "M",
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "iso_numeric": "408",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 2
+    },
+    {
+      "year": 2012,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 2
+    },
+    {
+      "year": 2012,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "Gold",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 6
+    },
+    {
+      "year": 2012,
       "country": "Kyrgyzstan",
       "noc": "KGZ",
       "iso_numeric": "417",
@@ -76668,7 +76704,16 @@
     },
     {
       "year": 2012,
-      "country": "Moldova",
+      "country": "Micronesia (Federated States of)",
+      "noc": "FSM",
+      "iso_numeric": "583",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "Moldova (Republic of)",
       "noc": "MDA",
       "iso_numeric": "498",
       "sex": "F",
@@ -76677,7 +76722,7 @@
     },
     {
       "year": 2012,
-      "country": "Moldova",
+      "country": "Moldova (Republic of)",
       "noc": "MDA",
       "iso_numeric": "498",
       "sex": "M",
@@ -76749,33 +76794,6 @@
     },
     {
       "year": 2012,
-      "country": "North Korea",
-      "noc": "PRK",
-      "iso_numeric": "408",
-      "sex": "F",
-      "medal": "No Medal",
-      "value": 2
-    },
-    {
-      "year": 2012,
-      "country": "North Korea",
-      "noc": "PRK",
-      "iso_numeric": "408",
-      "sex": "M",
-      "medal": "Bronze",
-      "value": 1
-    },
-    {
-      "year": 2012,
-      "country": "North Korea",
-      "noc": "PRK",
-      "iso_numeric": "408",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 2
-    },
-    {
-      "year": 2012,
       "country": "Norway",
       "noc": "NOR",
       "iso_numeric": "578",
@@ -76839,7 +76857,7 @@
     },
     {
       "year": 2012,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "F",
@@ -76848,7 +76866,7 @@
     },
     {
       "year": 2012,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "F",
@@ -76857,7 +76875,7 @@
     },
     {
       "year": 2012,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "F",
@@ -76866,7 +76884,7 @@
     },
     {
       "year": 2012,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "M",
@@ -76875,7 +76893,7 @@
     },
     {
       "year": 2012,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "M",
@@ -76884,7 +76902,7 @@
     },
     {
       "year": 2012,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "M",
@@ -76893,7 +76911,7 @@
     },
     {
       "year": 2012,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "M",
@@ -76926,33 +76944,6 @@
       "sex": "M",
       "medal": "No Medal",
       "value": 1
-    },
-    {
-      "year": 2012,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "F",
-      "medal": "No Medal",
-      "value": 2
-    },
-    {
-      "year": 2012,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "Gold",
-      "value": 1
-    },
-    {
-      "year": 2012,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 6
     },
     {
       "year": 2012,
@@ -77082,7 +77073,16 @@
     },
     {
       "year": 2012,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "iso_numeric": "826",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "F",
@@ -77091,7 +77091,7 @@
     },
     {
       "year": 2012,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "F",
@@ -77100,7 +77100,7 @@
     },
     {
       "year": 2012,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -77109,7 +77109,7 @@
     },
     {
       "year": 2012,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -77118,7 +77118,7 @@
     },
     {
       "year": 2012,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -77145,7 +77145,7 @@
     },
     {
       "year": 2012,
-      "country": "Venezuela",
+      "country": "Venezuela (Bolivarian Republic of)",
       "noc": "VEN",
       "iso_numeric": "862",
       "sex": "F",
@@ -77154,7 +77154,7 @@
     },
     {
       "year": 2012,
-      "country": "Venezuela",
+      "country": "Venezuela (Bolivarian Republic of)",
       "noc": "VEN",
       "iso_numeric": "862",
       "sex": "M",
@@ -77163,7 +77163,7 @@
     },
     {
       "year": 2012,
-      "country": "Vietnam",
+      "country": "Viet Nam",
       "noc": "VIE",
       "iso_numeric": "704",
       "sex": "F",
@@ -77289,15 +77289,6 @@
     },
     {
       "year": 2016,
-      "country": "Bahrain",
-      "noc": "BRN",
-      "iso_numeric": "096",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 1
-    },
-    {
-      "year": 2016,
       "country": "Belarus",
       "noc": "BLR",
       "iso_numeric": "112",
@@ -77346,6 +77337,15 @@
       "country": "Brazil",
       "noc": "BRA",
       "iso_numeric": "076",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "Brunei Darussalam",
+      "noc": "BRN",
+      "iso_numeric": "096",
       "sex": "M",
       "medal": "No Medal",
       "value": 1
@@ -77448,15 +77448,6 @@
       "sex": "M",
       "medal": "No Medal",
       "value": 8
-    },
-    {
-      "year": 2016,
-      "country": "Chinese Taipei",
-      "noc": "TPE",
-      "iso_numeric": "158",
-      "sex": "F",
-      "medal": "No Medal",
-      "value": 1
     },
     {
       "year": 2016,
@@ -77685,7 +77676,7 @@
     },
     {
       "year": 2016,
-      "country": "Guinea Bissau",
+      "country": "Guinea-Bissau",
       "noc": "GBS",
       "iso_numeric": "624",
       "sex": "M",
@@ -77748,7 +77739,7 @@
     },
     {
       "year": 2016,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -77757,7 +77748,7 @@
     },
     {
       "year": 2016,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -77766,7 +77757,7 @@
     },
     {
       "year": 2016,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -77775,7 +77766,7 @@
     },
     {
       "year": 2016,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "iso_numeric": "364",
       "sex": "M",
@@ -77892,6 +77883,42 @@
     },
     {
       "year": 2016,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "iso_numeric": "408",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 2
+    },
+    {
+      "year": 2016,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "iso_numeric": "408",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 2
+    },
+    {
+      "year": 2016,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "Bronze",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "iso_numeric": "410",
+      "sex": "M",
+      "medal": "No Medal",
+      "value": 4
+    },
+    {
+      "year": 2016,
       "country": "Kyrgyzstan",
       "noc": "KGZ",
       "iso_numeric": "417",
@@ -77937,7 +77964,7 @@
     },
     {
       "year": 2016,
-      "country": "Moldova",
+      "country": "Moldova (Republic of)",
       "noc": "MDA",
       "iso_numeric": "498",
       "sex": "F",
@@ -77946,7 +77973,7 @@
     },
     {
       "year": 2016,
-      "country": "Moldova",
+      "country": "Moldova (Republic of)",
       "noc": "MDA",
       "iso_numeric": "498",
       "sex": "M",
@@ -78003,24 +78030,6 @@
       "country": "Nigeria",
       "noc": "NGR",
       "iso_numeric": "566",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 2
-    },
-    {
-      "year": 2016,
-      "country": "North Korea",
-      "noc": "PRK",
-      "iso_numeric": "408",
-      "sex": "F",
-      "medal": "No Medal",
-      "value": 2
-    },
-    {
-      "year": 2016,
-      "country": "North Korea",
-      "noc": "PRK",
-      "iso_numeric": "408",
       "sex": "M",
       "medal": "No Medal",
       "value": 2
@@ -78126,7 +78135,7 @@
     },
     {
       "year": 2016,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "F",
@@ -78135,7 +78144,7 @@
     },
     {
       "year": 2016,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "F",
@@ -78144,7 +78153,7 @@
     },
     {
       "year": 2016,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "F",
@@ -78153,7 +78162,7 @@
     },
     {
       "year": 2016,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "M",
@@ -78162,7 +78171,7 @@
     },
     {
       "year": 2016,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "M",
@@ -78171,7 +78180,7 @@
     },
     {
       "year": 2016,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "M",
@@ -78180,7 +78189,7 @@
     },
     {
       "year": 2016,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "iso_numeric": "643",
       "sex": "M",
@@ -78222,24 +78231,6 @@
       "sex": "M",
       "medal": "No Medal",
       "value": 2
-    },
-    {
-      "year": 2016,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "Bronze",
-      "value": 1
-    },
-    {
-      "year": 2016,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso_numeric": "410",
-      "sex": "M",
-      "medal": "No Medal",
-      "value": 4
     },
     {
       "year": 2016,
@@ -78279,6 +78270,15 @@
     },
     {
       "year": 2016,
+      "country": "Taiwan, Province of China",
+      "noc": "TPE",
+      "iso_numeric": "158",
+      "sex": "F",
+      "medal": "No Medal",
+      "value": 1
+    },
+    {
+      "year": 2016,
       "country": "Tunisia",
       "noc": "TUN",
       "iso_numeric": "788",
@@ -78378,7 +78378,7 @@
     },
     {
       "year": 2016,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "F",
@@ -78387,7 +78387,7 @@
     },
     {
       "year": 2016,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "F",
@@ -78396,7 +78396,7 @@
     },
     {
       "year": 2016,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -78405,7 +78405,7 @@
     },
     {
       "year": 2016,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -78414,7 +78414,7 @@
     },
     {
       "year": 2016,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "iso_numeric": "840",
       "sex": "M",
@@ -78441,7 +78441,7 @@
     },
     {
       "year": 2016,
-      "country": "Venezuela",
+      "country": "Venezuela (Bolivarian Republic of)",
       "noc": "VEN",
       "iso_numeric": "862",
       "sex": "F",
@@ -78450,7 +78450,7 @@
     },
     {
       "year": 2016,
-      "country": "Venezuela",
+      "country": "Venezuela (Bolivarian Republic of)",
       "noc": "VEN",
       "iso_numeric": "862",
       "sex": "M",
@@ -78459,7 +78459,7 @@
     },
     {
       "year": 2016,
-      "country": "Vietnam",
+      "country": "Viet Nam",
       "noc": "VIE",
       "iso_numeric": "704",
       "sex": "F",
@@ -78506,7 +78506,7 @@
     },
     {
       "year": 1904,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "continent": "Americas",
       "iso_numeric": "840",
@@ -78596,7 +78596,7 @@
     },
     {
       "year": 1906,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "continent": "Americas",
       "iso_numeric": "840",
@@ -78650,15 +78650,6 @@
     },
     {
       "year": 1908,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "continent": "Europe",
-      "iso_numeric": "826",
-      "sex": "M",
-      "value": 53
-    },
-    {
-      "year": 1908,
       "country": "Hungary",
       "noc": "HUN",
       "continent": "Europe",
@@ -78704,7 +78695,7 @@
     },
     {
       "year": 1908,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "continent": "Europe",
       "iso_numeric": "643",
@@ -78722,7 +78713,16 @@
     },
     {
       "year": 1908,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "continent": "Europe",
+      "iso_numeric": "826",
+      "sex": "M",
+      "value": 53
+    },
+    {
+      "year": 1908,
+      "country": "United States of America",
       "noc": "USA",
       "continent": "Americas",
       "iso_numeric": "840",
@@ -78782,15 +78782,6 @@
       "iso_numeric": "276",
       "sex": "M",
       "value": 14
-    },
-    {
-      "year": 1912,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "continent": "Europe",
-      "iso_numeric": "826",
-      "sex": "M",
-      "value": 12
     },
     {
       "year": 1912,
@@ -78857,7 +78848,7 @@
     },
     {
       "year": 1912,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "continent": "Europe",
       "iso_numeric": "643",
@@ -78875,7 +78866,16 @@
     },
     {
       "year": 1912,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "continent": "Europe",
+      "iso_numeric": "826",
+      "sex": "M",
+      "value": 12
+    },
+    {
+      "year": 1912,
+      "country": "United States of America",
       "noc": "USA",
       "continent": "Americas",
       "iso_numeric": "840",
@@ -78944,15 +78944,6 @@
       "iso_numeric": "250",
       "sex": "M",
       "value": 17
-    },
-    {
-      "year": 1920,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "continent": "Europe",
-      "iso_numeric": "826",
-      "sex": "M",
-      "value": 10
     },
     {
       "year": 1920,
@@ -79037,7 +79028,16 @@
     },
     {
       "year": 1920,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "continent": "Europe",
+      "iso_numeric": "826",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 1920,
+      "country": "United States of America",
       "noc": "USA",
       "continent": "Americas",
       "iso_numeric": "840",
@@ -79124,15 +79124,6 @@
       "iso_numeric": "250",
       "sex": "M",
       "value": 23
-    },
-    {
-      "year": 1924,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "continent": "Europe",
-      "iso_numeric": "826",
-      "sex": "M",
-      "value": 14
     },
     {
       "year": 1924,
@@ -79253,7 +79244,16 @@
     },
     {
       "year": 1924,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "continent": "Europe",
+      "iso_numeric": "826",
+      "sex": "M",
+      "value": 14
+    },
+    {
+      "year": 1924,
+      "country": "United States of America",
       "noc": "USA",
       "continent": "Americas",
       "iso_numeric": "840",
@@ -79356,15 +79356,6 @@
       "noc": "GER",
       "continent": "Europe",
       "iso_numeric": "276",
-      "sex": "M",
-      "value": 6
-    },
-    {
-      "year": 1928,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "continent": "Europe",
-      "iso_numeric": "826",
       "sex": "M",
       "value": 6
     },
@@ -79496,7 +79487,16 @@
     },
     {
       "year": 1928,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "continent": "Europe",
+      "iso_numeric": "826",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1928,
+      "country": "United States of America",
       "noc": "USA",
       "continent": "Americas",
       "iso_numeric": "840",
@@ -79577,15 +79577,6 @@
     },
     {
       "year": 1932,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "continent": "Europe",
-      "iso_numeric": "826",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "year": 1932,
       "country": "Greece",
       "noc": "GRE",
       "continent": "Europe",
@@ -79649,7 +79640,16 @@
     },
     {
       "year": 1932,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "continent": "Europe",
+      "iso_numeric": "826",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1932,
+      "country": "United States of America",
       "noc": "USA",
       "continent": "Americas",
       "iso_numeric": "840",
@@ -79745,15 +79745,6 @@
       "iso_numeric": "276",
       "sex": "M",
       "value": 14
-    },
-    {
-      "year": 1936,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "continent": "Europe",
-      "iso_numeric": "826",
-      "sex": "M",
-      "value": 6
     },
     {
       "year": 1936,
@@ -79892,7 +79883,16 @@
     },
     {
       "year": 1936,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "continent": "Europe",
+      "iso_numeric": "826",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1936,
+      "country": "United States of America",
       "noc": "USA",
       "continent": "Americas",
       "iso_numeric": "840",
@@ -79991,15 +79991,6 @@
     },
     {
       "year": 1948,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "continent": "Europe",
-      "iso_numeric": "826",
-      "sex": "M",
-      "value": 16
-    },
-    {
-      "year": 1948,
       "country": "Greece",
       "noc": "GRE",
       "continent": "Europe",
@@ -80027,7 +80018,7 @@
     },
     {
       "year": 1948,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "continent": "Asia",
       "iso_numeric": "364",
@@ -80042,6 +80033,15 @@
       "iso_numeric": "380",
       "sex": "M",
       "value": 11
+    },
+    {
+      "year": 1948,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "continent": "Asia",
+      "iso_numeric": "410",
+      "sex": "M",
+      "value": 4
     },
     {
       "year": 1948,
@@ -80099,15 +80099,6 @@
     },
     {
       "year": 1948,
-      "country": "South Korea",
-      "noc": "KOR",
-      "continent": "Asia",
-      "iso_numeric": "410",
-      "sex": "M",
-      "value": 4
-    },
-    {
-      "year": 1948,
       "country": "Sweden",
       "noc": "SWE",
       "continent": "Europe",
@@ -80135,7 +80126,16 @@
     },
     {
       "year": 1948,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "continent": "Europe",
+      "iso_numeric": "826",
+      "sex": "M",
+      "value": 16
+    },
+    {
+      "year": 1948,
+      "country": "United States of America",
       "noc": "USA",
       "continent": "Americas",
       "iso_numeric": "840",
@@ -80234,15 +80234,6 @@
     },
     {
       "year": 1952,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "continent": "Europe",
-      "iso_numeric": "826",
-      "sex": "M",
-      "value": 6
-    },
-    {
-      "year": 1952,
       "country": "Greece",
       "noc": "GRE",
       "continent": "Europe",
@@ -80279,7 +80270,7 @@
     },
     {
       "year": 1952,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "continent": "Asia",
       "iso_numeric": "364",
@@ -80312,6 +80303,15 @@
       "iso_numeric": "392",
       "sex": "M",
       "value": 5
+    },
+    {
+      "year": 1952,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "continent": "Asia",
+      "iso_numeric": "410",
+      "sex": "M",
+      "value": 1
     },
     {
       "year": 1952,
@@ -80378,15 +80378,6 @@
     },
     {
       "year": 1952,
-      "country": "South Korea",
-      "noc": "KOR",
-      "continent": "Asia",
-      "iso_numeric": "410",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1952,
       "country": "Sweden",
       "noc": "SWE",
       "continent": "Europe",
@@ -80414,7 +80405,16 @@
     },
     {
       "year": 1952,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "continent": "Europe",
+      "iso_numeric": "826",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1952,
+      "country": "United States of America",
       "noc": "USA",
       "continent": "Americas",
       "iso_numeric": "840",
@@ -80423,7 +80423,7 @@
     },
     {
       "year": 1952,
-      "country": "Venezuela",
+      "country": "Venezuela (Bolivarian Republic of)",
       "noc": "VEN",
       "continent": "Americas",
       "iso_numeric": "862",
@@ -80513,15 +80513,6 @@
     },
     {
       "year": 1956,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "continent": "Europe",
-      "iso_numeric": "826",
-      "sex": "M",
-      "value": 4
-    },
-    {
-      "year": 1956,
       "country": "Greece",
       "noc": "GRE",
       "continent": "Europe",
@@ -80549,7 +80540,7 @@
     },
     {
       "year": 1956,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "continent": "Asia",
       "iso_numeric": "364",
@@ -80582,6 +80573,15 @@
       "iso_numeric": "392",
       "sex": "M",
       "value": 8
+    },
+    {
+      "year": 1956,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "continent": "Asia",
+      "iso_numeric": "410",
+      "sex": "M",
+      "value": 3
     },
     {
       "year": 1956,
@@ -80648,15 +80648,6 @@
     },
     {
       "year": 1956,
-      "country": "South Korea",
-      "noc": "KOR",
-      "continent": "Asia",
-      "iso_numeric": "410",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "year": 1956,
       "country": "Sweden",
       "noc": "SWE",
       "continent": "Europe",
@@ -80675,7 +80666,16 @@
     },
     {
       "year": 1956,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "continent": "Europe",
+      "iso_numeric": "826",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1956,
+      "country": "United States of America",
       "noc": "USA",
       "continent": "Americas",
       "iso_numeric": "840",
@@ -80792,15 +80792,6 @@
     },
     {
       "year": 1960,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "continent": "Europe",
-      "iso_numeric": "826",
-      "sex": "M",
-      "value": 6
-    },
-    {
-      "year": 1960,
       "country": "Greece",
       "noc": "GRE",
       "continent": "Europe",
@@ -80828,7 +80819,7 @@
     },
     {
       "year": 1960,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "continent": "Asia",
       "iso_numeric": "364",
@@ -80870,6 +80861,15 @@
       "iso_numeric": "392",
       "sex": "M",
       "value": 16
+    },
+    {
+      "year": 1960,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "continent": "Asia",
+      "iso_numeric": "410",
+      "sex": "M",
+      "value": 4
     },
     {
       "year": 1960,
@@ -80990,15 +80990,6 @@
     },
     {
       "year": 1960,
-      "country": "South Korea",
-      "noc": "KOR",
-      "continent": "Asia",
-      "iso_numeric": "410",
-      "sex": "M",
-      "value": 4
-    },
-    {
-      "year": 1960,
       "country": "Spain",
       "noc": "ESP",
       "continent": "Europe",
@@ -81035,7 +81026,16 @@
     },
     {
       "year": 1960,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "continent": "Europe",
+      "iso_numeric": "826",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1960,
+      "country": "United States of America",
       "noc": "USA",
       "continent": "Americas",
       "iso_numeric": "840",
@@ -81044,7 +81044,7 @@
     },
     {
       "year": 1960,
-      "country": "Venezuela",
+      "country": "Venezuela (Bolivarian Republic of)",
       "noc": "VEN",
       "continent": "Americas",
       "iso_numeric": "862",
@@ -81161,15 +81161,6 @@
     },
     {
       "year": 1964,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "continent": "Europe",
-      "iso_numeric": "826",
-      "sex": "M",
-      "value": 6
-    },
-    {
-      "year": 1964,
       "country": "Greece",
       "noc": "GRE",
       "continent": "Europe",
@@ -81197,7 +81188,7 @@
     },
     {
       "year": 1964,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "continent": "Asia",
       "iso_numeric": "364",
@@ -81230,6 +81221,15 @@
       "iso_numeric": "392",
       "sex": "M",
       "value": 16
+    },
+    {
+      "year": 1964,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "continent": "Asia",
+      "iso_numeric": "410",
+      "sex": "M",
+      "value": 12
     },
     {
       "year": 1964,
@@ -81332,15 +81332,6 @@
     },
     {
       "year": 1964,
-      "country": "South Korea",
-      "noc": "KOR",
-      "continent": "Asia",
-      "iso_numeric": "410",
-      "sex": "M",
-      "value": 12
-    },
-    {
-      "year": 1964,
       "country": "Spain",
       "noc": "ESP",
       "continent": "Europe",
@@ -81386,7 +81377,16 @@
     },
     {
       "year": 1964,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "continent": "Europe",
+      "iso_numeric": "826",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1964,
+      "country": "United States of America",
       "noc": "USA",
       "continent": "Americas",
       "iso_numeric": "840",
@@ -81539,12 +81539,12 @@
     },
     {
       "year": 1968,
-      "country": "Great Britain",
-      "noc": "GBR",
+      "country": "Germany",
+      "noc": "FRG",
       "continent": "Europe",
-      "iso_numeric": "826",
+      "iso_numeric": "276",
       "sex": "M",
-      "value": 4
+      "value": 9
     },
     {
       "year": 1968,
@@ -81584,7 +81584,7 @@
     },
     {
       "year": 1968,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "continent": "Asia",
       "iso_numeric": "364",
@@ -81617,6 +81617,15 @@
       "iso_numeric": "392",
       "sex": "M",
       "value": 15
+    },
+    {
+      "year": 1968,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "continent": "Asia",
+      "iso_numeric": "410",
+      "sex": "M",
+      "value": 8
     },
     {
       "year": 1968,
@@ -81710,15 +81719,6 @@
     },
     {
       "year": 1968,
-      "country": "South Korea",
-      "noc": "KOR",
-      "continent": "Asia",
-      "iso_numeric": "410",
-      "sex": "M",
-      "value": 8
-    },
-    {
-      "year": 1968,
       "country": "Sweden",
       "noc": "SWE",
       "continent": "Europe",
@@ -81737,7 +81737,7 @@
     },
     {
       "year": 1968,
-      "country": "Syria",
+      "country": "Syrian Arab Republic",
       "noc": "SYR",
       "continent": "Asia",
       "iso_numeric": "760",
@@ -81755,21 +81755,21 @@
     },
     {
       "year": 1968,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "continent": "Europe",
+      "iso_numeric": "826",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1968,
+      "country": "United States of America",
       "noc": "USA",
       "continent": "Americas",
       "iso_numeric": "840",
       "sex": "M",
       "value": 16
-    },
-    {
-      "year": 1968,
-      "country": "West Germany",
-      "noc": "FRG",
-      "continent": "Europe",
-      "iso_numeric": "276",
-      "sex": "M",
-      "value": 9
     },
     {
       "year": 1972,
@@ -81836,15 +81836,6 @@
     },
     {
       "year": 1972,
-      "country": "Chinese Taipei",
-      "noc": "TPE",
-      "continent": "Asia",
-      "iso_numeric": "158",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1972,
       "country": "Cuba",
       "noc": "CUB",
       "continent": "Americas",
@@ -81890,12 +81881,12 @@
     },
     {
       "year": 1972,
-      "country": "Great Britain",
-      "noc": "GBR",
+      "country": "Germany",
+      "noc": "FRG",
       "continent": "Europe",
-      "iso_numeric": "826",
+      "iso_numeric": "276",
       "sex": "M",
-      "value": 6
+      "value": 17
     },
     {
       "year": 1972,
@@ -81935,7 +81926,7 @@
     },
     {
       "year": 1972,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "continent": "Asia",
       "iso_numeric": "364",
@@ -81968,6 +81959,24 @@
       "iso_numeric": "392",
       "sex": "M",
       "value": 20
+    },
+    {
+      "year": 1972,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "continent": "Asia",
+      "iso_numeric": "408",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 1972,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "continent": "Asia",
+      "iso_numeric": "410",
+      "sex": "M",
+      "value": 4
     },
     {
       "year": 1972,
@@ -82004,15 +82013,6 @@
       "iso_numeric": "554",
       "sex": "M",
       "value": 1
-    },
-    {
-      "year": 1972,
-      "country": "North Korea",
-      "noc": "PRK",
-      "continent": "Asia",
-      "iso_numeric": "408",
-      "sex": "M",
-      "value": 2
     },
     {
       "year": 1972,
@@ -82097,15 +82097,6 @@
     },
     {
       "year": 1972,
-      "country": "South Korea",
-      "noc": "KOR",
-      "continent": "Asia",
-      "iso_numeric": "410",
-      "sex": "M",
-      "value": 4
-    },
-    {
-      "year": 1972,
       "country": "Sweden",
       "noc": "SWE",
       "continent": "Europe",
@@ -82124,12 +82115,21 @@
     },
     {
       "year": 1972,
-      "country": "Syria",
+      "country": "Syrian Arab Republic",
       "noc": "SYR",
       "continent": "Asia",
       "iso_numeric": "760",
       "sex": "M",
       "value": 2
+    },
+    {
+      "year": 1972,
+      "country": "Taiwan, Province of China",
+      "noc": "TPE",
+      "continent": "Asia",
+      "iso_numeric": "158",
+      "sex": "M",
+      "value": 1
     },
     {
       "year": 1972,
@@ -82151,21 +82151,21 @@
     },
     {
       "year": 1972,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "continent": "Europe",
+      "iso_numeric": "826",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1972,
+      "country": "United States of America",
       "noc": "USA",
       "continent": "Americas",
       "iso_numeric": "840",
       "sex": "M",
       "value": 18
-    },
-    {
-      "year": 1972,
-      "country": "West Germany",
-      "noc": "FRG",
-      "continent": "Europe",
-      "iso_numeric": "276",
-      "sex": "M",
-      "value": 17
     },
     {
       "year": 1976,
@@ -82259,12 +82259,12 @@
     },
     {
       "year": 1976,
-      "country": "Great Britain",
-      "noc": "GBR",
+      "country": "Germany",
+      "noc": "FRG",
       "continent": "Europe",
-      "iso_numeric": "826",
+      "iso_numeric": "276",
       "sex": "M",
-      "value": 7
+      "value": 15
     },
     {
       "year": 1976,
@@ -82286,7 +82286,7 @@
     },
     {
       "year": 1976,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "continent": "Asia",
       "iso_numeric": "364",
@@ -82319,6 +82319,24 @@
       "iso_numeric": "392",
       "sex": "M",
       "value": 20
+    },
+    {
+      "year": 1976,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "continent": "Asia",
+      "iso_numeric": "408",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1976,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "continent": "Asia",
+      "iso_numeric": "410",
+      "sex": "M",
+      "value": 11
     },
     {
       "year": 1976,
@@ -82355,15 +82373,6 @@
       "iso_numeric": "554",
       "sex": "M",
       "value": 2
-    },
-    {
-      "year": 1976,
-      "country": "North Korea",
-      "noc": "PRK",
-      "continent": "Asia",
-      "iso_numeric": "408",
-      "sex": "M",
-      "value": 3
     },
     {
       "year": 1976,
@@ -82439,15 +82448,6 @@
     },
     {
       "year": 1976,
-      "country": "South Korea",
-      "noc": "KOR",
-      "continent": "Asia",
-      "iso_numeric": "410",
-      "sex": "M",
-      "value": 11
-    },
-    {
-      "year": 1976,
       "country": "Sweden",
       "noc": "SWE",
       "continent": "Europe",
@@ -82466,7 +82466,16 @@
     },
     {
       "year": 1976,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "continent": "Europe",
+      "iso_numeric": "826",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1976,
+      "country": "United States of America",
       "noc": "USA",
       "continent": "Americas",
       "iso_numeric": "840",
@@ -82475,21 +82484,12 @@
     },
     {
       "year": 1976,
-      "country": "United States Virgin Islands",
+      "country": "Virgin Islands (U.S.)",
       "noc": "ISV",
       "continent": "Americas",
       "iso_numeric": "850",
       "sex": "M",
       "value": 4
-    },
-    {
-      "year": 1976,
-      "country": "West Germany",
-      "noc": "FRG",
-      "continent": "Europe",
-      "iso_numeric": "276",
-      "sex": "M",
-      "value": 15
     },
     {
       "year": 1980,
@@ -82592,15 +82592,6 @@
     },
     {
       "year": 1980,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "continent": "Europe",
-      "iso_numeric": "826",
-      "sex": "M",
-      "value": 6
-    },
-    {
-      "year": 1980,
       "country": "Greece",
       "noc": "GRE",
       "continent": "Europe",
@@ -82646,6 +82637,15 @@
     },
     {
       "year": 1980,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "continent": "Asia",
+      "iso_numeric": "408",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1980,
       "country": "Mexico",
       "noc": "MEX",
       "continent": "Americas",
@@ -82670,15 +82670,6 @@
       "iso_numeric": "566",
       "sex": "M",
       "value": 1
-    },
-    {
-      "year": 1980,
-      "country": "North Korea",
-      "noc": "PRK",
-      "continent": "Asia",
-      "iso_numeric": "408",
-      "sex": "M",
-      "value": 3
     },
     {
       "year": 1980,
@@ -82745,7 +82736,7 @@
     },
     {
       "year": 1980,
-      "country": "Syria",
+      "country": "Syrian Arab Republic",
       "noc": "SYR",
       "continent": "Asia",
       "iso_numeric": "760",
@@ -82754,7 +82745,16 @@
     },
     {
       "year": 1980,
-      "country": "Vietnam",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "continent": "Europe",
+      "iso_numeric": "826",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1980,
+      "country": "Viet Nam",
       "noc": "VIE",
       "continent": "Asia",
       "iso_numeric": "704",
@@ -82790,7 +82790,7 @@
     },
     {
       "year": 1984,
-      "country": "Bolivia",
+      "country": "Bolivia (Plurinational State of)",
       "noc": "BOL",
       "continent": "Americas",
       "iso_numeric": "068",
@@ -82823,15 +82823,6 @@
       "iso_numeric": "156",
       "sex": "M",
       "value": 7
-    },
-    {
-      "year": 1984,
-      "country": "Chinese Taipei",
-      "noc": "TPE",
-      "continent": "Asia",
-      "iso_numeric": "158",
-      "sex": "M",
-      "value": 1
     },
     {
       "year": 1984,
@@ -82898,12 +82889,12 @@
     },
     {
       "year": 1984,
-      "country": "Great Britain",
-      "noc": "GBR",
+      "country": "Germany",
+      "noc": "FRG",
       "continent": "Europe",
-      "iso_numeric": "826",
+      "iso_numeric": "276",
       "sex": "M",
-      "value": 7
+      "value": 14
     },
     {
       "year": 1984,
@@ -82949,6 +82940,15 @@
       "iso_numeric": "392",
       "sex": "M",
       "value": 20
+    },
+    {
+      "year": 1984,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "continent": "Asia",
+      "iso_numeric": "410",
+      "sex": "M",
+      "value": 14
     },
     {
       "year": 1984,
@@ -83069,15 +83069,6 @@
     },
     {
       "year": 1984,
-      "country": "South Korea",
-      "noc": "KOR",
-      "continent": "Asia",
-      "iso_numeric": "410",
-      "sex": "M",
-      "value": 14
-    },
-    {
-      "year": 1984,
       "country": "Spain",
       "noc": "ESP",
       "continent": "Europe",
@@ -83105,12 +83096,21 @@
     },
     {
       "year": 1984,
-      "country": "Syria",
+      "country": "Syrian Arab Republic",
       "noc": "SYR",
       "continent": "Asia",
       "iso_numeric": "760",
       "sex": "M",
       "value": 3
+    },
+    {
+      "year": 1984,
+      "country": "Taiwan, Province of China",
+      "noc": "TPE",
+      "continent": "Asia",
+      "iso_numeric": "158",
+      "sex": "M",
+      "value": 1
     },
     {
       "year": 1984,
@@ -83123,21 +83123,21 @@
     },
     {
       "year": 1984,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "continent": "Europe",
+      "iso_numeric": "826",
+      "sex": "M",
+      "value": 7
+    },
+    {
+      "year": 1984,
+      "country": "United States of America",
       "noc": "USA",
       "continent": "Americas",
       "iso_numeric": "840",
       "sex": "M",
       "value": 19
-    },
-    {
-      "year": 1984,
-      "country": "West Germany",
-      "noc": "FRG",
-      "continent": "Europe",
-      "iso_numeric": "276",
-      "sex": "M",
-      "value": 14
     },
     {
       "year": 1988,
@@ -83240,15 +83240,6 @@
     },
     {
       "year": 1988,
-      "country": "Chinese Taipei",
-      "noc": "TPE",
-      "continent": "Asia",
-      "iso_numeric": "158",
-      "sex": "M",
-      "value": 4
-    },
-    {
-      "year": 1988,
       "country": "Colombia",
       "noc": "COL",
       "continent": "Americas",
@@ -83303,12 +83294,12 @@
     },
     {
       "year": 1988,
-      "country": "Great Britain",
-      "noc": "GBR",
+      "country": "Germany",
+      "noc": "FRG",
       "continent": "Europe",
-      "iso_numeric": "826",
+      "iso_numeric": "276",
       "sex": "M",
-      "value": 6
+      "value": 17
     },
     {
       "year": 1988,
@@ -83375,7 +83366,7 @@
     },
     {
       "year": 1988,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "continent": "Asia",
       "iso_numeric": "364",
@@ -83444,6 +83435,15 @@
       "iso_numeric": "404",
       "sex": "M",
       "value": 4
+    },
+    {
+      "year": 1988,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "continent": "Asia",
+      "iso_numeric": "410",
+      "sex": "M",
+      "value": 19
     },
     {
       "year": 1988,
@@ -83618,15 +83618,6 @@
     },
     {
       "year": 1988,
-      "country": "South Korea",
-      "noc": "KOR",
-      "continent": "Asia",
-      "iso_numeric": "410",
-      "sex": "M",
-      "value": 19
-    },
-    {
-      "year": 1988,
       "country": "Spain",
       "noc": "ESP",
       "continent": "Europe",
@@ -83654,12 +83645,21 @@
     },
     {
       "year": 1988,
-      "country": "Syria",
+      "country": "Syrian Arab Republic",
       "noc": "SYR",
       "continent": "Asia",
       "iso_numeric": "760",
       "sex": "M",
       "value": 8
+    },
+    {
+      "year": 1988,
+      "country": "Taiwan, Province of China",
+      "noc": "TPE",
+      "continent": "Asia",
+      "iso_numeric": "158",
+      "sex": "M",
+      "value": 4
     },
     {
       "year": 1988,
@@ -83681,7 +83681,16 @@
     },
     {
       "year": 1988,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "continent": "Europe",
+      "iso_numeric": "826",
+      "sex": "M",
+      "value": 6
+    },
+    {
+      "year": 1988,
+      "country": "United States of America",
       "noc": "USA",
       "continent": "Americas",
       "iso_numeric": "840",
@@ -83690,21 +83699,12 @@
     },
     {
       "year": 1988,
-      "country": "Vietnam",
+      "country": "Viet Nam",
       "noc": "VIE",
       "continent": "Asia",
       "iso_numeric": "704",
       "sex": "M",
       "value": 1
-    },
-    {
-      "year": 1988,
-      "country": "West Germany",
-      "noc": "FRG",
-      "continent": "Europe",
-      "iso_numeric": "276",
-      "sex": "M",
-      "value": 17
     },
     {
       "year": 1992,
@@ -83879,15 +83879,6 @@
     },
     {
       "year": 1992,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "continent": "Europe",
-      "iso_numeric": "826",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1992,
       "country": "Greece",
       "noc": "GRE",
       "continent": "Europe",
@@ -83933,7 +83924,7 @@
     },
     {
       "year": 1992,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "continent": "Asia",
       "iso_numeric": "364",
@@ -83964,6 +83955,24 @@
       "noc": "JPN",
       "continent": "Asia",
       "iso_numeric": "392",
+      "sex": "M",
+      "value": 16
+    },
+    {
+      "year": 1992,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "continent": "Asia",
+      "iso_numeric": "408",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 1992,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "continent": "Asia",
+      "iso_numeric": "410",
       "sex": "M",
       "value": 16
     },
@@ -84038,15 +84047,6 @@
       "iso_numeric": "566",
       "sex": "M",
       "value": 5
-    },
-    {
-      "year": 1992,
-      "country": "North Korea",
-      "noc": "PRK",
-      "continent": "Asia",
-      "iso_numeric": "408",
-      "sex": "M",
-      "value": 4
     },
     {
       "year": 1992,
@@ -84131,15 +84131,6 @@
     },
     {
       "year": 1992,
-      "country": "South Korea",
-      "noc": "KOR",
-      "continent": "Asia",
-      "iso_numeric": "410",
-      "sex": "M",
-      "value": 16
-    },
-    {
-      "year": 1992,
       "country": "Spain",
       "noc": "ESP",
       "continent": "Europe",
@@ -84167,7 +84158,7 @@
     },
     {
       "year": 1992,
-      "country": "Syria",
+      "country": "Syrian Arab Republic",
       "noc": "SYR",
       "continent": "Asia",
       "iso_numeric": "760",
@@ -84194,7 +84185,16 @@
     },
     {
       "year": 1992,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "continent": "Europe",
+      "iso_numeric": "826",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1992,
+      "country": "United States of America",
       "noc": "USA",
       "continent": "Americas",
       "iso_numeric": "840",
@@ -84203,7 +84203,7 @@
     },
     {
       "year": 1992,
-      "country": "Venezuela",
+      "country": "Venezuela (Bolivarian Republic of)",
       "noc": "VEN",
       "continent": "Americas",
       "iso_numeric": "862",
@@ -84455,15 +84455,6 @@
     },
     {
       "year": 1996,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "continent": "Europe",
-      "iso_numeric": "826",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 1996,
       "country": "Greece",
       "noc": "GRE",
       "continent": "Europe",
@@ -84491,7 +84482,7 @@
     },
     {
       "year": 1996,
-      "country": "Guinea Bissau",
+      "country": "Guinea-Bissau",
       "noc": "GBS",
       "continent": "Africa",
       "iso_numeric": "624",
@@ -84518,7 +84509,7 @@
     },
     {
       "year": 1996,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "continent": "Asia",
       "iso_numeric": "364",
@@ -84563,6 +84554,24 @@
     },
     {
       "year": 1996,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "continent": "Asia",
+      "iso_numeric": "408",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 1996,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "continent": "Asia",
+      "iso_numeric": "410",
+      "sex": "M",
+      "value": 15
+    },
+    {
+      "year": 1996,
       "country": "Kyrgyzstan",
       "noc": "KGZ",
       "continent": "Asia",
@@ -84590,7 +84599,7 @@
     },
     {
       "year": 1996,
-      "country": "Macedonia",
+      "country": "Macedonia (the former Yugoslav Republic of)",
       "noc": "MKD",
       "continent": "Europe",
       "iso_numeric": "807",
@@ -84608,7 +84617,7 @@
     },
     {
       "year": 1996,
-      "country": "Moldova",
+      "country": "Moldova (Republic of)",
       "noc": "MDA",
       "continent": "Europe",
       "iso_numeric": "498",
@@ -84641,15 +84650,6 @@
       "iso_numeric": "566",
       "sex": "M",
       "value": 4
-    },
-    {
-      "year": 1996,
-      "country": "North Korea",
-      "noc": "PRK",
-      "continent": "Asia",
-      "iso_numeric": "408",
-      "sex": "M",
-      "value": 3
     },
     {
       "year": 1996,
@@ -84725,7 +84725,7 @@
     },
     {
       "year": 1996,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "continent": "Europe",
       "iso_numeric": "643",
@@ -84761,15 +84761,6 @@
     },
     {
       "year": 1996,
-      "country": "South Korea",
-      "noc": "KOR",
-      "continent": "Asia",
-      "iso_numeric": "410",
-      "sex": "M",
-      "value": 15
-    },
-    {
-      "year": 1996,
       "country": "Sweden",
       "noc": "SWE",
       "continent": "Europe",
@@ -84788,7 +84779,7 @@
     },
     {
       "year": 1996,
-      "country": "Syria",
+      "country": "Syrian Arab Republic",
       "noc": "SYR",
       "continent": "Asia",
       "iso_numeric": "760",
@@ -84842,7 +84833,16 @@
     },
     {
       "year": 1996,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "continent": "Europe",
+      "iso_numeric": "826",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 1996,
+      "country": "United States of America",
       "noc": "USA",
       "continent": "Americas",
       "iso_numeric": "840",
@@ -84860,7 +84860,7 @@
     },
     {
       "year": 1996,
-      "country": "Venezuela",
+      "country": "Venezuela (Bolivarian Republic of)",
       "noc": "VEN",
       "continent": "Americas",
       "iso_numeric": "862",
@@ -84959,15 +84959,6 @@
     },
     {
       "year": 2000,
-      "country": "Cote d'Ivoire",
-      "noc": "CIV",
-      "continent": "Africa",
-      "iso_numeric": "384",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 2000,
       "country": "Cuba",
       "noc": "CUB",
       "continent": "Americas",
@@ -84983,6 +84974,15 @@
       "iso_numeric": "203",
       "sex": "M",
       "value": 3
+    },
+    {
+      "year": 2000,
+      "country": "C\u00f4te d'Ivoire",
+      "noc": "CIV",
+      "continent": "Africa",
+      "iso_numeric": "384",
+      "sex": "M",
+      "value": 1
     },
     {
       "year": 2000,
@@ -85049,7 +85049,7 @@
     },
     {
       "year": 2000,
-      "country": "Guinea Bissau",
+      "country": "Guinea-Bissau",
       "noc": "GBS",
       "continent": "Africa",
       "iso_numeric": "624",
@@ -85076,7 +85076,7 @@
     },
     {
       "year": 2000,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "continent": "Asia",
       "iso_numeric": "364",
@@ -85121,6 +85121,24 @@
     },
     {
       "year": 2000,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "continent": "Asia",
+      "iso_numeric": "408",
+      "sex": "M",
+      "value": 4
+    },
+    {
+      "year": 2000,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "continent": "Asia",
+      "iso_numeric": "410",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 2000,
       "country": "Kyrgyzstan",
       "noc": "KGZ",
       "continent": "Asia",
@@ -85148,7 +85166,7 @@
     },
     {
       "year": 2000,
-      "country": "Macedonia",
+      "country": "Macedonia (the former Yugoslav Republic of)",
       "noc": "MKD",
       "continent": "Europe",
       "iso_numeric": "807",
@@ -85157,7 +85175,7 @@
     },
     {
       "year": 2000,
-      "country": "Moldova",
+      "country": "Moldova (Republic of)",
       "noc": "MDA",
       "continent": "Europe",
       "iso_numeric": "498",
@@ -85202,15 +85220,6 @@
     },
     {
       "year": 2000,
-      "country": "North Korea",
-      "noc": "PRK",
-      "continent": "Asia",
-      "iso_numeric": "408",
-      "sex": "M",
-      "value": 4
-    },
-    {
-      "year": 2000,
       "country": "Norway",
       "noc": "NOR",
       "continent": "Europe",
@@ -85238,7 +85247,7 @@
     },
     {
       "year": 2000,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "continent": "Europe",
       "iso_numeric": "643",
@@ -85280,15 +85289,6 @@
       "iso_numeric": "710",
       "sex": "M",
       "value": 1
-    },
-    {
-      "year": 2000,
-      "country": "South Korea",
-      "noc": "KOR",
-      "continent": "Asia",
-      "iso_numeric": "410",
-      "sex": "M",
-      "value": 10
     },
     {
       "year": 2000,
@@ -85346,7 +85346,7 @@
     },
     {
       "year": 2000,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "continent": "Americas",
       "iso_numeric": "840",
@@ -85364,7 +85364,7 @@
     },
     {
       "year": 2000,
-      "country": "Venezuela",
+      "country": "Venezuela (Bolivarian Republic of)",
       "noc": "VEN",
       "continent": "Americas",
       "iso_numeric": "862",
@@ -85643,15 +85643,6 @@
     },
     {
       "year": 2004,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "continent": "Europe",
-      "iso_numeric": "826",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 2004,
       "country": "Greece",
       "noc": "GRE",
       "continent": "Europe",
@@ -85679,7 +85670,7 @@
     },
     {
       "year": 2004,
-      "country": "Guinea Bissau",
+      "country": "Guinea-Bissau",
       "noc": "GBS",
       "continent": "Africa",
       "iso_numeric": "624",
@@ -85706,7 +85697,7 @@
     },
     {
       "year": 2004,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "continent": "Asia",
       "iso_numeric": "364",
@@ -85769,6 +85760,33 @@
     },
     {
       "year": 2004,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "continent": "Asia",
+      "iso_numeric": "408",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "continent": "Asia",
+      "iso_numeric": "410",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "continent": "Asia",
+      "iso_numeric": "410",
+      "sex": "M",
+      "value": 8
+    },
+    {
+      "year": 2004,
       "country": "Kyrgyzstan",
       "noc": "KGZ",
       "continent": "Asia",
@@ -85796,7 +85814,7 @@
     },
     {
       "year": 2004,
-      "country": "Macedonia",
+      "country": "Macedonia (the former Yugoslav Republic of)",
       "noc": "MKD",
       "continent": "Europe",
       "iso_numeric": "807",
@@ -85805,7 +85823,7 @@
     },
     {
       "year": 2004,
-      "country": "Moldova",
+      "country": "Moldova (Republic of)",
       "noc": "MDA",
       "continent": "Europe",
       "iso_numeric": "498",
@@ -85845,15 +85863,6 @@
       "noc": "NGR",
       "continent": "Africa",
       "iso_numeric": "566",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 2004,
-      "country": "North Korea",
-      "noc": "PRK",
-      "continent": "Asia",
-      "iso_numeric": "408",
       "sex": "M",
       "value": 1
     },
@@ -85922,7 +85931,7 @@
     },
     {
       "year": 2004,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "continent": "Europe",
       "iso_numeric": "643",
@@ -85931,7 +85940,7 @@
     },
     {
       "year": 2004,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "continent": "Europe",
       "iso_numeric": "643",
@@ -85964,24 +85973,6 @@
       "iso_numeric": "710",
       "sex": "M",
       "value": 1
-    },
-    {
-      "year": 2004,
-      "country": "South Korea",
-      "noc": "KOR",
-      "continent": "Asia",
-      "iso_numeric": "410",
-      "sex": "F",
-      "value": 1
-    },
-    {
-      "year": 2004,
-      "country": "South Korea",
-      "noc": "KOR",
-      "continent": "Asia",
-      "iso_numeric": "410",
-      "sex": "M",
-      "value": 8
     },
     {
       "year": 2004,
@@ -86075,7 +86066,16 @@
     },
     {
       "year": 2004,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "continent": "Europe",
+      "iso_numeric": "826",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2004,
+      "country": "United States of America",
       "noc": "USA",
       "continent": "Americas",
       "iso_numeric": "840",
@@ -86084,7 +86084,7 @@
     },
     {
       "year": 2004,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "continent": "Americas",
       "iso_numeric": "840",
@@ -86102,7 +86102,7 @@
     },
     {
       "year": 2004,
-      "country": "Venezuela",
+      "country": "Venezuela (Bolivarian Republic of)",
       "noc": "VEN",
       "continent": "Americas",
       "iso_numeric": "862",
@@ -86111,7 +86111,7 @@
     },
     {
       "year": 2004,
-      "country": "Venezuela",
+      "country": "Venezuela (Bolivarian Republic of)",
       "noc": "VEN",
       "continent": "Americas",
       "iso_numeric": "862",
@@ -86417,7 +86417,7 @@
     },
     {
       "year": 2008,
-      "country": "Guinea Bissau",
+      "country": "Guinea-Bissau",
       "noc": "GBS",
       "continent": "Africa",
       "iso_numeric": "624",
@@ -86453,7 +86453,7 @@
     },
     {
       "year": 2008,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "continent": "Asia",
       "iso_numeric": "364",
@@ -86507,6 +86507,33 @@
     },
     {
       "year": 2008,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "continent": "Asia",
+      "iso_numeric": "408",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 2008,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "continent": "Asia",
+      "iso_numeric": "410",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2008,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "continent": "Asia",
+      "iso_numeric": "410",
+      "sex": "M",
+      "value": 10
+    },
+    {
+      "year": 2008,
       "country": "Kyrgyzstan",
       "noc": "KGZ",
       "continent": "Asia",
@@ -86525,7 +86552,7 @@
     },
     {
       "year": 2008,
-      "country": "Macedonia",
+      "country": "Macedonia (the former Yugoslav Republic of)",
       "noc": "MKD",
       "continent": "Europe",
       "iso_numeric": "807",
@@ -86543,7 +86570,7 @@
     },
     {
       "year": 2008,
-      "country": "Moldova",
+      "country": "Moldova (Republic of)",
       "noc": "MDA",
       "continent": "Europe",
       "iso_numeric": "498",
@@ -86552,7 +86579,7 @@
     },
     {
       "year": 2008,
-      "country": "Moldova",
+      "country": "Moldova (Republic of)",
       "noc": "MDA",
       "continent": "Europe",
       "iso_numeric": "498",
@@ -86594,15 +86621,6 @@
       "iso_numeric": "566",
       "sex": "M",
       "value": 1
-    },
-    {
-      "year": 2008,
-      "country": "North Korea",
-      "noc": "PRK",
-      "continent": "Asia",
-      "iso_numeric": "408",
-      "sex": "M",
-      "value": 3
     },
     {
       "year": 2008,
@@ -86669,7 +86687,7 @@
     },
     {
       "year": 2008,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "continent": "Europe",
       "iso_numeric": "643",
@@ -86678,7 +86696,7 @@
     },
     {
       "year": 2008,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "continent": "Europe",
       "iso_numeric": "643",
@@ -86720,24 +86738,6 @@
       "iso_numeric": "710",
       "sex": "M",
       "value": 1
-    },
-    {
-      "year": 2008,
-      "country": "South Korea",
-      "noc": "KOR",
-      "continent": "Asia",
-      "iso_numeric": "410",
-      "sex": "F",
-      "value": 1
-    },
-    {
-      "year": 2008,
-      "country": "South Korea",
-      "noc": "KOR",
-      "continent": "Asia",
-      "iso_numeric": "410",
-      "sex": "M",
-      "value": 10
     },
     {
       "year": 2008,
@@ -86840,7 +86840,7 @@
     },
     {
       "year": 2008,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "continent": "Americas",
       "iso_numeric": "840",
@@ -86849,7 +86849,7 @@
     },
     {
       "year": 2008,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "continent": "Americas",
       "iso_numeric": "840",
@@ -86867,7 +86867,7 @@
     },
     {
       "year": 2008,
-      "country": "Venezuela",
+      "country": "Venezuela (Bolivarian Republic of)",
       "noc": "VEN",
       "continent": "Americas",
       "iso_numeric": "862",
@@ -86876,7 +86876,7 @@
     },
     {
       "year": 2008,
-      "country": "Venezuela",
+      "country": "Venezuela (Bolivarian Republic of)",
       "noc": "VEN",
       "continent": "Americas",
       "iso_numeric": "862",
@@ -87065,15 +87065,6 @@
     },
     {
       "year": 2012,
-      "country": "Cote d'Ivoire",
-      "noc": "CIV",
-      "continent": "Africa",
-      "iso_numeric": "384",
-      "sex": "F",
-      "value": 1
-    },
-    {
-      "year": 2012,
       "country": "Croatia",
       "noc": "CRO",
       "continent": "Europe",
@@ -87106,6 +87097,15 @@
       "continent": "Europe",
       "iso_numeric": "203",
       "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "C\u00f4te d'Ivoire",
+      "noc": "CIV",
+      "continent": "Africa",
+      "iso_numeric": "384",
+      "sex": "F",
       "value": 1
     },
     {
@@ -87164,15 +87164,6 @@
     },
     {
       "year": 2012,
-      "country": "Federated States of Micronesia",
-      "noc": "FSM",
-      "continent": "Oceania",
-      "iso_numeric": "583",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 2012,
       "country": "Finland",
       "noc": "FIN",
       "continent": "Europe",
@@ -87227,15 +87218,6 @@
     },
     {
       "year": 2012,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "continent": "Europe",
-      "iso_numeric": "826",
-      "sex": "F",
-      "value": 1
-    },
-    {
-      "year": 2012,
       "country": "Greece",
       "noc": "GRE",
       "continent": "Europe",
@@ -87263,7 +87245,7 @@
     },
     {
       "year": 2012,
-      "country": "Guinea Bissau",
+      "country": "Guinea-Bissau",
       "noc": "GBS",
       "continent": "Africa",
       "iso_numeric": "624",
@@ -87272,7 +87254,7 @@
     },
     {
       "year": 2012,
-      "country": "Guinea Bissau",
+      "country": "Guinea-Bissau",
       "noc": "GBS",
       "continent": "Africa",
       "iso_numeric": "624",
@@ -87326,7 +87308,7 @@
     },
     {
       "year": 2012,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "continent": "Asia",
       "iso_numeric": "364",
@@ -87386,6 +87368,42 @@
       "iso_numeric": "398",
       "sex": "M",
       "value": 12
+    },
+    {
+      "year": 2012,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "continent": "Asia",
+      "iso_numeric": "408",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2012,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "continent": "Asia",
+      "iso_numeric": "408",
+      "sex": "M",
+      "value": 3
+    },
+    {
+      "year": 2012,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "continent": "Asia",
+      "iso_numeric": "410",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2012,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "continent": "Asia",
+      "iso_numeric": "410",
+      "sex": "M",
+      "value": 7
     },
     {
       "year": 2012,
@@ -87452,7 +87470,16 @@
     },
     {
       "year": 2012,
-      "country": "Moldova",
+      "country": "Micronesia (Federated States of)",
+      "noc": "FSM",
+      "continent": "Oceania",
+      "iso_numeric": "583",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "Moldova (Republic of)",
       "noc": "MDA",
       "continent": "Europe",
       "iso_numeric": "498",
@@ -87461,7 +87488,7 @@
     },
     {
       "year": 2012,
-      "country": "Moldova",
+      "country": "Moldova (Republic of)",
       "noc": "MDA",
       "continent": "Europe",
       "iso_numeric": "498",
@@ -87524,24 +87551,6 @@
     },
     {
       "year": 2012,
-      "country": "North Korea",
-      "noc": "PRK",
-      "continent": "Asia",
-      "iso_numeric": "408",
-      "sex": "F",
-      "value": 2
-    },
-    {
-      "year": 2012,
-      "country": "North Korea",
-      "noc": "PRK",
-      "continent": "Asia",
-      "iso_numeric": "408",
-      "sex": "M",
-      "value": 3
-    },
-    {
-      "year": 2012,
       "country": "Norway",
       "noc": "NOR",
       "continent": "Europe",
@@ -87587,7 +87596,7 @@
     },
     {
       "year": 2012,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "continent": "Europe",
       "iso_numeric": "643",
@@ -87596,7 +87605,7 @@
     },
     {
       "year": 2012,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "continent": "Europe",
       "iso_numeric": "643",
@@ -87629,24 +87638,6 @@
       "iso_numeric": "688",
       "sex": "M",
       "value": 1
-    },
-    {
-      "year": 2012,
-      "country": "South Korea",
-      "noc": "KOR",
-      "continent": "Asia",
-      "iso_numeric": "410",
-      "sex": "F",
-      "value": 2
-    },
-    {
-      "year": 2012,
-      "country": "South Korea",
-      "noc": "KOR",
-      "continent": "Asia",
-      "iso_numeric": "410",
-      "sex": "M",
-      "value": 7
     },
     {
       "year": 2012,
@@ -87749,7 +87740,16 @@
     },
     {
       "year": 2012,
-      "country": "United States",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "noc": "GBR",
+      "continent": "Europe",
+      "iso_numeric": "826",
+      "sex": "F",
+      "value": 1
+    },
+    {
+      "year": 2012,
+      "country": "United States of America",
       "noc": "USA",
       "continent": "Americas",
       "iso_numeric": "840",
@@ -87758,7 +87758,7 @@
     },
     {
       "year": 2012,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "continent": "Americas",
       "iso_numeric": "840",
@@ -87776,7 +87776,7 @@
     },
     {
       "year": 2012,
-      "country": "Venezuela",
+      "country": "Venezuela (Bolivarian Republic of)",
       "noc": "VEN",
       "continent": "Americas",
       "iso_numeric": "862",
@@ -87785,7 +87785,7 @@
     },
     {
       "year": 2012,
-      "country": "Venezuela",
+      "country": "Venezuela (Bolivarian Republic of)",
       "noc": "VEN",
       "continent": "Americas",
       "iso_numeric": "862",
@@ -87794,7 +87794,7 @@
     },
     {
       "year": 2012,
-      "country": "Vietnam",
+      "country": "Viet Nam",
       "noc": "VIE",
       "continent": "Asia",
       "iso_numeric": "704",
@@ -87866,15 +87866,6 @@
     },
     {
       "year": 2016,
-      "country": "Bahrain",
-      "noc": "BRN",
-      "continent": "Asia",
-      "iso_numeric": "096",
-      "sex": "M",
-      "value": 1
-    },
-    {
-      "year": 2016,
       "country": "Belarus",
       "noc": "BLR",
       "continent": "Europe",
@@ -87906,6 +87897,15 @@
       "noc": "BRA",
       "continent": "Americas",
       "iso_numeric": "076",
+      "sex": "M",
+      "value": 1
+    },
+    {
+      "year": 2016,
+      "country": "Brunei Darussalam",
+      "noc": "BRN",
+      "continent": "Asia",
+      "iso_numeric": "096",
       "sex": "M",
       "value": 1
     },
@@ -87980,15 +87980,6 @@
       "iso_numeric": "156",
       "sex": "M",
       "value": 8
-    },
-    {
-      "year": 2016,
-      "country": "Chinese Taipei",
-      "noc": "TPE",
-      "continent": "Asia",
-      "iso_numeric": "158",
-      "sex": "F",
-      "value": 1
     },
     {
       "year": 2016,
@@ -88172,7 +88163,7 @@
     },
     {
       "year": 2016,
-      "country": "Guinea Bissau",
+      "country": "Guinea-Bissau",
       "noc": "GBS",
       "continent": "Africa",
       "iso_numeric": "624",
@@ -88226,7 +88217,7 @@
     },
     {
       "year": 2016,
-      "country": "Iran",
+      "country": "Iran (Islamic Republic of)",
       "noc": "IRI",
       "continent": "Asia",
       "iso_numeric": "364",
@@ -88289,6 +88280,33 @@
     },
     {
       "year": 2016,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "continent": "Asia",
+      "iso_numeric": "408",
+      "sex": "F",
+      "value": 2
+    },
+    {
+      "year": 2016,
+      "country": "Korea (Democratic People's Republic of)",
+      "noc": "PRK",
+      "continent": "Asia",
+      "iso_numeric": "408",
+      "sex": "M",
+      "value": 2
+    },
+    {
+      "year": 2016,
+      "country": "Korea (Republic of)",
+      "noc": "KOR",
+      "continent": "Asia",
+      "iso_numeric": "410",
+      "sex": "M",
+      "value": 5
+    },
+    {
+      "year": 2016,
       "country": "Kyrgyzstan",
       "noc": "KGZ",
       "continent": "Asia",
@@ -88334,7 +88352,7 @@
     },
     {
       "year": 2016,
-      "country": "Moldova",
+      "country": "Moldova (Republic of)",
       "noc": "MDA",
       "continent": "Europe",
       "iso_numeric": "498",
@@ -88343,7 +88361,7 @@
     },
     {
       "year": 2016,
-      "country": "Moldova",
+      "country": "Moldova (Republic of)",
       "noc": "MDA",
       "continent": "Europe",
       "iso_numeric": "498",
@@ -88401,24 +88419,6 @@
       "noc": "NGR",
       "continent": "Africa",
       "iso_numeric": "566",
-      "sex": "M",
-      "value": 2
-    },
-    {
-      "year": 2016,
-      "country": "North Korea",
-      "noc": "PRK",
-      "continent": "Asia",
-      "iso_numeric": "408",
-      "sex": "F",
-      "value": 2
-    },
-    {
-      "year": 2016,
-      "country": "North Korea",
-      "noc": "PRK",
-      "continent": "Asia",
-      "iso_numeric": "408",
       "sex": "M",
       "value": 2
     },
@@ -88505,7 +88505,7 @@
     },
     {
       "year": 2016,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "continent": "Europe",
       "iso_numeric": "643",
@@ -88514,7 +88514,7 @@
     },
     {
       "year": 2016,
-      "country": "Russia",
+      "country": "Russian Federation",
       "noc": "RUS",
       "continent": "Europe",
       "iso_numeric": "643",
@@ -88550,15 +88550,6 @@
     },
     {
       "year": 2016,
-      "country": "South Korea",
-      "noc": "KOR",
-      "continent": "Asia",
-      "iso_numeric": "410",
-      "sex": "M",
-      "value": 5
-    },
-    {
-      "year": 2016,
       "country": "Spain",
       "noc": "ESP",
       "continent": "Europe",
@@ -88583,6 +88574,15 @@
       "iso_numeric": "752",
       "sex": "M",
       "value": 3
+    },
+    {
+      "year": 2016,
+      "country": "Taiwan, Province of China",
+      "noc": "TPE",
+      "continent": "Asia",
+      "iso_numeric": "158",
+      "sex": "F",
+      "value": 1
     },
     {
       "year": 2016,
@@ -88640,7 +88640,7 @@
     },
     {
       "year": 2016,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "continent": "Americas",
       "iso_numeric": "840",
@@ -88649,7 +88649,7 @@
     },
     {
       "year": 2016,
-      "country": "United States",
+      "country": "United States of America",
       "noc": "USA",
       "continent": "Americas",
       "iso_numeric": "840",
@@ -88667,7 +88667,7 @@
     },
     {
       "year": 2016,
-      "country": "Venezuela",
+      "country": "Venezuela (Bolivarian Republic of)",
       "noc": "VEN",
       "continent": "Americas",
       "iso_numeric": "862",
@@ -88676,7 +88676,7 @@
     },
     {
       "year": 2016,
-      "country": "Venezuela",
+      "country": "Venezuela (Bolivarian Republic of)",
       "noc": "VEN",
       "continent": "Americas",
       "iso_numeric": "862",
@@ -88685,7 +88685,7 @@
     },
     {
       "year": 2016,
-      "country": "Vietnam",
+      "country": "Viet Nam",
       "noc": "VIE",
       "continent": "Asia",
       "iso_numeric": "704",
