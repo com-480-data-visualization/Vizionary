@@ -37,10 +37,14 @@ Here’s what the key folders and files contain:
   - **`src/routes/`** – All page components, including the homepage and dynamic sport detail pages  
   - **`src/lib/components/`** – Reusable UI components (e.g., charts, layout)  
   - **`src/lib/charts/`** – D3 modules for different visualizations (like heatmaps, bar charts)  
-  - **`static/data/`** – Pre-generated JSON data files for each sport  
+  - **`static/statics/`** – Pre-generated JSON data files for each sport  
   - **`tailwind.config.cjs` / `svelte.config.js`** – Tailwind and Svelte configuration  
-- **`Process_Book-1.pdf`** – The process book report for this milestone  
+- **`images/basket.png`** – Firs data analysis that inspired us
+- **`.nojekyll`** – Configuration file for github pages
+- **`Milestone_2.pdf`** – The deliverable for mileston 2
+- **`Process_Book.pdf`** – The process book report for this milestone 3
 - **`README.md`** – This file!  
+- **`requirement.txt`** – List of packages used for project
 
 ---
 
@@ -51,7 +55,7 @@ Here’s what the key folders and files contain:
 ### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/com-480-data-visualization/Vizionary.git
-cd Vizionary/site
+cd Vizionary/docs
 ```
 
 ### 2️⃣ Install dependencies
