@@ -81,7 +81,7 @@ The production-ready build will be in `docs/build/`
 ## 🎥 Screencast
 
 Watch a 2-minute walkthrough video of the final product here:
-🔗 [Paste Link]
+🔗 [[Paste Link]](https://www.canva.com/design/DAGo6oo4k6g/v00lA_ZkLNKiBpft9LGBvg/watch?utm_content=DAGo6oo4k6g&utm_campaign=share_your_design&utm_medium=link2&utm_source=shareyourdesignpanel)
 
 ---
 
